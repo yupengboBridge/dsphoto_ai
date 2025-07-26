@@ -1,0 +1,46 @@
+{% extends "based.twig" %}
+{% block controller %}DownloadController as download{% endblock %}
+{% block title %}カレンダー画面 | 期限切れ画像チェックプログラム{% endblock %}
+{% block script %}
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/locale/ja.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/locales/bootstrap-datepicker.ja.min.js"></script>
+    <script type="text/javascript" src="../js/datepicker.js"></script>
+    <script type="text/javascript" src="../js/download.js"></script>
+    <script type="text/javascript" src="../js/app-bootstrap.js"></script>
+{% endblock %}
+{% block content %}
+	<h1 class="dp-title" style="width: 100%;">カレンダー画面　期限切れ画像チェックプログラム</h1>
+	<h2 class="dp-sub-title"></h2>
+	<form name="downloadForm" novalidate class="form-inline dp-form dp-form-day">
+		<div class="form-inline input-group" style="padding-top:15px;">
+			<span class="input-group-addon">差分CSVファイルをダウンロードしたい日付を選択してください</span><input class="form-control" ng-pattern="/^[0-9]{1,8}$/" name="dday" placeholder="例）20170101" ng-model="dday" type="text" id="datepicker" required>
+			<span class="input-group-btn"><button class="btn btn-default" id="dbutton" ng-disabled="downloadForm.$invalid" onClick="download()">ダウンロード</button></span>
+		</div>
+		<div class="help-block-err" ng-show="downloadForm.dday.$error.required">[[ rich.page.emsgRequired ]]</div>
+		<div class="help-block-err" ng-show="downloadForm.dday.$error.pattern">[[ rich.page.emsgImgvalid ]]</div>
+	</form>
+
+    {# エラーダイアログ ここから #}
+    <button class="btn btn-primary" data-toggle="modal" id="modal-tgl" data-target="#modal-alt" style="display:none;"></button>
+    <div class="modal" id="modal-alt" tabindex="-1">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="modal-label">エラー</h4>
+                </div>
+                <div class="modal-body">
+                    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> ファイルが存在しません
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">閉じる</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    {# エラーダイアログ ここまで #}
+{% endblock %}

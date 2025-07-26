@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="rich" ng-controller="{% block controller %}{% endblock %}">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>{% block title %}{% endblock %}</title>
+	<link type="text/css" rel="stylesheet" href="/lf/del-pic-list-facility-detail/css/normalize.css" />
+	<link type="text/css" rel="stylesheet" href="/lf/del-pic-list-facility-detail/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="/lf/del-pic-list-facility-detail/css/bootstrap-theme.min.css" />
+	<link type="text/css" rel="stylesheet" href="/lf/del-pic-list-facility-detail/css/zoom.css" />
+	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css" />
+	<link type="text/css" rel="stylesheet" href="/lf/del-pic-list-facility-detail/css/common.css" />
+
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="js/html5shiv.js"></script>
+	<![endif]-->
+	<script type="text/javascript" src="/lf/del-pic-list-facility-detail/js/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="/lf/del-pic-list-facility-detail/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/lf/del-pic-list-facility-detail/js/transition.js"></script>
+	<script type="text/javascript" src="/lf/del-pic-list-facility-detail/js/zoom.min.js"></script>
+	<script type="text/javascript" src="/lf/del-pic-list-facility-detail/js/angular.min.js"></script>
+	<script type="text/javascript" src="/lf/del-pic-list-facility-detail/js/app.js"></script>
+
+	{% block script %}{% endblock %}
+	<script type="text/javascript" src="/lf/del-pic-list-facility-detail/js/app-bootstrap.js"></script>
+</head>
+<body id="page-top">
+	<div class="wrapper">
+		{% block content %}{% endblock %}
+	</div>
+
+	<div id="loadMask">
+		<div class="bgStyle"></div>
+		<div class="maskStyle">
+			<img src="/lf/del-pic-list-facility-detail/images/loading.png">
+		</div>
+	</div>
+</body>
+</html>

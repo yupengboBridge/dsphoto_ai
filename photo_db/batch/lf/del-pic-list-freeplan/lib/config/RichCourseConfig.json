@@ -1,0 +1,303 @@
+{
+  "apiUrlAll": "http://newhei:heibud@cms.hankyu-travel.com/api/rich/all",
+  "apiUrlRecent": "http://newhei:heibud@cms.hankyu-travel.com/api/rich/recent",
+  "csvUrl": "http://newhei:heibud@cms.hankyu-travel.com/articles/rich_i/csv/csv_{hei}_{courseId}_{category}.csv",
+  "productionUrl": "http://www.hankyu-travel.com/tour/detail_i.php?p_course_id={courseId}&p_hei={hei}",
+  "inspectionUrl": "http://www-cms.hankyu-travel.com/tour/detail_i_for_rich.php?p_course_id={courseId}&p_hei={hei}",
+  "domesticSearchApiUrl": "http://www.hankyu-travel.com/search_s/kokunai/main.php",
+  "internationalSearchApiUrl": "http://www.hankyu-travel.com/search_s/kaigai/main.php",
+  "productionUrlD": "http://www.hankyu-travel.com/tour/detail_d.php?p_course_id={courseId}&p_hei={hei}",
+  "senmonICsvUrl": "http://newhei:heibud@cms.hankyu-travel.com/articles/contents_i/csv/",
+  "senmonDCsvUrl": "http://newhei:heibud@cms.hankyu-travel.com/articles/contents_d/csv/",
+  "freeplanICsvUrl": "http://newhei:heibud@cms.hankyu-travel.com/articles/contents_x/csv/photoSearch_freeplan_i.csv",
+  "freeplanDCsvUrl": "http://newhei:heibud@cms.hankyu-travel.com/articles/contents_x/csv/photoSearch_freeplan_d.csv",
+  "csvPath": "/home/xhankyu/public_html/lf/del-pic-list-rich/lib/csv/",
+  "difcsvPath": "/home/xhankyu/public_html/lf/del-pic-list-rich/lib/difcsv/",
+  "difcsvPathCr": "lib/difcsv/",
+  "difcsvFilePath": "{phpdir}/../difcsv/{Y}{m}{d}.csv",
+  "expirationDays": 60,
+  "csvKeepDays": 21,
+  "rpp": 20,
+  "requestChunk": 50,
+  "csvMainField": 7,
+  "heiList": [
+    {
+      "heiCode": "10",
+      "heiName": "東メディア"
+    },
+    {
+      "heiCode": "11",
+      "heiName": "東団(企販)"
+    },
+    {
+      "heiCode": "12",
+      "heiName": "東FIT"
+    },
+    {
+      "heiCode": "13",
+      "heiName": "横浜"
+    },
+    {
+      "heiCode": "14",
+      "heiName": "東メディアFIT"
+    },
+    {
+      "heiCode": "16",
+      "heiName": "国際旅行課"
+    },
+    {
+      "heiCode": "20",
+      "heiName": "名古屋"
+    },
+    {
+      "heiCode": "21",
+      "heiName": "名古屋FIT"
+    },
+    {
+      "heiCode": "22",
+      "heiName": "静岡"
+    },
+    {
+      "heiCode": "30",
+      "heiName": "大阪メディア"
+    },
+    {
+      "heiCode": "31",
+      "heiName": "西FIT"
+    },
+    {
+      "heiCode": "32",
+      "heiName": "大阪団体"
+    },
+    {
+      "heiCode": "33",
+      "heiName": "京都"
+    },
+    {
+      "heiCode": "34",
+      "heiName": "神戸"
+    },
+    {
+      "heiCode": "35",
+      "heiName": "和歌山"
+    },
+    {
+      "heiCode": "36",
+      "heiName": "大阪提販"
+    },
+    {
+      "heiCode": "37",
+      "heiName": "梅田"
+    },
+    {
+      "heiCode": "40",
+      "heiName": "広島"
+    },
+    {
+      "heiCode": "41",
+      "heiName": "岡山"
+    },
+    {
+      "heiCode": "50",
+      "heiName": "高松"
+    },
+    {
+      "heiCode": "51",
+      "heiName": "松山"
+    },
+    {
+      "heiCode": "52",
+      "heiName": "高知"
+    },
+    {
+      "heiCode": "53",
+      "heiName": "山陰"
+    },
+    {
+      "heiCode": "54",
+      "heiName": "山口"
+    },
+    {
+      "heiCode": "60",
+      "heiName": "福岡"
+    },
+    {
+      "heiCode": "61",
+      "heiName": "鹿児島"
+    },
+    {
+      "heiCode": "62",
+      "heiName": "熊本"
+    },
+    {
+      "heiCode": "63",
+      "heiName": "博多"
+    },
+    {
+      "heiCode": "64",
+      "heiName": "大分"
+    },
+    {
+      "heiCode": "65",
+      "heiName": "長崎"
+    },
+    {
+      "heiCode": "66",
+      "heiName": "宮崎"
+    },
+    {
+      "heiCode": "67",
+      "heiName": "福岡FIT"
+    },
+    {
+      "heiCode": "68",
+      "heiName": "沖縄"
+    },
+    {
+      "heiCode": "70",
+      "heiName": "仙台"
+    },
+    {
+      "heiCode": "71",
+      "heiName": "青森"
+    },
+    {
+      "heiCode": "80",
+      "heiName": "札幌"
+    },
+    {
+      "heiCode": "89",
+      "heiName": "富山"
+    },
+    {
+      "heiCode": "90",
+      "heiName": "金沢"
+    },
+    {
+      "heiCode": "91",
+      "heiName": "新潟"
+    },
+    {
+      "heiCode": "92",
+      "heiName": "北関東"
+    },
+    {
+      "heiCode": "93",
+      "heiName": "長野"
+    },
+    {
+      "heiCode": "94",
+      "heiName": "時遊人"
+    },
+    {
+      "heiCode": "95",
+      "heiName": "フレンド東京"
+    },
+    {
+      "heiCode": "96",
+      "heiName": "フレンド大阪"
+    },
+    {
+      "heiCode": "97",
+      "heiName": "お宿"
+    }
+  ],
+  "csvList":
+    {
+      "q_category": "q_category",
+      "q_group": "q_group",
+      "p_img1_filepath":  "p_img1_filepath",
+      "p_img1_caption": "p_img1_caption"
+    },
+  "categoryList": {
+    "1": "sightseeing",
+    "2": "hotel",
+    "3": "meal",
+    "4": "p_sch",
+    "5": "option",
+    "6": "^p_img",
+    "7": "staff",
+    "8": "^p_map"
+  },
+  "categoryFileNameList": {
+    "1": "p_sightseeing{fst_nm}_img{snd_nm}_filepath",
+    "2": "p_hotel_img{fst_nm}_filepath",
+    "3": "p_meal{fst_nm}_image{snd_nm}_filepath",
+    "4": "p_sch_img{fst_nm}_filepath",
+    "5": "p_option_img{fst_nm}_filepath",
+    "6": "p_img{fst_nm}_filepath",
+    "7": "p_staff_img_filepath",
+    "8": "p_map_img{fst_nm}_filepath"
+  },
+  "iDestMaster": {
+   "USA": "アメリカ",
+   "NCA": "中南米",
+   "CND": "カナダ",
+   "HWI": "ハワイ",
+   "GUM": "グアム",
+   "SPN": "サイパン",
+   "THA": "タイ",
+   "KOR": "韓国",
+   "HNK": "香港",
+   "CHI": "中国",
+   "SIN": "シンガポール",
+   "MYS": "マレーシア",
+   "TWN": "台湾",
+   "SEA": "その他アジア",
+   "IND": "インド",
+   "DPS": "インドネシア",
+   "VNM": "ベトナム＆カンボジア",
+   "PAC": "南太平洋",
+   "AUS": "オーストラリア",
+   "NZY": "ニュージーランド",
+   "EUR": "ヨーロッパ",
+   "RUS": "ロシア",
+   "AFR": "アフリカ",
+   "MID": "中東"
+  },
+  "dDestMaster": {
+    "HKD": "北海道",
+    "THK": "東北",
+    "KAN": "関東",
+    "HOK": "北陸・甲信越",
+    "TOK": "東海",
+    "KNK": "近畿",
+    "CHU": "中国地方",
+    "SKK": "四国",
+    "KYS": "九州",
+    "OKA": "沖縄",
+    "SNT": "その他国内"
+  },
+  "mainbrandMaster": {
+    "トラピックス": "01",
+    "e-very": "02",
+    "クリスタルハート": "03",
+    "ロイヤルコレクション": "04",
+    "その他": "05",
+    "フレンド": "06"
+  },
+  "senmonICategory": {
+    "0":"europe",
+    "1":"africa",
+    "2":"asia",
+    "3":"middle-east",
+    "4":"north-america",
+    "5":"latin-america",
+    "6":"oceania",
+    "7":"s-pacific",
+    "8":"hawaii",
+    "9":"micronesia"
+  },
+  "senmonDCategory": {
+    "0":"hokkaido",
+    "1":"tohoku",
+    "2":"kanto",
+    "3":"chubu-hokuriku",
+    "4":"kinki",
+    "5":"sanin-sanyo",
+    "6":"shikoku",
+    "7":"kyushu",
+    "8":"okinawa",
+    "9":"tokyo"
+  }
+}

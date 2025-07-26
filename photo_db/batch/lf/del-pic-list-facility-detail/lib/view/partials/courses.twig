@@ -1,0 +1,44 @@
+<table class="table table-bordered dp-table-courses" ng-if="rich.page.coursesEnabled">
+	<thead>
+	<tr class="dp-table-title">
+		<th class="senmon_name"><nobr>写真名</nobr></th>
+		<th><nobr>施設番号</nobr></th>
+		<th><nobr>画像</nobr></th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr ng-repeat="(key, course) in rich.page.courses">
+		<td>
+			<div class="dp-course-id">
+				<a href="[[ course.basicInfo.accommodation_url ]]" target="_blank">1:[[ course.basicInfo.accommodation_name ]]</a>
+				<span>2:[[ course.basicInfo.country_name ]]</span>
+			</div>
+		</td>
+		<td>
+			<div>[[ course.basicInfo.accommodation_code ]]</div>
+		</td>
+		<td>
+			<div class="dp-photo-group" ng-repeat="photoRow in course.photo">
+				<div class="dp-photo-fstNm ng-binding">[[ photoRow.p_img_caption ]]</div>
+				<div class="dp-photo-container">
+					<div class="dp-photo-info">
+						<div class="dp-photo-no" id="img-no-[[ key | CourseIdFilter ]]-info-[[ photoRow.fstNm ]]-[[ photoRow.sndNm ]]-[[ photoRow.exNm ]]">[[ photoRow.p_img_filepath ]]</div>
+						<div class="dp-photo-overview">[[ photoRow.overview ]]</div>
+						<div class="dp-photo-date" id="day-no-[[ key | CourseIdFilter ]]-info-[[ photoRow.fstNm ]]-[[ photoRow.sndNm ]]-[[ photoRow.exNm ]]" ng-if="[[ photoRow.deletionDate ]] != ''">[[ photoRow.deletionDate ]]</div>
+						<div class="dp-photo-date" id="day-no-[[ key | CourseIdFilter ]]-info-[[ photoRow.fstNm ]]-[[ photoRow.sndNm ]]-[[ photoRow.exNm ]]" style="background-color: #FF0000;" ng-if="[[ photoRow.deletionDate ]] == ''">使用期限切れ</div>
+					</div>
+					<div class="dp-photo-image" ng-if="[[ photoRow.deletionDate ]] != ''"><img  id="img-[[ key | CourseIdFilter ]]-info-[[ photoRow.fstNm ]]-[[ photoRow.sndNm ]]-[[ photoRow.exNm ]]" src="http://x.hankyu-travel.com/cms_photo_image/image_search_kikan2.php?p_photo_mno=[[ photoRow.p_img_filepath ]]" data-action="zoom"></div>
+					<div class="dp-photo-image" ng-if="[[ photoRow.deletionDate ]] == ''"><img  id="img-[[ key | CourseIdFilter ]]-info-[[ photoRow.fstNm ]]-[[ photoRow.sndNm ]]-[[ photoRow.exNm ]]" src="http://x.hankyu-travel.com/lf/del-pic-list/images/noimages.gif" data-action="zoom"></div>
+					<div class="dp-photo-date-comp" ng-if="[[ photoRow.identDay ]] == '{{ today }}'" id="date-comp-[[ key | CourseIdFilter ]]-info-[[ photoRow.fstNm ]]-[[ photoRow.sndNm ]]-[[ photoRow.exNm ]]">更新済</div>
+					<div class="dp-photo-date-comp" ng-if="[[ photoRow.identDay ]] != '{{ today }}'" id="date-comp-[[ key | CourseIdFilter ]]-info-[[ photoRow.fstNm ]]-[[ photoRow.sndNm ]]-[[ photoRow.exNm ]]" style="display:none;">更新済</div>
+				</div>
+			</div>
+			<div class="dp-photo-group" ng-if="(course.photo).length == 0">
+				<div class="dp-photo-not-found">
+					該当なし
+				</div>
+			</div>
+		</td>
+	</tr>
+	</tbody>
+</table>

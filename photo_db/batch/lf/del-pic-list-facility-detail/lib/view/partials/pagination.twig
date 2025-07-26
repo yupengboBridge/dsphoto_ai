@@ -1,0 +1,7 @@
+<nav ng-if="rich.page.pagination.enabled" class="text-center">
+	<ul class="pagination text-center">
+		<li><a href="#" ng-click="rich.paginate(1)" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+		<li ng-repeat="button in rich.page.pagination.buttons" ng-class="{active: rich.page.page == button.number}"><a href="#" ng-click="rich.paginate(button.number)">[[ button.number ]]</a></li>
+		<li><a href="#" ng-click="rich.paginate(rich.page.pagination.maxPage(rich.page.hitCount))" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+	</ul>
+</nav>

@@ -1,0 +1,1 @@
+ALTER TABLE rich_course_i ADD updated_at TIMESTAMP NULL DEFAULT NULL;
