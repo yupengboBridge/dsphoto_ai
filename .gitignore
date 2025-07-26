@@ -1,0 +1,61 @@
+# PHP and system files
+*.log
+*.cache
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Configuration files with sensitive data
+config.local.php
+.env
+
+# Uploaded files and generated content
+/cms_photo_image/uploads/*
+!/cms_photo_image/uploads/.gitkeep
+/cms_photo_image/temporary/*
+!/cms_photo_image/temporary/.gitkeep
+/cms_photo_image/thumb*/
+/cms_photo_image/change/*
+!/cms_photo_image/change/.gitkeep
+/cms_photo_image/csv/*
+!/cms_photo_image/csv/.gitkeep
+/cms_photo_image/log/*
+!/cms_photo_image/log/.gitkeep
+
+/photo_db/uploads/*
+!/photo_db/uploads/.gitkeep
+/photo_db/temporary/*
+!/photo_db/temporary/.gitkeep
+/photo_db/thumb*/
+/photo_db/change/*
+!/photo_db/change/.gitkeep
+/photo_db/csv/*
+!/photo_db/csv/.gitkeep
+/photo_db/log/*
+!/photo_db/log/.gitkeep
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Composer dependencies (if used)
+/vendor/
+composer.lock
+
+# Node modules (if used)
+node_modules/
+npm-debug.log
+
+# Backup files
+*.bak
+*.backup
+*.back*
+backup/
+
+# Temporary files
+temp/
+tmp/
+cache/
