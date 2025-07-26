@@ -92,6 +92,32 @@ catch(Exception $e)
             margin-left: 15px;
             width: 50px;
         }
+		.image-container {
+			position: relative;
+			display: inline-block;
+			text-align: center;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			background-color: #fff;
+		}
+
+		.image-container img {
+			display: inline-block;
+			width: 100%; /* 必要に応じて調整 */
+			height: auto;
+		}
+
+		.watermark {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 96px;
+			color: rgba(255, 255, 255, 0.3); /* 半透明白文字 */
+			font-weight: bold;
+			pointer-events: none; /* テキストがクリックを邪魔しないように */
+			user-select: none;
+		}
     </style>
 <!--CSSリンク　ここまで-->
 <!--javascript ここから -->
@@ -840,18 +866,20 @@ function disp_one_image()
 	}
 	//------------------------------------------------------------------------------
 
-	//print "<p><img src=".$is->images[0]->up_url[1]." width=\"400\" height=\"300\" /></p>\r\n";
-	$tmp_url = "./disp_register_image.php?p_photo_id=".$p_photo_id;
-	//print "<p><img src=".$tmp_url." width=\"400\" height=\"300\" /></p>\r\n";
+	$tmp_url = "./image_search_kikan4.php?p_photo_mno=".$is->images[0]->photo_mno;
 	$isize = $is->images[0]->image_size_x;
 	if(!empty($isize))
 	{
-		if((int)$isize >= 400)
-		{
-			print "<p class=\"thumbnailsize\"><img src=".$tmp_url." width=\"400\" height=\"300\" /></p>\r\n";
-		} else {
-			print "<p class=\"thumbnailsize_s\"><img src=".$tmp_url." width=\"400\" height=\"300\" /></p>\r\n";
-		}
+		// if((int)$isize >= 400)
+		// {
+		// 	print "<p class=\"thumbnailsize\"><img src=".$tmp_url." width=\"400\" height=\"300\" /></p>\r\n";
+		// } else {
+		// 	print "<p class=\"thumbnailsize_s\"><img src=".$tmp_url." width=\"400\" height=\"300\" /></p>\r\n";
+		// }
+		print "<div class=\"image-container\">";
+		print "    <img src=".$tmp_url." alt=\"sample\" />";
+		print "    <div class=\"watermark\">SAMPLE</div>";
+		print "</div>";
 	}
 
 	$tmpkey = "code".$is->images[0]->photo_id;
