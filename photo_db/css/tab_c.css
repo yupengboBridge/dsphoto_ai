@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div #header ul#navi_menu {
+	background:url(../parts/navi_menu.png) no-repeat;
+/*	width:331px;
+	height:34px;
+	position:absolute;
+	top:36px;
+	left:200px;
+	text-indent:-9999px;*/
+	width:111px;
+	height:34px;
+	position:absolute;
+	top:36px;
+	left:200px;
+	text-indent:-9999px;
+}
+
+div #header ul#navi_menu li.management {
+	display:none;
+}
