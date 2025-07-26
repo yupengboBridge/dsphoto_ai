@@ -1,0 +1,12 @@
+10 23 1-31/2 * * php /home/xhankyu/public_html/photo_db/delete_image_photodb.php > /dev/null
+30 23 1-31/2 * * php /home/xhankyu/public_html/cms_photo_image/delete_image_cmsphotoimage.php > /dev/null
+40 23 1-31/2 * * php /home/xhankyu/public_html/photo_db/delete_outofdate_file.php > /dev/null
+50 23 1-31/2 * * php /home/xhankyu/public_html/cms_photo_image/delete_outofdate_file.php > /dev/null
+30 14,17,20 * * * php /home2/chroot/home/xhankyu/public_html/photo_db/scp_getput.sh > /dev/null
+0 1 * * * php /home2/chroot/home/xhankyu/public_html/cron/put_beacon.sh > /dev/null
+35 0 * * * php /home/xhankyu/public_html/photo_db/photo_data_csvSave.php
+35 0 * * * php /home/xhankyu/public_html/cms_photo_image/photo_data_csvSave.php
+10 * * * * php /home/xhankyu/public_html/photo_db/coupon/getcsv.php
+15 * * * * php /home/xhankyu/public_html/photo_db/coupon/untar.php
+30 2 * * * php /home/xhankyu/public_html/photo_db/webtool/PriceCheck/cron.php
+

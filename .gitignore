@@ -55,6 +55,10 @@ npm-debug.log
 *.back*
 backup/
 
+# Large files that exceed GitHub's limit
+photo_db/batch/lf/activecore/activecore_dome.csv
+photo_db/batch/lf/activecore/activecore_itel.csv
+
 # Temporary files
 temp/
 tmp/
