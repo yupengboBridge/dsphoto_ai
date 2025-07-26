@@ -1,0 +1,110 @@
+<?php
+require_once(dirname(__FILE__).'/config.php');
+require_once(dirname(__FILE__).'/lib.php');
+
+date_default_timezone_set('Asia/Tokyo');
+
+//// セッション管理をスタートします。
+//session_start();
+//
+//$s_login_id = array_get_value($_SESSION,'login_id' ,"");
+//$s_login_name = array_get_value($_SESSION,'user_name' ,"");
+//$s_security_level = array_get_value($_SESSION,'security_level' ,"");
+//$comp_code = array_get_value($_SESSION,'compcode' ,"");
+//$s_group_id = array_get_value($_SESSION,'group' ,"");
+//$s_user_id = array_get_value($_SESSION,'user_id' ,"");
+//
+////ログインしているかをチェックします。
+//if (empty($s_login_id))
+//{
+//	// ログイン後のTOPページへリダイレクトします。
+//	header_out($logout_page);
+//}
+
+$photo_server_flg = 1;
+
+$now = date("Y-m-d");
+$where = " dto < '".$now." 00:00:00' AND `photo_server_flg` = ".$photo_server_flg;
+
+// ＤＢへ接続します。
+$db_link = db_connect();
+
+// イメージ検索のクラス
+$img_all = new ImageSearch();
+// PhotoImageのインスタンスを生成します。
+$pi = new PhotoImageDB ();
+
+$img_all->istart = -1;
+$img_all->iend = -1;
+// 写真を取得
+$img_all->select_image_registed($db_link,$where,"");
+// イメージ総数を取得する
+if (!empty($img_all->images))
+{
+	$img_ary = $img_all->images;
+	
+	$ph_img_all = new PhotoImageDataAll();
+	for ($i = 0 ; $i < count($img_ary); $i++)
+	{
+		$ph_img_all = $img_ary[$i];
+
+		$logstr = date("Y-m-d H:i:s").",admin,BUD管理者,".$ph_img_all->photo_mno.",".preg_replace("/,/"," ",preg_replace("'([\r\n])[\s]+'", " ",$ph_img_all->photo_name));
+		$logstr .= ",".preg_replace("/,/"," ",preg_replace("'([\r\n][,])[\s]+'", " ",$ph_img_all->photo_explanation)).",".preg_replace("/,/"," ",preg_replace("'([\r\n])[\s]+'", " ",$ph_img_all->bud_photo_no)).",";
+		$logstr .= $ph_img_all->dfrom.",".$ph_img_all->dto.",0,".$ph_img_all->registration_person."\r\n";
+
+		$pi->delete_data($db_link, $ph_img_all->photo_id);
+		
+		if (!empty($logstr)) write_log_tofile($logstr);
+	}
+	if(file_exists(dirname(__FILE__)."/log/".date("Y-m-d").".log"))
+	{
+		## Connect to a local database server (or die) ##
+		$dbH = mysql_connect($db_host, $db_user, $db_password) or die('Could not connect to MySQL server.<br>' . mysql_error());
+
+		## Select the database to insert to ##
+		mysql_select_db($db_name) or die('Could not select database.<br>' . mysql_error());
+
+		## CSV file to read in ##
+		$CSVFile = dirname(__FILE__)."/log/".date("Y-m-d").".log";
+		$sql = 'LOAD DATA LOCAL INFILE "'.$CSVFile.'" INTO TABLE '.$table_log_name.' character set utf8 FIELDS TERMINATED BY "," LINES TERMINATED BY "\\r\\n";';
+		mysql_query($sql) or die('Error loading data file.<br>' . mysql_error());
+
+		## Close database connection when finished ##
+		mysql_close($dbH);
+	}
+	
+	$file_dir = dirname(__FILE__)."/log/back/";
+	$dossier = opendir($file_dir);
+	$file_name = "";
+	while ($Fichier = readdir($dossier))
+	{
+		if ($Fichier != "." && $Fichier != ".." && $Fichier != "Thumbs.db")
+		{
+			$file_name = strtolower($Fichier);
+			$filesize=abs(filesize($file_dir.$file_name));
+			if($filesize==0)
+			{
+				exec("rm -rf ".$file_dir.$file_name);
+			}
+		}
+	}
+	
+	print "画像削除を完了いたしました。";
+} else {
+	print "期限切れた画像が見つかりません。";
+}
+
+/*
+ * 関数名：write_log_tofile
+ * 関数説明：画像を削除すると、削除した画像はログファイルに出力する
+ * パラメタ：logmsg:ログ情報
+ * 戻り値：無し
+ */
+function write_log_tofile($logmsg)
+{
+	// CSVファイルを出力する
+	$file = fopen(dirname(__FILE__)."/log/".date("Y-m-d").".log","a+");
+	fwrite($file,$logmsg);
+	fclose($file);
+}
+?>
