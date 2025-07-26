@@ -1,0 +1,585 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*  --------------------
+	COMMON
+--------------------  */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	/*font-family:"ＭＳ Ｐゴシック", arial,sans-serif;*/
+	font-family:"Verdana","ヒラギノ角ゴ Pro W3","ＭＳ Ｐゴシック",osaka,sans-serif;
+	color:#333;
+	background-color: #fff;
+	font-size: 80%;
+}
+
+/* -- IMAGES -- */
+img {
+	margin: 0px;
+	padding: 0px;
+	border:none;
+}
+
+/* Tables */
+table {
+	text-align:left;
+}
+
+/* -- TEXT LINK COLOR -- */
+a:link {
+	text-decoration: none;
+	color:#0066CC;
+}
+a:visited {
+	color:#006EBA;
+	text-decoration: none;
+}
+
+a:hover {
+	/*text-decoration: none;*/
+	color:#FF9900;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+#wrap {
+	/*text-align:center;*/
+}
+
+/* info */
+.info {
+	color: #008000;
+}
+
+/* -- CONTENS TITLE -- */
+h2 {
+	font-size:1.35em;
+	letter-spacing:1px;
+	color:#0066CC;
+}
+
+/* -- FLOAT CLEAR -- */
+.floatL { float:left; }
+.floatR { float:right; }
+.clear { clear:both; }
+.clear hr { display:none; }
+
+
+/* -- BUTTON -- */
+.btnL {
+	width:113px;
+}
+.btnL a {
+	margin:0 auto;
+	height:24px;
+	line-height:24px;
+	width:113px;
+	display:block;
+	text-align:center;
+	background:url(../img/admin/btn_113.gif) no-repeat;
+	color:#666;
+}
+.btnL a:hover {
+	color:#FFF;
+	background:url(../img/admin/btn_113_on.gif) no-repeat;
+}
+
+.inputBtnL {
+	color:#666;
+	height:24px;
+	line-height:24px;
+	width:113px;
+	border:0;
+	background:url(../img/admin/btn_113.gif) no-repeat;
+}
+.inputBtnL_on {
+	color:#FFF;
+	height:24px;
+	line-height:24px;
+	width:113px;
+	border:0;
+	background:url(../img/admin/btn_113_on.gif) no-repeat;
+}
+
+.btn60 {
+	width:60px;
+}
+.btn60 a {
+	margin:0 auto;
+	height:24px;
+	line-height:24px;
+	width:60px;
+	display:inline-block;
+	text-align:center;
+	background:url(../img/admin/btn_60.gif) no-repeat;
+	color:#666;
+}
+.btn60 a:hover {
+	color:#FFF;
+	background:url(../img/admin/btn_60_on.gif) no-repeat;
+}
+
+
+/*.contFoot .floatR .floatR {
+	padding:0 !important;
+}*/
+
+/* -- CONTENT HEAD -- */
+.contHead {
+	width:980px;
+	height:53px;
+	margin:0 auto;
+	background:url(../img/admin/contHeadBg.gif) no-repeat;
+}
+.contHead h2 {
+	padding:20px 0 0 10px;
+}
+
+.contHead span {
+	padding-left:10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#0066CC;
+	line-height:25px;
+}
+.contHead span:first-child {
+	color:#33CC33;
+}
+
+.contHeadMenu {
+	width:980px;
+	height:73px;
+	margin:0 auto;
+	background:url(../img/admin/contHeadBg.gif) no-repeat;
+}
+
+.contHeadMenu h2 {
+	padding:20px 0 0 10px;
+}
+
+.contHeadMenu span {
+	padding-left:10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#0066CC;
+	line-height:25px;
+}
+.contHeadMenu span:first-child {
+	color:#33CC33;
+}
+
+
+
+/* -- 削除 PAGE TITLE TEXT COLOR -- */
+.contHead .itemDel {
+	color:#FF0000;
+}
+
+
+/* -- CONTENT HEAD BUTTON -- */
+.contHead .floatR {
+	margin:17px 10px 0 0;
+}
+
+
+/* -- CONTENT FOOT -- */
+.contFoot {
+	width:980px;
+	height:57px;
+	margin:0 auto;
+	background:url(../img/admin/contFootBg.gif) no-repeat;
+}
+.contFoot table td:first-child {
+	color:#0066CC;
+	color: #FF3366;
+}
+
+
+
+/* -- CONTENT FOOT BUTTON -- */
+.contFoot div {
+	padding:9px 10px 0 0;
+}
+.contFoot td {
+	padding:7px 2px 0 0;
+}
+.contFoot table {
+	margin-right:6px;
+}
+
+
+/* -- 操作 BUTTON -- */
+.list td a {
+	width:45px;
+	height:24px;
+	line-height:24px;
+	color:#666;
+	margin-left:4px;
+	background:url(../img/admin/btn_45.gif) no-repeat;
+	display:block;
+	float:left;
+}
+.list td a:first-child {
+	color:#FFF;
+	background:url(../img/admin/confBtn.gif) no-repeat;
+}
+.list td a:hover {
+	color:#FFF;
+	background:url(../img/admin/btn_45_on.gif) no-repeat;
+}
+
+/* -- PAGING -- */
+#paginate_navi {
+	color:#0066CC;
+}
+#paginate_navi table {
+	border:0;
+	border-collapse:collapse;
+	border-spacing:0;
+}
+.toBack span { 	margin-right:5px; }
+.toNext span { 	margin-left:5px; }
+.toBack span, .toNext span {
+	color:#CCC;
+	width:60px;
+	height:24px;
+	line-height:24px;
+	text-align:center;
+	background:url(../img/admin/btn_60.gif) no-repeat;
+	float:left;
+}
+.toBack span a, .toNext span a {
+	display:block;
+}
+.toBack span a:hover, .toNext span a:hover {
+	color:#FFF;
+	background:url(../img/admin/btn_60_on.gif) no-repeat;
+}
+.toBack, .toNext, .toPageNum {
+	line-height:24px;
+	padding:0 !important;
+	float:left;
+}
+.toPageNum {
+	padding:0 15px !important;
+}
+.toPageNum .current {
+	color:#FF9900;
+}
+
+
+/* -- ERROR MESSAGE -- */
+.err_msg {
+	color:#FF3366;
+}
+
+
+
+/*  --------------------
+	HEADER
+--------------------  */
+
+#header {
+	width:980px;
+	height:94px;
+	margin:0 auto;
+	background:url(../img/admin/headTopBg.gif) no-repeat;
+}
+
+#header img {
+	padding-top:16px;
+	float:left;
+}
+
+/* -- アカウント名 - ログアウトボタン -- */
+#account {
+	margin:42px 0 0 0;
+	text-align:right;
+	float:right;
+}
+#loginName {
+	padding-right:10px;
+	height:24px;
+	line-height:25px;
+	font-weight:bold;
+	color:#0070FF;
+	font-size:1.2em;
+	float:left;
+}
+
+
+/*  --------------------
+	MENU
+--------------------  */
+
+.contentMenu {
+	width:979px;
+	height:38px;
+	margin: 0 auto 7px;
+	padding-left:1px;
+	font-size: 90%;
+	/*font-weight:bold;*/
+}
+/* -- ADMIN用 MENU BACKGRAND CSS -- */
+.ad { background:url(../img/admin/menuBgAdmin.gif) no-repeat; }
+
+/* -- 非ADMIN用 MENU BACKGRAND CSS -- */
+.noAd { background:url(../img/admin/menuBg.gif) no-repeat; }
+
+
+/* -- MENU BUTTON -- */
+.menuBtn {
+	width:123px;
+	height:20px;
+	line-height:20px;
+	margin:5px 13px 0 14px;
+	text-align:center;
+	float:left;
+}
+.menuBtn a {
+	width:123px;
+	height:20px;
+	color: #0070FF;
+	display:block;
+}
+.mbOn a {
+	width:123px;
+	height:20px;
+	color: #FF9900;
+	background:url(../img/admin/menuBtnOver.gif) no-repeat;
+	display:block;
+}
+.menuBtn a:hover {
+	color:#FF9900;
+	background:url(../img/admin/menuBtnOver.gif) no-repeat;
+}
+
+
+/*  --------------------
+	FOOTER
+--------------------  */
+
+#footer	{
+	width:970px;
+	height:30px;
+	line-height:30px;
+	background:url(../img/admin/footBg.gif) no-repeat;
+	color: #FFF;
+	font-size: 80%;
+	padding-right:10px;
+	margin:10px auto 0;
+	text-align:right;
+}
+
+
+/*  --------------------
+	LOGIN
+--------------------  */
+
+.loginContHead {
+	width:980px;
+	height:53px;
+	margin:0 auto;
+	background:url(../img/admin/contHeadBg.gif) no-repeat;
+}
+
+
+.loginContHead h2 {
+	color:#0066CC;
+	padding-top:20px;
+	text-align:center;
+}
+
+#loginFrame{
+	width:978px;
+	height:220px;
+	margin:0 auto;
+	text-align:center;
+	padding-top:80px;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+	background:url(../img/admin/login.jpg) 100px 30px no-repeat;
+}
+
+#loginFrame table {
+	margin:0 auto;
+	text-align:center;
+}
+#loginFrame table td {
+	padding:3px;
+}
+
+#loginFrame .btnL {
+	margin-top:10px;
+}
+
+
+/*  --------------------
+	CONTENT LIST
+--------------------  */
+
+/* -- LIST -- */
+.list, .listSide {
+	width:980px;
+	margin:0 auto;
+	font-size:0.9em;
+	border-left:1px solid #CCC !important;
+	border-right:1px solid #CCC !important;
+}
+.list th, .listSide th {
+	color:#FFF;
+	background:#0066CC;
+	text-align: center;
+	font-weight:normal;
+}
+.list th {
+	height:30px;
+	border-right:1px solid #FFF;
+}
+.listSide th {
+	width:150px;
+	padding:10px 0;
+	border-bottom:1px solid #FFF;
+}
+
+
+/* -- LIST TITLE LINK TEXT -- */
+.list th a {
+	color:#FFF;
+	text-decoration:underline;
+}
+.list th a:hover {
+	color:#FF9900;
+	text-decoration:underline;
+}
+
+.list td, .listSide td {
+	padding:10px 5px;
+	vertical-align:middle;
+	border-bottom: 1px dotted #ccc;
+}
+
+/* -- ID TD SELL BACKGROUND COLOR -- */
+.list td:first-child {
+	color:#FFF;
+	font-weight:bold;
+	background:#999;
+}
+
+
+/* -- 右端 SELL BORDER CANCEL用 -- */
+.noSellBorder {
+	border:0 !important;
+}
+
+.listSide .topThBd {
+	border-top:1px solid #FFF;
+}
+.listSide .topTdBd {
+	border-top:1px dotted #CCC;
+}
+
+
+/* -- 項目「内外」 FONT COLOR -- */
+.naigaiDom {
+	color:#FF0080;
+	font-weight:bold;
+}
+.naigaiInt{
+	color:#0070FF;
+	font-weight:bold;
+}
+
+/* -- 項目「実機確認用QRコード」 TH BGCOLOR -- */
+.listSide .qrTh {
+	background:#999;
+}
+
+
+/*  --------------------
+	お知らせ用 CSS
+--------------------  */
+
+.adminMainCont {
+	width:938px;
+	margin:0 auto;
+	padding:20px;
+	border:1px solid #CCC;
+}
+.adminMainCont span {
+	color:#0070FF;
+}
+
+
+/* -- 項目注意書き CSS -- */
+.attenWrap {
+	font-size:0.9em;
+	color: #999;
+	margin-top:5px;
+}
+
+/*  --------------------
+	CONTENT LIST
+--------------------  */
+
+.releases .btnL {
+	margin:5px 10px 0 0;
+}
+
+
+/*  --------------------  */
+
+
+
+/** 以下cakePHP用  **/
+/* Notices and Errors */
+div.message {
+	clear: both;
+	color: #FF3366;
+	font-weight: bold;
+}
+div.error-message {
+	clear: both;
+	margin-top:5px;
+	color: #FF3366;
+	font-weight: bold;
+}
+
+/* Paging */
+div.paging {
+	background:#fff;
+	color: #ccc;
+	margin-bottom: 2em;
+}
+div.paging div.disabled {
+	color: #ddd;
+	display: inline;
+}
+div.paging span {
+}
+div.paging span.current {
+	color: #000;
+}
+div.paging span a {
+}
+
+.cake-sql-log tr td {
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 4px 8px;
+	text-align: left;
+	vertical-align: top;
+}
+label {
+	font-size: 100%;
+}
+input, textarea {
+	font-size: 100%;
+}

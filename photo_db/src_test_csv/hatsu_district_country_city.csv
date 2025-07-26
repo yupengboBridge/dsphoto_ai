@@ -1,0 +1,16 @@
+p_hatsu_code,p_hatsu_name,p_district_id,p_district_code,p_district_name,p_country_id,p_country_code,p_country_name,p_city_code,p_city_name
+1,関東発,1,AFR,アフリカ,1,BW,ボツワナ,CHB,チョベ
+1,関東発,1,AFR,アフリカ,2,EG,エジプト,ABS,アブ　シンベル
+1,関東発,1,AFR,アフリカ,2,EG,エジプト,ALY,アレキサンドリア
+1,関東発,1,AFR,アフリカ,2,EG,エジプト,ASB,アブシンベル
+1,関東発,1,AFR,アフリカ,2,EG,エジプト,ASW,アスワン
+1,関東発,1,AFR,アフリカ,3,GR,ギリシャ,ATH,アテネ
+1,関東発,1,AFR,アフリカ,3,GR,ギリシャ,E54,カランバカ
+…,…,…,…,…,…,…,…,…,…
+1,関東発,2,CHI,中国,13,CN,中国,PEK,北京
+1,関東発,2,CHI,中国,13,CN,中国,SHA,上海
+1,関東発,2,CHI,中国,14,MN,モンゴル,ULN,ウラン　　バートル
+…,…,…,…,…,…,…,…,…,…
+…,…,…,…,…,…,…,…,…,…
+2,関西発,20,AFR,アフリカ,120,BW,ボツワナ,CHB,チョベ
+…,…,…,…,…,…,…,…,…,…

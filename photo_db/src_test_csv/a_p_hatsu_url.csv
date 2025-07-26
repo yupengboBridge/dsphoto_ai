@@ -1,0 +1,13 @@
+"hatsucode","hatsuname","URL","top","p_hatsuname","p_hatsucode"
+"TYO","東京","http://www.hankyu-travel.com/air/tyo/","tyo","関東発",1
+"OSA","大阪","http://www.hankyu-travel.com/air/osa/","osa","関西発",2
+"NGO","名古屋","http://www.hankyu-travel.com/air/ngo/","ngo","中部・北陸発",3
+"FUK","福岡","http://www.hankyu-travel.com/air/fuk/","fuk","九州発",4
+"SPK","札幌","http://www.hankyu-travel.com/air/spk/","spk","北海道発",5
+"SDJ","仙台","http://www.hankyu-travel.com/air/sdj/","sdj","東北発",6
+"OKJ","岡山","http://www.hankyu-travel.com/air/chs/","hij","中国・四国発",7
+"HIJ","広島","http://www.hankyu-travel.com/air/chs/","hij","中国・四国発",7
+"TAK","高松","http://www.hankyu-travel.com/air/chs/","hij","中国・四国発",7
+"MYJ","松山","http://www.hankyu-travel.com/air/chs/","hij","中国・四国発",7
+"KCZ","高知","http://www.hankyu-travel.com/air/chs/","hij","中国・四国発",7
+"OKA","沖縄","http://www.hankyu-travel.com/air/fuk/","fuk","九州発",4

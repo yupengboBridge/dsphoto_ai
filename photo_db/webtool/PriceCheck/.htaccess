@@ -1,0 +1,5 @@
+AuthUserFile /home/xhankyu/public_html/photo_db/webtool/PriceCheck/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Member Only"
+AuthType Basic
+require valid-user

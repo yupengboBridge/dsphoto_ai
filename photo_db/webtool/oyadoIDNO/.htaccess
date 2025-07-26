@@ -1,0 +1,6 @@
+<Files index.php>
+AuthType     Basic
+AuthName     "Authentication"
+AuthUserFile /home/xhankyu/public_html/photo_db/webtool/oyadoIDNO/.htpasswd
+require valid-user
+</Files>
