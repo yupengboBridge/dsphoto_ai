@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hNYC101_130 hotel_code="1949" hotel_name="ニューヨーク・ヒルトン・ミッドタウン" />
+	<hNYC101_130 hotel_code="3239" hotel_name="パーク セントラル" />
+	<hNYC101_130 hotel_code="4294" hotel_name="マリオット マーキース" />
+	<hNYC101 hotel_code="1949" hotel_name="ニューヨーク・ヒルトン・ミッドタウン" />
+	<hNYC101 hotel_code="3239" hotel_name="パーク セントラル" />
+	<hLAS101_130 hotel_code="2349" hotel_name="アリア　リゾート＆カジノ" />
+	<hLAS101_130 hotel_code="5648" hotel_name="ベラージオ" />
+	<hLAS101_130 hotel_code="3889" hotel_name="ラスベガス ヒルトン" />
+	<hLAS101_130 hotel_code="4244" hotel_name="パリス ラスベガス" />
+	<hLAS101 hotel_code="2349" hotel_name="アリア　リゾート＆カジノ" />
+	<hLAS101 hotel_code="5648" hotel_name="ベラージオ" />
+	<hLAS101 hotel_code="3889" hotel_name="ラスベガス ヒルトン" />
+	<hLAX101_130 hotel_code="2577" hotel_name="ラマダ ウエスト ハリウッド" />
+	<hLAX130 hotel_code="2577" hotel_name="ラマダ ウエスト ハリウッド" />
+	<hSFO101_130 hotel_code="S0087" hotel_name="ホテル ニッコー サンフランシスコ" />
+	<hSFO130 hotel_code="S0087" hotel_name="ホテル ニッコー サンフランシスコ" />
+	<hNYC130 hotel_code="4294" hotel_name="マリオット マーキース" />
+	<hLAS130 hotel_code="2349" hotel_name="アリア　リゾート＆カジノ" />
+	<hLAS130 hotel_code="4244" hotel_name="パリス ラスベガス" />
+	<hLAS130 hotel_code="5648" hotel_name="ベラージオ" />
+	<hORL101_130 hotel_code="M0070" hotel_name="ハ－ドロック ホテル" />
+	<hORL130 hotel_code="M0070" hotel_name="ハ－ドロック ホテル" />
+</root>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hTPE101_130 hotel_code="4775" hotel_name="君悦大飯店（グランドハイアット）" />
+	<hTPE130 hotel_code="4775" hotel_name="君悦大飯店（グランドハイアット）" />
+	<hKHH101_130 hotel_code="K0389" hotel_name="捷絲旅高雄中正館" />
+	<hKHH130 hotel_code="K0389" hotel_name="捷絲旅高雄中正館" />
+	<hTXG101_130 hotel_code="T0268" hotel_name="台中金典商旅" />
+	<hTXG130 hotel_code="T0268" hotel_name="台中金典商旅" />
+</root>
