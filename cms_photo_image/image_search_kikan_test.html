@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片布局</title>
+    <style>
+        /* 设定基本的表格布局 */
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 创建两列 */
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* 每个单元格样式 */
+        .item {
+            text-align: center;
+            border: 1px solid #000;
+            padding: 10px;
+        }
+
+        /* 图片样式 */
+        .image {
+			display: flex;
+			justify-content: center;  /* 水平居中 */
+			align-items: center;      /* 垂直居中 */
+			width: 100%;
+			height: 200px;         
+        }
+
+        /* 图片标签 */
+        .label {
+            color: red;
+            font-weight: bold;
+        }
+		.image img{
+			width:200px;
+			height:200px;
+		}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+		<!-- 1：WebP 和 JPG -->
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan.php?p_photo_mno=00000-ALLUP-00031.jpg"/>
+			</div>
+            <p class="label">WEBP画像 (search_kikan.php)</p>
+			<a href="https://photo-db.site/cms_photo_image/image_search_kikan.php?p_photo_mno=00000-ALLUP-00031.jpg">https://photo-db.site/cms_photo_image/image_search_kikan.php?p_photo_mno=00000-ALLUP-00031.jpg</a>
+        </div>
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan.php?p_photo_mno=00000-ALLUP-00028.jpg"/>
+			</div>
+            <p class="label">JPG画像 (search_kikan.php)</p>
+            <a href="https://photo-db.site/cms_photo_image/image_search_kikan.php?p_photo_mno=00000-ALLUP-00028.jpg">https://photo-db.site/cms_photo_image/image_search_kikan2.php?p_photo_mno=00000-ALLUP-00028.jpg</a>
+        </div>
+
+        <!-- 2：WebP 和 JPG -->
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan2.php?p_photo_mno=00000-ALLUP-00018.jpg"/>
+			</div>
+            <p class="label">WEBP画像 (search_kikan2.php)</p>
+			<a href="https://photo-db.site/cms_photo_image/image_search_kikan2.php?p_photo_mno=00000-ALLUP-00018.jpg">https://photo-db.site/cms_photo_image/image_search_kikan2.php?p_photo_mno=00000-ALLUP-00018.jpg</a>
+        </div>
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan2.php?p_photo_mno=00000-ALLUP-00017.jpg"/>
+			</div>
+            <p class="label">JPG画像 (search_kikan2.php)</p>
+            <a href="https://photo-db.site/cms_photo_image/image_search_kikan2.php?p_photo_mno=00000-ALLUP-00017.jpg">https://photo-db.site/cms_photo_image/image_search_kikan2.php?p_photo_mno=00000-ALLUP-00017.jpg</a>
+        </div>
+
+        <!-- 3：WebP 和 JPG -->
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan3.php?p_photo_mno=00000-ALLUP-00032.jpg"/>
+			</div>
+            <p class="label">WEBP画像 (search_kikan3.php)</p>
+			<a href="https://photo-db.site/cms_photo_image/image_search_kikan3.php?p_photo_mno=00000-ALLUP-00032.jpg">https://photo-db.site/cms_photo_image/image_search_kikan3.php?p_photo_mno=00000-ALLUP-00032.jpg</a>
+        </div>
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan3.php?p_photo_mno=00000-ALLUP-00016.jpg"/>
+			</div>
+            <p class="label">JPG画像 (search_kikan3.php)</p>
+            <a href="https://photo-db.site/cms_photo_image/image_search_kikan3.php?p_photo_mno=00000-ALLUP-00016.jpg">https://photo-db.site/cms_photo_image/image_search_kikan3.php?p_photo_mno=00000-ALLUP-00016.jpg</a>
+        </div>
+
+        <!-- 4：WebP 和 JPG -->
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan4.php?p_photo_mno=00000-ALLUP-00035.jpg"/>
+			</div>
+            <p class="label">WEBP画像 (search_kikan4.php)</p>
+			<a href="https://photo-db.site/cms_photo_image/image_search_kikan4.php?p_photo_mno=00000-ALLUP-00035.jpg">https://photo-db.site/cms_photo_image/image_search_kikan4.php?p_photo_mno=00000-ALLUP-00035.jpg</a>
+        </div>
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan4.php?p_photo_mno=00000-ALLUP-00015.jpg"/>
+			</div>
+            <p class="label">JPG画像 (search_kikan4.php)</p>
+            <a href="https://photo-db.site/cms_photo_image/image_search_kikan4.php?p_photo_mno=00000-ALLUP-00015.jpg">https://photo-db.site/cms_photo_image/image_search_kikan4.php?p_photo_mno=00000-ALLUP-00015.jpg</a>
+        </div>
+		
+		<!-- 5：WebP 和 JPG -->
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan5.php?p_photo_mno=00000-ALLUP-00033.jpg"/>
+			</div>
+            <p class="label">WEBP画像 (search_kikan5.php)</p>
+			<a href="https://photo-db.site/cms_photo_image/image_search_kikan5.php?p_photo_mno=00000-ALLUP-00033.jpg">https://photo-db.site/cms_photo_image/image_search_kikan5.php?p_photo_mno=00000-ALLUP-00033.jpg</a>
+        </div>
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan5.php?p_photo_mno=00000-ALLUP-00014.jpg"/>
+			</div>
+            <p class="label">JPG画像 (search_kikan5.php)</p>
+            <a href="https://photo-db.site/cms_photo_image/image_search_kikan5.php?p_photo_mno=00000-ALLUP-00014.jpg">https://photo-db.site/cms_photo_image/image_search_kikan5.php?p_photo_mno=00000-ALLUP-00014.jpg</a>
+        </div>
+
+		<!-- 10：WebP 和 JPG -->
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan10.php?p_photo_mno=00000-ALLUP-00034.jpg"/>
+			</div>
+            <p class="label">WEBP画像 (search_kikan10.php)</p>
+			<a href="https://photo-db.site/cms_photo_image/image_search_kikan10.php?p_photo_mno=00000-ALLUP-00034.jpg">https://photo-db.site/cms_photo_image/image_search_kikan10.php?p_photo_mno=00000-ALLUP-00034.jpg</a>
+        </div>
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan10.php?p_photo_mno=00000-ALLUP-00013.jpg"/>
+			</div>
+            <p class="label">JPG画像 (search_kikan10.php)</p>
+            <a href="https://photo-db.site/cms_photo_image/image_search_kikan10.php?p_photo_mno=00000-ALLUP-00013.jpg">https://photo-db.site/cms_photo_image/image_search_kikan10.php?p_photo_mno=00000-ALLUP-00013.jpg</a>
+        </div>
+
+		<!-- 11：WebP 和 JPG -->
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan11.php?p_photo_mno=00000-ALLUP-00039.jpg"/>
+			</div>
+            <p class="label">WEBP画像 (search_kikan11.php)</p>
+			<a href="https://photo-db.site/cms_photo_image/image_search_kikan11.php?p_photo_mno=00000-ALLUP-00039.jpg">https://photo-db.site/cms_photo_image/image_search_kikan11.php?p_photo_mno=00000-ALLUP-00039.jpg</a>
+        </div>
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan11.php?p_photo_mno=00000-ALLUP-00030.jpg"/>
+			</div>
+            <p class="label">JPG画像 (search_kikan11.php)</p>
+            <a href="https://photo-db.site/cms_photo_image/image_search_kikan11.php?p_photo_mno=00000-ALLUP-00030.jpg">https://photo-db.site/cms_photo_image/image_search_kikan11.php?p_photo_mno=00000-ALLUP-00030.jpg</a>
+        </div>
+
+		<!-- 12：WebP 和 JPG -->
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan12.php?p_photo_mno=00000-ALLUP-00040.jpg"/>
+			</div>
+            <p class="label">WEBP画像 (search_kikan12.php)</p>
+			<a href="https://photo-db.site/cms_photo_image/image_search_kikan12.php?p_photo_mno=00000-ALLUP-00040.jpg">https://photo-db.site/cms_photo_image/image_search_kikan12.php?p_photo_mno=00000-ALLUP-00040.jpg</a>
+        </div>
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan12.php?p_photo_mno=00000-ALLUP-00023.jpg"/>
+			</div>
+            <p class="label">JPG画像 (search_kikan12.php)</p>
+            <a href="https://photo-db.site/cms_photo_image/image_search_kikan12.php?p_photo_mno=00000-ALLUP-00023.jpg">https://photo-db.site/cms_photo_image/image_search_kikan12.php?p_photo_mno=00000-ALLUP-00023.jpg</a>
+        </div>
+
+		<!-- 13：WebP 和 JPG -->
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan13.php?p_photo_mno=00000-ALLUP-00038.jpg"/>
+			</div>
+            <p class="label">WEBP画像 (search_kikan13.php)</p>
+			<a href="https://photo-db.site/cms_photo_image/image_search_kikan13.php?p_photo_mno=00000-ALLUP-00038.jpg">https://photo-db.site/cms_photo_image/image_search_kikan13.php?p_photo_mno=00000-ALLUP-00038.jpg</a>
+        </div>
+        <div class="item">
+            <div class="image">
+				<img src="https://photo-db.site/cms_photo_image/image_search_kikan13.php?p_photo_mno=00000-ALLUP-00027.jpg"/>
+			</div>
+            <p class="label">JPG画像 (search_kikan13.php)</p>
+            <a href="https://photo-db.site/cms_photo_image/image_search_kikan13.php?p_photo_mno=00000-ALLUP-00027.jpg">https://photo-db.site/cms_photo_image/image_search_kikan13.php?p_photo_mno=00000-ALLUP-00027.jpg</a>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+pc_sp start
+pc_sp width===800
+pc_sp height===600
+pc_sp path===http://xzdb.hstech-china.com/cms_photo_image/./uploads/2/202110291739151571.jpg
