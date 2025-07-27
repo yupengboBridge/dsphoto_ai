@@ -28,25 +28,23 @@ if (@$_POST['submit']) {
     }
     $ext = strtolower(pathinfo($_FILES['file_csv']['name'], PATHINFO_EXTENSION));
     $fileName = $path_csv . '/' . $_FILES['file_csv']['name'];
-    // アップロードCSV
+    // 上传CSV
     if (!move_uploaded_file($_FILES['file_csv']['tmp_name'], $fileName)) {
-        echo 'CSVファイルのアップロードはエラーになりました。';
+        echo 'CSV文件上传失败';
         return;
     }
     $csvFile = $fileName;
-
-
-    // 複数画像ファイルをアップロード
+    // 上传多张图片
     for ($i = 0; $i < count($_FILES["file_image"]['name']); $i++) {
         $ext = strtolower(pathinfo($_FILES['file_image']['name'][$i], PATHINFO_EXTENSION));
         $fileName = $path_image . '/' . $_FILES['file_image']['name'][$i];
         if (!move_uploaded_file($_FILES['file_image']['tmp_name'][$i], $fileName)) {
-            echo 'ファイルのアップロードはエラーになりました。' . '</br>';
+            echo '文件上传失败' . '</br>';
             return;
         }
         array_push($imageList, $_FILES['file_image']['name'][$i]);
     }
-    // CSVファイルを取り込み、CSVファイルが存在する場合、CSVファイルからアレイに書き込む
+    // 读取CSV文件，如果存在，就把CSV数据写到数组里
     $fp = fopen($csvFile, 'r');
     $start = 0;
     while ($line = fgetcsv($fp, 0, "\t")) {
@@ -62,31 +60,25 @@ if (@$_POST['submit']) {
 }
 ?>
 <div style="float: left;width: 30%">
-    <form method='post' action='web_uploads.php' enctype='multipart/form-data' style="
-    border: 1px solid #000;
-    padding-left: 11px;
-    width: 430px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-"	>
+    <form method='post' action='web_uploads.php' enctype='multipart/form-data'>
         <label for="upload_csv">
             <div style="display: inline-block;width: 170px">
                 <div>CSVファイル</div>
             </div>
-            <input type="file" name="file_csv"  id="upload_csv">
+            <input type="file" name="file_csv" id="upload_csv">
         </label>
         <br/>
         <label for="Upload_image">
             <div style="display: inline-block;width: 170px">
                 <div>イメージファイルパス</div>
             </div>
-            <input type="file" name="file_image[]" id="Upload_image" multiple webkitdirectory>
+            <input type="file" name="file_image[]" id="Upload_image" multiple>
         </label>
         <br/>
-        <input type='submit' name='submit' value='アップロード'>
+        <input type='submit' name='submit' value='上传'>
     </form>
     <hr/>
-    <select id='csvLine' style='width: 400px' multiple='true' size='10' onkeyup="handleKeyUp(event)" onkeydown="handleKeyDown(event)">
+    <select id='csvLine' style='width: 400px' multiple='true' size='10'>
         <?php
         global $csvList;
         foreach ($csvList as $value) {
@@ -107,7 +99,7 @@ if (@$_POST['submit']) {
     <p id="return"></p>
 </div>
 
-<div style="float: left;width: 68%;border: 1px solid;padding-left: 15px;padding-top: 7px;margin-bottom: 8px;pointer-events: none;">
+<div style="float: right;width: 70%;">
     <label for="upload_csv">
         <div style="display: inline-block;width: 130px">
             <div>画像ファイル名</div>
@@ -298,35 +290,13 @@ if (@$_POST['submit']) {
     </label>
     <br/>
     <br/>
-    <!--    <div style="text-align: center">-->
-    <!--        <input id="button_all" type="button" onclick="b_all()" value="全部アップロード" />-->
-    <!--        <input id="button_check" type="button" onclick="b_check()" value="アップロード（選択）" />-->
-    <!--        <input id="button_delete" type="button" onclick="b_delete()" value="レコード削除" />-->
-    <!--    </div>-->
+    <div style="text-align: center">
+        <input id="button_all" type="button" onclick="b_all()" value="提交全部" />
+        <input id="button_check" type="button" onclick="b_check()" value="提交选中" />
+        <input id="button_delete" type="button" onclick="b_delete()" value="删除选中" />
+    </div>
 </div>
-<div style="text-align: center;padding-top: 40%;padding-left: 404px;">
-    <input id="button_all" type="button" onclick="b_all()" value="全部アップロード" style="
-    width: 300px;
-    font-size: 30px;
-    background: cornflowerblue;
-    border: 1px solid;
-    border-radius: 7px;
-">
-    <input id="button_check" type="button" onclick="b_check()" value="アップロード（選択）" style="
-    width: 300px;
-    font-size: 30px;
-    background: cornflowerblue;
-    border: 1px solid;
-    border-radius: 7px;
-">
-    <input id="button_delete" type="button" onclick="b_delete()" value="レコード削除" style="
-    width: 300px;
-    font-size: 30px;
-    background: cornflowerblue;
-    border: 1px solid;
-    border-radius: 7px;
-">
-</div>
+
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <script>
     const select = document.getElementById("csvLine");
@@ -354,13 +324,13 @@ if (@$_POST['submit']) {
         }
         admin = "admin;BUD管理者"
         $.ajax({
-            type: 'POST',
+            type: 'GET',
             url: 'web_among_uploads.php',
             async:false,
             dataType: "text",
             data: ({csvcontentList:str,s_logininfo:admin}),
             success: function(response){
-                alert('アップロード成功しました');
+                alert('success:' + '提交成功');
                 var res = JSON.parse(response)
                 showError(res)
                 var success = res[0]
@@ -370,10 +340,10 @@ if (@$_POST['submit']) {
                 const e_l = error.length
                 const r_l = repeat.length
                 const sum = s_l + e_l + r_l;
-                summarize.innerHTML = '総計：' + sum + '；成功：' + s_l + '；失敗：' + e_l + '；重複：' + r_l;
+                summarize.innerHTML = '总计：' + sum + '；成功：' + s_l + '；失败：' + e_l + '；重复：' + r_l;
             },
             error: function (response){
-                alert('error:' + 'アップロードが失敗しました。');
+                alert('error:' + '提交失败');
             }
         });
     }
@@ -398,13 +368,13 @@ if (@$_POST['submit']) {
         }
         admin = "admin;BUD管理者"
         $.ajax({
-            type: 'POST',
+            type: 'GET',
             url: 'web_among_uploads.php',
             async:false,
             dataType: "text",
             data: ({csvcontentList:str,s_logininfo:admin}),
             success: function(response){
-                alert('アップロード成功しました');
+                alert('success:' + '提交成功');
                 var res = JSON.parse(response)
                 showError(res)
                 var success = res[0]
@@ -414,10 +384,10 @@ if (@$_POST['submit']) {
                 const e_l = error.length
                 const r_l = repeat.length
                 const sum = s_l + e_l + r_l;
-                summarize.innerHTML = '総計：' + sum + '；成功：' + s_l + '；失敗：' + e_l + '；重複：' + r_l;
+                summarize.innerHTML = '总计：' + sum + '；成功：' + s_l + '；失败：' + e_l + '；重复：' + r_l;
             },
             error: function (response){
-                alert('error:' + 'アップロードが失敗しました。');
+                alert('error:' + '提交失败');
             }
         });
     }
@@ -434,10 +404,10 @@ if (@$_POST['submit']) {
         var error = res[1]
         var repeat = res[2]
         for(let i=0;i<error.length;i++){
-            errorData.innerHTML += '<option>失敗：'+error[i]+'</option>';
+            errorData.innerHTML += '<option>失败：'+error[i]+'</option>';
         }
         for(let i=0;i<repeat.length;i++){
-            errorData.innerHTML += '<option>重複：'+repeat[i]+'</option>';
+            errorData.innerHTML += '<option>重复：'+repeat[i]+'</option>';
         }
     }
     function clearError(){
@@ -445,9 +415,8 @@ if (@$_POST['submit']) {
             errorData.options[i].remove(0);
         }
     }
-    function csvLineChange(){
-        //let path = "../photo_db/webLimited/" + select.options[select.selectedIndex].text
-        let path = "./webLimited/" + select.options[select.selectedIndex].text
+    select.addEventListener("change", () => {
+        let path = "../limited/" + select.options[select.selectedIndex].text
         imgurl.src = path;
         var csvList = <?php
             $str = json_encode($csvList);
@@ -463,6 +432,7 @@ if (@$_POST['submit']) {
                 document.getElementById("6").value = csvList[i][14];
                 document.getElementById("7").value = csvList[i][15];
                 document.getElementById("8").value = csvList[i][20];
+                // 需要转变格式
                 document.getElementById("9").value = csvList[i][16];
                 document.getElementById("10").value = csvList[i][9];
                 document.getElementById("11").value = csvList[i][21];
@@ -491,32 +461,5 @@ if (@$_POST['submit']) {
                 // });
             }
         }
-    }
-
-    var keyDown_SelectedIndex;
-
-    select.addEventListener("change", csvLineChange);
-
-    function handleKeyDown(event) {
-        var select = document.getElementById('csvLine');
-        var selectedIndex = select.selectedIndex;
-        keyDown_SelectedIndex = selectedIndex;
-    }
-
-    function handleKeyUp(event){
-        var select = document.getElementById('csvLine');
-        var selectedIndex = select.selectedIndex;
-        var optionsCount = select.options.length;
-        if (event.key === 'ArrowUp') {
-            if (selectedIndex === 0 && keyDown_SelectedIndex==0) {
-                select.selectedIndex = optionsCount - 1;
-                csvLineChange();
-            }
-        } else if (event.key === 'ArrowDown') {
-            if (selectedIndex === optionsCount - 1 && keyDown_SelectedIndex==optionsCount - 1) {
-                select.selectedIndex = 0;
-                csvLineChange();
-            }
-        }
-    }
+    });
 </script>

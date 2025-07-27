@@ -3120,8 +3120,7 @@ class PhotoImageDB extends PhotoImageData
 											registration_account,
 											registration_person,
 											register_date,
-											monopoly_use,
-                      						photo_server_flg
+											monopoly_use
 								) VALUES (
 											$this->publishing_situation_id,
 											$this->registration_division_id,
@@ -3137,7 +3136,7 @@ class PhotoImageDB extends PhotoImageData
 											?,?,?,?,?,
 											?,?,?,?,?,
 											?,?,?,?,?,
-											?,?,0
+											?,?
 											)";
 			$stmt = $db_link->prepare($sql);
 			if (strlen($this->photo_mno) <= 5) $this->photo_mno = "申請中";

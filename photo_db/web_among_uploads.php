@@ -1,16 +1,14 @@
 <?php
 header('Content-Type: application/json');
 require_once('soap_login_image_batch_limi2.php');
-if(!session_id()) session_start();
-
+session_start();
 $s_login_id = array_get_value($_SESSION,'login_id' ,"");
 $s_login_name = array_get_value($_SESSION,'user_name' ,"");
 $successList = [];
 $errorList = [];
 $repeatList = [];
 $DBerrorList = [];
-//$csvcontentList = $_GET["csvcontentList"];
-$csvcontentList = $_REQUEST["csvcontentList"];
+$csvcontentList = $_GET["csvcontentList"];
 //$loginInfo = $_GET["s_logininfo"];
 $loginInfo = $s_login_id.";".$s_login_name;
 $db_link = db_connect();

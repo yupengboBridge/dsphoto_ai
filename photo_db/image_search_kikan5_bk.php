@@ -1,6 +1,6 @@
 <?php
-require_once('./kikanCommon.php');
 require_once('./kikanConfig.php');
+
 $font_name = "./sazanami-gothic.ttf";
 $credit_fontsize = array(
     8,
@@ -17,16 +17,15 @@ try {
     if (isset($_REQUEST['p_photo_mno'])) {
         $p_photo_mno = $_REQUEST['p_photo_mno'];
     } else {
-        print_kikan_noimage();
+        echo file_get_contents("./parts/noimage.gif");
         return;
     }
-    
+
     $sql = "select * from photoimg where photo_mno='" . $p_photo_mno . "'";
-    
+
     $stmt = $db_link->prepare($sql);
     // SQLを実行します。
     $result = $stmt->execute();
-    
     // 実行結果をチェックします。
     if ($result == true) {
         // 実行結果がOKの場合の処理です。
@@ -40,7 +39,7 @@ try {
                 //$disp_counter->photo_mno = $p_photo_mno;
                 //$disp_counter->disp_date = $now;
                 //$disp_counter->update_data($db_link);
-                
+
                 $tmp1 = $img['photo_filename_th7'];
                 if (! empty($tmp1)) {
                     $ipos = strpos($tmp1, "./");
@@ -73,7 +72,7 @@ try {
                                 if (strlen($fileName) > 0) {
                                     $newFile = $newFilePath . $fileName;
                                     if (fileExitOrNo($newFilePath, $fileName)) {
-                                        print_kikan_image('jpeg',$newFile);
+                                        echo @file_get_contents($newFile);
                                         return;
                                     }
                                     // yupengbo modify start 20120203
@@ -81,13 +80,13 @@ try {
                                     if ((int) $imgWidth == 400 && (int) $imgHeight == 0) {
                                         $tmp2_1 = $img['photo_filename_th1'];
                                         $tmp2_2 = substr($tmp2_1, 0);
-                                        print_kikan_image('jpeg',$tmp2_2);
+                                        echo @file_get_contents($tmp2_2);
                                         return;
                                         // 横幅のみ固定された場合 200pxとＳａｍｐｌｅクレジット無し画像を取得
                                     } elseif ((int) $imgWidth == 200 && (int) $imgHeight == 0) {
                                         $tmp2_1 = $img['photo_filename_th2'];
                                         $tmp2_2 = substr($tmp2_1, 0);
-                                        print_kikan_image('jpeg',$tmp2_2);
+                                        echo @file_get_contents($tmp2_2);
                                         return;
                                     } else {
                                         $tmp2_1 = $img['photo_filename'];
@@ -105,33 +104,18 @@ try {
                                     changeImageHeightWidth($tmp2_2, $newFile, $imgHeight, $imgWidth, $img['additional_constraints1']);
                                     // yupengbo modify end 20120203
                                     $binary = file_get_contents($newFile);
-									if ($binary != null) {
-                                        print_kikan_image('byte',$newFile);
-										return;
-									}
-                                }
-                            } else {
-                                $webp = strpos($_SERVER['HTTP_ACCEPT'], 'image/webp');
-                                define('IS_WEBP', $webp === false ? 0 : 1);
-                                
-                                // 原始图片路径
-                                $original_url = $tmp2;
-                                            
-                                if(!empty($original_url)){
-                                    // 构造 .webp 的 URL（从原始 URL 转换）
-                                    $path_info = pathinfo($original_url);
-                                    $l_webp_path = $path_info['dirname'] . '/' . $path_info['filename'] . '.webp';
-
-                                    // 构造本地的文件路径
-                                    $l_jpg_file_path = '../'.explode($_SERVER['SERVER_NAME'], $original_url)[1];
-                                    $l_webp_file_path = '../'.explode($_SERVER['SERVER_NAME'], $l_webp_path)[1];
-
-                                    if (IS_WEBP && file_exists($l_webp_file_path)) {
-                                        print_kikan_image("webp", $l_webp_path);
-                                    } else if (file_exists($l_jpg_file_path)) {
-                                        print_kikan_image("jpeg", $original_url);
+                                    if ($binary != null) {
+                                        echo $binary;
+                                        return;
                                     }
                                 }
+                            } else {
+                                getKikan4Image();
+//                                $binary = file_get_contents($tmp2);
+//                                if ($binary != null) {
+//                                    echo $binary;
+//                                    return;
+//                                }
                             }
                         }
                     }
@@ -139,11 +123,11 @@ try {
             }
         }
     }
-	// th7没有图片时，使用kikan4的原图加水印
-	getKikan4Image();
+    // th7没有图片时，使用kikan4的原图加水印
+    getKikan4Image();
 } catch (Exception $e) {
     // th7没有图片时，使用kikan4的原图加水印
-	getKikan4Image();
+    getKikan4Image();
 }
 
 /**
@@ -151,25 +135,23 @@ try {
  */
 function getKikan4Image()
 {
-    global $kikan_root_dir_photo_db, $kikan_root_dir_cms_photo_image;
-
     try {
         // ＤＢへ接続します。
         $db_link = db_connect();
         if (isset($_REQUEST['p_photo_mno'])) {
             $p_photo_mno = $_REQUEST['p_photo_mno'];
         } else {
-            print_kikan_noimage();
+            echo file_get_contents("./parts/noimage.gif");
             return;
         }
-        
-        $sql = "select pi.dfrom, pi.dto, pd.image1,pi.photo_filename, pi.additional_constraints1, pi.image_size_x, pi.image_size_y" . " from photoimg as pi inner join photo_imgdata as pd on pi.photo_id = pd.photo_id where pi.photo_mno=?";
-        
+
+        $sql = "select pi.dfrom, pi.dto, pd.image1, pi.additional_constraints1, pi.image_size_x, pi.image_size_y" . " from photoimg as pi inner join photo_imgdata as pd on pi.photo_id = pd.photo_id where pi.photo_mno=?";
+
         $stmt = $db_link->prepare($sql);
         $stmt->bindParam(1, $p_photo_mno);
         // SQLを実行します。
         $result = $stmt->execute();
-        
+
         // 実行結果をチェックします。
         if ($result == true) {
             // 実行結果がOKの場合の処理です。
@@ -183,155 +165,87 @@ function getKikan4Image()
                     //$disp_counter->photo_mno = $p_photo_mno;
                     //$disp_counter->disp_date = $now;
                     //$disp_counter->update_data($db_link);
-                    
-                    $tmp1 = $img['photo_filename'];
-                    
+
+                    $tmp1 = $img['image1'];
+
                     //是否生成新图片——2017-2-16
                     $create_new_image = false;
-                    
+
                     // liukeyu add strat 20110905
                     if (isset($_REQUEST['x']) && isset($_REQUEST['y']) && is_numeric($_REQUEST['x']) && is_numeric($_REQUEST['y']) && (int) $_REQUEST['x'] > 0 && (int) $_REQUEST['y'] > 0) {
                         $imgWidth = $_REQUEST['x'];
                         $imgHeight = $_REQUEST['y'];
-                        
+
                         $create_new_image = true;
                     } else if (!empty($img['additional_constraints1'])) {
                         $imgWidth = $img['image_size_x'];
                         $imgHeight = $img['image_size_y'];
-                        
+
                         $create_new_image = true;
                     }
-                    
+
                     if ($create_new_image) {
                         $newFilePath = "./change/";
-                        
+
                         mkdirs($newFilePath);
                         $fileName = getNewImageName($p_photo_mno, $imgWidth, $imgHeight);
                         if (strlen($fileName) > 0) {
                             $newFile = $newFilePath . $fileName;
-                            $newWebpFile = $newFilePath . pathinfo($fileName, PATHINFO_FILENAME) . '.webp';
-                            
-                            // WEBP画像が既に存在する場合は直接表示
-                            if (fileExitOrNo($newFilePath, pathinfo($fileName, PATHINFO_FILENAME) . '.webp')) {
-                                print_kikan_image('webp', $newWebpFile);
-                                return;
-                            }
-                            
-                            // JPG画像が既に存在する場合は直接表示
                             if (fileExitOrNo($newFilePath, $fileName)) {
-                                print_kikan_image('jpeg', $newFile);
+                                echo @file_get_contents($newFile);
                                 return;
                             }
-                            
+
                             $file_dir = $newFilePath . $fileName;
-                            if (preg_match('#(\./uploads/\d+/[^/]+\.\w+)$#', $tmp1, $matches)) {
-                                $relativePath = $matches[1];
-                                $relativePath = ltrim($relativePath, '.');
-
-                                // cms_photo_imageを含む場合は$kikan_root_dir_cms_photo_imageを使用
-                                if (strpos($tmp1, 'cms_photo_image') !== false) {
-                                    $photo_file_name_real_path = $kikan_root_dir_cms_photo_image.$relativePath;
-                                } else {
-                                    $photo_file_name_real_path = $kikan_root_dir_photo_db.$relativePath;
-                                }
-
-                                if (copy($photo_file_name_real_path, $file_dir)) {
-                                    changeImageHeightWidth($file_dir, $newFile, $imgHeight, $imgWidth, $img['additional_constraints1']);
-                                    
-                                    // WEBP画像を作成
-                                    $image = imagecreatefromjpeg($newFile);
-                                    if ($image !== false) {
-                                        imagewebp($image, $newWebpFile, 80);
-                                        imagedestroy($image);
-                                    }
-                                    
-                                    // WEBP画像が作成できた場合はWEBPを表示、できなかった場合はJPGを表示
-                                    if (file_exists($newWebpFile)) {
-                                        print_kikan_image('webp', $newWebpFile);
-                                    } else {
-                                        print_kikan_image('jpeg', $newFile);
-                                    }
-                                    return;
-                                }
-                            }
-                        }
-                    }else{
-                        // URLパスの場合の処理
-                        if (preg_match('#(\./uploads/\d+/[^/]+\.\w+)$#', $tmp1, $matches)) {
-                            $relativePath = $matches[1];
-                            $relativePath = ltrim($relativePath, '.');
-
-                            // cms_photo_imageを含む場合は$kikan_root_dir_cms_photo_imageを使用
-                            if (strpos($tmp1, 'cms_photo_image') !== false) {
-                                $photo_file_name_real_path = $kikan_root_dir_cms_photo_image.$relativePath;
-                            } else {
-                                $photo_file_name_real_path = $kikan_root_dir_photo_db.$relativePath;
-                            }
-
-                            // WEBPファイルのパスを生成
-                            $webpPath = pathinfo($photo_file_name_real_path, PATHINFO_DIRNAME) . '/' . pathinfo($photo_file_name_real_path, PATHINFO_FILENAME) . '.webp';
-
-                            // WEBPファイルが存在する場合は表示
-                            if (file_exists($webpPath)) {
-                                print_kikan_image('webp', $webpPath);
-                                return;
-                            }
-
-                            // WEBPファイルがなければ作成
-                            $image = imagecreatefromjpeg($photo_file_name_real_path);
-                            if ($image !== false) {
-                                imagewebp($image, $webpPath, 80);
-                                imagedestroy($image);
-                                if (file_exists($webpPath)) {
-                                    print_kikan_image('webp', $webpPath);
-                                    return;
+                            if (! ! ($fp = fopen($file_dir, 'w'))) {
+                                if (fwrite($fp, $tmp1)) {
+                                    fclose($fp);
                                 }
                             }
 
-                            // 失敗した場合はJPGを表示
-                            print_kikan_image('jpeg', $photo_file_name_real_path);
-                            return;
-                        } else {
-                            // URLパスでない場合は元の画像を表示
-                            print_kikan_image('jpeg', $tmp1);
+                            changeImageHeightWidth($file_dir, $newFile, $imgHeight, $imgWidth, $img['additional_constraints1']);
+                            echo @file_get_contents($newFile);
                             return;
                         }
                     }
+
+                    echo $tmp1;
+                    return;
                 }
             }
         }
-        print_kikan_noimage();
+        echo file_get_contents("./parts/noimage.gif");
     } catch (Exception $e) {
-        print_kikan_noimage();
+        echo file_get_contents("./parts/noimage.gif");
     }
 }
 
 function db_connect()
 {
     global $db_host, $db_name, $db_user, $db_password, $db_charset, $is_connect, $db_link;
-    
+
     $is_connect = false;
-    
+
     // パスワード以外が空の場合はエラーとします。
     if (empty($db_host) || empty($db_name) || empty($db_user) || empty($db_charset)) {
         $err_message = "データベース情報に不備があります。";
         throw new Exception($err_message);
     }
     // データベースキャラクターセットのチェックをします。（省略）
-    
+
     // データベースに接続します。
     $hostdb = "mysql:host=" . $db_host . "; dbname=" . $db_name;
     $pdo = new PDO($hostdb, $db_user, $db_password);
-    
+
     // 使用するキャラクターセットを設定します。
     // $sql = "set character SET :DBCHAR";
     $sql = "set names :DBCHAR";
     $stmt = $pdo->prepare($sql);
     $stmt->bindValue(':DBCHAR', $db_charset);
     $result = $stmt->execute();
-    
+
     $is_connect = $result;
-    
+
     // PDOのインスタンスを返します。
     return $pdo;
 }
@@ -355,15 +269,16 @@ function mkdirs($path, $mode = 0777)
  * image change size
  * liukeyu add 20110728
  *
- * @param unknown_type $fileName            
- * @param unknown_type $newFileName            
- * @param unknown_type $height            
- * @param unknown_type $width            
+ * @param unknown_type $fileName
+ * @param unknown_type $newFileName
+ * @param unknown_type $height
+ * @param unknown_type $width
  * @param
  *            cre_str クレジット
  */
 function changeImageHeightWidth($fileName, $newFileName, $height, $width, $cre_str)
 {
+    // $cre_str = "668=_=8584=_=15754=_=87=_=87=_=74";
     $font_size = decide_fontsize($width);
     list ($imageWidth, $imageHeight, $type, $attr) = @getimagesize($fileName);
     $image_p = @imagecreatetruecolor($width, $height);
@@ -403,7 +318,7 @@ function changeImageHeightWidth($fileName, $newFileName, $height, $width, $cre_s
 function decide_fontsize($thwidth)
 {
     global $credit_fontsize;
-    
+
     // クレジット書込用フォントサイズが設定されているかチェックします。
     if (count($credit_fontsize) < 6) {
         $this->result = false;
@@ -413,22 +328,22 @@ function decide_fontsize($thwidth)
     // クレジット書込用フォントサイズを決定します。
     if ($thwidth <= 160) {
         $font_size = $credit_fontsize[0];
-    } else 
+    } else
         if ($thwidth <= 320) {
             $font_size = $credit_fontsize[1];
-        } else 
+        } else
             if ($thwidth <= 480) {
                 $font_size = $credit_fontsize[2];
-            } else 
+            } else
                 if ($thwidth <= 640) {
                     $font_size = $credit_fontsize[3];
-                } else 
+                } else
                     if ($thwidth <= 800) {
                         $font_size = $credit_fontsize[4];
                     } else {
                         $font_size = $credit_fontsize[5];
                     }
-    
+
     return $font_size;
 }
 
@@ -438,10 +353,10 @@ function write_credit($img, $cre_str, $fsize, $width_i, $height_i)
     // クレジット書き込み用の設定を行います。
     // 書き込み角度を設定します。
     $font_angle = 0;
-    
+
     // GD環境情報を取得します。
     $arrInfo = gd_info();
-    
+
     // 書き込むクレジットを設定します。
     $telop_text = "";
     if ($arrInfo['JIS-mapped Japanese Font Support']) {
@@ -452,38 +367,38 @@ function write_credit($img, $cre_str, $fsize, $width_i, $height_i)
         // GDが対応していない場合はUTF-8へ変換します。（UTF-8に変換しない場合、文字化けします。）
         $telop_text = mb_convert_encoding($cre_str, "UTF-8", "auto");
     }
-    $telop_texts = preg_split('=_=', $telop_text);
+    $telop_texts = split('=_=', $telop_text);
     $str_len = count($telop_texts);
     if (strlen($telop_texts[0]) > 0 && count($telop_texts) >=2 && strlen($telop_texts[1]) > 0) {
         for ($i = 2; $i > 0; $i --) {
             // 半透明のグレーバック表示位置
             $alpha_x1 = 5;
             $alpha_x2 = $width_i - 5;
-            
+
             $alpha_y1 = $height_i - ($fsize + 10) - 5;
             if ($i == 2)
                 $alpha_y1 = $height_i - ($fsize + 10) - 25;
             $alpha_y2 = $height_i - 5;
-            
+
             // クレジット書き込み位置
             $tx = $alpha_x1 + 5;
             $ty = $alpha_y1 + $fsize + 5;
-            
+
             // テキストカラー（黒）
             $font_color_b = ImageColorAllocate($img, 0, 0, 0);
             // テキストカラー（白）
             $font_color_w = ImageColorAllocate($img, 255, 255, 255);
             // アルファチャンネル（グレー）
             $alpha = imagecolorallocatealpha($img, 0, 0, 0, 90);
-            
+
             // 画像の一部を透かしイメージにします。
             imagefilledrectangle($img, $alpha_x1, $alpha_y1, $alpha_x2, $alpha_y2, $alpha);
-            
+
             if ($i == 2)
                 $tmp_telop_text = mb_substr($telop_texts[0], 0, 20, "utf-8");
             if ($i == 1)
                 $tmp_telop_text = mb_substr($telop_texts[1], 0, 20, "utf-8");
-                // テキスト描画
+            // テキスト描画
             ImageTTFText($img, $fsize, $font_angle, $tx, $ty, $font_color_w, $font_name, $tmp_telop_text);
             ImageTTFText($img, $fsize, $font_angle, $tx, $ty, $font_color_w, $font_name, $tmp_telop_text);
         }
@@ -492,24 +407,24 @@ function write_credit($img, $cre_str, $fsize, $width_i, $height_i)
         $telop_text = str_replace("=_=", "", $telop_text);
         $alpha_x1 = 5;
         $alpha_x2 = $width_i - 5;
-        
+
         $alpha_y1 = $height_i - ($fsize + 10) - 5;
         $alpha_y2 = $height_i - 5;
-        
+
         // クレジット書き込み位置
         $tx = $alpha_x1 + 5;
         $ty = $alpha_y1 + $fsize + 5;
-        
+
         // テキストカラー（黒）
         $font_color_b = ImageColorAllocate($img, 0, 0, 0);
         // テキストカラー（白）
         $font_color_w = ImageColorAllocate($img, 255, 255, 255);
         // アルファチャンネル（グレー）
         $alpha = imagecolorallocatealpha($img, 0, 0, 0, 90);
-        
+
         // 画像の一部を透かしイメージにします。
         imagefilledrectangle($img, $alpha_x1, $alpha_y1, $alpha_x2, $alpha_y2, $alpha);
-        
+
         // テキスト描画
         ImageTTFText($img, $fsize, $font_angle, $tx, $ty, $font_color_w, $font_name, $telop_text);
         ImageTTFText($img, $fsize, $font_angle, $tx, $ty, $font_color_w, $font_name, $telop_text);
@@ -560,7 +475,7 @@ function getFiveStr($str)
 {
     $str_name = "";
     $len = strlen($str);
-    
+
     if ($len < 5) {
         for ($i = 0; $i < (5 - (int) $len); $i ++) {
             $str_name .= "0";
@@ -635,12 +550,12 @@ class DispCounter
             $this->counter = $sp_counter;
         }
     }
-    
+
     /*
      * 関数名：isExitsCheck
      * 関数説明：画像管理番号があるかどうかチェックする
      * パラメタ：
-     * db_link:	データベースのリンク
+     * db_link: データベースのリンク
      * 戻り値：true/false
      */
     function isExitsCheck($db_link)
@@ -649,7 +564,7 @@ class DispCounter
         $sql = "SELECT * FROM disp_counter ";
         $sql .= " WHERE photo_mno = \"" . $this->photo_mno . "\"";
         $sql .= " AND disp_date = \"" . $this->disp_date . "\"";
-        
+
         $stmt = $db_link->prepare($sql);
         $result = $stmt->execute();
         if ($result == true) {
@@ -669,12 +584,12 @@ class DispCounter
             return - 1;
         }
     }
-    
+
     /*
      * 関数名：select_data1
      * 関数説明：画像表示回数を検索する
      * パラメタ：
-     * db_link:	データベースのリンク
+     * db_link: データベースのリンク
      * 戻り値：true/false
      */
     function select_data1($db_link)
@@ -683,12 +598,12 @@ class DispCounter
         $sql = "SELECT photo_mno,sum(counter) cnt FROM disp_counter ";
         $sql .= " GROUP BY photo_mno";
         $sql .= " ORDER BY cnt DESC";
-        
+
         $stmt = $db_link->prepare($sql);
         $result = $stmt->execute();
         if ($result == true) {
             $this->disp_cnt_ary = array();
-            
+
             while (! ! ($dp_cn = $stmt->fetch(PDO::FETCH_ASSOC))) {
                 $tmp_disp = new DispCounter();
                 $tmp_disp->photo_mno = $dp_cn['photo_mno'];
@@ -704,12 +619,12 @@ class DispCounter
             return - 1;
         }
     }
-    
+
     /*
      * 関数名：select_data2
      * 関数説明：画像表示回数を検索する
      * パラメタ：
-     * db_link:	データベースのリンク
+     * db_link: データベースのリンク
      * 戻り値：true/false
      */
     function select_data2($db_link)
@@ -718,12 +633,12 @@ class DispCounter
         $sql = "SELECT photo_mno,sum(counter) cnt,disp_date FROM disp_counter ";
         $sql .= " GROUP BY disp_date,photo_mno";
         $sql .= " ORDER BY disp_date,cnt DESC,photo_mno";
-        
+
         $stmt = $db_link->prepare($sql);
         $result = $stmt->execute();
         if ($result == true) {
             $this->disp_cnt_ary = array();
-            
+
             while (! ! ($dp_cn = $stmt->fetch(PDO::FETCH_ASSOC))) {
                 $tmp_disp = new DispCounter();
                 $tmp_disp->photo_mno = $dp_cn['photo_mno'];
@@ -740,7 +655,7 @@ class DispCounter
             return - 1;
         }
     }
-    
+
     /*
      * 関数名：insert_data
      * 関数説明：画像の表示回数をテーブルに登録します。
@@ -756,7 +671,7 @@ class DispCounter
         $sql .= "\"" . $this->disp_date . "\","; // 画像表示日付
         $sql .= "1"; // カウント
         $sql .= ");";
-        
+
         $stmt = $db_link->prepare($sql);
         $result = $stmt->execute();
         if ($result == true) {
@@ -773,7 +688,7 @@ class DispCounter
             throw new Exception($msg);
         }
     }
-    
+
     /*
      * 関数名 ：update_data
      * 関数説明：画像の表示回数を更新します。
@@ -783,29 +698,29 @@ class DispCounter
      */
     function update_data($db_link)
     {
-    //    // 新規するかどうかチェックする
-    //    $insert_flg = $this->isExitsCheck($db_link);
-    //    // 存在しない場合
-    //    if ((int) $insert_flg == 0) {
-    //        $this->insert_data($db_link);
-    //        // 存在した場合
-    //    } else 
-    //        if ((int) $insert_flg > 0) {
-    //            // 更新のSQL文
-    //            $sql = "UPDATE disp_counter SET ";
-    //            $sql .= "counter = counter + 1";
-    //            $sql .= " WHERE photo_mno = \"" . $this->photo_mno . "\"";
-    //            $sql .= " AND disp_date = \"" . $this->disp_date . "\"";
-    //            
-    //            $stmt = $db_link->prepare($sql);
-    //            $result = $stmt->execute();
-    //            if ($result == false) {
-    //                $msg = "画像の表示回数をDBに更新できませんでした。（条件設定エラー）";
-    //                // 例外をスローします。
-    //                // $msg = $e->getMessage();
-    //                throw new Exception($msg);
-    //            }
-    //        }
+        //    // 新規するかどうかチェックする
+        //    $insert_flg = $this->isExitsCheck($db_link);
+        //    // 存在しない場合
+        //    if ((int) $insert_flg == 0) {
+        //        $this->insert_data($db_link);
+        //        // 存在した場合
+        //    } else
+        //        if ((int) $insert_flg > 0) {
+        //            // 更新のSQL文
+        //            $sql = "UPDATE disp_counter SET ";
+        //            $sql .= "counter = counter + 1";
+        //            $sql .= " WHERE photo_mno = \"" . $this->photo_mno . "\"";
+        //            $sql .= " AND disp_date = \"" . $this->disp_date . "\"";
+
+        //            $stmt = $db_link->prepare($sql);
+        //            $result = $stmt->execute();
+        //            if ($result == false) {
+        //                $msg = "画像の表示回数をDBに更新できませんでした。（条件設定エラー）";
+        //                // 例外をスローします。
+        //                // $msg = $e->getMessage();
+        //                throw new Exception($msg);
+        //            }
+        //        }
     }
 }
 ?>

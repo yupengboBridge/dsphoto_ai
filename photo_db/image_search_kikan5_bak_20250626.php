@@ -1,5 +1,5 @@
 <?php
-require_once('./kikanCommon.php');
+header("Content-type: image/jpeg; charset=UTF-8");
 require_once('./kikanConfig.php');
 $font_name = "./sazanami-gothic.ttf";
 $credit_fontsize = array(
@@ -17,7 +17,7 @@ try {
     if (isset($_REQUEST['p_photo_mno'])) {
         $p_photo_mno = $_REQUEST['p_photo_mno'];
     } else {
-        print_kikan_noimage();
+        echo file_get_contents("./parts/noimage.gif");
         return;
     }
     
@@ -73,7 +73,7 @@ try {
                                 if (strlen($fileName) > 0) {
                                     $newFile = $newFilePath . $fileName;
                                     if (fileExitOrNo($newFilePath, $fileName)) {
-                                        print_kikan_image('jpeg',$newFile);
+                                        echo @file_get_contents($newFile);
                                         return;
                                     }
                                     // yupengbo modify start 20120203
@@ -81,13 +81,13 @@ try {
                                     if ((int) $imgWidth == 400 && (int) $imgHeight == 0) {
                                         $tmp2_1 = $img['photo_filename_th1'];
                                         $tmp2_2 = substr($tmp2_1, 0);
-                                        print_kikan_image('jpeg',$tmp2_2);
+                                        echo @file_get_contents($tmp2_2);
                                         return;
                                         // 横幅のみ固定された場合 200pxとＳａｍｐｌｅクレジット無し画像を取得
                                     } elseif ((int) $imgWidth == 200 && (int) $imgHeight == 0) {
                                         $tmp2_1 = $img['photo_filename_th2'];
                                         $tmp2_2 = substr($tmp2_1, 0);
-                                        print_kikan_image('jpeg',$tmp2_2);
+                                        echo @file_get_contents($tmp2_2);
                                         return;
                                     } else {
                                         $tmp2_1 = $img['photo_filename'];
@@ -106,32 +106,16 @@ try {
                                     // yupengbo modify end 20120203
                                     $binary = file_get_contents($newFile);
 									if ($binary != null) {
-                                        print_kikan_image('byte',$newFile);
+										echo $binary;
 										return;
 									}
                                 }
                             } else {
-                                $webp = strpos($_SERVER['HTTP_ACCEPT'], 'image/webp');
-                                define('IS_WEBP', $webp === false ? 0 : 1);
-                                
-                                // 原始图片路径
-                                $original_url = $tmp2;
-                                            
-                                if(!empty($original_url)){
-                                    // 构造 .webp 的 URL（从原始 URL 转换）
-                                    $path_info = pathinfo($original_url);
-                                    $l_webp_path = $path_info['dirname'] . '/' . $path_info['filename'] . '.webp';
-
-                                    // 构造本地的文件路径
-                                    $l_jpg_file_path = '../'.explode($_SERVER['SERVER_NAME'], $original_url)[1];
-                                    $l_webp_file_path = '../'.explode($_SERVER['SERVER_NAME'], $l_webp_path)[1];
-
-                                    if (IS_WEBP && file_exists($l_webp_file_path)) {
-                                        print_kikan_image("webp", $l_webp_path);
-                                    } else if (file_exists($l_jpg_file_path)) {
-                                        print_kikan_image("jpeg", $original_url);
-                                    }
-                                }
+                                $binary = file_get_contents($tmp2);
+								if ($binary != null) {
+									echo $binary;
+									return;
+								}
                             }
                         }
                     }
@@ -151,19 +135,17 @@ try {
  */
 function getKikan4Image()
 {
-    global $kikan_root_dir_photo_db, $kikan_root_dir_cms_photo_image;
-
     try {
         // ＤＢへ接続します。
         $db_link = db_connect();
         if (isset($_REQUEST['p_photo_mno'])) {
             $p_photo_mno = $_REQUEST['p_photo_mno'];
         } else {
-            print_kikan_noimage();
+            echo file_get_contents("./parts/noimage.gif");
             return;
         }
         
-        $sql = "select pi.dfrom, pi.dto, pd.image1,pi.photo_filename, pi.additional_constraints1, pi.image_size_x, pi.image_size_y" . " from photoimg as pi inner join photo_imgdata as pd on pi.photo_id = pd.photo_id where pi.photo_mno=?";
+        $sql = "select pi.dfrom, pi.dto, pd.image1, pi.additional_constraints1, pi.image_size_x, pi.image_size_y" . " from photoimg as pi inner join photo_imgdata as pd on pi.photo_id = pd.photo_id where pi.photo_mno=?";
         
         $stmt = $db_link->prepare($sql);
         $stmt->bindParam(1, $p_photo_mno);
@@ -184,125 +166,57 @@ function getKikan4Image()
                     //$disp_counter->disp_date = $now;
                     //$disp_counter->update_data($db_link);
                     
-                    $tmp1 = $img['photo_filename'];
-                    
-                    //是否生成新图片——2017-2-16
-                    $create_new_image = false;
-                    
+                    $tmp1 = $img['image1'];
+					
+					//是否生成新图片——2017-2-16
+					$create_new_image = false;
+					
                     // liukeyu add strat 20110905
                     if (isset($_REQUEST['x']) && isset($_REQUEST['y']) && is_numeric($_REQUEST['x']) && is_numeric($_REQUEST['y']) && (int) $_REQUEST['x'] > 0 && (int) $_REQUEST['y'] > 0) {
                         $imgWidth = $_REQUEST['x'];
                         $imgHeight = $_REQUEST['y'];
-                        
-                        $create_new_image = true;
+						
+						$create_new_image = true;
                     } else if (!empty($img['additional_constraints1'])) {
-                        $imgWidth = $img['image_size_x'];
-                        $imgHeight = $img['image_size_y'];
-                        
-                        $create_new_image = true;
+						$imgWidth = $img['image_size_x'];
+						$imgHeight = $img['image_size_y'];
+						
+						$create_new_image = true;
                     }
-                    
-                    if ($create_new_image) {
-                        $newFilePath = "./change/";
-                        
-                        mkdirs($newFilePath);
-                        $fileName = getNewImageName($p_photo_mno, $imgWidth, $imgHeight);
-                        if (strlen($fileName) > 0) {
-                            $newFile = $newFilePath . $fileName;
-                            $newWebpFile = $newFilePath . pathinfo($fileName, PATHINFO_FILENAME) . '.webp';
-                            
-                            // WEBP画像が既に存在する場合は直接表示
-                            if (fileExitOrNo($newFilePath, pathinfo($fileName, PATHINFO_FILENAME) . '.webp')) {
-                                print_kikan_image('webp', $newWebpFile);
-                                return;
-                            }
-                            
-                            // JPG画像が既に存在する場合は直接表示
-                            if (fileExitOrNo($newFilePath, $fileName)) {
-                                print_kikan_image('jpeg', $newFile);
-                                return;
-                            }
-                            
-                            $file_dir = $newFilePath . $fileName;
-                            if (preg_match('#(\./uploads/\d+/[^/]+\.\w+)$#', $tmp1, $matches)) {
-                                $relativePath = $matches[1];
-                                $relativePath = ltrim($relativePath, '.');
-
-                                // cms_photo_imageを含む場合は$kikan_root_dir_cms_photo_imageを使用
-                                if (strpos($tmp1, 'cms_photo_image') !== false) {
-                                    $photo_file_name_real_path = $kikan_root_dir_cms_photo_image.$relativePath;
-                                } else {
-                                    $photo_file_name_real_path = $kikan_root_dir_photo_db.$relativePath;
-                                }
-
-                                if (copy($photo_file_name_real_path, $file_dir)) {
-                                    changeImageHeightWidth($file_dir, $newFile, $imgHeight, $imgWidth, $img['additional_constraints1']);
-                                    
-                                    // WEBP画像を作成
-                                    $image = imagecreatefromjpeg($newFile);
-                                    if ($image !== false) {
-                                        imagewebp($image, $newWebpFile, 80);
-                                        imagedestroy($image);
-                                    }
-                                    
-                                    // WEBP画像が作成できた場合はWEBPを表示、できなかった場合はJPGを表示
-                                    if (file_exists($newWebpFile)) {
-                                        print_kikan_image('webp', $newWebpFile);
-                                    } else {
-                                        print_kikan_image('jpeg', $newFile);
-                                    }
-                                    return;
-                                }
-                            }
-                        }
-                    }else{
-                        // URLパスの場合の処理
-                        if (preg_match('#(\./uploads/\d+/[^/]+\.\w+)$#', $tmp1, $matches)) {
-                            $relativePath = $matches[1];
-                            $relativePath = ltrim($relativePath, '.');
-
-                            // cms_photo_imageを含む場合は$kikan_root_dir_cms_photo_imageを使用
-                            if (strpos($tmp1, 'cms_photo_image') !== false) {
-                                $photo_file_name_real_path = $kikan_root_dir_cms_photo_image.$relativePath;
-                            } else {
-                                $photo_file_name_real_path = $kikan_root_dir_photo_db.$relativePath;
-                            }
-
-                            // WEBPファイルのパスを生成
-                            $webpPath = pathinfo($photo_file_name_real_path, PATHINFO_DIRNAME) . '/' . pathinfo($photo_file_name_real_path, PATHINFO_FILENAME) . '.webp';
-
-                            // WEBPファイルが存在する場合は表示
-                            if (file_exists($webpPath)) {
-                                print_kikan_image('webp', $webpPath);
-                                return;
-                            }
-
-                            // WEBPファイルがなければ作成
-                            $image = imagecreatefromjpeg($photo_file_name_real_path);
-                            if ($image !== false) {
-                                imagewebp($image, $webpPath, 80);
-                                imagedestroy($image);
-                                if (file_exists($webpPath)) {
-                                    print_kikan_image('webp', $webpPath);
-                                    return;
-                                }
-                            }
-
-                            // 失敗した場合はJPGを表示
-                            print_kikan_image('jpeg', $photo_file_name_real_path);
-                            return;
-                        } else {
-                            // URLパスでない場合は元の画像を表示
-                            print_kikan_image('jpeg', $tmp1);
-                            return;
-                        }
-                    }
+					
+					if ($create_new_image) {
+						$newFilePath = "./change/";
+						
+						mkdirs($newFilePath);
+						$fileName = getNewImageName($p_photo_mno, $imgWidth, $imgHeight);
+						if (strlen($fileName) > 0) {
+							$newFile = $newFilePath . $fileName;
+							if (fileExitOrNo($newFilePath, $fileName)) {
+								echo @file_get_contents($newFile);
+								return;
+							}
+							
+							$file_dir = $newFilePath . $fileName;
+							if (! ! ($fp = fopen($file_dir, 'w'))) {
+								if (fwrite($fp, $tmp1)) {
+									fclose($fp);
+								}
+							}
+							
+							changeImageHeightWidth($file_dir, $newFile, $imgHeight, $imgWidth, $img['additional_constraints1']);
+							echo @file_get_contents($newFile);
+							return;
+						}
+					}
+					
+					echo $tmp1;
+					return;
                 }
             }
         }
-        print_kikan_noimage();
+		echo file_get_contents("./parts/noimage.gif");
     } catch (Exception $e) {
-        print_kikan_noimage();
+        echo file_get_contents("./parts/noimage.gif");
     }
 }
 
