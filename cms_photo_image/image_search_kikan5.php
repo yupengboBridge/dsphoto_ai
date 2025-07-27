@@ -193,45 +193,45 @@ function getKikan4Image()
                     //$disp_counter->update_data($db_link);
                     
                     $tmp1 = $img['photo_filename'];
-					
-					//是否生成新图片——2017-2-16
-					$create_new_image = false;
-					
+                    
+                    //是否生成新图片——2017-2-16
+                    $create_new_image = false;
+                    
                     // liukeyu add strat 20110905
                     if (isset($_REQUEST['x']) && isset($_REQUEST['y']) && is_numeric($_REQUEST['x']) && is_numeric($_REQUEST['y']) && (int) $_REQUEST['x'] > 0 && (int) $_REQUEST['y'] > 0) {
                         $imgWidth = $_REQUEST['x'];
                         $imgHeight = $_REQUEST['y'];
-						
-						$create_new_image = true;
+                        
+                        $create_new_image = true;
                     } else if (!empty($img['additional_constraints1'])) {
-						$imgWidth = $img['image_size_x'];
-						$imgHeight = $img['image_size_y'];
-						
-						$create_new_image = true;
+                        $imgWidth = $img['image_size_x'];
+                        $imgHeight = $img['image_size_y'];
+                        
+                        $create_new_image = true;
                     }
-					
-					if ($create_new_image) {
-						$newFilePath = "./change/";
-						
-						mkdirs($newFilePath);
-						$fileName = getNewImageName($p_photo_mno, $imgWidth, $imgHeight);
-						if (strlen($fileName) > 0) {
-							$newFile = $newFilePath . $fileName;
-							$newWebpFile = $newFilePath . pathinfo($fileName, PATHINFO_FILENAME) . '.webp';
-							
-							// WEBP画像が既に存在する場合は直接表示
-							if (fileExitOrNo($newFilePath, pathinfo($fileName, PATHINFO_FILENAME) . '.webp')) {
-								print_kikan_image('webp', $newWebpFile);
-								return;
-							}
-							
-							// JPG画像が既に存在する場合は直接表示
-							if (fileExitOrNo($newFilePath, $fileName)) {
-								print_kikan_image('jpeg', $newFile);
-								return;
-							}
-							
-							$file_dir = $newFilePath . $fileName;
+                    
+                    if ($create_new_image) {
+                        $newFilePath = "./change/";
+                        
+                        mkdirs($newFilePath);
+                        $fileName = getNewImageName($p_photo_mno, $imgWidth, $imgHeight);
+                        if (strlen($fileName) > 0) {
+                            $newFile = $newFilePath . $fileName;
+                            $newWebpFile = $newFilePath . pathinfo($fileName, PATHINFO_FILENAME) . '.webp';
+                            
+                            // WEBP画像が既に存在する場合は直接表示
+                            if (fileExitOrNo($newFilePath, pathinfo($fileName, PATHINFO_FILENAME) . '.webp')) {
+                                print_kikan_image('webp', $newWebpFile);
+                                return;
+                            }
+                            
+                            // JPG画像が既に存在する場合は直接表示
+                            if (fileExitOrNo($newFilePath, $fileName)) {
+                                print_kikan_image('jpeg', $newFile);
+                                return;
+                            }
+                            
+                            $file_dir = $newFilePath . $fileName;
                             if (preg_match('#(\./uploads/\d+/[^/]+\.\w+)$#', $tmp1, $matches)) {
                                 $relativePath = $matches[1];
                                 $relativePath = ltrim($relativePath, '.');
@@ -245,25 +245,25 @@ function getKikan4Image()
 
                                 if (copy($photo_file_name_real_path, $file_dir)) {
                                     changeImageHeightWidth($file_dir, $newFile, $imgHeight, $imgWidth, $img['additional_constraints1']);
-									
-									// WEBP画像を作成
-									$image = imagecreatefromjpeg($newFile);
-									if ($image !== false) {
-										imagewebp($image, $newWebpFile, 80);
-										imagedestroy($image);
-									}
-									
-									// WEBP画像が作成できた場合はWEBPを表示、できなかった場合はJPGを表示
-									if (file_exists($newWebpFile)) {
-										print_kikan_image('webp', $newWebpFile);
-									} else {
-										print_kikan_image('jpeg', $newFile);
-									}
-									return;
+                                    
+                                    // WEBP画像を作成
+                                    $image = imagecreatefromjpeg($newFile);
+                                    if ($image !== false) {
+                                        imagewebp($image, $newWebpFile, 80);
+                                        imagedestroy($image);
+                                    }
+                                    
+                                    // WEBP画像が作成できた場合はWEBPを表示、できなかった場合はJPGを表示
+                                    if (file_exists($newWebpFile)) {
+                                        print_kikan_image('webp', $newWebpFile);
+                                    } else {
+                                        print_kikan_image('jpeg', $newFile);
+                                    }
+                                    return;
                                 }
                             }
-						}
-					}else{
+                        }
+                    }else{
                         // URLパスの場合の処理
                         if (preg_match('#(\./uploads/\d+/[^/]+\.\w+)$#', $tmp1, $matches)) {
                             $relativePath = $matches[1];
@@ -305,10 +305,13 @@ function getKikan4Image()
                             return;
                         }
                     }
+                    
+                    print_kikan_image('jpeg',$tmp1);
+                    return;
                 }
             }
         }
-		print_kikan_noimage();
+        print_kikan_noimage();
     } catch (Exception $e) {
         print_kikan_noimage();
     }

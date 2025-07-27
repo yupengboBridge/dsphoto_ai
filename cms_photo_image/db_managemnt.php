@@ -1132,7 +1132,7 @@ window.onload = function()
 					<td class="dot">不許可画像リストの確認はここから</td>
 				</tr>
 				<tr>
-					<td class="btn dot"><input type="button" name="button5" id="button6" value="一括更新" onclick="parent.bottom.width='1360px';parent.bottom.location.href='./liucongxu.php'"  /></td>
+					<td class="btn dot"><input type="button" name="button5" id="button6" value="一括更新" onclick="parent.bottom.width='1360px';parent.bottom.location.href='./uploadexcel.php'" /></td>
 					<td class="dot">EXCELでデータ一括更新はここから</td>
 				</tr>
 				<tr>

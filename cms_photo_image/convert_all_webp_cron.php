@@ -20,16 +20,39 @@ if (!is_dir(LOG_DIR)) {
 $logFile = LOG_DIR . '/convert_log_' . date('Ymd') . '.log';
 
 // 最大件数（1回あたり）
-$limit = 5000;
-
+$limit = 100000;
+//update_date >= '2025-05-19 00:00:00'
 // 対象データを取得
-$sql = "SELECT photo_mno, photo_server_flg,
+/*
                photo_filename_th1, photo_filename_th2, photo_filename_th3, photo_filename_th4,
                photo_filename_th5, photo_filename_th6, photo_filename_th7, photo_filename_th8,
                photo_filename_th9, photo_filename_th10, photo_filename_th11, photo_filename_th12,
                photo_filename_th13 
+
+*/
+$sql = "SELECT photo_mno, photo_server_flg,photo_filename
         FROM " . PHOTOIMG_TABLE . " 
-        WHERE update_date < '2025-05-19 00:00:00' AND (is_all_webp=0 OR is_all_webp is null)
+        WHERE photo_mno IN(
+            '01023-LH24--00047.jpg',
+            '01023-LH24--00048.jpg',
+            '01023-LH24--00049.jpg',
+            '00000-ALLUP-362388.jpg',
+            '00000-ALLUP-362389.jpg',
+            '00000-ALLUP-362390.jpg',
+            '00000-ALLUP-362391.jpg',
+            '00000-ALLUP-362392.jpg',
+            '00000-ALLUP-362393.jpg',
+            '00000-ALLUP-362394.jpg',
+            '00000-ALLUP-362395.jpg',
+            '00000-ALLUP-362396.jpg',
+            '00155-webbn-55708.jpg',
+            '00000-ALLUP-38381.jpg',
+            '00376-webbn-31504.jpg',
+            '00376-ｗebbn-00002.jpg',
+            '00376-webbn-51294.jpg',
+            '00376-webbn-53343.jpg',
+            '00376-webbn-53344.jpg'
+        )
         ORDER BY photo_id ASC
         LIMIT :limit";
 $stmt = $db_link->prepare($sql);
@@ -52,8 +75,9 @@ foreach ($rows as $row) {
         : BASE_DIR;
 
     // サムネイルファイル13個を処理
-    for ($i = 1; $i <= 13; $i++) {
-        $field = "photo_filename_th{$i}";
+    //for ($i = 1; $i <= 13; $i++) {
+        //$field = "photo_filename_th{$i}";
+        $field = "photo_filename";
         if (!empty($row[$field])) {
             $url = $row[$field];
 
@@ -79,15 +103,20 @@ foreach ($rows as $row) {
             // webpが存在するか確認
             if (!file_exists($webpPath)) {
                 $ext = strtolower(pathinfo($fullPath, PATHINFO_EXTENSION));
+                $ext = "png";
                 $allowed = ['jpg', 'jpeg', 'png'];
 
                 if (in_array($ext, $allowed)) {
-                    $success = convertToWebp($fullPath, $webpPath, $ext);
-                    if ($success) {
-                        logMessage($logFile, "【管理番号: {$photoMno}】変換成功: $fullPath → $webpPath");
-                    } else {
-                        logMessage($logFile, "【管理番号: {$photoMno}】変換失敗: $fullPath");
-                        $allConverted = false;
+                    try{
+                        $success = convertToWebp($fullPath, $webpPath, $ext);
+                        if ($success) {
+                            logMessage($logFile, "【管理番号: {$photoMno}】変換成功: $fullPath → $webpPath");
+                        } else {
+                            logMessage($logFile, "【管理番号: {$photoMno}】変換失敗: $fullPath");
+                            $allConverted = false;
+                        }
+                    }catch(Exception $e){
+                        logMessage($logFile, "【管理番号: {$photoMno}】変換失敗: $fullPath".$e->getMessage());
                     }
                 } else {
                     logMessage($logFile, "【管理番号: {$photoMno}】未対応フォーマット: $fullPath");
@@ -95,7 +124,7 @@ foreach ($rows as $row) {
                 }
             }
         }
-    }
+    //}
 
     // すべてのファイルがwebpに変換された場合のみフラグ更新
     if ($allConverted) {
@@ -123,8 +152,7 @@ function convertToWebp($source, $destination, $ext) {
             imagesavealpha($image, true);
             break;
         case 'gif':
-            $image = imagecreatefromgif($source);
-            break;
+            return false;
         default:
             return false;
     }

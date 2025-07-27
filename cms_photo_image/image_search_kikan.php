@@ -498,221 +498,221 @@ function fileExitOrNo($filePath,$fileName)
  * クラス名：DispCounter
  * クラス説明：画像表示回数を管理する
  */
-class DispCounter
-{
-	var $message;					// メッセージ
-	var $error;						// エラー
+// class DispCounter
+// {
+// 	var $message;					// メッセージ
+// 	var $error;						// エラー
 
-	var $photo_mno;					// 画像管理番号
-	var $disp_date;					// 画像表示日付
-	var $counter;					// カウント
-	var $disp_cnt_ary;				// 画像表示回数クラス
+// 	var $photo_mno;					// 画像管理番号
+// 	var $disp_date;					// 画像表示日付
+// 	var $counter;					// カウント
+// 	var $disp_cnt_ary;				// 画像表示回数クラス
 
-	function set_photo_mno($sp_photo_mno)
-	{
-		if (!empty($sp_photo_mno))
-		{
-			$this->photo_mno = $sp_photo_mno;
-		}
-	}
+// 	function set_photo_mno($sp_photo_mno)
+// 	{
+// 		if (!empty($sp_photo_mno))
+// 		{
+// 			$this->photo_mno = $sp_photo_mno;
+// 		}
+// 	}
 
-	function set_disp_date($sp_disp_date)
-	{
-		if (!empty($sp_disp_date))
-		{
-			$this->disp_date = $sp_disp_date;
-		}
-	}
+// 	function set_disp_date($sp_disp_date)
+// 	{
+// 		if (!empty($sp_disp_date))
+// 		{
+// 			$this->disp_date = $sp_disp_date;
+// 		}
+// 	}
 
-	function set_counter($sp_counter)
-	{
-		if (!empty($sp_counter))
-		{
-			$this->counter = $sp_counter;
-		}
-	}
+// 	function set_counter($sp_counter)
+// 	{
+// 		if (!empty($sp_counter))
+// 		{
+// 			$this->counter = $sp_counter;
+// 		}
+// 	}
 
-	/*
-	 * 関数名：isExitsCheck
-	 * 関数説明：画像管理番号があるかどうかチェックする
-	 * パラメタ：
-	 * db_link:	データベースのリンク
-	 * 戻り値：true/false
-	 */
-	function isExitsCheck($db_link)
-	{
-		// 検索のSQL文
-		$sql = "SELECT * FROM disp_counter ";
-		$sql .= " WHERE photo_mno = \"" .$this->photo_mno. "\"";
-		$sql .= " AND disp_date = \"" .$this->disp_date. "\"";
+// 	/*
+// 	 * 関数名：isExitsCheck
+// 	 * 関数説明：画像管理番号があるかどうかチェックする
+// 	 * パラメタ：
+// 	 * db_link:	データベースのリンク
+// 	 * 戻り値：true/false
+// 	 */
+// 	function isExitsCheck($db_link)
+// 	{
+// 		// 検索のSQL文
+// 		$sql = "SELECT * FROM disp_counter ";
+// 		$sql .= " WHERE photo_mno = ¥"" .$this->photo_mno. "¥"";
+// 		$sql .= " AND disp_date = ¥"" .$this->disp_date. "¥"";
 
-		$stmt = $db_link->prepare($sql);
-		$result = $stmt->execute();
-		if ($result == true)
-		{
-			$dp_cn = $stmt->fetch(PDO::FETCH_ASSOC);
-			// 実行結果がOKの場合の処理です。
-			$icount = $stmt->rowCount();
-			if ($icount > 0)
-			{
-				return true;
-			} else {
-				return false;
-			}
-		} else {
-			// 実行結果がNGの場合の処理です。
-			// エラー情報をセットして、例外をスローします。
-			$err = $stmt->errorInfo();
-			throw new Exception($err);
-			return -1;
-		}
-	}
+// 		$stmt = $db_link->prepare($sql);
+// 		$result = $stmt->execute();
+// 		if ($result == true)
+// 		{
+// 			$dp_cn = $stmt->fetch(PDO::FETCH_ASSOC);
+// 			// 実行結果がOKの場合の処理です。
+// 			$icount = $stmt->rowCount();
+// 			if ($icount > 0)
+// 			{
+// 				return true;
+// 			} else {
+// 				return false;
+// 			}
+// 		} else {
+// 			// 実行結果がNGの場合の処理です。
+// 			// エラー情報をセットして、例外をスローします。
+// 			$err = $stmt->errorInfo();
+// 			throw new Exception($err);
+// 			return -1;
+// 		}
+// 	}
 
-	/*
-	 * 関数名：select_data1
-	 * 関数説明：画像表示回数を検索する
-	 * パラメタ：
-	 * db_link:	データベースのリンク
-	 * 戻り値：true/false
-	 */
-	function select_data1($db_link)
-	{
-		// 検索のSQL文
-		$sql = "SELECT photo_mno,sum(counter) cnt FROM disp_counter ";
-		$sql .= " GROUP BY photo_mno";
-		$sql .= " ORDER BY cnt DESC";
+// 	/*
+// 	 * 関数名：select_data1
+// 	 * 関数説明：画像表示回数を検索する
+// 	 * パラメタ：
+// 	 * db_link:	データベースのリンク
+// 	 * 戻り値：true/false
+// 	 */
+// 	function select_data1($db_link)
+// 	{
+// 		// 検索のSQL文
+// 		$sql = "SELECT photo_mno,sum(counter) cnt FROM disp_counter ";
+// 		$sql .= " GROUP BY photo_mno";
+// 		$sql .= " ORDER BY cnt DESC";
 
-		$stmt = $db_link->prepare($sql);
-		$result = $stmt->execute();
-		if ($result == true)
-		{
-			$this->disp_cnt_ary = array();
+// 		$stmt = $db_link->prepare($sql);
+// 		$result = $stmt->execute();
+// 		if ($result == true)
+// 		{
+// 			$this->disp_cnt_ary = array();
 
-			while ($dp_cn = $stmt->fetch(PDO::FETCH_ASSOC))
-			{
-				$tmp_disp = new DispCounter();
-				$tmp_disp->photo_mno = $dp_cn['photo_mno'];
-				$tmp_disp->counter = $dp_cn['cnt'];
-				$this->disp_cnt_ary[] = $tmp_disp;
-			}
-			return true;
-		} else {
-			// 実行結果がNGの場合の処理です。
-			// エラー情報をセットして、例外をスローします。
-			$err = $stmt->errorInfo();
-			throw new Exception($err[2]);
-			return -1;
-		}
-	}
+// 			while ($dp_cn = $stmt->fetch(PDO::FETCH_ASSOC))
+// 			{
+// 				$tmp_disp = new DispCounter();
+// 				$tmp_disp->photo_mno = $dp_cn['photo_mno'];
+// 				$tmp_disp->counter = $dp_cn['cnt'];
+// 				$this->disp_cnt_ary[] = $tmp_disp;
+// 			}
+// 			return true;
+// 		} else {
+// 			// 実行結果がNGの場合の処理です。
+// 			// エラー情報をセットして、例外をスローします。
+// 			$err = $stmt->errorInfo();
+// 			throw new Exception($err[2]);
+// 			return -1;
+// 		}
+// 	}
 
-	/*
-	 * 関数名：select_data2
-	 * 関数説明：画像表示回数を検索する
-	 * パラメタ：
-	 * db_link:	データベースのリンク
-	 * 戻り値：true/false
-	 */
-	function select_data2($db_link)
-	{
-		// 検索のSQL文
-		$sql = "SELECT photo_mno,sum(counter) cnt,disp_date FROM disp_counter ";
-		$sql .= " GROUP BY disp_date,photo_mno";
-		$sql .= " ORDER BY disp_date,cnt DESC,photo_mno";
+// 	/*
+// 	 * 関数名：select_data2
+// 	 * 関数説明：画像表示回数を検索する
+// 	 * パラメタ：
+// 	 * db_link:	データベースのリンク
+// 	 * 戻り値：true/false
+// 	 */
+// 	function select_data2($db_link)
+// 	{
+// 		// 検索のSQL文
+// 		$sql = "SELECT photo_mno,sum(counter) cnt,disp_date FROM disp_counter ";
+// 		$sql .= " GROUP BY disp_date,photo_mno";
+// 		$sql .= " ORDER BY disp_date,cnt DESC,photo_mno";
 
-		$stmt = $db_link->prepare($sql);
-		$result = $stmt->execute();
-		if ($result == true)
-		{
-			$this->disp_cnt_ary = array();
+// 		$stmt = $db_link->prepare($sql);
+// 		$result = $stmt->execute();
+// 		if ($result == true)
+// 		{
+// 			$this->disp_cnt_ary = array();
 
-			while ($dp_cn = $stmt->fetch(PDO::FETCH_ASSOC))
-			{
-				$tmp_disp = new DispCounter();
-				$tmp_disp->photo_mno = $dp_cn['photo_mno'];
-				$tmp_disp->disp_date = $dp_cn['disp_date'];
-				$tmp_disp->counter = $dp_cn['cnt'];
-				$this->disp_cnt_ary[] = $tmp_disp;
-			}
-			return true;
-		} else {
-			// 実行結果がNGの場合の処理です。
-			// エラー情報をセットして、例外をスローします。
-			$err = $stmt->errorInfo();
-			throw new Exception($err);
-			return -1;
-		}
-	}
+// 			while ($dp_cn = $stmt->fetch(PDO::FETCH_ASSOC))
+// 			{
+// 				$tmp_disp = new DispCounter();
+// 				$tmp_disp->photo_mno = $dp_cn['photo_mno'];
+// 				$tmp_disp->disp_date = $dp_cn['disp_date'];
+// 				$tmp_disp->counter = $dp_cn['cnt'];
+// 				$this->disp_cnt_ary[] = $tmp_disp;
+// 			}
+// 			return true;
+// 		} else {
+// 			// 実行結果がNGの場合の処理です。
+// 			// エラー情報をセットして、例外をスローします。
+// 			$err = $stmt->errorInfo();
+// 			throw new Exception($err);
+// 			return -1;
+// 		}
+// 	}
 
-	/*
-	 * 関数名：insert_data
-	 * 関数説明：画像の表示回数をテーブルに登録します。
-	 * パラメタ：
-	 * $db_link: データベースのリンク
-	 * 戻り値：無し
-	 */
-	function insert_data($db_link)
-	{
-		// 新規のSQL文
-		$sql = "INSERT INTO disp_counter (photo_mno, disp_date, counter) VALUES ( ";
-		$sql .= "\"".$this->photo_mno . "\",";		// 画像管理番号
-		$sql .= "\"".$this->disp_date . "\",";		// 画像表示日付
-		$sql .= "1";								// カウント
-		$sql .= ");";
+// 	/*
+// 	 * 関数名：insert_data
+// 	 * 関数説明：画像の表示回数をテーブルに登録します。
+// 	 * パラメタ：
+// 	 * $db_link: データベースのリンク
+// 	 * 戻り値：無し
+// 	 */
+// 	function insert_data($db_link)
+// 	{
+// 		// 新規のSQL文
+// 		$sql = "INSERT INTO disp_counter (photo_mno, disp_date, counter) VALUES ( ";
+// 		$sql .= "¥"".$this->photo_mno . "¥",";		// 画像管理番号
+// 		$sql .= "¥"".$this->disp_date . "¥",";		// 画像表示日付
+// 		$sql .= "1";								// カウント
+// 		$sql .= ");";
 
-		$stmt = $db_link->prepare($sql);
-		$result = $stmt->execute();
-		if ($result == true)
-		{
-			// 実行結果がOKの場合の処理です。
-			$icount = $stmt->rowCount();
-			if ($icount != 1)
-			{
-				$msg = "画像の表示回数をDBに登録できませんでした。（処理数!=1）";
-				throw new Exception($msg);
-			}
-		}
-		else
-		{
-			$msg = "画像の表示回数をDBに登録できませんでした。（条件設定エラー）";
-			// 例外をスローします。
-			//$msg = $e->getMessage();
-			throw new Exception($msg);
-		}
-	}
+// 		$stmt = $db_link->prepare($sql);
+// 		$result = $stmt->execute();
+// 		if ($result == true)
+// 		{
+// 			// 実行結果がOKの場合の処理です。
+// 			$icount = $stmt->rowCount();
+// 			if ($icount != 1)
+// 			{
+// 				$msg = "画像の表示回数をDBに登録できませんでした。（処理数!=1）";
+// 				throw new Exception($msg);
+// 			}
+// 		}
+// 		else
+// 		{
+// 			$msg = "画像の表示回数をDBに登録できませんでした。（条件設定エラー）";
+// 			// 例外をスローします。
+// 			//$msg = $e->getMessage();
+// 			throw new Exception($msg);
+// 		}
+// 	}
 
-	/*
-	 * 関数名  ：update_data
-	 * 関数説明：画像の表示回数を更新します。
-	 * パラメタ：
-	 * db_link ：データベースのリンク
-	 * 戻り値　：無し
-	 */
-	function update_data($db_link)
-	{
-	//	// 新規するかどうかチェックする
-	//	$insert_flg = $this->isExitsCheck($db_link);
-	//	// 存在しない場合
-	//	if ((int)$insert_flg == 0)
-	//	{
-	//		$this->insert_data($db_link);
-	//	// 存在した場合
-	//	} else if ((int)$insert_flg > 0) {
-	//		// 更新のSQL文
-	//		$sql = "UPDATE disp_counter SET ";
-	//		$sql .= "counter = counter + 1";
-	//		$sql .= " WHERE photo_mno = \"" .$this->photo_mno. "\"";
-	//		$sql .= " AND disp_date = \"" .$this->disp_date. "\"";
+// 	/*
+// 	 * 関数名  ：update_data
+// 	 * 関数説明：画像の表示回数を更新します。
+// 	 * パラメタ：
+// 	 * db_link ：データベースのリンク
+// 	 * 戻り値　：無し
+// 	 */
+// 	function update_data($db_link)
+// 	{
+// 	//	// 新規するかどうかチェックする
+// 	//	$insert_flg = $this->isExitsCheck($db_link);
+// 	//	// 存在しない場合
+// 	//	if ((int)$insert_flg == 0)
+// 	//	{
+// 	//		$this->insert_data($db_link);
+// 	//	// 存在した場合
+// 	//	} else if ((int)$insert_flg > 0) {
+// 	//		// 更新のSQL文
+// 	//		$sql = "UPDATE disp_counter SET ";
+// 	//		$sql .= "counter = counter + 1";
+// 	//		$sql .= " WHERE photo_mno = ¥"" .$this->photo_mno. "¥"";
+// 	//		$sql .= " AND disp_date = ¥"" .$this->disp_date. "¥"";
 
-	//		$stmt = $db_link->prepare($sql);
-	//		$result = $stmt->execute();
-	//		if ($result == false)
-	//		{
-	//			$msg = "画像の表示回数をDBに更新できませんでした。（条件設定エラー）";
-	//			// 例外をスローします。
-	//			//$msg = $e->getMessage();
-	//			throw new Exception($msg);
-	//		}
-	//	}
-	}
-}
+// 	//		$stmt = $db_link->prepare($sql);
+// 	//		$result = $stmt->execute();
+// 	//		if ($result == false)
+// 	//		{
+// 	//			$msg = "画像の表示回数をDBに更新できませんでした。（条件設定エラー）";
+// 	//			// 例外をスローします。
+// 	//			//$msg = $e->getMessage();
+// 	//			throw new Exception($msg);
+// 	//		}
+// 	//	}
+// 	}
+// }
 ?>

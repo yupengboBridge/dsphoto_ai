@@ -106,15 +106,15 @@ try
 			continue;
 		}
 
-		$tmp_ary1 = explode(",",$p_photo_id);
-		$tmp_ary2 = explode(",",$p_name);				// 画像名前
+		$tmp_ary1 = split(",",$p_photo_id);
+		$tmp_ary2 = split(",",$p_name);				// 画像名前
 		//yupengbo add 2011/11/18 start
-		$tmp_ary3 = explode(",",$photo_mno);			// 画像管理番号
-		$tmp_ary4 = explode(",",$photo_explanation);	// 画像詳細内容
-		$tmp_ary5 = explode(",",$bud_photo_no);		// BUD Photo番号
-		$tmp_ary6 = explode(",",$registration_person);// 申請者
-		$tmp_ary7 = explode(",",$date_from);			// 期間From
-		$tmp_ary8 = explode(",",$date_to);			// 期間To
+		$tmp_ary3 = split(",",$photo_mno);			// 画像管理番号
+		$tmp_ary4 = split(",",$photo_explanation);	// 画像詳細内容
+		$tmp_ary5 = split(",",$bud_photo_no);		// BUD Photo番号
+		$tmp_ary6 = split(",",$registration_person);// 申請者
+		$tmp_ary7 = split(",",$date_from);			// 期間From
+		$tmp_ary8 = split(",",$date_to);			// 期間To
 		//yupengbo add 2011/11/18 end
 		for($i = 0; $i < count($tmp_ary1); $i++)
 		{
