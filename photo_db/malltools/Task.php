@@ -189,10 +189,10 @@ class Task
                     $this->downLoadFile($processing_dir);
 
                     if(!is_file($this->csv_path)){
-                        $error_message = "CSVファイルが存在しません.:::".$this->csv_path;
-                        CommonUtil::writeUploadPhotoImageLog($error_message,$root_path);
-                        $this->taskResult->isError = true;
-                        $this->taskResult->setErrorMsg($error_message);
+                        //$error_message = "CSVファイルが存在しません.:::".$this->csv_path;
+                        //CommonUtil::writeUploadPhotoImageLog($error_message,$root_path);
+                        //$this->taskResult->isError = true;
+                        //$this->taskResult->setErrorMsg($error_message);
                         continue;
                     }
                 }
@@ -351,10 +351,10 @@ class Task
     private function process_add($data){
         try {
             $this->image = new Img();
-            
-            $this->image->cmykIccPath = $this->cmykIccPath;
-            $this->image->srgbIccPath = $this->srgbIccPath;
-            
+			
+			$this->image->cmykIccPath = $this->cmykIccPath;
+			$this->image->srgbIccPath = $this->srgbIccPath;
+			
             $this->image->load($this->image_path.$data[1]);
             $prefix = strtoupper(substr($data[1], 0, 2));
             if ($prefix === 'LF' || $prefix === 'LH') {

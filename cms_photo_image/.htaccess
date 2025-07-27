@@ -1,0 +1,4 @@
+#php_value memory_limit 2048M
+AddType image/jpeg .jpg
+AddType image/png .png
+AddType image/gif .gif
