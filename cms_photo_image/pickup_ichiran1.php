@@ -106,7 +106,7 @@ var cnt=1;
 	var idstr = getCookie(ck_id);
 	// カンマ区切りの文字列を配列にします。
 	var id_a = new Array();
-	id_a = idstr.explode(",");
+	id_a = idstr.split(",");
 	var res = id_a.length/max;
 	if (id_a.length % max == 0)
 	{
@@ -188,7 +188,7 @@ function move2(adj)
 	var idstr = getCookie(ck_id);
 	// カンマ区切りの文字列を配列にします。
 	var id_a = new Array();
-	id_a = idstr.explode(",");
+	id_a = idstr.split(",");
 	var res = id_a.length/max;
 	if (id_a.length % max == 0)
 	{
@@ -298,7 +298,7 @@ function change_on()
 		setCookie("bt_cnt",bt_cnt);// クリーク回数をセショーンに設定する
 		var id_a = new Array();
 		// カンマ区切りの文字列を配列にします。
-		id_a = idstr.explode(",");
+		id_a = idstr.split(",");
 		if (id_a.length > 10)
 		{
 			set_frameheight('iframe_middle2',380);

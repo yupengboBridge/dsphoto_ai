@@ -243,7 +243,7 @@ function disp_img()
 			{
 				$ph_img_all = $img_ary[$i];
 				$img_check = false;
-				$sele_data = explode(",",$_COOKIE['photo_no_val']);
+				$sele_data = split(",",$_COOKIE['photo_no_val']);
 				if(count($sele_data)>0)
 				{
 					foreach($sele_data as $val)

@@ -564,7 +564,7 @@ function disp_category($cg_id,$cg_name)
 	$pi->get_keyword_str($db_link, $p_photo_id);
 	$kwd_a = array();
 	// スペース区切りの文字列を配列にします。
-	$kwd_a = explode(" ", $pi->keyword_str);
+	$kwd_a = preg_split(" ", $pi->keyword_str);
 	$tmp_cg_name = "";
 	$tmp1_cg_name = "";
 

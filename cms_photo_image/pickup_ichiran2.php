@@ -93,7 +93,7 @@ function move2(adj)
 	var idstr = getCookie(ck_id);
 	// カンマ区切りの文字列を配列にします。
 	var id_a = new Array();
-	id_a = idstr.explode(",");
+	id_a = idstr.split(",");
 	var res = id_a.length/max;
 	if (id_a.length % max == 0)
 	{
@@ -229,7 +229,7 @@ function delete_listimage(id)
 	var idstr = getCookie(ck_id);
 	// カンマ区切りの文字列を配列にします。
 	var id_a = new Array();
-	id_a = idstr.explode(",");
+	id_a = idstr.split(",");
 	// 既にクッキーで設定されているものについては、除外します。
 	var idx = check_array(id_a, id);
 	if (idx == -1)	return false;
