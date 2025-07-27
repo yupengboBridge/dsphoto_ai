@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hSHA101_130 hotel_code="S0653" hotel_name="ホテル・ニッコー上海（上海日航飯店）" />
+	<hSHA130 hotel_code="S0653" hotel_name="ホテル・ニッコー上海（上海日航飯店）" />
+	<hPEK101_130 hotel_code="3258" hotel_name="ホテルニッコー新世紀北京(北京新世紀日航飯店)" />
+	<hPEK130 hotel_code="3258" hotel_name="ホテルニッコー新世紀北京(北京新世紀日航飯店)" />
+	<hDLC101_130 hotel_code="11275" hotel_name="大連日航飯店" />
+	<hDLC130 hotel_code="11275" hotel_name="大連日航飯店" />
+	<hKWL101_130 hotel_code="2101" hotel_name="桂林漓江大瀑布飯店" />
+	<hKWL130 hotel_code="2101" hotel_name="桂林漓江大瀑布飯店" />
+	<hSZV101_130 hotel_code="9980" hotel_name="蘇州日航飯店" />
+	<hSZV130 hotel_code="9980" hotel_name="蘇州日航飯店" />
+</root>

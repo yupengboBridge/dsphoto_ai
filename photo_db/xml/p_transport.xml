@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<p_transport>
+		<p_transport_code>1</p_transport_code>
+		<p_transport_name>バス</p_transport_name>
+	</p_transport>
+	<p_transport>
+		<p_transport_code>2</p_transport_code>
+		<p_transport_name>電車</p_transport_name>
+	</p_transport>
+	<p_transport>
+		<p_transport_code>3</p_transport_code>
+		<p_transport_name>飛行機</p_transport_name>
+	</p_transport>
+	<p_transport>
+		<p_transport_code>4</p_transport_code>
+		<p_transport_name>船</p_transport_name>
+	</p_transport>
+</root>

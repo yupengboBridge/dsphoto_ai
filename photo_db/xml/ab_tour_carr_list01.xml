@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <!-- root -->
+    <dep101_130>
+    	<air air_code="IB" air_name="イベリア・スペイン航空" />
+    	<air air_code="AF" air_name="エールフランス航空" />
+    	<air air_code="EK" air_name="エミレーツ航空" />
+    	<air air_code="QR" air_name="カタール航空" />
+    	<air air_code="LH" air_name="ルフトハンザドイツ航空" />
+    	<air air_code="NH" air_name="ＡＮＡ（エーエヌエー）" />
+    	<air air_code="BX" air_name="エアプサン" />
+    	<air air_code="CX" air_name="キャセイパシフィック航空" />
+    	<air air_code="SQ" air_name="シンガポール航空" />
+    	<air air_code="UL" air_name="スリランカ航空" />
+    	<air air_code="CI" air_name="チャイナ エアライン" />
+    	<air air_code="BI" air_name="ロイヤル・ブルネイ航空" />
+    	<air air_code="JL" air_name="日本航空" />
+    	<air air_code="AC" air_name="エア・カナダ" />
+    	<air air_code="UA" air_name="ユナイテッド航空" />
+    	<air air_code="AM" air_name="アエロメヒコ航空" />
+    	<air air_code="SB" air_name="エア・カラン" />
+    	<air air_code="NZ" air_name="ニュージーランド航空" />
+    	<air air_code="FJ" air_name="フィジー・エアウェイズ" />
+    	<air air_code="7C" air_name="チェジュ航空" />
+    	<air air_code="NH" air_name="ＡＮＡ（エーエヌエー）" />
+    	<air air_code="AF" air_name="エールフランス航空" />
+    	<air air_code="EK" air_name="エミレーツ航空" />
+    	<air air_code="BA" air_name="ブリティッシュ・エアウェイズ" />
+    	<air air_code="LH" air_name="ルフトハンザドイツ航空" />
+    	<air air_code="BR" air_name="エバー航空" />
+    	<air air_code="SQ" air_name="シンガポール航空" />
+    	<air air_code="CI" air_name="チャイナ エアライン" />
+    	<air air_code="JL" air_name="日本航空" />
+    	<air air_code="AA" air_name="アメリカン航空" />
+    	<air air_code="AC" air_name="エア・カナダ" />
+    	<air air_code="DL" air_name="デルタ航空" />
+    	<air air_code="UA" air_name="ユナイテッド航空" />
+    	<air air_code="QF" air_name="カンタス航空" />
+    </dep101_130>
+    <dep101>
+    	<air air_code="IB" air_name="イベリア・スペイン航空" />
+    	<air air_code="AF" air_name="エールフランス航空" />
+    	<air air_code="EK" air_name="エミレーツ航空" />
+    	<air air_code="QR" air_name="カタール航空" />
+    	<air air_code="LH" air_name="ルフトハンザドイツ航空" />
+    	<air air_code="NH" air_name="ＡＮＡ（エーエヌエー）" />
+    	<air air_code="BX" air_name="エアプサン" />
+    	<air air_code="CX" air_name="キャセイパシフィック航空" />
+    	<air air_code="SQ" air_name="シンガポール航空" />
+    	<air air_code="UL" air_name="スリランカ航空" />
+    	<air air_code="CI" air_name="チャイナ エアライン" />
+    	<air air_code="BI" air_name="ロイヤル・ブルネイ航空" />
+    	<air air_code="JL" air_name="日本航空" />
+    	<air air_code="AC" air_name="エア・カナダ" />
+    	<air air_code="UA" air_name="ユナイテッド航空" />
+    	<air air_code="AM" air_name="アエロメヒコ航空" />
+    	<air air_code="SB" air_name="エア・カラン" />
+    	<air air_code="NZ" air_name="ニュージーランド航空" />
+    	<air air_code="FJ" air_name="フィジー・エアウェイズ" />
+    	<air air_code="7C" air_name="チェジュ航空" />
+    </dep101>
+    <dep102>
+    	<air air_code="KL" air_name="ＫＬＭオランダ航空" />
+    	<air air_code="AF" air_name="エールフランス航空" />
+    	<air air_code="EK" air_name="エミレーツ航空" />
+    	<air air_code="AY" air_name="フィンエアー" />
+    	<air air_code="LH" air_name="ルフトハンザドイツ航空" />
+    	<air air_code="BR" air_name="エバー航空" />
+    	<air air_code="SQ" air_name="シンガポール航空" />
+    	<air air_code="LJ" air_name="ジンエアー" />
+    	<air air_code="7C" air_name="チェジュ航空" />
+    	<air air_code="CI" air_name="チャイナ エアライン" />
+    	<air air_code="VN" air_name="ベトナム航空" />
+    	<air air_code="NH" air_name="ＡＮＡ（エーエヌエー）" />
+    	<air air_code="AC" air_name="エア・カナダ" />
+    	<air air_code="JL" air_name="日本航空" />
+    	<air air_code="QF" air_name="カンタス航空" />
+    	<air air_code="HA" air_name="ハワイアン航空" />
+    </dep102>
+    <dep103>
+    	<air air_code="EK" air_name="エミレーツ航空" />
+    	<air air_code="CX" air_name="キャセイパシフィック航空" />
+    	<air air_code="SQ" air_name="シンガポール航空" />
+    	<air air_code="TG" air_name="タイ国際航空" />
+    	<air air_code="JL" air_name="日本航空" />
+    	<air air_code="NH" air_name="ＡＮＡ（エーエヌエー）" />
+    	<air air_code="AC" air_name="エア・カナダ" />
+    	<air air_code="QF" air_name="カンタス航空" />
+    </dep103>
+    <dep104>
+    	<air air_code="EK" air_name="エミレーツ航空" />
+    	<air air_code="CI" air_name="チャイナ エアライン" />
+    	<air air_code="AC" air_name="エア・カナダ" />
+    	<air air_code="UA" air_name="ユナイテッド航空" />
+    	<air air_code="JL" air_name="日本航空" />
+    	<air air_code="QF" air_name="カンタス航空" />
+    	<air air_code="HA" air_name="ハワイアン航空" />
+    </dep104>
+    <dep105>
+    	<air air_code="UA" air_name="ユナイテッド航空" />
+    	<air air_code="JL" air_name="日本航空" />
+    	<air air_code="QF" air_name="カンタス航空" />
+    	<air air_code="NH" air_name="ＡＮＡ（エーエヌエー）" />
+    </dep105>
+    <dep107>
+    	<air air_code="NH" air_name="ＡＮＡ（エーエヌエー）" />
+    </dep107>
+    <dep108>
+    	<air air_code="NH" air_name="ＡＮＡ（エーエヌエー）" />
+    </dep108>
+    <dep109>
+    	<air air_code="NH" air_name="ＡＮＡ（エーエヌエー）" />
+    </dep109>
+    <dep114>
+    	<air air_code="NH" air_name="ＡＮＡ（エーエヌエー）" />
+    </dep114>
+    <dep119>
+    	<air air_code="NH" air_name="ＡＮＡ（エーエヌエー）" />
+    </dep119>
+    <dep130>
+    	<air air_code="NH" air_name="ＡＮＡ（エーエヌエー）" />
+    	<air air_code="AF" air_name="エールフランス航空" />
+    	<air air_code="EK" air_name="エミレーツ航空" />
+    	<air air_code="BA" air_name="ブリティッシュ・エアウェイズ" />
+    	<air air_code="LH" air_name="ルフトハンザドイツ航空" />
+    	<air air_code="BR" air_name="エバー航空" />
+    	<air air_code="SQ" air_name="シンガポール航空" />
+    	<air air_code="CI" air_name="チャイナ エアライン" />
+    	<air air_code="JL" air_name="日本航空" />
+    	<air air_code="AA" air_name="アメリカン航空" />
+    	<air air_code="AC" air_name="エア・カナダ" />
+    	<air air_code="DL" air_name="デルタ航空" />
+    	<air air_code="UA" air_name="ユナイテッド航空" />
+    	<air air_code="QF" air_name="カンタス航空" />
+    </dep130>
+    <dep152>
+    	<air air_code="JL" air_name="日本航空" />
+    	<air air_code="NH" air_name="ＡＮＡ（エーエヌエー）" />
+    	<air air_code="AM" air_name="アエロメヒコ航空" />
+    </dep152>
+    <dep153>
+    	<air air_code="AC" air_name="エア・カナダ" />
+    </dep153>
+</root>

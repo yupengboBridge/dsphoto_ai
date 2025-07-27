@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<p_seatclass>
+		<p_seatclass_code>0</p_seatclass_code>
+		<p_seatclass_name>エコノミー</p_seatclass_name>
+	</p_seatclass>
+	<p_seatclass>
+		<p_seatclass_code>1</p_seatclass_code>
+		<p_seatclass_name>ビジネス</p_seatclass_name>
+	</p_seatclass>
+	<p_seatclass>
+		<p_seatclass_code>2</p_seatclass_code>
+		<p_seatclass_name>ファースト</p_seatclass_name>
+	</p_seatclass>
+	<p_seatclass>
+		<p_seatclass_code>3</p_seatclass_code>
+		<p_seatclass_name>プレミアムエコノミー</p_seatclass_name>
+	</p_seatclass>
+</root>

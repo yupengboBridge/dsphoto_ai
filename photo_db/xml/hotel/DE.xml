@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hMUC101_130 hotel_code="XX0079" hotel_name="中央駅スーペリア" />
+	<hMUC101_130 hotel_code="XX0078" hotel_name="中央駅スタンダード" />
+	<hMUC101 hotel_code="XX0079" hotel_name="中央駅スーペリア" />
+	<hMUC101 hotel_code="XX0078" hotel_name="中央駅スタンダード" />
+	<hMUC130 hotel_code="XX0079" hotel_name="中央駅スーペリア" />
+	<hMUC130 hotel_code="XX0078" hotel_name="中央駅スタンダード" />
+	<hMUC102 hotel_code="XX0079" hotel_name="中央駅スーペリア" />
+	<hMUC102 hotel_code="XX0078" hotel_name="中央駅スタンダード" />
+	<h458102 hotel_code="9532" hotel_name="ロマンティックホテル シュロス ラインフェルス" />
+</root>

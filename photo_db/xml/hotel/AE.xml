@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hDXB101_130 hotel_code="D0344" hotel_name="JWマリオットマーキース" />
+	<hDXB101_130 hotel_code="D0040" hotel_name="グランド ハイアット ドバイ" />
+	<hDXB101_130 hotel_code="D0343" hotel_name="ハワードジョンソン" />
+	<hDXB101_130 hotel_code="D0056" hotel_name="リビエラ ホテル" />
+	<hDXB101_130 hotel_code="D0166" hotel_name="インターコンチネンタル ドバイ フェスティバルシティー" />
+	<hDXB101_130 hotel_code="D0489" hotel_name="ホリデイ・イン ドバイ フェスティバル シティ" />
+	<hDXB101 hotel_code="D0344" hotel_name="JWマリオットマーキース" />
+	<hDXB101 hotel_code="D0040" hotel_name="グランド ハイアット ドバイ" />
+	<hDXB101 hotel_code="D0343" hotel_name="ハワードジョンソン" />
+	<hDXB101 hotel_code="D0056" hotel_name="リビエラ ホテル" />
+	<hDXB101 hotel_code="D0166" hotel_name="インターコンチネンタル ドバイ フェスティバルシティー" />
+	<hDXB101 hotel_code="D0489" hotel_name="ホリデイ・イン ドバイ フェスティバル シティ" />
+	<hDXB130 hotel_code="D0344" hotel_name="JWマリオットマーキース" />
+	<hDXB130 hotel_code="D0040" hotel_name="グランド ハイアット ドバイ" />
+	<hDXB130 hotel_code="D0343" hotel_name="ハワードジョンソン" />
+	<hDXB130 hotel_code="D0056" hotel_name="リビエラ ホテル" />
+	<hDXB130 hotel_code="D0166" hotel_name="インターコンチネンタル ドバイ フェスティバルシティー" />
+	<hDXB130 hotel_code="D0489" hotel_name="ホリデイ・イン ドバイ フェスティバル シティ" />
+	<hDXB102 hotel_code="D0049" hotel_name="JW マリオット ドバイ" />
+	<hDXB102 hotel_code="D0530" hotel_name="コンラッド" />
+	<hDXB102 hotel_code="D0056" hotel_name="リビエラ ホテル" />
+	<hDXB102 hotel_code="D0498" hotel_name="ローブ ダウンタウン" />
+	<hAUH102 hotel_code="A0412" hotel_name="グランドミレニアムアルワフダ" />
+	<hRKT102 hotel_code="R0270" hotel_name="リッツカールトンアルワディデザート" />
+	<hDXB103 hotel_code="D0049" hotel_name="JW マリオット ドバイ" />
+	<hDXB104 hotel_code="D0049" hotel_name="JW マリオット ドバイ" />
+</root>

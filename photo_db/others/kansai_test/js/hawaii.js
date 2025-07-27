@@ -1,0 +1,14 @@
+CityList = new Object();
+CityList["HA"]=new Object();
+CityList["GU"]=new Object();
+CityList["PW"]=new Object();
+CityList["HA"]["HNL"]="ホノルル";
+CityList["HA"]["804"]="オアフ島";
+CityList["HA"]["803"]="ハワイ島";
+CityList["HA"]["802"]="マウイ島";
+CityList["HA"]["813"]="カウアイ島";
+CityList["HA"]["KOA"]="カイルア コナ";
+CityList["HA"]["OGG"]="カフルイ";
+CityList["HA"]["ITO"]="ヒロ";
+CityList["GU"]["GUM"]="グアム";
+CityList["PW"]["ROR"]="コロール";

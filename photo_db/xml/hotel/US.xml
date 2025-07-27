@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hLAX101_130 hotel_code="1731" hotel_name="ウエスティン ボナベンチャー ホテル" />
+	<hLAX101_130 hotel_code="5331" hotel_name="カワダ ホテル" />
+	<hLAX101_130 hotel_code="1387" hotel_name="ザヒストリックメイフェアーホテル" />
+	<hLAX101_130 hotel_code="1487" hotel_name="シェラトン・グランド・ロサンゼルス" />
+	<hLAX101_130 hotel_code="4245" hotel_name="ビバリー ヒルトン" />
+	<hLAX101_130 hotel_code="L0329" hotel_name="ミヤコ ハイブリッドホテル" />
+	<hLAX101_130 hotel_code="1730" hotel_name="ミヤコ ホテル ロサンゼルス" />
+	<hLAX101_130 hotel_code="L0051" hotel_name="ミレニアム ビルトモア" />
+	<hLAX101_130 hotel_code="L0461" hotel_name="メトロプラザホテル" />
+	<hLAX101_130 hotel_code="3555" hotel_name="ロウズハリウッド" />
+	<hLAX101_130 hotel_code="2351" hotel_name="インターコンチネンタルロサンゼルスダウンタウン" />
+	<hLAX101_130 hotel_code="1603" hotel_name="ダブルツリーバイヒルトン ロサンゼルスダウンタウン" />
+	<hLAX101 hotel_code="1731" hotel_name="ウエスティン ボナベンチャー ホテル" />
+	<hLAX101 hotel_code="5331" hotel_name="カワダ ホテル" />
+	<hLAX101 hotel_code="1387" hotel_name="ザヒストリックメイフェアーホテル" />
+	<hLAX101 hotel_code="1487" hotel_name="シェラトン・グランド・ロサンゼルス" />
+	<hLAX101 hotel_code="4245" hotel_name="ビバリー ヒルトン" />
+	<hLAX101 hotel_code="L0329" hotel_name="ミヤコ ハイブリッドホテル" />
+	<hLAX101 hotel_code="1730" hotel_name="ミヤコ ホテル ロサンゼルス" />
+	<hLAX101 hotel_code="L0051" hotel_name="ミレニアム ビルトモア" />
+	<hLAX101 hotel_code="L0461" hotel_name="メトロプラザホテル" />
+	<hLAX101 hotel_code="3555" hotel_name="ロウズハリウッド" />
+	<hLAX101 hotel_code="2351" hotel_name="インターコンチネンタルロサンゼルスダウンタウン" />
+	<hLAX101 hotel_code="1603" hotel_name="ダブルツリーバイヒルトン ロサンゼルスダウンタウン" />
+	<hNYC101_130 hotel_code="N0095" hotel_name="ウェスティンニューヨークタイムズスクエア" />
+	<hNYC101_130 hotel_code="N0250" hotel_name="エースホテル" />
+	<hNYC101_130 hotel_code="N0306" hotel_name="エジソン・ホテル・タイムズスクエア" />
+	<hNYC101_130 hotel_code="N0206" hotel_name="グランド　ハイアット　ニューヨーク" />
+	<hNYC101_130 hotel_code="N0009" hotel_name="ザ・キタノ・ニューヨーク" />
+	<hNYC101_130 hotel_code="1949" hotel_name="ニューヨーク・ヒルトン・ミッドタウン" />
+	<hNYC101_130 hotel_code="N0253" hotel_name="パークウエスト" />
+	<hNYC101_130 hotel_code="4294" hotel_name="マリオット マーキース" />
+	<hNYC101_130 hotel_code="1309" hotel_name="シェラトン ニューヨークタイムズスクエアホテル" />
+	<hNYC101_130 hotel_code="N0233" hotel_name="ダブルツリー・バイ・ヒルトン・メトロポリタン・ニューヨークシティ" />
+	<hNYC101_130 hotel_code="N0373" hotel_name="ハドソン・ニューヨーク・セントラルパーク" />
+	<hNYC101_130 hotel_code="N0331" hotel_name="ヒルトン ガーデン イン ニューヨーク セントラルパーク サウス" />
+	<hNYC101_130 hotel_code="N0103" hotel_name="デイズ ブロードウェイ" />
+	<hNYC101_130 hotel_code="N0127" hotel_name="マンハッタン アット タイムズスクエア" />
+	<hNYC101 hotel_code="N0095" hotel_name="ウェスティンニューヨークタイムズスクエア" />
+	<hNYC101 hotel_code="N0250" hotel_name="エースホテル" />
+	<hNYC101 hotel_code="N0306" hotel_name="エジソン・ホテル・タイムズスクエア" />
+	<hNYC101 hotel_code="N0206" hotel_name="グランド　ハイアット　ニューヨーク" />
+	<hNYC101 hotel_code="N0009" hotel_name="ザ・キタノ・ニューヨーク" />
+	<hNYC101 hotel_code="1949" hotel_name="ニューヨーク・ヒルトン・ミッドタウン" />
+	<hNYC101 hotel_code="N0253" hotel_name="パークウエスト" />
+	<hNYC101 hotel_code="4294" hotel_name="マリオット マーキース" />
+	<hNYC101 hotel_code="1309" hotel_name="シェラトン ニューヨークタイムズスクエアホテル" />
+	<hNYC101 hotel_code="N0233" hotel_name="ダブルツリー・バイ・ヒルトン・メトロポリタン・ニューヨークシティ" />
+	<hNYC101 hotel_code="N0373" hotel_name="ハドソン・ニューヨーク・セントラルパーク" />
+	<hNYC101 hotel_code="N0331" hotel_name="ヒルトン ガーデン イン ニューヨーク セントラルパーク サウス" />
+	<hLAS101_130 hotel_code="1385" hotel_name="MGM グランド ホテル テーマ パーク" />
+	<hLAS101_130 hotel_code="L0073" hotel_name="OYO ホテル&amp;カジノ　ラスベガス" />
+	<hLAS101_130 hotel_code="2349" hotel_name="アリア　リゾート＆カジノ" />
+	<hLAS101_130 hotel_code="L0024" hotel_name="ウィン ラスベガス" />
+	<hLAS101_130 hotel_code="1919" hotel_name="エクスカリバー" />
+	<hLAS101_130 hotel_code="L0307" hotel_name="コスモポリタン　オブ　ラスベガス" />
+	<hLAS101_130 hotel_code="L0436" hotel_name="サハラ　ラスベガス" />
+	<hLAS101_130 hotel_code="L0210" hotel_name="ザ ベネチアン リゾート ラスベガス" />
+	<hLAS101_130 hotel_code="1384" hotel_name="ザ リンク ホテル + エクスペリエンス" />
+	<hLAS101_130 hotel_code="1917" hotel_name="ザ　ストラト　ホテル" />
+	<hLAS101_130 hotel_code="3890" hotel_name="シーザスパレス" />
+	<hLAS101_130 hotel_code="3554" hotel_name="ニューヨーク ニューヨーク" />
+	<hLAS101_130 hotel_code="4996" hotel_name="ハラーズ" />
+	<hLAS101_130 hotel_code="L0062" hotel_name="バリーズ ラスベガス" />
+	<hLAS101_130 hotel_code="1918" hotel_name="パーク MGM　ラスベガス" />
+	<hLAS101_130 hotel_code="4244" hotel_name="パリス ラスベガス" />
+	<hLAS101_130 hotel_code="3196" hotel_name="フラミンゴ ラスベガス" />
+	<hLAS101_130 hotel_code="L0006" hotel_name="プラネット ハリウッド リゾート ＆ カジノ" />
+	<hLAS101_130 hotel_code="5648" hotel_name="ベラージオ" />
+	<hLAS101_130 hotel_code="3749" hotel_name="ミラージュ　リゾート&amp;カジノ" />
+	<hLAS101_130 hotel_code="2575" hotel_name="ルクソールホテル＆カジノ" />
+	<hLAS101_130 hotel_code="4994" hotel_name="サーカス サーカス ホテル カジノ &amp; テーマパーク" />
+	<hLAS101_130 hotel_code="5649" hotel_name="トロピカーナ・ラスベガス・ア・ダブルツリー・バイ・ヒルトン" />
+	<hLAS101 hotel_code="1385" hotel_name="MGM グランド ホテル テーマ パーク" />
+	<hLAS101 hotel_code="L0073" hotel_name="OYO ホテル&amp;カジノ　ラスベガス" />
+	<hLAS101 hotel_code="2349" hotel_name="アリア　リゾート＆カジノ" />
+	<hLAS101 hotel_code="L0024" hotel_name="ウィン ラスベガス" />
+	<hLAS101 hotel_code="1919" hotel_name="エクスカリバー" />
+	<hLAS101 hotel_code="L0307" hotel_name="コスモポリタン　オブ　ラスベガス" />
+	<hLAS101 hotel_code="L0436" hotel_name="サハラ　ラスベガス" />
+	<hLAS101 hotel_code="L0210" hotel_name="ザ ベネチアン リゾート ラスベガス" />
+	<hLAS101 hotel_code="1384" hotel_name="ザ リンク ホテル + エクスペリエンス" />
+	<hLAS101 hotel_code="1917" hotel_name="ザ　ストラト　ホテル" />
+	<hLAS101 hotel_code="3890" hotel_name="シーザスパレス" />
+	<hLAS101 hotel_code="3554" hotel_name="ニューヨーク ニューヨーク" />
+	<hLAS101 hotel_code="4996" hotel_name="ハラーズ" />
+	<hLAS101 hotel_code="L0062" hotel_name="バリーズ ラスベガス" />
+	<hLAS101 hotel_code="1918" hotel_name="パーク MGM　ラスベガス" />
+	<hLAS101 hotel_code="4244" hotel_name="パリス ラスベガス" />
+	<hLAS101 hotel_code="3196" hotel_name="フラミンゴ ラスベガス" />
+	<hLAS101 hotel_code="L0006" hotel_name="プラネット ハリウッド リゾート ＆ カジノ" />
+	<hLAS101 hotel_code="5648" hotel_name="ベラージオ" />
+	<hLAS101 hotel_code="3749" hotel_name="ミラージュ　リゾート&amp;カジノ" />
+	<hLAS101 hotel_code="2575" hotel_name="ルクソールホテル＆カジノ" />
+	<hLAS101 hotel_code="4994" hotel_name="サーカス サーカス ホテル カジノ &amp; テーマパーク" />
+	<hLAS101 hotel_code="5649" hotel_name="トロピカーナ・ラスベガス・ア・ダブルツリー・バイ・ヒルトン" />
+	<hORL101_130 hotel_code="M0060" hotel_name="ディズニー・アニマルキングダム・ロッジ" />
+	<hORL101_130 hotel_code="M0068" hotel_name="ディズニー・カリビアン・ビーチ・リゾート" />
+	<hORL101_130 hotel_code="1403" hotel_name="クラリオン・イン・レイク・ブエナ・ビスタ" />
+	<hORL101_130 hotel_code="N0349" hotel_name="セレブレーション スイーツ アット オールド タウン" />
+	<hORL101_130 hotel_code="O0092" hotel_name="ディズニー・アート・オブ・アニメーション・リゾート" />
+	<hORL101_130 hotel_code="O0147" hotel_name="ディズニー・オールスター・リゾート(館指定無し)" />
+	<hORL101_130 hotel_code="M0072" hotel_name="ディズニー・コロナド・スプリングス・リゾート" />
+	<hORL101_130 hotel_code="M0065" hotel_name="ディズニー・ポップ・センチュリー・リゾート" />
+	<hORL101 hotel_code="M0060" hotel_name="ディズニー・アニマルキングダム・ロッジ" />
+	<hORL101 hotel_code="M0068" hotel_name="ディズニー・カリビアン・ビーチ・リゾート" />
+	<hORL101 hotel_code="1403" hotel_name="クラリオン・イン・レイク・ブエナ・ビスタ" />
+	<hORL101 hotel_code="N0349" hotel_name="セレブレーション スイーツ アット オールド タウン" />
+	<hORL101 hotel_code="O0092" hotel_name="ディズニー・アート・オブ・アニメーション・リゾート" />
+	<hORL101 hotel_code="O0147" hotel_name="ディズニー・オールスター・リゾート(館指定無し)" />
+	<hORL101 hotel_code="M0072" hotel_name="ディズニー・コロナド・スプリングス・リゾート" />
+	<hORL101 hotel_code="M0065" hotel_name="ディズニー・ポップ・センチュリー・リゾート" />
+	<hANA101_130 hotel_code="2784" hotel_name="アナハイムホテル" />
+	<hANA101_130 hotel_code="A0366" hotel_name="キャッスル・イン＆スイーツ" />
+	<hANA101_130 hotel_code="2262" hotel_name="クラリオンホテルアナハイムリゾート" />
+	<hANA101_130 hotel_code="A0020" hotel_name="ディズニー・パラダイス・ピア・ホテル" />
+	<hANA101_130 hotel_code="A0021" hotel_name="ディズニーランド・ホテル" />
+	<hANA101_130 hotel_code="A0367" hotel_name="トロピカーナ　イン　アンド　スイーツ" />
+	<hANA101_130 hotel_code="4451" hotel_name="ヒルトン アナハイム" />
+	<hANA101_130 hotel_code="1131" hotel_name="アナハイム マジェスティック ガーデンホテル" />
+	<hANA101_130 hotel_code="A0330" hotel_name="エクステンデッドステイ アメリカ オレンジ カウンティ アナハイム" />
+	<hANA101_130 hotel_code="A0328" hotel_name="クォリティーイン&amp;スイートアナハイムアットザパーク" />
+	<hANA101_130 hotel_code="A0327" hotel_name="コルトーナ イン&amp;スイーツ アナハイム リゾート" />
+	<hANA101_130 hotel_code="A0005" hotel_name="シェラトン パーク ホテル アット ザ アナハイム リゾート" />
+	<hANA101_130 hotel_code="A0022" hotel_name="ディズニー・グランド・カリフォルニアン・ホテル&amp;スパ" />
+	<hANA101_130 hotel_code="A0340" hotel_name="ハイアットハウス アナハイムリゾート コンベンションセンター" />
+	<hANA101_130 hotel_code="3070" hotel_name="ハワードジョンソンホテル&amp;カンファレンスセンターバイウィンダムフラートン" />
+	<hANA101 hotel_code="2784" hotel_name="アナハイムホテル" />
+	<hANA101 hotel_code="A0366" hotel_name="キャッスル・イン＆スイーツ" />
+	<hANA101 hotel_code="2262" hotel_name="クラリオンホテルアナハイムリゾート" />
+	<hANA101 hotel_code="A0020" hotel_name="ディズニー・パラダイス・ピア・ホテル" />
+	<hANA101 hotel_code="A0021" hotel_name="ディズニーランド・ホテル" />
+	<hANA101 hotel_code="A0367" hotel_name="トロピカーナ　イン　アンド　スイーツ" />
+	<hANA101 hotel_code="4451" hotel_name="ヒルトン アナハイム" />
+	<hANA101 hotel_code="1131" hotel_name="アナハイム マジェスティック ガーデンホテル" />
+	<hANA101 hotel_code="A0330" hotel_name="エクステンデッドステイ アメリカ オレンジ カウンティ アナハイム" />
+	<hANA101 hotel_code="A0328" hotel_name="クォリティーイン&amp;スイートアナハイムアットザパーク" />
+	<hANA101 hotel_code="A0327" hotel_name="コルトーナ イン&amp;スイーツ アナハイム リゾート" />
+	<hANA101 hotel_code="A0005" hotel_name="シェラトン パーク ホテル アット ザ アナハイム リゾート" />
+	<hANA101 hotel_code="A0022" hotel_name="ディズニー・グランド・カリフォルニアン・ホテル&amp;スパ" />
+	<hANA101 hotel_code="A0340" hotel_name="ハイアットハウス アナハイムリゾート コンベンションセンター" />
+	<hLAX130 hotel_code="1731" hotel_name="ウエスティン ボナベンチャー ホテル" />
+	<hLAX130 hotel_code="5331" hotel_name="カワダ ホテル" />
+	<hLAX130 hotel_code="1387" hotel_name="ザヒストリックメイフェアーホテル" />
+	<hLAX130 hotel_code="1487" hotel_name="シェラトン・グランド・ロサンゼルス" />
+	<hLAX130 hotel_code="4245" hotel_name="ビバリー ヒルトン" />
+	<hLAX130 hotel_code="L0329" hotel_name="ミヤコ ハイブリッドホテル" />
+	<hLAX130 hotel_code="1730" hotel_name="ミヤコ ホテル ロサンゼルス" />
+	<hLAX130 hotel_code="L0051" hotel_name="ミレニアム ビルトモア" />
+	<hLAX130 hotel_code="L0461" hotel_name="メトロプラザホテル" />
+	<hLAX130 hotel_code="3555" hotel_name="ロウズハリウッド" />
+	<hLAX130 hotel_code="2351" hotel_name="インターコンチネンタルロサンゼルスダウンタウン" />
+	<hLAX130 hotel_code="1603" hotel_name="ダブルツリーバイヒルトン ロサンゼルスダウンタウン" />
+	<hNYC130 hotel_code="N0095" hotel_name="ウェスティンニューヨークタイムズスクエア" />
+	<hNYC130 hotel_code="N0250" hotel_name="エースホテル" />
+	<hNYC130 hotel_code="N0306" hotel_name="エジソン・ホテル・タイムズスクエア" />
+	<hNYC130 hotel_code="N0206" hotel_name="グランド　ハイアット　ニューヨーク" />
+	<hNYC130 hotel_code="N0009" hotel_name="ザ・キタノ・ニューヨーク" />
+	<hNYC130 hotel_code="N0103" hotel_name="デイズ ブロードウェイ" />
+	<hNYC130 hotel_code="1949" hotel_name="ニューヨーク・ヒルトン・ミッドタウン" />
+	<hNYC130 hotel_code="N0253" hotel_name="パークウエスト" />
+	<hNYC130 hotel_code="4294" hotel_name="マリオット マーキース" />
+	<hNYC130 hotel_code="1309" hotel_name="シェラトン ニューヨークタイムズスクエアホテル" />
+	<hNYC130 hotel_code="N0233" hotel_name="ダブルツリー・バイ・ヒルトン・メトロポリタン・ニューヨークシティ" />
+	<hNYC130 hotel_code="N0373" hotel_name="ハドソン・ニューヨーク・セントラルパーク" />
+	<hNYC130 hotel_code="N0331" hotel_name="ヒルトン ガーデン イン ニューヨーク セントラルパーク サウス" />
+	<hNYC130 hotel_code="N0127" hotel_name="マンハッタン アット タイムズスクエア" />
+	<hLAS130 hotel_code="1385" hotel_name="MGM グランド ホテル テーマ パーク" />
+	<hLAS130 hotel_code="L0073" hotel_name="OYO ホテル&amp;カジノ　ラスベガス" />
+	<hLAS130 hotel_code="2349" hotel_name="アリア　リゾート＆カジノ" />
+	<hLAS130 hotel_code="L0024" hotel_name="ウィン ラスベガス" />
+	<hLAS130 hotel_code="1919" hotel_name="エクスカリバー" />
+	<hLAS130 hotel_code="L0307" hotel_name="コスモポリタン　オブ　ラスベガス" />
+	<hLAS130 hotel_code="L0436" hotel_name="サハラ　ラスベガス" />
+	<hLAS130 hotel_code="L0210" hotel_name="ザ ベネチアン リゾート ラスベガス" />
+	<hLAS130 hotel_code="1384" hotel_name="ザ リンク ホテル + エクスペリエンス" />
+	<hLAS130 hotel_code="1917" hotel_name="ザ　ストラト　ホテル" />
+	<hLAS130 hotel_code="3890" hotel_name="シーザスパレス" />
+	<hLAS130 hotel_code="3554" hotel_name="ニューヨーク ニューヨーク" />
+	<hLAS130 hotel_code="4996" hotel_name="ハラーズ" />
+	<hLAS130 hotel_code="L0062" hotel_name="バリーズ ラスベガス" />
+	<hLAS130 hotel_code="1918" hotel_name="パーク MGM　ラスベガス" />
+	<hLAS130 hotel_code="4244" hotel_name="パリス ラスベガス" />
+	<hLAS130 hotel_code="3196" hotel_name="フラミンゴ ラスベガス" />
+	<hLAS130 hotel_code="L0006" hotel_name="プラネット ハリウッド リゾート ＆ カジノ" />
+	<hLAS130 hotel_code="5648" hotel_name="ベラージオ" />
+	<hLAS130 hotel_code="3749" hotel_name="ミラージュ　リゾート&amp;カジノ" />
+	<hLAS130 hotel_code="2575" hotel_name="ルクソールホテル＆カジノ" />
+	<hLAS130 hotel_code="4994" hotel_name="サーカス サーカス ホテル カジノ &amp; テーマパーク" />
+	<hLAS130 hotel_code="5649" hotel_name="トロピカーナ・ラスベガス・ア・ダブルツリー・バイ・ヒルトン" />
+	<hSEA101_130 hotel_code="S1619" hotel_name="ベストウエスタンエグゼクティブインシアトル" />
+	<hSEA130 hotel_code="S1619" hotel_name="ベストウエスタンエグゼクティブインシアトル" />
+	<hORL130 hotel_code="M0060" hotel_name="ディズニー・アニマルキングダム・ロッジ" />
+	<hORL130 hotel_code="M0068" hotel_name="ディズニー・カリビアン・ビーチ・リゾート" />
+	<hORL130 hotel_code="1403" hotel_name="クラリオン・イン・レイク・ブエナ・ビスタ" />
+	<hORL130 hotel_code="N0349" hotel_name="セレブレーション スイーツ アット オールド タウン" />
+	<hORL130 hotel_code="O0092" hotel_name="ディズニー・アート・オブ・アニメーション・リゾート" />
+	<hORL130 hotel_code="O0147" hotel_name="ディズニー・オールスター・リゾート(館指定無し)" />
+	<hORL130 hotel_code="M0072" hotel_name="ディズニー・コロナド・スプリングス・リゾート" />
+	<hORL130 hotel_code="M0065" hotel_name="ディズニー・ポップ・センチュリー・リゾート" />
+	<hANA130 hotel_code="2784" hotel_name="アナハイムホテル" />
+	<hANA130 hotel_code="A0366" hotel_name="キャッスル・イン＆スイーツ" />
+	<hANA130 hotel_code="2262" hotel_name="クラリオンホテルアナハイムリゾート" />
+	<hANA130 hotel_code="A0020" hotel_name="ディズニー・パラダイス・ピア・ホテル" />
+	<hANA130 hotel_code="A0021" hotel_name="ディズニーランド・ホテル" />
+	<hANA130 hotel_code="A0367" hotel_name="トロピカーナ　イン　アンド　スイーツ" />
+	<hANA130 hotel_code="4451" hotel_name="ヒルトン アナハイム" />
+	<hANA130 hotel_code="1131" hotel_name="アナハイム マジェスティック ガーデンホテル" />
+	<hANA130 hotel_code="A0330" hotel_name="エクステンデッドステイ アメリカ オレンジ カウンティ アナハイム" />
+	<hANA130 hotel_code="A0328" hotel_name="クォリティーイン&amp;スイートアナハイムアットザパーク" />
+	<hANA130 hotel_code="A0327" hotel_name="コルトーナ イン&amp;スイーツ アナハイム リゾート" />
+	<hANA130 hotel_code="A0005" hotel_name="シェラトン パーク ホテル アット ザ アナハイム リゾート" />
+	<hANA130 hotel_code="A0022" hotel_name="ディズニー・グランド・カリフォルニアン・ホテル&amp;スパ" />
+	<hANA130 hotel_code="A0340" hotel_name="ハイアットハウス アナハイムリゾート コンベンションセンター" />
+	<hANA130 hotel_code="3070" hotel_name="ハワードジョンソンホテル&amp;カンファレンスセンターバイウィンダムフラートン" />
+	<hLAX102 hotel_code="1731" hotel_name="ウエスティン ボナベンチャー ホテル" />
+	<hLAX102 hotel_code="5331" hotel_name="カワダ ホテル" />
+	<hLAX102 hotel_code="1487" hotel_name="シェラトン・グランド・ロサンゼルス" />
+	<hLAX102 hotel_code="4245" hotel_name="ビバリー ヒルトン" />
+	<hLAX102 hotel_code="L0329" hotel_name="ミヤコ ハイブリッドホテル" />
+	<hLAX102 hotel_code="1730" hotel_name="ミヤコ ホテル ロサンゼルス" />
+	<hLAX102 hotel_code="L0051" hotel_name="ミレニアム ビルトモア" />
+	<hLAX102 hotel_code="L0461" hotel_name="メトロプラザホテル" />
+	<hLAX102 hotel_code="3555" hotel_name="ロウズハリウッド" />
+	<hLAX102 hotel_code="1603" hotel_name="ダブルツリーバイヒルトン ロサンゼルスダウンタウン" />
+	<hNYC102 hotel_code="N0095" hotel_name="ウェスティンニューヨークタイムズスクエア" />
+	<hNYC102 hotel_code="N0250" hotel_name="エースホテル" />
+	<hNYC102 hotel_code="N0306" hotel_name="エジソン・ホテル・タイムズスクエア" />
+	<hNYC102 hotel_code="N0206" hotel_name="グランド　ハイアット　ニューヨーク" />
+	<hNYC102 hotel_code="N0426" hotel_name="ザ　ニューヨーカー　ウインダム　ホテル" />
+	<hNYC102 hotel_code="N0009" hotel_name="ザ・キタノ・ニューヨーク" />
+	<hNYC102 hotel_code="1949" hotel_name="ニューヨーク・ヒルトン・ミッドタウン" />
+	<hNYC102 hotel_code="N0432" hotel_name="フリーハンド　ニューヨーク" />
+	<hNYC102 hotel_code="4294" hotel_name="マリオット マーキース" />
+	<hNYC102 hotel_code="N0409" hotel_name="モクシーNYCタイムズスクエア" />
+	<hNYC102 hotel_code="3605" hotel_name="ロウ・ニューヨーク" />
+	<hNYC102 hotel_code="1309" hotel_name="シェラトン ニューヨークタイムズスクエアホテル" />
+	<hNYC102 hotel_code="N0233" hotel_name="ダブルツリー・バイ・ヒルトン・メトロポリタン・ニューヨークシティ" />
+	<hNYC102 hotel_code="N0373" hotel_name="ハドソン・ニューヨーク・セントラルパーク" />
+	<hNYC102 hotel_code="N0331" hotel_name="ヒルトン ガーデン イン ニューヨーク セントラルパーク サウス" />
+	<hNYC102 hotel_code="N0127" hotel_name="マンハッタン アット タイムズスクエア" />
+	<hLAS102 hotel_code="L0462" hotel_name="トランプ インターナショナル ホテル &amp; タワー ラスベガス" />
+	<hANA102 hotel_code="2784" hotel_name="アナハイムホテル" />
+	<hANA102 hotel_code="A0366" hotel_name="キャッスル・イン＆スイーツ" />
+	<hANA102 hotel_code="2262" hotel_name="クラリオンホテルアナハイムリゾート" />
+	<hANA102 hotel_code="A0020" hotel_name="ディズニー・パラダイス・ピア・ホテル" />
+	<hANA102 hotel_code="A0021" hotel_name="ディズニーランド・ホテル" />
+	<hANA102 hotel_code="4451" hotel_name="ヒルトン アナハイム" />
+	<hANA102 hotel_code="A0005" hotel_name="シェラトン パーク ホテル アット ザ アナハイム リゾート" />
+	<hANA102 hotel_code="A0022" hotel_name="ディズニー・グランド・カリフォルニアン・ホテル&amp;スパ" />
+	<hLAX103 hotel_code="1731" hotel_name="ウエスティン ボナベンチャー ホテル" />
+	<hLAX103 hotel_code="5331" hotel_name="カワダ ホテル" />
+	<hLAX103 hotel_code="1387" hotel_name="ザヒストリックメイフェアーホテル" />
+	<hLAX103 hotel_code="1487" hotel_name="シェラトン・グランド・ロサンゼルス" />
+	<hLAX103 hotel_code="4245" hotel_name="ビバリー ヒルトン" />
+	<hLAX103 hotel_code="L0329" hotel_name="ミヤコ ハイブリッドホテル" />
+	<hLAX103 hotel_code="1730" hotel_name="ミヤコ ホテル ロサンゼルス" />
+	<hLAX103 hotel_code="L0051" hotel_name="ミレニアム ビルトモア" />
+	<hLAX103 hotel_code="L0461" hotel_name="メトロプラザホテル" />
+	<hLAX103 hotel_code="3555" hotel_name="ロウズハリウッド" />
+	<hLAX103 hotel_code="2351" hotel_name="インターコンチネンタルロサンゼルスダウンタウン" />
+	<hLAX103 hotel_code="1603" hotel_name="ダブルツリーバイヒルトン ロサンゼルスダウンタウン" />
+	<hANA103 hotel_code="2784" hotel_name="アナハイムホテル" />
+	<hANA103 hotel_code="A0366" hotel_name="キャッスル・イン＆スイーツ" />
+	<hANA103 hotel_code="2262" hotel_name="クラリオンホテルアナハイムリゾート" />
+	<hANA103 hotel_code="A0020" hotel_name="ディズニー・パラダイス・ピア・ホテル" />
+	<hANA103 hotel_code="A0021" hotel_name="ディズニーランド・ホテル" />
+	<hANA103 hotel_code="A0367" hotel_name="トロピカーナ　イン　アンド　スイーツ" />
+	<hANA103 hotel_code="4451" hotel_name="ヒルトン アナハイム" />
+	<hANA103 hotel_code="1131" hotel_name="アナハイム マジェスティック ガーデンホテル" />
+	<hANA103 hotel_code="A0330" hotel_name="エクステンデッドステイ アメリカ オレンジ カウンティ アナハイム" />
+	<hANA103 hotel_code="A0328" hotel_name="クォリティーイン&amp;スイートアナハイムアットザパーク" />
+	<hANA103 hotel_code="A0327" hotel_name="コルトーナ イン&amp;スイーツ アナハイム リゾート" />
+	<hANA103 hotel_code="A0005" hotel_name="シェラトン パーク ホテル アット ザ アナハイム リゾート" />
+	<hANA103 hotel_code="A0022" hotel_name="ディズニー・グランド・カリフォルニアン・ホテル&amp;スパ" />
+	<hANA103 hotel_code="A0340" hotel_name="ハイアットハウス アナハイムリゾート コンベンションセンター" />
+	<hNYC104 hotel_code="N0095" hotel_name="ウェスティンニューヨークタイムズスクエア" />
+	<hNYC104 hotel_code="N0250" hotel_name="エースホテル" />
+	<hNYC104 hotel_code="N0306" hotel_name="エジソン・ホテル・タイムズスクエア" />
+	<hNYC104 hotel_code="N0206" hotel_name="グランド　ハイアット　ニューヨーク" />
+	<hNYC104 hotel_code="N0009" hotel_name="ザ・キタノ・ニューヨーク" />
+	<hNYC104 hotel_code="1949" hotel_name="ニューヨーク・ヒルトン・ミッドタウン" />
+	<hNYC104 hotel_code="N0253" hotel_name="パークウエスト" />
+	<hNYC104 hotel_code="4294" hotel_name="マリオット マーキース" />
+	<hNYC104 hotel_code="1309" hotel_name="シェラトン ニューヨークタイムズスクエアホテル" />
+	<hNYC104 hotel_code="N0233" hotel_name="ダブルツリー・バイ・ヒルトン・メトロポリタン・ニューヨークシティ" />
+	<hNYC104 hotel_code="N0373" hotel_name="ハドソン・ニューヨーク・セントラルパーク" />
+	<hNYC104 hotel_code="N0331" hotel_name="ヒルトン ガーデン イン ニューヨーク セントラルパーク サウス" />
+	<hORL104 hotel_code="M0060" hotel_name="ディズニー・アニマルキングダム・ロッジ" />
+	<hORL104 hotel_code="M0068" hotel_name="ディズニー・カリビアン・ビーチ・リゾート" />
+	<hORL104 hotel_code="1403" hotel_name="クラリオン・イン・レイク・ブエナ・ビスタ" />
+	<hORL104 hotel_code="N0349" hotel_name="セレブレーション スイーツ アット オールド タウン" />
+	<hORL104 hotel_code="O0092" hotel_name="ディズニー・アート・オブ・アニメーション・リゾート" />
+	<hORL104 hotel_code="O0147" hotel_name="ディズニー・オールスター・リゾート(館指定無し)" />
+	<hORL104 hotel_code="M0072" hotel_name="ディズニー・コロナド・スプリングス・リゾート" />
+	<hORL104 hotel_code="M0065" hotel_name="ディズニー・ポップ・センチュリー・リゾート" />
+	<hNYC105 hotel_code="N0095" hotel_name="ウェスティンニューヨークタイムズスクエア" />
+	<hNYC105 hotel_code="N0250" hotel_name="エースホテル" />
+	<hNYC105 hotel_code="N0306" hotel_name="エジソン・ホテル・タイムズスクエア" />
+	<hNYC105 hotel_code="N0206" hotel_name="グランド　ハイアット　ニューヨーク" />
+	<hNYC105 hotel_code="N0009" hotel_name="ザ・キタノ・ニューヨーク" />
+	<hNYC105 hotel_code="1949" hotel_name="ニューヨーク・ヒルトン・ミッドタウン" />
+	<hNYC105 hotel_code="N0253" hotel_name="パークウエスト" />
+	<hNYC105 hotel_code="4294" hotel_name="マリオット マーキース" />
+	<hNYC105 hotel_code="1309" hotel_name="シェラトン ニューヨークタイムズスクエアホテル" />
+	<hNYC105 hotel_code="N0233" hotel_name="ダブルツリー・バイ・ヒルトン・メトロポリタン・ニューヨークシティ" />
+	<hNYC105 hotel_code="N0373" hotel_name="ハドソン・ニューヨーク・セントラルパーク" />
+	<hNYC105 hotel_code="N0331" hotel_name="ヒルトン ガーデン イン ニューヨーク セントラルパーク サウス" />
+	<hORL105 hotel_code="M0060" hotel_name="ディズニー・アニマルキングダム・ロッジ" />
+	<hORL105 hotel_code="M0068" hotel_name="ディズニー・カリビアン・ビーチ・リゾート" />
+	<hORL105 hotel_code="1403" hotel_name="クラリオン・イン・レイク・ブエナ・ビスタ" />
+	<hORL105 hotel_code="N0349" hotel_name="セレブレーション スイーツ アット オールド タウン" />
+	<hORL105 hotel_code="O0092" hotel_name="ディズニー・アート・オブ・アニメーション・リゾート" />
+	<hORL105 hotel_code="O0147" hotel_name="ディズニー・オールスター・リゾート(館指定無し)" />
+	<hORL105 hotel_code="M0072" hotel_name="ディズニー・コロナド・スプリングス・リゾート" />
+	<hORL105 hotel_code="M0065" hotel_name="ディズニー・ポップ・センチュリー・リゾート" />
+</root>

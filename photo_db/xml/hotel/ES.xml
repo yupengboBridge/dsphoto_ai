@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hMAD101_130 hotel_code="7811" hotel_name="ヴィラ レアル" />
+	<hMAD101 hotel_code="7811" hotel_name="ヴィラ レアル" />
+	<hBCN101_130 hotel_code="B0088" hotel_name="バルメス" />
+	<hBCN101_130 hotel_code="8403" hotel_name="クラリス" />
+	<hBCN101 hotel_code="B0088" hotel_name="バルメス" />
+	<hGRX101_130 hotel_code="G0023" hotel_name="マシア レアル デ ラ アルハンブラ" />
+	<hGRX101_130 hotel_code="2320" hotel_name="パラドールナシオナルグラナダ" />
+	<hGRX101 hotel_code="G0023" hotel_name="マシア レアル デ ラ アルハンブラ" />
+	<hCRM101_130 hotel_code="2529" hotel_name="パラドール デ カルモナ" />
+	<hCRM101 hotel_code="2529" hotel_name="パラドール デ カルモナ" />
+	<hMAD130 hotel_code="7811" hotel_name="ヴィラ レアル" />
+	<hBCN130 hotel_code="8403" hotel_name="クラリス" />
+	<hGRX130 hotel_code="2320" hotel_name="パラドールナシオナルグラナダ" />
+	<hODB101_130 hotel_code="C0422" hotel_name="ユーロスターズ　パレス" />
+	<hODB130 hotel_code="C0422" hotel_name="ユーロスターズ　パレス" />
+	<hMAD102 hotel_code="XX0024" hotel_name="グランビア通エリア　スタンダードクラス" />
+	<hMAD102 hotel_code="7811" hotel_name="ヴィラ レアル" />
+	<hBCN102 hotel_code="XX0025" hotel_name="カタルーニャ地区　スタンダードクラス" />
+	<hBCN102 hotel_code="8403" hotel_name="クラリス" />
+	<hSCQ102 hotel_code="S0454" hotel_name="パラドールレイエスカトリコス" />
+	<hSVQ102 hotel_code="4747" hotel_name="アルフォンソ トレセ" />
+</root>

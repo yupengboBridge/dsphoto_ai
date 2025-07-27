@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hTPE101_130 hotel_code="T0256" hotel_name="ジャスト・スリープ（林森館）" />
+	<hTPE101_130 hotel_code="T0323" hotel_name="欧華酒店（リビエラ）" />
+	<hTPE101_130 hotel_code="2710" hotel_name="華國大飯店(インペリアルホテル)" />
+	<hTPE101_130 hotel_code="T0207" hotel_name="君品酒店（パレデシン）" />
+	<hTPE101_130 hotel_code="4784" hotel_name="兄弟大飯店(ブラザー)" />
+	<hTPE101_130 hotel_code="T0015" hotel_name="慶泰大飯店(ガーラ)" />
+	<hTPE101_130 hotel_code="T0219" hotel_name="皇家季節酒店（ロイヤルシーズンズ）" />
+	<hTPE101_130 hotel_code="3356" hotel_name="香格里拉遠東国際大飯店(シャングリラファーイスタン)" />
+	<hTPE101_130 hotel_code="T0361" hotel_name="首都大飯店松山館（キャピタル松山館）" />
+	<hTPE101_130 hotel_code="T0017" hotel_name="晶華酒店(リージェント台北)" />
+	<hTPE101_130 hotel_code="T0044" hotel_name="城市商旅(シティースィーツ)南西館" />
+	<hTPE101_130 hotel_code="T0242" hotel_name="神旺商務酒店（サンワンレジデンス）" />
+	<hTPE101_130 hotel_code="T0291" hotel_name="世聯商務飯店（リンクワールド）" />
+	<hTPE101_130 hotel_code="T0142" hotel_name="台北花園大酒店（タイペイガーデン）" />
+	<hTPE101_130 hotel_code="3355" hotel_name="台北凱撤大飯店(シーザーパーク)" />
+	<hTPE101_130 hotel_code="11419" hotel_name="台北城大飯店" />
+	<hTPE101_130 hotel_code="3357" hotel_name="台北亞都麗緻大飯店（ランディス）" />
+	<hTPE101_130 hotel_code="T0288" hotel_name="大倉久和大飯店(オークラプレステージ台北)" />
+	<hTPE101_130 hotel_code="4780" hotel_name="天成大飯店(コスモス）" />
+	<hTPE101_130 hotel_code="T0018" hotel_name="美麗信花園酒店（ミラマーガーデン）" />
+	<hTPE101_130 hotel_code="11411" hotel_name="洛碁大飯店花華分館(グリーンワールド花華分館)" />
+	<hTPE101_130 hotel_code="T0036" hotel_name="老爺商務会館 南西館(ロイヤルイン台北南西)" />
+	<hTPE101_130 hotel_code="T0317" hotel_name="老爺商務会館 林森館(ロイヤルイン台北林森)" />
+	<hTPE101_130 hotel_code="4778" hotel_name="老爺大酒店（ホテルロイヤル日航）" />
+	<hTPE101_130 hotel_code="T0321" hotel_name="和逸台北忠孝館（ホテルコージー）" />
+	<hTPE101_130 hotel_code="T0166" hotel_name="和逸台北民生館（ホテルコージー）" />
+	<hTPE101_130 hotel_code="T0078" hotel_name="圓山大飯店（グランド）（本館）" />
+	<hTPE101_130 hotel_code="T0261" hotel_name="馥華商旅（フォワードホテル）" />
+	<hTPE101_130 hotel_code="4046" hotel_name="一楽園大飯店" />
+	<hTPE101_130 hotel_code="4779" hotel_name="国賓大飯店（アンバサダー）" />
+	<hTPE101_130 hotel_code="T0482" hotel_name="誠品行旅" />
+	<hTPE101_130 hotel_code="4775" hotel_name="台北君悦酒店　(グランドハイアット台北）" />
+	<hTPE101 hotel_code="T0256" hotel_name="ジャスト・スリープ（林森館）" />
+	<hTPE101 hotel_code="T0323" hotel_name="欧華酒店（リビエラ）" />
+	<hTPE101 hotel_code="2710" hotel_name="華國大飯店(インペリアルホテル)" />
+	<hTPE101 hotel_code="T0207" hotel_name="君品酒店（パレデシン）" />
+	<hTPE101 hotel_code="4784" hotel_name="兄弟大飯店(ブラザー)" />
+	<hTPE101 hotel_code="T0015" hotel_name="慶泰大飯店(ガーラ)" />
+	<hTPE101 hotel_code="T0219" hotel_name="皇家季節酒店（ロイヤルシーズンズ）" />
+	<hTPE101 hotel_code="3356" hotel_name="香格里拉遠東国際大飯店(シャングリラファーイスタン)" />
+	<hTPE101 hotel_code="T0361" hotel_name="首都大飯店松山館（キャピタル松山館）" />
+	<hTPE101 hotel_code="T0017" hotel_name="晶華酒店(リージェント台北)" />
+	<hTPE101 hotel_code="T0044" hotel_name="城市商旅(シティースィーツ)南西館" />
+	<hTPE101 hotel_code="T0242" hotel_name="神旺商務酒店（サンワンレジデンス）" />
+	<hTPE101 hotel_code="T0291" hotel_name="世聯商務飯店（リンクワールド）" />
+	<hTPE101 hotel_code="T0142" hotel_name="台北花園大酒店（タイペイガーデン）" />
+	<hTPE101 hotel_code="3355" hotel_name="台北凱撤大飯店(シーザーパーク)" />
+	<hTPE101 hotel_code="11419" hotel_name="台北城大飯店" />
+	<hTPE101 hotel_code="3357" hotel_name="台北亞都麗緻大飯店（ランディス）" />
+	<hTPE101 hotel_code="T0288" hotel_name="大倉久和大飯店(オークラプレステージ台北)" />
+	<hTPE101 hotel_code="4780" hotel_name="天成大飯店(コスモス）" />
+	<hTPE101 hotel_code="T0018" hotel_name="美麗信花園酒店（ミラマーガーデン）" />
+	<hTPE101 hotel_code="11411" hotel_name="洛碁大飯店花華分館(グリーンワールド花華分館)" />
+	<hTPE101 hotel_code="T0036" hotel_name="老爺商務会館 南西館(ロイヤルイン台北南西)" />
+	<hTPE101 hotel_code="T0317" hotel_name="老爺商務会館 林森館(ロイヤルイン台北林森)" />
+	<hTPE101 hotel_code="4778" hotel_name="老爺大酒店（ホテルロイヤル日航）" />
+	<hTPE101 hotel_code="T0321" hotel_name="和逸台北忠孝館（ホテルコージー）" />
+	<hTPE101 hotel_code="T0166" hotel_name="和逸台北民生館（ホテルコージー）" />
+	<hTPE101 hotel_code="T0078" hotel_name="圓山大飯店（グランド）（本館）" />
+	<hTPE101 hotel_code="T0261" hotel_name="馥華商旅（フォワードホテル）" />
+	<hKHH101_130 hotel_code="4576" hotel_name="漢来大飯店（ハイライ）" />
+	<hKHH101_130 hotel_code="3182" hotel_name="圓山大飯店（グランド）" />
+	<hKHH101 hotel_code="4576" hotel_name="漢来大飯店（ハイライ）" />
+	<hKHH101 hotel_code="3182" hotel_name="圓山大飯店（グランド）" />
+	<hTPE130 hotel_code="T0256" hotel_name="ジャスト・スリープ（林森館）" />
+	<hTPE130 hotel_code="4046" hotel_name="一楽園大飯店" />
+	<hTPE130 hotel_code="T0323" hotel_name="欧華酒店（リビエラ）" />
+	<hTPE130 hotel_code="2710" hotel_name="華國大飯店(インペリアルホテル)" />
+	<hTPE130 hotel_code="T0207" hotel_name="君品酒店（パレデシン）" />
+	<hTPE130 hotel_code="4784" hotel_name="兄弟大飯店(ブラザー)" />
+	<hTPE130 hotel_code="T0015" hotel_name="慶泰大飯店(ガーラ)" />
+	<hTPE130 hotel_code="T0219" hotel_name="皇家季節酒店（ロイヤルシーズンズ）" />
+	<hTPE130 hotel_code="4779" hotel_name="国賓大飯店（アンバサダー）" />
+	<hTPE130 hotel_code="T0361" hotel_name="首都大飯店松山館（キャピタル松山館）" />
+	<hTPE130 hotel_code="T0017" hotel_name="晶華酒店(リージェント台北)" />
+	<hTPE130 hotel_code="T0044" hotel_name="城市商旅(シティースィーツ)南西館" />
+	<hTPE130 hotel_code="T0242" hotel_name="神旺商務酒店（サンワンレジデンス）" />
+	<hTPE130 hotel_code="T0291" hotel_name="世聯商務飯店（リンクワールド）" />
+	<hTPE130 hotel_code="T0482" hotel_name="誠品行旅" />
+	<hTPE130 hotel_code="T0142" hotel_name="台北花園大酒店（タイペイガーデン）" />
+	<hTPE130 hotel_code="3355" hotel_name="台北凱撤大飯店(シーザーパーク)" />
+	<hTPE130 hotel_code="4775" hotel_name="台北君悦酒店　(グランドハイアット台北）" />
+	<hTPE130 hotel_code="11419" hotel_name="台北城大飯店" />
+	<hTPE130 hotel_code="3357" hotel_name="台北亞都麗緻大飯店（ランディス）" />
+	<hTPE130 hotel_code="T0288" hotel_name="大倉久和大飯店(オークラプレステージ台北)" />
+	<hTPE130 hotel_code="4780" hotel_name="天成大飯店(コスモス）" />
+	<hTPE130 hotel_code="T0018" hotel_name="美麗信花園酒店（ミラマーガーデン）" />
+	<hTPE130 hotel_code="11411" hotel_name="洛碁大飯店花華分館(グリーンワールド花華分館)" />
+	<hTPE130 hotel_code="T0036" hotel_name="老爺商務会館 南西館(ロイヤルイン台北南西)" />
+	<hTPE130 hotel_code="T0317" hotel_name="老爺商務会館 林森館(ロイヤルイン台北林森)" />
+	<hTPE130 hotel_code="4778" hotel_name="老爺大酒店（ホテルロイヤル日航）" />
+	<hTPE130 hotel_code="T0321" hotel_name="和逸台北忠孝館（ホテルコージー）" />
+	<hTPE130 hotel_code="T0166" hotel_name="和逸台北民生館（ホテルコージー）" />
+	<hTPE130 hotel_code="T0078" hotel_name="圓山大飯店（グランド）（本館）" />
+	<hTPE130 hotel_code="T0261" hotel_name="馥華商旅（フォワードホテル）" />
+	<hTPE102 hotel_code="T0323" hotel_name="欧華酒店（リビエラ）" />
+	<hTPE102 hotel_code="T0207" hotel_name="君品酒店（パレデシン）" />
+	<hTPE102 hotel_code="4784" hotel_name="兄弟大飯店(ブラザー)" />
+	<hTPE102 hotel_code="T0017" hotel_name="晶華酒店(リージェント台北)" />
+	<hTPE102 hotel_code="T0291" hotel_name="世聯商務飯店（リンクワールド）" />
+	<hTPE102 hotel_code="1084" hotel_name="台北喜来登大飯店(シェラトングランド)" />
+	<hTPE102 hotel_code="T0212" hotel_name="台北伸適商旅（センス）" />
+	<hTPE102 hotel_code="T0288" hotel_name="大倉久和大飯店(オークラプレステージ台北)" />
+	<hTPE102 hotel_code="4785" hotel_name="第一大飯店(ファースト）" />
+	<hTPE102 hotel_code="4780" hotel_name="天成大飯店(コスモス）" />
+	<hTPE102 hotel_code="11411" hotel_name="洛碁大飯店花華分館(グリーンワールド花華分館)" />
+	<hTPE102 hotel_code="T0317" hotel_name="老爺商務会館 林森館(ロイヤルイン台北林森)" />
+	<hTPE102 hotel_code="4778" hotel_name="老爺大酒店（ホテルロイヤル日航）" />
+	<hTPE102 hotel_code="T0166" hotel_name="和逸台北民生館（ホテルコージー）" />
+	<hTPE102 hotel_code="T0078" hotel_name="圓山大飯店（グランド）（本館）" />
+	<hTPE102 hotel_code="T0261" hotel_name="馥華商旅（フォワードホテル）" />
+	<hTPE103 hotel_code="T0323" hotel_name="欧華酒店（リビエラ）" />
+	<hTPE103 hotel_code="T0207" hotel_name="君品酒店（パレデシン）" />
+	<hTPE103 hotel_code="4784" hotel_name="兄弟大飯店(ブラザー)" />
+	<hTPE103 hotel_code="T0017" hotel_name="晶華酒店(リージェント台北)" />
+	<hTPE103 hotel_code="T0291" hotel_name="世聯商務飯店（リンクワールド）" />
+	<hTPE103 hotel_code="1084" hotel_name="台北喜来登大飯店(シェラトングランド)" />
+	<hTPE103 hotel_code="T0288" hotel_name="大倉久和大飯店(オークラプレステージ台北)" />
+	<hTPE103 hotel_code="4785" hotel_name="第一大飯店(ファースト）" />
+	<hTPE103 hotel_code="4780" hotel_name="天成大飯店(コスモス）" />
+	<hTPE103 hotel_code="4778" hotel_name="老爺大酒店（ホテルロイヤル日航）" />
+	<hTPE103 hotel_code="T0166" hotel_name="和逸台北民生館（ホテルコージー）" />
+	<hTPE103 hotel_code="T0078" hotel_name="圓山大飯店（グランド）（本館）" />
+	<hTPE103 hotel_code="T0261" hotel_name="馥華商旅（フォワードホテル）" />
+	<hTPE104 hotel_code="T0256" hotel_name="ジャスト・スリープ（林森館）" />
+	<hTPE104 hotel_code="4046" hotel_name="一楽園大飯店" />
+	<hTPE104 hotel_code="T0323" hotel_name="欧華酒店（リビエラ）" />
+	<hTPE104 hotel_code="2710" hotel_name="華國大飯店(インペリアルホテル)" />
+	<hTPE104 hotel_code="T0207" hotel_name="君品酒店（パレデシン）" />
+	<hTPE104 hotel_code="4784" hotel_name="兄弟大飯店(ブラザー)" />
+	<hTPE104 hotel_code="T0015" hotel_name="慶泰大飯店(ガーラ)" />
+	<hTPE104 hotel_code="4774" hotel_name="康華大飯店(ゴールデンチャイナ)" />
+	<hTPE104 hotel_code="T0219" hotel_name="皇家季節酒店（ロイヤルシーズンズ）" />
+	<hTPE104 hotel_code="3356" hotel_name="香格里拉遠東国際大飯店(シャングリラファーイスタン)" />
+	<hTPE104 hotel_code="4779" hotel_name="国賓大飯店（アンバサダー）" />
+	<hTPE104 hotel_code="T0361" hotel_name="首都大飯店松山館（キャピタル松山館）" />
+	<hTPE104 hotel_code="T0017" hotel_name="晶華酒店(リージェント台北)" />
+	<hTPE104 hotel_code="T0044" hotel_name="城市商旅(シティースィーツ)南西館" />
+	<hTPE104 hotel_code="T0242" hotel_name="神旺商務酒店（サンワンレジデンス）" />
+	<hTPE104 hotel_code="T0291" hotel_name="世聯商務飯店（リンクワールド）" />
+	<hTPE104 hotel_code="T0482" hotel_name="誠品行旅" />
+	<hTPE104 hotel_code="T0142" hotel_name="台北花園大酒店（タイペイガーデン）" />
+	<hTPE104 hotel_code="3355" hotel_name="台北凱撤大飯店(シーザーパーク)" />
+	<hTPE104 hotel_code="1084" hotel_name="台北喜来登大飯店(シェラトングランド)" />
+	<hTPE104 hotel_code="4775" hotel_name="台北君悦酒店　(グランドハイアット台北）" />
+	<hTPE104 hotel_code="11419" hotel_name="台北城大飯店" />
+	<hTPE104 hotel_code="T0212" hotel_name="台北伸適商旅（センス）" />
+	<hTPE104 hotel_code="4050" hotel_name="台北西華飯店(シャーウッド)" />
+	<hTPE104 hotel_code="3357" hotel_name="台北亞都麗緻大飯店（ランディス）" />
+	<hTPE104 hotel_code="T0288" hotel_name="大倉久和大飯店(オークラプレステージ台北)" />
+	<hTPE104 hotel_code="4780" hotel_name="天成大飯店(コスモス）" />
+	<hTPE104 hotel_code="T0018" hotel_name="美麗信花園酒店（ミラマーガーデン）" />
+	<hTPE104 hotel_code="T0036" hotel_name="老爺商務会館 南西館(ロイヤルイン台北南西)" />
+	<hTPE104 hotel_code="T0317" hotel_name="老爺商務会館 林森館(ロイヤルイン台北林森)" />
+	<hTPE104 hotel_code="4778" hotel_name="老爺大酒店（ホテルロイヤル日航）" />
+	<hTPE104 hotel_code="T0321" hotel_name="和逸台北忠孝館（ホテルコージー）" />
+	<hTPE104 hotel_code="T0166" hotel_name="和逸台北民生館（ホテルコージー）" />
+	<hTPE104 hotel_code="T0078" hotel_name="圓山大飯店（グランド）（本館）" />
+</root>

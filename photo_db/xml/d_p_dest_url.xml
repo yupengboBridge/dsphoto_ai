@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+   <h10  destname="北海道" p_destname="北海道" href="http://www.hankyu-travel.com/hokkaido/"/>
+   <h11  destname="東北" p_destname="東北" href="http://www.hankyu-travel.com/tohoku/"/>
+   <h12  destname="関東" p_destname="関東" href="http://www.hankyu-travel.com/kanto/"/>
+   <h13  destname="北陸・甲信越" p_destname="中部・北陸" href="http://www.hankyu-travel.com/chubu-hokuriku/"/>
+   <h14  destname="東海" p_destname="中部・北陸" href="http://www.hankyu-travel.com/chubu-hokuriku/"/>
+   <h15  destname="北陸・甲信越" p_destname="中部・北陸" href="http://www.hankyu-travel.com/chubu-hokuriku/"/>
+   <h16  destname="近畿" p_destname="近畿・南紀・伊勢" href="http://www.hankyu-travel.com/kinki/"/>
+   <h17  destname="中国地方" p_destname="山陰・山陽" href="http://www.hankyu-travel.com/chuushikoku/"/>
+   <h18  destname="四国" p_destname="四国" href="http://www.hankyu-travel.com/shikoku/"/>
+   <h19  destname="九州" p_destname="九州" href="http://www.hankyu-travel.com/kyushu/"/>
+   <h20  destname="沖縄" p_destname="沖縄" href="http://www.hankyu-travel.com/okinawa/"/>
+</root>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hSIN101_130 hotel_code="2188" hotel_name="マリーナベイ・サンズ" />
+	<hSIN101_130 hotel_code="2682" hotel_name="コンラッド　センテニアル　シンガポール" />
+	<hSIN101_130 hotel_code="1789" hotel_name="シャングリラ" />
+	<hSIN101_130 hotel_code="1192" hotel_name="スイソテル　ザ　スタンフォード" />
+	<hSIN101_130 hotel_code="2966" hotel_name="マンダリンオーチャード" />
+	<hSIN101_130 hotel_code="5711" hotel_name="ヨーク" />
+	<hSIN101_130 hotel_code="6410" hotel_name="リージェント" />
+	<hSIN101_130 hotel_code="1257" hotel_name="リッツカールトン" />
+	<hSIN101_130 hotel_code="10058" hotel_name="ロイヤル アット クイーンズ" />
+	<hSIN101_130 hotel_code="1791" hotel_name="グランドコップトーンウォーターフロントホテル" />
+	<hSIN101_130 hotel_code="S0085" hotel_name="ペニンシュラ　エクセルシオール ホテル" />
+	<hSIN101 hotel_code="2188" hotel_name="マリーナベイ・サンズ" />
+	<hSIN130 hotel_code="2682" hotel_name="コンラッド　センテニアル　シンガポール" />
+	<hSIN130 hotel_code="1789" hotel_name="シャングリラ" />
+	<hSIN130 hotel_code="1192" hotel_name="スイソテル　ザ　スタンフォード" />
+	<hSIN130 hotel_code="2188" hotel_name="マリーナベイ・サンズ" />
+	<hSIN130 hotel_code="2966" hotel_name="マンダリンオーチャード" />
+	<hSIN130 hotel_code="5711" hotel_name="ヨーク" />
+	<hSIN130 hotel_code="6410" hotel_name="リージェント" />
+	<hSIN130 hotel_code="1257" hotel_name="リッツカールトン" />
+	<hSIN130 hotel_code="10058" hotel_name="ロイヤル アット クイーンズ" />
+	<hSIN130 hotel_code="1791" hotel_name="グランドコップトーンウォーターフロントホテル" />
+	<hSIN130 hotel_code="S0085" hotel_name="ペニンシュラ　エクセルシオール ホテル" />
+	<hSIN102 hotel_code="2189" hotel_name="グッドウッドパーク" />
+	<hSIN102 hotel_code="2682" hotel_name="コンラッド　センテニアル　シンガポール" />
+	<hSIN102 hotel_code="1979" hotel_name="ザ エリザベス シンガポール" />
+	<hSIN102 hotel_code="1192" hotel_name="スイソテル　ザ　スタンフォード" />
+	<hSIN102 hotel_code="1980" hotel_name="ビレッジホテルブギス" />
+	<hSIN102 hotel_code="2965" hotel_name="フラトン　シンガポール" />
+	<hSIN102 hotel_code="S1644" hotel_name="ホテル81ディクソン" />
+	<hSIN102 hotel_code="3359" hotel_name="ホテルボス" />
+	<hSIN102 hotel_code="2188" hotel_name="マリーナベイ・サンズ" />
+	<hSIN102 hotel_code="2190" hotel_name="マンダリン オリエンタル" />
+	<hSIN102 hotel_code="2966" hotel_name="マンダリンオーチャード" />
+	<hSIN102 hotel_code="5711" hotel_name="ヨーク" />
+	<hSIN102 hotel_code="4736" hotel_name="ラッフルズ" />
+	<hSIN102 hotel_code="6410" hotel_name="リージェント" />
+	<hSIN102 hotel_code="1257" hotel_name="リッツカールトン" />
+	<hSIN102 hotel_code="10058" hotel_name="ロイヤル アット クイーンズ" />
+	<hSIN102 hotel_code="S1019" hotel_name="オーチャード・ランデブー・ホテル・シンガポール" />
+	<hSIN102 hotel_code="1424" hotel_name="デイズホテル バイ ウィンダム シンガポール" />
+	<hSIN102 hotel_code="1792" hotel_name="パークロイヤルコレクション マリーナベイ(旧:マリーナマンダリン)" />
+	<hSIN102 hotel_code="S0085" hotel_name="ペニンシュラ　エクセルシオール ホテル" />
+	<hSIN103 hotel_code="2189" hotel_name="グッドウッドパーク" />
+	<hSIN103 hotel_code="4737" hotel_name="コンコルド ホテル" />
+	<hSIN103 hotel_code="2682" hotel_name="コンラッド　センテニアル　シンガポール" />
+	<hSIN103 hotel_code="1192" hotel_name="スイソテル　ザ　スタンフォード" />
+	<hSIN103 hotel_code="3664" hotel_name="ヒルトン シンガポール" />
+	<hSIN103 hotel_code="1980" hotel_name="ビレッジホテルブギス" />
+	<hSIN103 hotel_code="2965" hotel_name="フラトン　シンガポール" />
+	<hSIN103 hotel_code="3359" hotel_name="ホテルボス" />
+	<hSIN103 hotel_code="2188" hotel_name="マリーナベイ・サンズ" />
+	<hSIN103 hotel_code="2190" hotel_name="マンダリン オリエンタル" />
+	<hSIN103 hotel_code="2966" hotel_name="マンダリンオーチャード" />
+	<hSIN103 hotel_code="5711" hotel_name="ヨーク" />
+	<hSIN103 hotel_code="4736" hotel_name="ラッフルズ" />
+	<hSIN103 hotel_code="6410" hotel_name="リージェント" />
+	<hSIN103 hotel_code="1257" hotel_name="リッツカールトン" />
+	<hSIN103 hotel_code="10058" hotel_name="ロイヤル アット クイーンズ" />
+	<hSIN103 hotel_code="S1019" hotel_name="オーチャード・ランデブー・ホテル・シンガポール" />
+	<hSIN103 hotel_code="1792" hotel_name="パークロイヤルコレクション マリーナベイ(旧:マリーナマンダリン)" />
+	<hSIN103 hotel_code="S0085" hotel_name="ペニンシュラ　エクセルシオール ホテル" />
+	<h111103 hotel_code="S1531" hotel_name="ビレッジホテル　アット　セントーサ" />
+</root>

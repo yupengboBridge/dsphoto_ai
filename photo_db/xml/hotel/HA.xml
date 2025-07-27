@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hHNL101_130 hotel_code="4224" hotel_name="アウラニディズニーリゾート&amp;スパ" />
+	<hHNL101_130 hotel_code="2096" hotel_name="アクアオアシスアジョイホテル" />
+	<hHNL101_130 hotel_code="2094" hotel_name="アストン ワイキキ ビーチ タワー" />
+	<hHNL101_130 hotel_code="2857" hotel_name="アストン ワイキキサンセット" />
+	<hHNL101_130 hotel_code="1908" hotel_name="アストン ワイキキビーチホテル" />
+	<hHNL101_130 hotel_code="1477" hotel_name="アストン・アット・ザ・ワイキキ・バニアン" />
+	<hHNL101_130 hotel_code="4972" hotel_name="アラモアナ ホテル" />
+	<hHNL101_130 hotel_code="2556" hotel_name="アロヒラニ・リゾート・ワイキキビーチ" />
+	<hHNL101_130 hotel_code="3863" hotel_name="アンバサダーホテル オブ ワイキキ" />
+	<hHNL101_130 hotel_code="2555" hotel_name="イリカイ　ホテル＆スイーツ" />
+	<hHNL101_130 hotel_code="H0350" hotel_name="オヒア　ワイキキ" />
+	<hHNL101_130 hotel_code="2856" hotel_name="クィーン カピオラニ ホテル" />
+	<hHNL101_130 hotel_code="4226" hotel_name="ザ カハラ ホテル＆リゾート" />
+	<hHNL101_130 hotel_code="11644" hotel_name="ザ・サーフジャック・ホテル＆スイムクラブ" />
+	<hHNL101_130 hotel_code="4223" hotel_name="ザ・モダン・ホノルル" />
+	<hHNL101_130 hotel_code="1476" hotel_name="シェラトン プリンセス カイウラニ ホテル" />
+	<hHNL101_130 hotel_code="3168" hotel_name="シェラトン ワイキキ" />
+	<hHNL101_130 hotel_code="1721" hotel_name="ハイアット　プレイス　ワイキキ　ビーチ" />
+	<hHNL101_130 hotel_code="4970" hotel_name="ハレクラニ" />
+	<hHNL101_130 hotel_code="3531" hotel_name="ハレプナ ワイキキ バイ ハレクラニ" />
+	<hHNL101_130 hotel_code="11634" hotel_name="パシフィック　モナーク" />
+	<hHNL101_130 hotel_code="2092" hotel_name="プリンス　ワイキキ" />
+	<hHNL101_130 hotel_code="2333" hotel_name="ルアナ・ワイキキ・ホテル＆スイーツ" />
+	<hHNL101_130 hotel_code="2336" hotel_name="ワイキキ サンド ヴィラ ホテル" />
+	<hHNL101_130 hotel_code="3864" hotel_name="ワイキキ　マリア　バイ　アウトリガー" />
+	<hHNL101_130 hotel_code="1378" hotel_name="アウトリガー ワイキキ ビーチ リゾート" />
+	<hHNL101_130 hotel_code="H0040" hotel_name="アウトリガー・リーフ・ワイキキ・ビーチ・リゾート" />
+	<hHNL101_130 hotel_code="11639" hotel_name="アクア スカイライン アット アイランド コロニー" />
+	<hHNL101_130 hotel_code="H0030" hotel_name="エンバシー・スイート・バイ・ヒルトン・ワイキキ・ビーチ・ウォーク" />
+	<hHNL101_130 hotel_code="11636" hotel_name="オハナ ワイキキ イースト BY アウトリガー" />
+	<hHNL101_130 hotel_code="1154" hotel_name="ザ・リッツカールトンレジデンス・ワイキキビーチ" />
+	<hHNL101_130 hotel_code="H0173" hotel_name="トランプ・インターナショナル・ホテル・ワイキキ・ビーチウォーク" />
+	<hHNL101_130 hotel_code="2337" hotel_name="ハイアットリージェンシーワイキキビーチリゾートアンドスパ" />
+	<hHNL101_130 hotel_code="2334" hotel_name="ヒルトン・ハワイアン・ビレッジ・ワイキキ・ビーチ・リゾート" />
+	<hHNL101_130 hotel_code="1906" hotel_name="ホリディ イン エクスプレス ワイキキ ホノルル" />
+	<hHNL101_130 hotel_code="2393" hotel_name="マイラニロイヤルビーチタワーアットザロイヤルハワイアン" />
+	<hHNL101_130 hotel_code="2093" hotel_name="モアナサーフライダーウェスティンリゾート&amp;スパ" />
+	<hHNL101_130 hotel_code="3169" hotel_name="ロイヤル・ハワイアン・ラグジュアリー・コレクション・リゾート・ワイキキ" />
+	<hHNL101_130 hotel_code="2858" hotel_name="ワイキキ・ビーチコマー by アウトリガー" />
+	<hHNL101_130 hotel_code="1907" hotel_name="ワイキキビーチ マリオット リゾート&amp;スパ" />
+	<hHNL101 hotel_code="4224" hotel_name="アウラニディズニーリゾート&amp;スパ" />
+	<hHNL101 hotel_code="2096" hotel_name="アクアオアシスアジョイホテル" />
+	<hHNL101 hotel_code="2094" hotel_name="アストン ワイキキ ビーチ タワー" />
+	<hHNL101 hotel_code="2857" hotel_name="アストン ワイキキサンセット" />
+	<hHNL101 hotel_code="1908" hotel_name="アストン ワイキキビーチホテル" />
+	<hHNL101 hotel_code="1477" hotel_name="アストン・アット・ザ・ワイキキ・バニアン" />
+	<hHNL101 hotel_code="4972" hotel_name="アラモアナ ホテル" />
+	<hHNL101 hotel_code="2556" hotel_name="アロヒラニ・リゾート・ワイキキビーチ" />
+	<hHNL101 hotel_code="3863" hotel_name="アンバサダーホテル オブ ワイキキ" />
+	<hHNL101 hotel_code="2555" hotel_name="イリカイ　ホテル＆スイーツ" />
+	<hHNL101 hotel_code="H0350" hotel_name="オヒア　ワイキキ" />
+	<hHNL101 hotel_code="2856" hotel_name="クィーン カピオラニ ホテル" />
+	<hHNL101 hotel_code="4226" hotel_name="ザ カハラ ホテル＆リゾート" />
+	<hHNL101 hotel_code="11644" hotel_name="ザ・サーフジャック・ホテル＆スイムクラブ" />
+	<hHNL101 hotel_code="4223" hotel_name="ザ・モダン・ホノルル" />
+	<hHNL101 hotel_code="1476" hotel_name="シェラトン プリンセス カイウラニ ホテル" />
+	<hHNL101 hotel_code="3168" hotel_name="シェラトン ワイキキ" />
+	<hHNL101 hotel_code="1721" hotel_name="ハイアット　プレイス　ワイキキ　ビーチ" />
+	<hHNL101 hotel_code="4970" hotel_name="ハレクラニ" />
+	<hHNL101 hotel_code="3531" hotel_name="ハレプナ ワイキキ バイ ハレクラニ" />
+	<hHNL101 hotel_code="11634" hotel_name="パシフィック　モナーク" />
+	<hHNL101 hotel_code="2092" hotel_name="プリンス　ワイキキ" />
+	<hHNL101 hotel_code="2333" hotel_name="ルアナ・ワイキキ・ホテル＆スイーツ" />
+	<hHNL101 hotel_code="2336" hotel_name="ワイキキ サンド ヴィラ ホテル" />
+	<hHNL101 hotel_code="3864" hotel_name="ワイキキ　マリア　バイ　アウトリガー" />
+	<hHNL101 hotel_code="1378" hotel_name="アウトリガー ワイキキ ビーチ リゾート" />
+	<hHNL101 hotel_code="H0040" hotel_name="アウトリガー・リーフ・ワイキキ・ビーチ・リゾート" />
+	<hHNL101 hotel_code="11639" hotel_name="アクア スカイライン アット アイランド コロニー" />
+	<hHNL101 hotel_code="H0030" hotel_name="エンバシー・スイート・バイ・ヒルトン・ワイキキ・ビーチ・ウォーク" />
+	<hHNL101 hotel_code="11636" hotel_name="オハナ ワイキキ イースト BY アウトリガー" />
+	<hHNL101 hotel_code="1154" hotel_name="ザ・リッツカールトンレジデンス・ワイキキビーチ" />
+	<hHNL101 hotel_code="H0173" hotel_name="トランプ・インターナショナル・ホテル・ワイキキ・ビーチウォーク" />
+	<hHNL101 hotel_code="2337" hotel_name="ハイアットリージェンシーワイキキビーチリゾートアンドスパ" />
+	<hHNL101 hotel_code="2334" hotel_name="ヒルトン・ハワイアン・ビレッジ・ワイキキ・ビーチ・リゾート" />
+	<hHNL101 hotel_code="1906" hotel_name="ホリディ イン エクスプレス ワイキキ ホノルル" />
+	<hHNL101 hotel_code="2393" hotel_name="マイラニロイヤルビーチタワーアットザロイヤルハワイアン" />
+	<hHNL101 hotel_code="2093" hotel_name="モアナサーフライダーウェスティンリゾート&amp;スパ" />
+	<hHNL101 hotel_code="3169" hotel_name="ロイヤル・ハワイアン・ラグジュアリー・コレクション・リゾート・ワイキキ" />
+	<hHNL101 hotel_code="2858" hotel_name="ワイキキ・ビーチコマー by アウトリガー" />
+	<hHNL101 hotel_code="1907" hotel_name="ワイキキビーチ マリオット リゾート&amp;スパ" />
+	<hKOA101_130 hotel_code="2347" hotel_name="ザ フェアモント オーキッド ハワイ" />
+	<hKOA101_130 hotel_code="2348" hotel_name="ヒルトン ワイコロア ビレッジ" />
+	<hKOA101_130 hotel_code="3547" hotel_name="ロイヤル コナ リゾート" />
+	<hKOA101_130 hotel_code="11806" hotel_name="アウトリガー・コナ・リゾート&amp;スパ（旧シェラトン・コナ）" />
+	<hKOA101_130 hotel_code="1482" hotel_name="コートヤード キングカメハメハズ コナビーチ ホテル" />
+	<hKOA101_130 hotel_code="1914" hotel_name="ザ ウェスティン ハプナ ビーチ リゾート" />
+	<hKOA101_130 hotel_code="2099" hotel_name="ワイコロア ビーチ マリオット リゾート&amp;スパ" />
+	<hKOA101 hotel_code="2347" hotel_name="ザ フェアモント オーキッド ハワイ" />
+	<hKOA101 hotel_code="2348" hotel_name="ヒルトン ワイコロア ビレッジ" />
+	<hKOA101 hotel_code="3547" hotel_name="ロイヤル コナ リゾート" />
+	<hKOA101 hotel_code="11806" hotel_name="アウトリガー・コナ・リゾート&amp;スパ（旧シェラトン・コナ）" />
+	<hKOA101 hotel_code="1482" hotel_name="コートヤード キングカメハメハズ コナビーチ ホテル" />
+	<hKOA101 hotel_code="1914" hotel_name="ザ ウェスティン ハプナ ビーチ リゾート" />
+	<hKOA101 hotel_code="2099" hotel_name="ワイコロア ビーチ マリオット リゾート&amp;スパ" />
+	<hHNL130 hotel_code="4224" hotel_name="アウラニディズニーリゾート&amp;スパ" />
+	<hHNL130 hotel_code="2096" hotel_name="アクアオアシスアジョイホテル" />
+	<hHNL130 hotel_code="2094" hotel_name="アストン ワイキキ ビーチ タワー" />
+	<hHNL130 hotel_code="2857" hotel_name="アストン ワイキキサンセット" />
+	<hHNL130 hotel_code="1908" hotel_name="アストン ワイキキビーチホテル" />
+	<hHNL130 hotel_code="1477" hotel_name="アストン・アット・ザ・ワイキキ・バニアン" />
+	<hHNL130 hotel_code="4972" hotel_name="アラモアナ ホテル" />
+	<hHNL130 hotel_code="2556" hotel_name="アロヒラニ・リゾート・ワイキキビーチ" />
+	<hHNL130 hotel_code="3863" hotel_name="アンバサダーホテル オブ ワイキキ" />
+	<hHNL130 hotel_code="2555" hotel_name="イリカイ　ホテル＆スイーツ" />
+	<hHNL130 hotel_code="H0350" hotel_name="オヒア　ワイキキ" />
+	<hHNL130 hotel_code="2856" hotel_name="クィーン カピオラニ ホテル" />
+	<hHNL130 hotel_code="4226" hotel_name="ザ カハラ ホテル＆リゾート" />
+	<hHNL130 hotel_code="11644" hotel_name="ザ・サーフジャック・ホテル＆スイムクラブ" />
+	<hHNL130 hotel_code="1476" hotel_name="シェラトン プリンセス カイウラニ ホテル" />
+	<hHNL130 hotel_code="3168" hotel_name="シェラトン ワイキキ" />
+	<hHNL130 hotel_code="1721" hotel_name="ハイアット　プレイス　ワイキキ　ビーチ" />
+	<hHNL130 hotel_code="4970" hotel_name="ハレクラニ" />
+	<hHNL130 hotel_code="3531" hotel_name="ハレプナ ワイキキ バイ ハレクラニ" />
+	<hHNL130 hotel_code="11634" hotel_name="パシフィック　モナーク" />
+	<hHNL130 hotel_code="2092" hotel_name="プリンス　ワイキキ" />
+	<hHNL130 hotel_code="2333" hotel_name="ルアナ・ワイキキ・ホテル＆スイーツ" />
+	<hHNL130 hotel_code="2336" hotel_name="ワイキキ サンド ヴィラ ホテル" />
+	<hHNL130 hotel_code="3864" hotel_name="ワイキキ　マリア　バイ　アウトリガー" />
+	<hHNL130 hotel_code="1378" hotel_name="アウトリガー ワイキキ ビーチ リゾート" />
+	<hHNL130 hotel_code="H0040" hotel_name="アウトリガー・リーフ・ワイキキ・ビーチ・リゾート" />
+	<hHNL130 hotel_code="11639" hotel_name="アクア スカイライン アット アイランド コロニー" />
+	<hHNL130 hotel_code="H0030" hotel_name="エンバシー・スイート・バイ・ヒルトン・ワイキキ・ビーチ・ウォーク" />
+	<hHNL130 hotel_code="11636" hotel_name="オハナ ワイキキ イースト BY アウトリガー" />
+	<hHNL130 hotel_code="1154" hotel_name="ザ・リッツカールトンレジデンス・ワイキキビーチ" />
+	<hHNL130 hotel_code="H0173" hotel_name="トランプ・インターナショナル・ホテル・ワイキキ・ビーチウォーク" />
+	<hHNL130 hotel_code="2337" hotel_name="ハイアットリージェンシーワイキキビーチリゾートアンドスパ" />
+	<hHNL130 hotel_code="2334" hotel_name="ヒルトン・ハワイアン・ビレッジ・ワイキキ・ビーチ・リゾート" />
+	<hHNL130 hotel_code="1906" hotel_name="ホリディ イン エクスプレス ワイキキ ホノルル" />
+	<hHNL130 hotel_code="2393" hotel_name="マイラニロイヤルビーチタワーアットザロイヤルハワイアン" />
+	<hHNL130 hotel_code="2093" hotel_name="モアナサーフライダーウェスティンリゾート&amp;スパ" />
+	<hHNL130 hotel_code="3169" hotel_name="ロイヤル・ハワイアン・ラグジュアリー・コレクション・リゾート・ワイキキ" />
+	<hHNL130 hotel_code="2858" hotel_name="ワイキキ・ビーチコマー by アウトリガー" />
+	<hHNL130 hotel_code="1907" hotel_name="ワイキキビーチ マリオット リゾート&amp;スパ" />
+	<hHNL102 hotel_code="2556" hotel_name="アロヒラニ・リゾート・ワイキキビーチ" />
+	<hHNL102 hotel_code="4226" hotel_name="ザ カハラ ホテル＆リゾート" />
+	<hHNL102 hotel_code="1476" hotel_name="シェラトン プリンセス カイウラニ ホテル" />
+	<hHNL102 hotel_code="3168" hotel_name="シェラトン ワイキキ" />
+	<hHNL102 hotel_code="1721" hotel_name="ハイアット　プレイス　ワイキキ　ビーチ" />
+	<hHNL102 hotel_code="4970" hotel_name="ハレクラニ" />
+	<hHNL102 hotel_code="11634" hotel_name="パシフィック　モナーク" />
+	<hHNL102 hotel_code="2336" hotel_name="ワイキキ サンド ヴィラ ホテル" />
+	<hHNL102 hotel_code="3864" hotel_name="ワイキキ　マリア　バイ　アウトリガー" />
+	<hHNL102 hotel_code="H0173" hotel_name="トランプ・インターナショナル・ホテル・ワイキキ・ビーチウォーク" />
+	<hHNL102 hotel_code="2337" hotel_name="ハイアットリージェンシーワイキキビーチリゾートアンドスパ" />
+	<hHNL102 hotel_code="2334" hotel_name="ヒルトン・ハワイアン・ビレッジ・ワイキキ・ビーチ・リゾート" />
+	<hHNL102 hotel_code="1906" hotel_name="ホリディ イン エクスプレス ワイキキ ホノルル" />
+	<hHNL102 hotel_code="2093" hotel_name="モアナサーフライダーウェスティンリゾート&amp;スパ" />
+	<hHNL102 hotel_code="3169" hotel_name="ロイヤル・ハワイアン・ラグジュアリー・コレクション・リゾート・ワイキキ" />
+	<hHNL102 hotel_code="2858" hotel_name="ワイキキ・ビーチコマー by アウトリガー" />
+	<hHNL102 hotel_code="1907" hotel_name="ワイキキビーチ マリオット リゾート&amp;スパ" />
+	<hHNL103 hotel_code="1477" hotel_name="アストン・アット・ザ・ワイキキ・バニアン" />
+	<hHNL103 hotel_code="1476" hotel_name="シェラトン プリンセス カイウラニ ホテル" />
+	<hHNL103 hotel_code="3168" hotel_name="シェラトン ワイキキ" />
+	<hHNL103 hotel_code="11634" hotel_name="パシフィック　モナーク" />
+	<hHNL103 hotel_code="2336" hotel_name="ワイキキ サンド ヴィラ ホテル" />
+	<hHNL103 hotel_code="3864" hotel_name="ワイキキ　マリア　バイ　アウトリガー" />
+	<hHNL103 hotel_code="2337" hotel_name="ハイアットリージェンシーワイキキビーチリゾートアンドスパ" />
+	<hHNL103 hotel_code="2334" hotel_name="ヒルトン・ハワイアン・ビレッジ・ワイキキ・ビーチ・リゾート" />
+	<hHNL103 hotel_code="1906" hotel_name="ホリディ イン エクスプレス ワイキキ ホノルル" />
+	<hHNL103 hotel_code="2093" hotel_name="モアナサーフライダーウェスティンリゾート&amp;スパ" />
+	<hHNL103 hotel_code="2858" hotel_name="ワイキキ・ビーチコマー by アウトリガー" />
+	<hHNL103 hotel_code="1907" hotel_name="ワイキキビーチ マリオット リゾート&amp;スパ" />
+	<hHNL104 hotel_code="2094" hotel_name="アストン ワイキキ ビーチ タワー" />
+	<hHNL104 hotel_code="2857" hotel_name="アストン ワイキキサンセット" />
+	<hHNL104 hotel_code="1908" hotel_name="アストン ワイキキビーチホテル" />
+	<hHNL104 hotel_code="1477" hotel_name="アストン・アット・ザ・ワイキキ・バニアン" />
+	<hHNL104 hotel_code="4972" hotel_name="アラモアナ ホテル" />
+	<hHNL104 hotel_code="2556" hotel_name="アロヒラニ・リゾート・ワイキキビーチ" />
+	<hHNL104 hotel_code="3863" hotel_name="アンバサダーホテル オブ ワイキキ" />
+	<hHNL104 hotel_code="4226" hotel_name="ザ カハラ ホテル＆リゾート" />
+	<hHNL104 hotel_code="1476" hotel_name="シェラトン プリンセス カイウラニ ホテル" />
+	<hHNL104 hotel_code="3168" hotel_name="シェラトン ワイキキ" />
+	<hHNL104 hotel_code="1721" hotel_name="ハイアット　プレイス　ワイキキ　ビーチ" />
+	<hHNL104 hotel_code="4970" hotel_name="ハレクラニ" />
+	<hHNL104 hotel_code="3531" hotel_name="ハレプナ ワイキキ バイ ハレクラニ" />
+	<hHNL104 hotel_code="11634" hotel_name="パシフィック　モナーク" />
+	<hHNL104 hotel_code="2092" hotel_name="プリンス　ワイキキ" />
+	<hHNL104 hotel_code="2336" hotel_name="ワイキキ サンド ヴィラ ホテル" />
+	<hHNL104 hotel_code="3864" hotel_name="ワイキキ　マリア　バイ　アウトリガー" />
+	<hHNL104 hotel_code="1378" hotel_name="アウトリガー ワイキキ ビーチ リゾート" />
+	<hHNL104 hotel_code="H0040" hotel_name="アウトリガー・リーフ・ワイキキ・ビーチ・リゾート" />
+	<hHNL104 hotel_code="H0030" hotel_name="エンバシー・スイート・バイ・ヒルトン・ワイキキ・ビーチ・ウォーク" />
+	<hHNL104 hotel_code="2337" hotel_name="ハイアットリージェンシーワイキキビーチリゾートアンドスパ" />
+	<hHNL104 hotel_code="2334" hotel_name="ヒルトン・ハワイアン・ビレッジ・ワイキキ・ビーチ・リゾート" />
+	<hHNL104 hotel_code="1906" hotel_name="ホリディ イン エクスプレス ワイキキ ホノルル" />
+	<hHNL104 hotel_code="2393" hotel_name="マイラニロイヤルビーチタワーアットザロイヤルハワイアン" />
+	<hHNL104 hotel_code="2093" hotel_name="モアナサーフライダーウェスティンリゾート&amp;スパ" />
+	<hHNL104 hotel_code="3169" hotel_name="ロイヤル・ハワイアン・ラグジュアリー・コレクション・リゾート・ワイキキ" />
+	<hHNL104 hotel_code="2858" hotel_name="ワイキキ・ビーチコマー by アウトリガー" />
+	<hHNL104 hotel_code="1907" hotel_name="ワイキキビーチ マリオット リゾート&amp;スパ" />
+	<hHNL105 hotel_code="1477" hotel_name="アストン・アット・ザ・ワイキキ・バニアン" />
+	<hHNL105 hotel_code="1476" hotel_name="シェラトン プリンセス カイウラニ ホテル" />
+	<hHNL105 hotel_code="2336" hotel_name="ワイキキ サンド ヴィラ ホテル" />
+	<hHNL105 hotel_code="2337" hotel_name="ハイアットリージェンシーワイキキビーチリゾートアンドスパ" />
+	<hHNL105 hotel_code="1906" hotel_name="ホリディ イン エクスプレス ワイキキ ホノルル" />
+	<hHNL107 hotel_code="1477" hotel_name="アストン・アット・ザ・ワイキキ・バニアン" />
+	<hHNL107 hotel_code="1476" hotel_name="シェラトン プリンセス カイウラニ ホテル" />
+	<hHNL107 hotel_code="2336" hotel_name="ワイキキ サンド ヴィラ ホテル" />
+	<hHNL107 hotel_code="2337" hotel_name="ハイアットリージェンシーワイキキビーチリゾートアンドスパ" />
+	<hHNL107 hotel_code="1906" hotel_name="ホリディ イン エクスプレス ワイキキ ホノルル" />
+	<hHNL108 hotel_code="1477" hotel_name="アストン・アット・ザ・ワイキキ・バニアン" />
+	<hHNL108 hotel_code="1476" hotel_name="シェラトン プリンセス カイウラニ ホテル" />
+	<hHNL108 hotel_code="2336" hotel_name="ワイキキ サンド ヴィラ ホテル" />
+	<hHNL108 hotel_code="2337" hotel_name="ハイアットリージェンシーワイキキビーチリゾートアンドスパ" />
+	<hHNL108 hotel_code="1906" hotel_name="ホリディ イン エクスプレス ワイキキ ホノルル" />
+	<hHNL109 hotel_code="1477" hotel_name="アストン・アット・ザ・ワイキキ・バニアン" />
+	<hHNL109 hotel_code="1476" hotel_name="シェラトン プリンセス カイウラニ ホテル" />
+	<hHNL109 hotel_code="2336" hotel_name="ワイキキ サンド ヴィラ ホテル" />
+	<hHNL109 hotel_code="2337" hotel_name="ハイアットリージェンシーワイキキビーチリゾートアンドスパ" />
+	<hHNL109 hotel_code="1906" hotel_name="ホリディ イン エクスプレス ワイキキ ホノルル" />
+	<hHNL114 hotel_code="1477" hotel_name="アストン・アット・ザ・ワイキキ・バニアン" />
+	<hHNL114 hotel_code="1476" hotel_name="シェラトン プリンセス カイウラニ ホテル" />
+	<hHNL114 hotel_code="2336" hotel_name="ワイキキ サンド ヴィラ ホテル" />
+	<hHNL114 hotel_code="2337" hotel_name="ハイアットリージェンシーワイキキビーチリゾートアンドスパ" />
+	<hHNL114 hotel_code="1906" hotel_name="ホリディ イン エクスプレス ワイキキ ホノルル" />
+	<hHNL119 hotel_code="1477" hotel_name="アストン・アット・ザ・ワイキキ・バニアン" />
+	<hHNL119 hotel_code="1476" hotel_name="シェラトン プリンセス カイウラニ ホテル" />
+	<hHNL119 hotel_code="2336" hotel_name="ワイキキ サンド ヴィラ ホテル" />
+	<hHNL119 hotel_code="2337" hotel_name="ハイアットリージェンシーワイキキビーチリゾートアンドスパ" />
+	<hHNL119 hotel_code="1906" hotel_name="ホリディ イン エクスプレス ワイキキ ホノルル" />
+</root>

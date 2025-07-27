@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hNOU101_130 hotel_code="N0065" hotel_name="カサ デル ソル" />
+	<hNOU101_130 hotel_code="N0007" hotel_name="ラマダホテルアンドスイーツヌメア" />
+	<hNOU101_130 hotel_code="N0013" hotel_name="ル ヌバタ ホテル" />
+	<hNOU101_130 hotel_code="N0014" hotel_name="ル メリディアン ヌーメア" />
+	<hNOU101_130 hotel_code="4652" hotel_name="ル ラゴン ホテル" />
+	<hNOU101_130 hotel_code="N0096" hotel_name="ヒルトン ヌーメア ラ プロムナード レジデンス" />
+	<hNOU101 hotel_code="N0065" hotel_name="カサ デル ソル" />
+	<hNOU101 hotel_code="N0007" hotel_name="ラマダホテルアンドスイーツヌメア" />
+	<hNOU101 hotel_code="N0013" hotel_name="ル ヌバタ ホテル" />
+	<hNOU101 hotel_code="N0014" hotel_name="ル メリディアン ヌーメア" />
+	<hNOU101 hotel_code="4652" hotel_name="ル ラゴン ホテル" />
+	<hNOU101 hotel_code="N0096" hotel_name="ヒルトン ヌーメア ラ プロムナード レジデンス" />
+</root>

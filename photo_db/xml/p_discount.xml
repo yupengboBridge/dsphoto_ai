@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<p_discount>
+		<p_discount_code>1</p_discount_code>
+		<p_discount_name>早期割引</p_discount_name>
+	</p_discount>
+	<p_discount>
+		<p_discount_code>2</p_discount_code>
+		<p_discount_name>子供割引</p_discount_name>
+	</p_discount>
+	<p_discount>
+		<p_discount_code>3</p_discount_code>
+		<p_discount_name>学生割引</p_discount_name>
+	</p_discount>
+	<p_discount>
+		<p_discount_code>4</p_discount_code>
+		<p_discount_name>シニア割引</p_discount_name>
+	</p_discount>
+</root>

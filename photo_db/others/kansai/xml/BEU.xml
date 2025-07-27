@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+<country code="AT">オーストリア</country>
+<country code="BA">ボスニア ヘルツェゴビナ</country>
+<country code="BE">ベルギー</country>
+<country code="BG">ブルガリア</country>
+<country code="CH">スイス</country>
+<country code="CZ">チェコ</country>
+<country code="DE">ドイツ</country>
+<country code="DK">デンマーク</country>
+<country code="EE">エストニア</country>
+<country code="ES">スペイン</country>
+<country code="FI">フィンランド</country>
+<country code="FR">フランス</country>
+<country code="GB">イギリス</country>
+<country code="GR">ギリシャ</country>
+<country code="HR">クロアチア</country>
+<country code="HU">ハンガリー</country>
+<country code="IE">アイルランド</country>
+<country code="IS">アイスランド</country>
+<country code="IT">イタリア</country>
+<country code="LI">リヒテンシュタイン</country>
+<country code="LT">リトアニア</country>
+<country code="LU">ルクセンブルグ</country>
+<country code="LV">ラトビア</country>
+<country code="MC">モナコ</country>
+<country code="MT">マルタ</country>
+<country code="NL">オランダ</country>
+<country code="NO">ノルウェー</country>
+<country code="PL">ポーランド</country>
+<country code="PT">ポルトガル</country>
+<country code="RO">ルーマニア</country>
+<country code="RU">ロシア</country>
+<country code="SE">スウェーデン</country>
+<country code="SI">スロベニア</country>
+<country code="SK">スロバキア</country>
+<country code="UA">ウクライナ</country>
+
+</root>

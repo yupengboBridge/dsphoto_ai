@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<p_type_d>
+		<p_type_d_code>0</p_type_d_code>
+		<p_type_d_name>宿泊＋交通</p_type_d_name>
+	</p_type_d>
+	<p_type_d>
+		<p_type_d_code>1</p_type_d_code>
+		<p_type_d_name>日帰り</p_type_d_name>
+	</p_type_d>
+	<p_type_d>
+		<p_type_d_code>2</p_type_d_code>
+		<p_type_d_name>宿泊のみ</p_type_d_name>
+	</p_type_d>
+	<p_type_d>
+		<p_type_d_code>3</p_type_d_code>
+		<p_type_d_name>現地発着</p_type_d_name>
+	</p_type_d>
+</root>

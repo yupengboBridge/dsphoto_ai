@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hGUM101_130 hotel_code="3843" hotel_name="グアム リーフ ホテル" />
+	<hGUM101_130 hotel_code="3151" hotel_name="グアムプラザ・リゾート&amp;スパ" />
+	<hGUM101_130 hotel_code="8191" hotel_name="グランド プラザ ホテル" />
+	<hGUM101_130 hotel_code="1714" hotel_name="ザ ウェスティン リゾート グアム" />
+	<hGUM101_130 hotel_code="G0206" hotel_name="ザ ツバキ タワー" />
+	<hGUM101_130 hotel_code="G0035" hotel_name="シェラトンラグーナグアムリゾート" />
+	<hGUM101_130 hotel_code="3520" hotel_name="デュシタニグアムリゾート" />
+	<hGUM101_130 hotel_code="8195" hotel_name="ハイアットリージェンシー グアム" />
+	<hGUM101_130 hotel_code="8194" hotel_name="パシフィックスターリゾート＆スパ" />
+	<hGUM101_130 hotel_code="1099" hotel_name="ヒルトン グアム リゾート ＆ スパ" />
+	<hGUM101_130 hotel_code="3845" hotel_name="フィエスタ リゾート グアム" />
+	<hGUM101_130 hotel_code="3519" hotel_name="ホテル ニッコー グアム" />
+	<hGUM101_130 hotel_code="8196" hotel_name="ホリデイリゾート グアム" />
+	<hGUM101_130 hotel_code="8199" hotel_name="ロイヤルオーキッド グアム" />
+	<hGUM101_130 hotel_code="1715" hotel_name="ロッテホテルグアム" />
+	<hGUM101_130 hotel_code="2861" hotel_name="オンワード・ビーチ・リゾート" />
+	<hGUM101_130 hotel_code="2079" hotel_name="デュシットビーチリゾートグアム(旧アウトリガーグアム)" />
+	<hGUM101_130 hotel_code="1300" hotel_name="パシフィック アイランド クラブ グアム" />
+	<hGUM101_130 hotel_code="8181" hotel_name="ベイビューイースト(旧ベイビューホテルグアム)" />
+	<hGUM101_130 hotel_code="8167" hotel_name="ベイビューウェスト(旧オーシャンビューホテル&amp;レジデンス)" />
+	<hGUM101 hotel_code="3843" hotel_name="グアム リーフ ホテル" />
+	<hGUM101 hotel_code="3151" hotel_name="グアムプラザ・リゾート&amp;スパ" />
+	<hGUM101 hotel_code="8191" hotel_name="グランド プラザ ホテル" />
+	<hGUM101 hotel_code="1714" hotel_name="ザ ウェスティン リゾート グアム" />
+	<hGUM101 hotel_code="G0206" hotel_name="ザ ツバキ タワー" />
+	<hGUM101 hotel_code="G0035" hotel_name="シェラトンラグーナグアムリゾート" />
+	<hGUM101 hotel_code="3520" hotel_name="デュシタニグアムリゾート" />
+	<hGUM101 hotel_code="8195" hotel_name="ハイアットリージェンシー グアム" />
+	<hGUM101 hotel_code="8194" hotel_name="パシフィックスターリゾート＆スパ" />
+	<hGUM101 hotel_code="1099" hotel_name="ヒルトン グアム リゾート ＆ スパ" />
+	<hGUM101 hotel_code="3845" hotel_name="フィエスタ リゾート グアム" />
+	<hGUM101 hotel_code="3519" hotel_name="ホテル ニッコー グアム" />
+	<hGUM101 hotel_code="8196" hotel_name="ホリデイリゾート グアム" />
+	<hGUM101 hotel_code="8199" hotel_name="ロイヤルオーキッド グアム" />
+	<hGUM101 hotel_code="1715" hotel_name="ロッテホテルグアム" />
+	<hGUM101 hotel_code="2861" hotel_name="オンワード・ビーチ・リゾート" />
+	<hGUM101 hotel_code="2079" hotel_name="デュシットビーチリゾートグアム(旧アウトリガーグアム)" />
+	<hGUM101 hotel_code="1300" hotel_name="パシフィック アイランド クラブ グアム" />
+	<hGUM101 hotel_code="8181" hotel_name="ベイビューイースト(旧ベイビューホテルグアム)" />
+	<hGUM101 hotel_code="8167" hotel_name="ベイビューウェスト(旧オーシャンビューホテル&amp;レジデンス)" />
+	<hGUM104 hotel_code="3843" hotel_name="グアム リーフ ホテル" />
+	<hGUM104 hotel_code="3151" hotel_name="グアムプラザ・リゾート&amp;スパ" />
+	<hGUM104 hotel_code="G0035" hotel_name="シェラトンラグーナグアムリゾート" />
+	<hGUM104 hotel_code="3520" hotel_name="デュシタニグアムリゾート" />
+	<hGUM104 hotel_code="8195" hotel_name="ハイアットリージェンシー グアム" />
+	<hGUM104 hotel_code="1099" hotel_name="ヒルトン グアム リゾート ＆ スパ" />
+	<hGUM104 hotel_code="3519" hotel_name="ホテル ニッコー グアム" />
+	<hGUM104 hotel_code="1715" hotel_name="ロッテホテルグアム" />
+	<hGUM104 hotel_code="2154" hotel_name="オンワード・ビーチ・リゾート(オンワードタワー)" />
+	<hGUM104 hotel_code="8192" hotel_name="オンワード・ビーチ・リゾート[ウィング]" />
+</root>

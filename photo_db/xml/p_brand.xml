@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<p_brand>
+		<p_brand_code>EDT</p_brand_code>
+		<p_brand_name>EDT 阪急交通社 東京団体支店　宝塚歌劇ツアーデスク</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>EFA</p_brand_code>
+		<p_brand_name>EFA 阪急交通社　e-very福岡センター（航空券）</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>EGD</p_brand_code>
+		<p_brand_name>EGD 阪急交通社 企画旅行販売課 東京国内</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>EGW</p_brand_code>
+		<p_brand_name>EGW 阪急交通社 東京団体支店</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>EHW</p_brand_code>
+		<p_brand_name>EHW 阪急交通社 企画旅行販売課 東京海外</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>ENA</p_brand_code>
+		<p_brand_name>ENA 阪急交通社　e-very名古屋センター（航空券）</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>EOA</p_brand_code>
+		<p_brand_name>EOA 阪急交通社　e-very大阪センター（航空券）</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>EOS</p_brand_code>
+		<p_brand_name>EOS 阪急交通社　e-very大阪センター（ツアー）</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>ERW</p_brand_code>
+		<p_brand_name>ERW 阪急交通社 ロイヤルコレクション</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>ESI</p_brand_code>
+		<p_brand_name>ESI 阪急交通社 埼玉支店 海外旅行</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>ESS</p_brand_code>
+		<p_brand_name>ESS 阪急交通社 埼玉支店</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>ETT</p_brand_code>
+		<p_brand_name>ETT 阪急交通社　e-very東京センター（海外ツアー）</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>ETY</p_brand_code>
+		<p_brand_name>ETY 阪急交通社　e-very東京センター（航空券）</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H13</p_brand_code>
+		<p_brand_name>H13 阪急交通社 横浜トラベルセンター</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H32</p_brand_code>
+		<p_brand_name>H32 阪急交通社 大阪団体支店 営業一課</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H33</p_brand_code>
+		<p_brand_name>H33 阪急交通社 大阪団体支店</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H41</p_brand_code>
+		<p_brand_name>H41 阪急交通社 トラピックス岡山　国内</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H4W</p_brand_code>
+		<p_brand_name>H4W 阪急交通社 トラピックス岡山　海外</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H50</p_brand_code>
+		<p_brand_name>H50 阪急交通社 高松支店</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H51</p_brand_code>
+		<p_brand_name>H51 阪急交通社 松山支店</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H52</p_brand_code>
+		<p_brand_name>H52 阪急交通社 高知営業所</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H62</p_brand_code>
+		<p_brand_name>H62 阪急交通社 熊本支店</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H63</p_brand_code>
+		<p_brand_name>H63 阪急交通社 福岡団体支店（自由旅行）</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H64</p_brand_code>
+		<p_brand_name>H64 阪急交通社 大分支店</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H65</p_brand_code>
+		<p_brand_name>H65 阪急交通社 長崎支店</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H66</p_brand_code>
+		<p_brand_name>H66 阪急交通社 宮崎支店</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H6G</p_brand_code>
+		<p_brand_name>H6G 阪急交通社 福岡団体支店</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H6J</p_brand_code>
+		<p_brand_name>H6J 阪急交通社 熊本支店 自由旅行</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H70</p_brand_code>
+		<p_brand_name>H70 阪急交通社 トラピックス東北</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H7J</p_brand_code>
+		<p_brand_name>H7J 阪急交通社 トラピックス東北 国内 自由旅行</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>H90</p_brand_code>
+		<p_brand_name>H90 阪急交通社 北陸支店</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HEC</p_brand_code>
+		<p_brand_name>HEC 阪急交通社 チャータークルーズ　東京国内</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HED</p_brand_code>
+		<p_brand_name>HED 阪急交通社 トラピックス東京 国内１課</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HEJ</p_brand_code>
+		<p_brand_name>HEJ 阪急交通社 トラピックス国内自由旅行</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HET</p_brand_code>
+		<p_brand_name>HET 阪急交通社 トラピックス東京 海外</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HEU</p_brand_code>
+		<p_brand_name>HEU 阪急交通社 トラピックス東京 海外 ネット限定プラン</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HFD</p_brand_code>
+		<p_brand_name>HFD 阪急交通社 トラピックス福岡 国内</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HFF</p_brand_code>
+		<p_brand_name>HFF 阪急交通社　e-very福岡センター（ツアー）</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HFI</p_brand_code>
+		<p_brand_name>HFI 阪急交通社 トラピックス福岡 海外</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HFJ</p_brand_code>
+		<p_brand_name>HFJ 阪急交通社 クリスタルハート福岡 国内</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HFW</p_brand_code>
+		<p_brand_name>HFW 阪急交通社 クリスタルハート福岡 海外</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HHD</p_brand_code>
+		<p_brand_name>HHD 阪急交通社 トラピックス広島国内</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HHI</p_brand_code>
+		<p_brand_name>HHI 阪急交通社 トラピックス広島海外</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HHJ</p_brand_code>
+		<p_brand_name>HHJ 阪急交通社 トラピックス広島　自由旅行</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HKD</p_brand_code>
+		<p_brand_name>HKD 阪急交通社 鹿児島支店 国内</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HKW</p_brand_code>
+		<p_brand_name>HKW 阪急交通社 鹿児島支店 海外</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HKY</p_brand_code>
+		<p_brand_name>HKY 阪急交通社 鹿屋営業所</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HNC</p_brand_code>
+		<p_brand_name>HNC 阪急交通社 クリスタルハート中部 国内</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HND</p_brand_code>
+		<p_brand_name>HND 阪急交通社 トラピックス中部 国内</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HNI</p_brand_code>
+		<p_brand_name>HNI 阪急交通社 トラピックス中部 海外</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HNJ</p_brand_code>
+		<p_brand_name>HNJ 阪急交通社 トラピックス中部 国内 自由旅行</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HNR</p_brand_code>
+		<p_brand_name>HNR 阪急交通社 クリスタルハート　中部海外</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HNT</p_brand_code>
+		<p_brand_name>HNT 阪急交通社 中部宝塚歌劇ツアーデスク</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HOA</p_brand_code>
+		<p_brand_name>HOA 阪急交通社 トラピックス あらうんど</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HOB</p_brand_code>
+		<p_brand_name>HOB 阪急交通社 トラピックス大阪 国内 バスツア－</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HOD</p_brand_code>
+		<p_brand_name>HOD 阪急交通社 トラピックス大阪 国内</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HOI</p_brand_code>
+		<p_brand_name>HOI 阪急交通社 トラピックス大阪 海外</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HOO</p_brand_code>
+		<p_brand_name>HOO 阪急交通社 大阪 お宿センター</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HSD</p_brand_code>
+		<p_brand_name>HSD 阪急交通社 トラピックス静岡国内</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HSI</p_brand_code>
+		<p_brand_name>HSI 阪急交通社 トラピックス北海道 海外</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HSJ</p_brand_code>
+		<p_brand_name>HSJ 阪急交通社 トラピックス北海道国内自由旅行</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HSW</p_brand_code>
+		<p_brand_name>HSW 阪急交通社 トラピックス静岡海外</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HTB</p_brand_code>
+		<p_brand_name>HTB 阪急交通社 トラピックス東京 国内２課</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HTC</p_brand_code>
+		<p_brand_name>HTC 阪急交通社 メディア・フロント営業課</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HTD</p_brand_code>
+		<p_brand_name>HTD 阪急交通社 トラピックス東京 国内２課　バスの旅</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HTG</p_brand_code>
+		<p_brand_name>HTG 阪急交通社 東京 国内ゴルフ</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HTO</p_brand_code>
+		<p_brand_name>HTO 阪急交通社 東京 お宿センター</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>INT</p_brand_code>
+		<p_brand_name>INT 阪急交通社 トラピックス北海道 国内</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>IZJ</p_brand_code>
+		<p_brand_name>IZJ 阪急交通社 トラピックス静岡 国内 自由旅行</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>ODC</p_brand_code>
+		<p_brand_name>ODC 阪急交通社 クリスタルハート 大阪国内</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>ODT</p_brand_code>
+		<p_brand_name>ODT 阪急交通社 トラピックス あらうんど（宝塚）</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>OFC</p_brand_code>
+		<p_brand_name>OFC 阪急交通社 クリスタルハート 大阪海外</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>OTH</p_brand_code>
+		<p_brand_name>OTH 阪急交通社 トラピックススペシャル 大阪</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>RED</p_brand_code>
+		<p_brand_name>RED 阪急交通社 埼玉支店（赤い稲妻大作戦）</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>RED</p_brand_code>
+		<p_brand_name>RED 阪急交通社 埼玉支店 赤い稲妻大作戦　国内専用</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>REI</p_brand_code>
+		<p_brand_name>REI 阪急交通社 埼玉支店 赤い稲妻大作戦　海外専用</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>SDO</p_brand_code>
+		<p_brand_name>SDO 阪急交通社 クリスタルハート・国内吟選の旅</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>SDO</p_brand_code>
+		<p_brand_name>SDO 阪急交通社 クリスタルハート・国内吟選の旅</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>SWC</p_brand_code>
+		<p_brand_name>SWC 阪急交通社 クリスタルハート クルーズの旅 東京</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>SWO</p_brand_code>
+		<p_brand_name>SWO 阪急交通社 クリスタルハート 東京海外</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>SWO</p_brand_code>
+		<p_brand_name>SWO 阪急交通社 クリスタルハート 東京海外</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>TKF</p_brand_code>
+		<p_brand_name>TKF 阪急交通社 提携販売 福岡</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>TKN</p_brand_code>
+		<p_brand_name>TKN 阪急交通社 提携販売 名古屋</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>TKO</p_brand_code>
+		<p_brand_name>TKO 阪急交通社 提携販売課 大阪</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>TKT</p_brand_code>
+		<p_brand_name>TKT 阪急交通社 提携販売課 東京</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HAO</p_brand_code>
+		<p_brand_name>HAO 阪急交通社　青森営業所</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HNG</p_brand_code>
+		<p_brand_name>HNG 阪急交通社　長野支店</p_brand_name>
+	</p_brand>
+	<p_brand>
+		<p_brand_code>HYM</p_brand_code>
+		<p_brand_name>HYM 阪急交通社　山口営業所</p_brand_name>
+	</p_brand>
+</root>

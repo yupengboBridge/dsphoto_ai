@@ -1,0 +1,12197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<hatsu code="TYO">
+<dest code="BEU">
+<country code="IS">
+<city code="REK">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+</country>
+<country code="IE">
+<city code="ORK">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SNN">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="DUB">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="AL">
+<city code="TIA">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+<country code="GB">
+<city code="LON">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>VS</code>
+<name>ヴァージンアトランティック航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="EDI">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="GLA">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="ABZ">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="INV">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="CWL">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+</city>
+<city code="SOU">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="MME">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+</city>
+<city code="NCL">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="NWI">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+</city>
+<city code="HUY">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+</city>
+<city code="BHX">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="BRS">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+</city>
+<city code="BFS">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="MAN">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="LBA">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="LPL">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+</country>
+<country code="IT">
+<city code="ROM">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="MIL">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="FLR">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="VCE">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="NAP">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="PSA">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="AHO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="OLB">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="CTA">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="CAG">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="GOA">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="TRS">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="TRN">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="BRI">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="PMF">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="PMO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="BDS">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="VRN">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="BLQ">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="UA">
+<city code="IEV">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="EE">
+<city code="TLL">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="AT">
+<city code="INN">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="VIE">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="KLU">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="GRZ">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SZG">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="LNZ">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="NL">
+<city code="AMS">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="GR">
+<city code="ATH">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SKG">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+</country>
+<country code="HR">
+<city code="ZAG">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SPU">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+<city code="DBV">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="GI">
+<city code="GIB">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="CH">
+<city code="GVA">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="ZRH">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="BRN">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="ACH">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+</city>
+<city code="BSL">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="LUG">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+<country code="SE">
+<city code="UME">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="OSD">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="KSD">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="KRN">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="SDL">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="SFT">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="STO">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="NRK">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="MMA">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="GOT">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="JKG">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="LPI">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="LLA">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+</country>
+<country code="ES">
+<city code="MAD">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="BCN">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="GRX">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="LPA">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+</city>
+<city code="SCQ">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="SVQ">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="TCI">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+</city>
+<city code="VLC">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="PMI">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="BIO">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="AGP">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="VGO">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+</country>
+<country code="SK">
+<city code="BTS">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+</country>
+<country code="SI">
+<city code="LJU">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="RS">
+<city code="PRN">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+<city code="BEG">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="CZ">
+<city code="BRQ">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="PRG">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="DK">
+<city code="AAR">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="AAL">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="KRP">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="CPH">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SGD">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="BLL">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+</country>
+<country code="DE">
+<city code="BER">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="MUC">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="FRA">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="STR">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="DRS">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="CGN">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="DUS">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="DTM">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="NUE">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="HAJ">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="HAM">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="PAD">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="FDH">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="BRE">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="HOQ">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="FMO">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="LEJ">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="NO">
+<city code="ALF">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="AES">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="OSL">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="KKN">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="KRS">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="KSU">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="TRF">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="SVG">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="TOS">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="TRD">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="HAU">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="BGO">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="BOO">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="MOL">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+</country>
+<country code="HU">
+<city code="BUD">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FI">
+<city code="HEL">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="IVL">
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="OUL">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="KAJ">
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="KTT">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="KAO">
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="KUO">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="KEM">
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="KOK">
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="SJY">
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="TMP">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="TKU">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="VAA">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="VRK">
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="POR">
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="JYV">
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="JOE">
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="RVN">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+</country>
+<country code="FR">
+<city code="PAR">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="NCE">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="LYS">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="MRS">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="AVN">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="SXB">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="TLS">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="TLN">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="NTE">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="BOD">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="MLH">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="MPL">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="LIL">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+</country>
+<country code="BG">
+<city code="SOF">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="BY">
+<city code="MHP">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+<country code="BE">
+<city code="BRU">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="BA">
+<city code="SJJ">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+<country code="PL">
+<city code="KTW">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="KRK">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="GDN">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="WRO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="POZ">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="WAW">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="PT">
+<city code="FAO">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="FNC">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+</city>
+<city code="OPO">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="LIS">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="MK">
+<city code="SKP">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+<country code="MT">
+<city code="MLA">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="LV">
+<city code="RIX">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="LT">
+<city code="PLQ">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="VNO">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="RO">
+<city code="TSR">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+</city>
+<city code="BUH">
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="LU">
+<city code="LUX">
+<carr>
+<code>KL</code>
+<name>ＫＬＭオランダ航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>OS</code>
+<name>オーストリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="RU">
+<city code="MOW">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="SVX">
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+<city code="LED">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>AY</code>
+<name>フィンランド航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="AAS">
+<country code="IN">
+<city code="DEL">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="AMD">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="CCU">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="GAY">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="HYD">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="BLR">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="VNS">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="MAA">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="BOM">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="ID">
+<city code="JKT">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="DPS">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SUB">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="KH">
+<city code="REP">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="PNH">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+<country code="SG">
+<city code="SIN">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="LK">
+<city code="CMB">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+</country>
+<country code="TH">
+<city code="BKK">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="HKT">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="CNX">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="UTH">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="KBV">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="KKC">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="USM">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="URT">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="CEI">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="HDY">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+</country>
+<country code="BD">
+<city code="DAC">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+</country>
+<country code="PH">
+<city code="MNL">
+<carr>
+<code>PR</code>
+<name>フィリピン航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="CEB">
+<carr>
+<code>PR</code>
+<name>フィリピン航空</name>
+</carr>
+</city>
+</country>
+<country code="VN">
+<city code="HAN">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SGN">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="DAD">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+<country code="MY">
+<city code="KUL">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="BKI">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="PEN">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="LGK">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="MM">
+<city code="RGN">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+<country code="KR">
+<city code="SEL">
+<carr>
+<code>OZ</code>
+<name>アシアナ航空</name>
+</carr>
+<carr>
+<code>YY</code>
+<name>航空会社未定</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="PUS">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="CJU">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="HK">
+<city code="HKG">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="TW">
+<city code="TPE">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="KHH">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="CN">
+<city code="SHA">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>CA</code>
+<name>中国国際航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="CAN">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="DLC">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>CA</code>
+<name>中国国際航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="TAO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="XMN">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="HGH">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="SHE">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="PEK">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>CA</code>
+<name>中国国際航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="DNU">
+<country code="US">
+<city code="LAX">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SFO">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="NYC">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="WAS">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="LAS">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="CHI">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SEA">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="BOS">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="ORL">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="DFW">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="IMT">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="IDA">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="CAK">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="AVL">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ASE">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ATW">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ATL">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="ABR">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="AMA">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ACX">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ABQ">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="APN">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ESF">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ABE">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="ANC">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ITH">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="INL">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="IND">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="ICT">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="AVP">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ILM">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ACT">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="PBI">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="HPN">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="EAT">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="WYS">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="AUW">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ATY">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ALO">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="EVV">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="ERI">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ELP">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="EKO">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ELM">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="OWB">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="AGS">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="OAK">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="EAU">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="AUS">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="OKC">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="OMA">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="ABY">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ALB">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="ONT">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="IRK">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="AZO">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="FCA">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="CLL">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="MKC">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="GUC">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="GPT">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="EYW">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="CPR">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ILE">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="AKN">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="UIN">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="LMT">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="CLE">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="GST">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="GJT">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="GFK">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="GRR">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="GSO">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="GSP">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="GLH">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="GRB">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="GTF">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="CGI">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="GNV">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="COD">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="CRP">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="OTZ">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ADQ">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="CDV">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="COS">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="CMH">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="CSG">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="UBS">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="CAE">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="COU">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SBN">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MBS">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SAC">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SAV">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SRQ">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SAT">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SNA">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SBA">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="STS">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SAN">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SJC">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="CSL">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="CDC">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="CID">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SIT">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="CHO">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="CLT">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="CMI">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SHV">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SYR">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="CVG">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="JMS">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MKL">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="JAN">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="JAC">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="OAJ">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="JAX">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="JNU">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="JLN">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="SUX">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SSM">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="FSD">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SBS">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SCE">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="SPI">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SGF">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="GEG">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="STC">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SGU">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="STJ">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="KSM">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="STL">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SLC">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="TYR">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="TLH">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="TUL">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="TPA">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="DUT">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="DBQ">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="DLH">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="TVF">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="CRW">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="CHS">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="CHA">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="TWF">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="TXK">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="DAY">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="DEC">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="DLG">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="DAB">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="DTT">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="DVL">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="DSM">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="DEN">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="TUS">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="TUP">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="TRI">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="TVC">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="TOL">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="DHN">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BNA">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="ACK">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MSY">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SWF">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="EWN">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PHF">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="OTH">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ORF">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="OME">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="TYS">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="HFD">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="CMX">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="HSV">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="HTS">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BUR">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BHM">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="BRL">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="BTV">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="BUF">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="BTR">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="VLD">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BRW">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BGR">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PSP">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="PSC">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PAH">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PFN">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="HIB">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="HOU">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="HHH">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BIS">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BTM">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BIL">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BGM">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="PSG">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PIR">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PIA">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PIT">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="FAR">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PHL">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="FAI">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="FYV">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="FAY">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PHX">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="FWA">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="VPS">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="FSM">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="FOD">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="FMY">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="TBN">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="FLL">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="FLG">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="FNT">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="FAT">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="FLO">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SSI">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BMI">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SCC">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PUW">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PRC">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PVD">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SUN">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="HLN">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BFL">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="EGE">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BET">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BJI">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BLI">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PLN">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="NPA">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="PDT">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BZN">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="BOI">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="BWI">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="CLM">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PDX">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="PWM">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="PIH">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MQT">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MYR">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MIA">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="MOT">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MKG">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MFE">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MSL">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MSN">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="MWA">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="MHT">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="MSO">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MAF">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="MSP">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="MKE">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="MCW">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MFR">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MEI">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MLB">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MEM">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="MOB">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MLI">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MGM">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MRY">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="MTJ">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MLU">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="YKM">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="YAK">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="EUG">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="YUM">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="RHI">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="LSE">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="LBE">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="RAP">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="LFT">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="LBB">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="LRD">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+</city>
+<city code="LAN">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="RIC">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="LIT">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="RNO">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="LNK">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="LYH">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="LWS">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="LWB">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SDF">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="LEX">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="RDM">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="RDD">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="RDU">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="LUL">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ROA">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="ROC">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="RST">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="RKS">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="LGB">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ALW">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="CA">
+<city code="YTO">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YVR">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YYC">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YYJ">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YQB">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YZF">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YWG">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YQG">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YWK">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YEA">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YOW">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YKA">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YGP">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YQX">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YCG">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YGK">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YXC">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YYR">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YQU">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YLW">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YXE">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YSB">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YZR">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YQT">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YZP">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YQY">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YYG">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YAM">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YYD">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YZV">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YYT">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YSJ">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YTS">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YXT">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YDF">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YCD">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YYB">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YHZ">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YBG">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="ZBF">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YVO">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YXJ">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YMM">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YFC">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YFB">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YXS">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YPR">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YBC">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YYF">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YXY">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YGR">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YXH">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YQM">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YYY">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YMQ">
+<carr>
+<code>AA</code>
+<name>アメリカン航空</name>
+</carr>
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YQR">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YUY">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YQL">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+<city code="YXU">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="ESU">
+<country code="AB">
+<city code="AUA">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="AG">
+<city code="ANU">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="AN">
+<city code="CUR">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SXM">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="KY">
+<city code="GCM">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="JM">
+<city code="KIN">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MBJ">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="KN">
+<city code="SKB">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="LC">
+<city code="SLU">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="TC">
+<city code="PLS">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="TT">
+<city code="TAB">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="POS">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="DO">
+<city code="STI">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SDQ">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="POP">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PUJ">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="VI">
+<city code="STX">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="STT">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="BS">
+<city code="GGT">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="NAS">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="FPO">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="BM">
+<city code="BDA">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="BB">
+<city code="BGI">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="PR">
+<city code="SJU">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+<country code="MX">
+<city code="MEX">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="CUN">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ACA">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="AGU">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="GDL">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="CZM">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ZIH">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="PVR">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MZT">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="ZLO">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="MTY">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="LAP">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="SJD">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+<city code="LTO">
+<carr>
+<code>DL</code>
+<name>デルタ航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="FOC">
+<country code="AU">
+<city code="SYD">
+<carr>
+<code>QF</code>
+<name>カンタス航空</name>
+</carr>
+</city>
+<city code="OOL">
+<carr>
+<code>QF</code>
+<name>カンタス航空</name>
+</carr>
+</city>
+<city code="MEL">
+<carr>
+<code>QF</code>
+<name>カンタス航空</name>
+</carr>
+</city>
+<city code="CNS">
+<carr>
+<code>QF</code>
+<name>カンタス航空</name>
+</carr>
+</city>
+<city code="PER">
+<carr>
+<code>QF</code>
+<name>カンタス航空</name>
+</carr>
+</city>
+<city code="BNE">
+<carr>
+<code>QF</code>
+<name>カンタス航空</name>
+</carr>
+</city>
+<city code="ADL">
+<carr>
+<code>QF</code>
+<name>カンタス航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="HWI">
+<country code="HA">
+<city code="HNL">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="KOA">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="JHM">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="OGG">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="ITO">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="MKK">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="LNY">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="LIH">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="MNA">
+<country code="GU">
+<city code="GUM">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+</city>
+</country>
+</dest>
+</hatsu>
+<hatsu code="OSA">
+<dest code="HWI">
+<country code="HA">
+<city code="HNL">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+</hatsu>
+<hatsu code="NGO">
+<dest code="HWI">
+<country code="HA">
+<city code="HNL">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+</hatsu>
+<hatsu code="FUK">
+<dest code="BEU">
+<country code="IE">
+<city code="ORK">
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="SNN">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="DUB">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+</country>
+<country code="AL">
+<city code="TIA">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+</country>
+<country code="GB">
+<city code="LON">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="EDI">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="GLA">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="SOU">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="JER">
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="NCL">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="BHX">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+<city code="BFS">
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="MAN">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+</country>
+<country code="IT">
+<city code="ROM">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="MIL">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="FLR">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+<city code="VCE">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="NAP">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="PSA">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="CTA">
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="CAG">
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="CUF">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+</city>
+<city code="GOA">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="TRS">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="TRN">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="BRI">
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="VRN">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="BLQ">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+</country>
+<country code="UA">
+<city code="IEV">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+</country>
+<country code="EE">
+<city code="TLL">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+</country>
+<country code="AT">
+<city code="INN">
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="VIE">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="SZG">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+</country>
+<country code="NL">
+<city code="AMS">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="GR">
+<city code="ATH">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="SKG">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+</country>
+<country code="HR">
+<city code="ZAG">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+<city code="SPU">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+<city code="DBV">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+</country>
+<country code="CH">
+<city code="GVA">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="ZRH">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="BSL">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="LUG">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+</country>
+<country code="SE">
+<city code="STO">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="NRK">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="GOT">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="LPI">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+</country>
+<country code="ES">
+<city code="MAD">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="BCN">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="ALC">
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="IBZ">
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="SVQ">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="VLC">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="PMI">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="BIO">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="AGP">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="VGO">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+</country>
+<country code="SK">
+<city code="BTS">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+</country>
+<country code="SI">
+<city code="LJU">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+</country>
+<country code="RS">
+<city code="PRN">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+<city code="BEG">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+</country>
+<country code="CZ">
+<city code="BRQ">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="PRG">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="DK">
+<city code="AAR">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="AAL">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="KRP">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="CPH">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="SGD">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="BLL">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="RNN">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+</country>
+<country code="DE">
+<city code="BER">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="MUC">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="FRA">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+<carr>
+<code>VN</code>
+<name>ベトナム航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="STR">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="DRS">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+<city code="CGN">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="DUS">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="NUE">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="HAJ">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="HAM">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="BRE">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="FMO">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="LEJ">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+</country>
+<country code="NO">
+<city code="OSL">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="KRS">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="TRF">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="SVG">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="BGO">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+</country>
+<country code="HU">
+<city code="BUD">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+</country>
+<country code="FI">
+<city code="HEL">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FR">
+<city code="PAR">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+<carr>
+<code>VN</code>
+<name>ベトナム航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="NCE">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="LYS">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="MRS">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="AVN">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="SXB">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="TLS">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="TLN">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="BOD">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="MLH">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="MPL">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+<city code="LIL">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+</country>
+<country code="BG">
+<city code="SOF">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+</country>
+<country code="BE">
+<city code="BRU">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+</country>
+<country code="PL">
+<city code="KRK">
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="GDN">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="POZ">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="WAW">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+</country>
+<country code="PT">
+<city code="FAO">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+<city code="LIS">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+</country>
+<country code="MK">
+<city code="SKP">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+</city>
+</country>
+<country code="MT">
+<city code="MLA">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+</country>
+<country code="LV">
+<city code="RIX">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+</country>
+<country code="LT">
+<city code="PLQ">
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+<city code="VNO">
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+</city>
+</country>
+<country code="RO">
+<city code="BUH">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+</country>
+<country code="LU">
+<city code="LUX">
+<carr>
+<code>AZ</code>
+<name>アリタリア・イタリア航空</name>
+</carr>
+<carr>
+<code>AF</code>
+<name>エールフランス航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>SK</code>
+<name>スカンジナビア航空</name>
+</carr>
+<carr>
+<code>BA</code>
+<name>ブリティッシュ・エアウェイズ</name>
+</carr>
+</city>
+</country>
+<country code="RU">
+<city code="MOW">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>VN</code>
+<name>ベトナム航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+<city code="LED">
+<carr>
+<code>LX</code>
+<name>スイスインターナショナル</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="CAF">
+<country code="EG">
+<city code="CAI">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="ZA">
+<city code="JNB">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="CHT">
+<country code="AE">
+<city code="DXB">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+</city>
+</country>
+<country code="SA">
+<city code="JED">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+</city>
+<city code="RUH">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+</city>
+</country>
+<country code="BH">
+<city code="BAH">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="AAS">
+<country code="IN">
+<city code="DEL">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+</city>
+<city code="AMD">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+<city code="CCU">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+<city code="COK">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+<city code="CJB">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+<city code="TRV">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+<city code="HYD">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+<city code="BLR">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+<city code="MAA">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+<city code="BOM">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+</country>
+<country code="ID">
+<city code="JKT">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="DPS">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="SUB">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+<city code="SOC">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+<city code="BPN">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+<city code="PLM">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+<city code="AMI">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+<city code="MDC">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+<city code="MES">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+</country>
+<country code="KH">
+<city code="REP">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="PNH">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>VN</code>
+<name>ベトナム航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+</country>
+<country code="SG">
+<city code="SIN">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>VN</code>
+<name>ベトナム航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+</country>
+<country code="LK">
+<city code="CMB">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>UL</code>
+<name>スリランカ航空</name>
+</carr>
+</city>
+</country>
+<country code="TH">
+<city code="BKK">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>VN</code>
+<name>ベトナム航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+<city code="HKT">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+<city code="CNX">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="UTH">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="KBV">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="KKC">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="URT">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="CEI">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="HDY">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+</country>
+<country code="NP">
+<city code="KTM">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+</city>
+</country>
+<country code="BD">
+<city code="DAC">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+</country>
+<country code="PH">
+<city code="MNL">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>PR</code>
+<name>フィリピン航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="CEB">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>PR</code>
+<name>フィリピン航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="DVO">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+</country>
+<country code="BN">
+<city code="BWN">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+</country>
+<country code="VN">
+<city code="HAN">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>VN</code>
+<name>ベトナム航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+<city code="SGN">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>VN</code>
+<name>ベトナム航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="DAD">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+</country>
+<country code="MO">
+<city code="MFM">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+</country>
+<country code="MY">
+<city code="KUL">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>VN</code>
+<name>ベトナム航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+<city code="KCH">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+<city code="BKI">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="PEN">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+</city>
+<city code="LGK">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+</country>
+<country code="MM">
+<city code="RGN">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+</country>
+<country code="MV">
+<city code="MLE">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+</country>
+<country code="MN">
+<city code="ULN">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="LA">
+<city code="VTE">
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+</country>
+<country code="KR">
+<city code="SEL">
+<carr>
+<code>OZ</code>
+<name>アシアナ航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="PUS">
+<carr>
+<code>OZ</code>
+<name>アシアナ航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="CJU">
+<carr>
+<code>OZ</code>
+<name>アシアナ航空</name>
+</carr>
+</city>
+</country>
+<country code="HK">
+<city code="HKG">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+</country>
+<country code="TW">
+<city code="TPE">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+</country>
+<country code="CN">
+<city code="SHA">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>CA</code>
+<name>中国国際航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+<city code="CAN">
+<carr>
+<code>CZ</code>
+<name>中国南方航空</name>
+</carr>
+</city>
+<city code="DLC">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>CA</code>
+<name>中国国際航空</name>
+</carr>
+<carr>
+<code>CZ</code>
+<name>中国南方航空</name>
+</carr>
+</city>
+<city code="TAO">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+<city code="SHE">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>CZ</code>
+<name>中国南方航空</name>
+</carr>
+</city>
+<city code="TSN">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="WEH">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="YNJ">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="YNT">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="MDG">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="TNA">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="WUH">
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+<city code="PEK">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>CA</code>
+<name>中国国際航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="DNU">
+<country code="US">
+<city code="LAX">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SFO">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="NYC">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="WAS">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="LAS">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="CHI">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SEA">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="DFW">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="ATL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="CA">
+<city code="YTO">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YVR">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="YQB">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YWG">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YOW">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YMQ">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="FOC">
+<country code="AU">
+<city code="SYD">
+<carr>
+<code>QF</code>
+<name>カンタス航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+<city code="OOL">
+<carr>
+<code>QF</code>
+<name>カンタス航空</name>
+</carr>
+</city>
+<city code="MEL">
+<carr>
+<code>QF</code>
+<name>カンタス航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>MU</code>
+<name>中国東方航空</name>
+</carr>
+</city>
+<city code="CNS">
+<carr>
+<code>QF</code>
+<name>カンタス航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+</city>
+<city code="PER">
+<carr>
+<code>QF</code>
+<name>カンタス航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+</city>
+<city code="BNE">
+<carr>
+<code>BR</code>
+<name>エバー航空</name>
+</carr>
+<carr>
+<code>QF</code>
+<name>カンタス航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>TG</code>
+<name>タイ国際航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="ADL">
+<carr>
+<code>QF</code>
+<name>カンタス航空</name>
+</carr>
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+</country>
+<country code="NZ">
+<city code="AKL">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+<carr>
+<code>NZ</code>
+<name>ニュージーランド航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="CHC">
+<carr>
+<code>SQ</code>
+<name>シンガポール航空</name>
+</carr>
+</city>
+</country>
+<country code="FJ">
+<city code="NAN">
+<carr>
+<code>CX</code>
+<name>キャセイパシフィック航空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="HWI">
+<country code="HA">
+<city code="HNL">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="MNA">
+<country code="GU">
+<city code="GUM">
+<carr>
+<code>CO</code>
+<name>コンチネンタル航空</name>
+</carr>
+<carr>
+<code>CI</code>
+<name>チャイナ エアライン</name>
+</carr>
+</city>
+</country>
+</dest>
+</hatsu>
+<hatsu code="KKJ">
+<dest code="BEU">
+<country code="GB">
+<city code="LON">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="DE">
+<city code="MUC">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="FRA">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FI">
+<city code="HEL">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FR">
+<city code="PAR">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="AAS">
+<country code="KR">
+<city code="SEL">
+<carr>
+<code>7C</code>
+<name>チェジュ航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="DNU">
+<country code="US">
+<city code="LAX">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SFO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="NYC">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="WAS">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="CHI">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="CA">
+<city code="YTO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YVR">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="YQB">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YWG">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YOW">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YMQ">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="HWI">
+<country code="HA">
+<city code="HNL">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+</hatsu>
+<hatsu code="KMJ">
+<dest code="BEU">
+<country code="GB">
+<city code="LON">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="DE">
+<city code="MUC">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="FRA">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FI">
+<city code="HEL">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FR">
+<city code="PAR">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="DNU">
+<country code="US">
+<city code="LAX">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SFO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="NYC">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="WAS">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="CHI">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="CA">
+<city code="YTO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YVR">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="YQB">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YWG">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YOW">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YMQ">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="HWI">
+<country code="HA">
+<city code="HNL">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+</hatsu>
+<hatsu code="OIT">
+<dest code="BEU">
+<country code="GB">
+<city code="LON">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="IT">
+<city code="ROM">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="MIL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="AT">
+<city code="VIE">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="NL">
+<city code="AMS">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="CH">
+<city code="ZRH">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="ES">
+<city code="MAD">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="CZ">
+<city code="PRG">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="DE">
+<city code="MUC">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="FRA">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FI">
+<city code="HEL">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FR">
+<city code="PAR">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="RU">
+<city code="MOW">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="CAF">
+<country code="EG">
+<city code="CAI">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="AAS">
+<country code="ID">
+<city code="JKT">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="DPS">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="KH">
+<city code="REP">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="PNH">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="SG">
+<city code="SIN">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="TH">
+<city code="BKK">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="HKT">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="CNX">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="PH">
+<city code="MNL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="CEB">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="VN">
+<city code="HAN">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="SGN">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="MY">
+<city code="KUL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="BKI">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="HK">
+<city code="HKG">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="TW">
+<city code="TPE">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="DNU">
+<country code="US">
+<city code="LAX">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SFO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="NYC">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="WAS">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="LAS">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="CHI">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SEA">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="DFW">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="ATL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="CA">
+<city code="YTO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YVR">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="YQB">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YWG">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YOW">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YMQ">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="FOC">
+<country code="AU">
+<city code="SYD">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="MEL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="BNE">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="NZ">
+<city code="AKL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="FJ">
+<city code="NAN">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="HWI">
+<country code="HA">
+<city code="HNL">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+</dest>
+</hatsu>
+<hatsu code="KMI">
+<dest code="BEU">
+<country code="GB">
+<city code="LON">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="DE">
+<city code="MUC">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="FRA">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FI">
+<city code="HEL">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FR">
+<city code="PAR">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="DNU">
+<country code="US">
+<city code="LAX">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SFO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="NYC">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="WAS">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="CHI">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="CA">
+<city code="YTO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YVR">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="YQB">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YWG">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YOW">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YMQ">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="HWI">
+<country code="HA">
+<city code="HNL">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+</hatsu>
+<hatsu code="NGS">
+<dest code="BEU">
+<country code="GB">
+<city code="LON">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="IT">
+<city code="ROM">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="MIL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="AT">
+<city code="VIE">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="NL">
+<city code="AMS">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="CH">
+<city code="ZRH">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="ES">
+<city code="MAD">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="CZ">
+<city code="PRG">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="DE">
+<city code="MUC">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="FRA">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FI">
+<city code="HEL">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FR">
+<city code="PAR">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="RU">
+<city code="MOW">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="CAF">
+<country code="EG">
+<city code="CAI">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="AAS">
+<country code="ID">
+<city code="JKT">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="DPS">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="KH">
+<city code="REP">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="PNH">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="SG">
+<city code="SIN">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="TH">
+<city code="BKK">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="HKT">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="CNX">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="PH">
+<city code="MNL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="CEB">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="VN">
+<city code="HAN">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="SGN">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="MY">
+<city code="KUL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="BKI">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="HK">
+<city code="HKG">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="TW">
+<city code="TPE">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="DNU">
+<country code="US">
+<city code="LAX">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SFO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="NYC">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="WAS">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="LAS">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="CHI">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SEA">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="DFW">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="ATL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="CA">
+<city code="YTO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YVR">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="YQB">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YWG">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YOW">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YMQ">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="FOC">
+<country code="AU">
+<city code="SYD">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="MEL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="BNE">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="NZ">
+<city code="AKL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="FJ">
+<city code="NAN">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="HWI">
+<country code="HA">
+<city code="HNL">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+</dest>
+</hatsu>
+<hatsu code="KOJ">
+<dest code="BEU">
+<country code="GB">
+<city code="LON">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="IT">
+<city code="ROM">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="MIL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="AT">
+<city code="VIE">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="NL">
+<city code="AMS">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="CH">
+<city code="ZRH">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="ES">
+<city code="MAD">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="CZ">
+<city code="PRG">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="DE">
+<city code="MUC">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="FRA">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FI">
+<city code="HEL">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FR">
+<city code="PAR">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="DNU">
+<country code="US">
+<city code="LAX">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SFO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="NYC">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="WAS">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="CHI">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="CA">
+<city code="YTO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YVR">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="YQB">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YWG">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YOW">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YMQ">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="FOC">
+<country code="AU">
+<city code="SYD">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="MEL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+<city code="BNE">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+<country code="NZ">
+<city code="AKL">
+<carr>
+<code>KE</code>
+<name>大韓航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="HWI">
+<country code="HA">
+<city code="HNL">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+</hatsu>
+<hatsu code="OKA">
+<dest code="BEU">
+<country code="GB">
+<city code="LON">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="DE">
+<city code="MUC">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="FRA">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FI">
+<city code="HEL">
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="FR">
+<city code="PAR">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="DNU">
+<country code="US">
+<city code="LAX">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="SFO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="NYC">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="WAS">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="CHI">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+</country>
+<country code="CA">
+<city code="YTO">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YVR">
+<carr>
+<code>AC</code>
+<name>エア・カナダ</name>
+</carr>
+<carr>
+<code>JL</code>
+<name>日本航空</name>
+</carr>
+</city>
+<city code="YQB">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YWG">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YOW">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+<city code="YMQ">
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+<dest code="HWI">
+<country code="HA">
+<city code="HNL">
+<carr>
+<code>JO</code>
+<name>ＪＡＬウェイズ</name>
+</carr>
+<carr>
+<code>NH</code>
+<name>全日空</name>
+</carr>
+</city>
+</country>
+</dest>
+</hatsu>
+</root>

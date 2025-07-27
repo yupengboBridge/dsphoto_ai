@@ -1,0 +1,2776 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <departure place_departure_code="101013,101319,101011,101012,101014,101015,101016,101017,101018,101320,101321,101322" place_departure_name="北海道">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="102022,102025,102021,102023,102024,102026" place_departure_name="東北">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="102022" place_departure_name="青森県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="102025" place_departure_name="岩手県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="102021" place_departure_name="宮城県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="102023" place_departure_name="秋田県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="102024" place_departure_name="山形県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="102026" place_departure_name="福島県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="104041,104042,104043,104044,104045,104049,104046,104047,104048,105051,105052,105053" place_departure_name="関東">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="104041,104042" place_departure_name="東京都">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="104043,104044" place_departure_name="神奈川県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="104045" place_departure_name="埼玉県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+     </departure>
+    <departure place_departure_code="104049" place_departure_name="千葉県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="104046" place_departure_name="茨城県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="104047" place_departure_name="栃木県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+     </departure>
+    <departure place_departure_code="104048" place_departure_name="群馬県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+     </departure>
+    <departure place_departure_code="105051" place_departure_name="新潟県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="105052" place_departure_name="山梨県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+     </departure>
+    <departure place_departure_code="105053" place_departure_name="長野県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="111111,111112,111114,103032,103031,103033,111113" place_departure_name="中部・北陸">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="111111" place_departure_name="愛知県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="111112" place_departure_name="静岡県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="111114" place_departure_name="三重県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+     </departure>
+    <departure place_departure_code="103032" place_departure_name="富山県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="103031" place_departure_name="石川県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="103033" place_departure_name="福井県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="111113" place_departure_name="岐阜県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+        </district>
+     </departure>
+    <departure place_departure_code="106061,106063,106062,106065,106064,106066" place_departure_name="関西">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="106061" place_departure_name="大阪府">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="106063" place_departure_name="兵庫県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="106062" place_departure_name="京都府">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+     </departure>
+    <departure place_departure_code="106065" place_departure_name="奈良県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+     </departure>
+    <departure place_departure_code="106064" place_departure_name="滋賀県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+        </district>
+     </departure>
+    <departure place_departure_code="106066" place_departure_name="和歌山県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+     </departure>
+    <departure place_departure_code="107071,107072,107073,107074,107075,108084,108083,108081,108082" place_departure_name="中国・四国">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="107071" place_departure_name="岡山県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="107072" place_departure_name="広島県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="107073" place_departure_name="山口県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="107074" place_departure_name="鳥取県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="107075" place_departure_name="島根県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="108084" place_departure_name="徳島県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="108083" place_departure_name="香川県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="108081" place_departure_name="愛媛県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="108082" place_departure_name="高知県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="109090,109091,109094,109092,109095,109093,109096,109097,110000" place_departure_name="九州・沖縄">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="109090,109091" place_departure_name="福岡県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="08" prefecture_name="茨城県" />
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="15" prefecture_name="新潟県" />
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="109094" place_departure_name="佐賀県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="109092" place_departure_name="長崎県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="41" prefecture_name="佐賀県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="109095" place_departure_name="熊本県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="43" prefecture_name="熊本県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="109093" place_departure_name="大分県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="18" prefecture_name="福井県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="109096" place_departure_name="宮崎県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="45" prefecture_name="宮崎県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="109097" place_departure_name="鹿児島県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="02" prefecture_name="青森県" />
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+            <prefecture  prefecture_code="07" prefecture_name="福島県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="11" prefecture_name="埼玉県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="16" prefecture_name="富山県" />
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="21" prefecture_name="岐阜県" />
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="31" prefecture_name="鳥取県" />
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+            <prefecture  prefecture_code="38" prefecture_name="愛媛県" />
+            <prefecture  prefecture_code="39" prefecture_name="高知県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="42" prefecture_name="長崎県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+            <prefecture  prefecture_code="46" prefecture_name="鹿児島県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+     </departure>
+    <departure place_departure_code="110000" place_departure_name="沖縄県">
+        <district district_code="10" district_name="北海道">
+            <prefecture  prefecture_code="01" prefecture_name="北海道" />
+        </district>
+        <district district_code="11" district_name="東北">
+            <prefecture  prefecture_code="03" prefecture_name="岩手県" />
+            <prefecture  prefecture_code="04" prefecture_name="宮城県" />
+            <prefecture  prefecture_code="05" prefecture_name="秋田県" />
+            <prefecture  prefecture_code="06" prefecture_name="山形県" />
+        </district>
+        <district district_code="12" district_name="関東">
+            <prefecture  prefecture_code="09" prefecture_name="栃木県" />
+            <prefecture  prefecture_code="10" prefecture_name="群馬県" />
+            <prefecture  prefecture_code="12" prefecture_name="千葉県" />
+            <prefecture  prefecture_code="13" prefecture_name="東京都" />
+            <prefecture  prefecture_code="14" prefecture_name="神奈川県" />
+        </district>
+        <district district_code="13" district_name="北陸・甲信越">
+            <prefecture  prefecture_code="17" prefecture_name="石川県" />
+            <prefecture  prefecture_code="19" prefecture_name="山梨県" />
+            <prefecture  prefecture_code="20" prefecture_name="長野県" />
+        </district>
+        <district district_code="14" district_name="東海">
+            <prefecture  prefecture_code="22" prefecture_name="静岡県" />
+            <prefecture  prefecture_code="23" prefecture_name="愛知県" />
+            <prefecture  prefecture_code="24" prefecture_name="三重県" />
+        </district>
+        <district district_code="16" district_name="近畿">
+            <prefecture  prefecture_code="25" prefecture_name="滋賀県" />
+            <prefecture  prefecture_code="26" prefecture_name="京都府" />
+            <prefecture  prefecture_code="27" prefecture_name="大阪府" />
+            <prefecture  prefecture_code="28" prefecture_name="兵庫県" />
+            <prefecture  prefecture_code="29" prefecture_name="奈良県" />
+            <prefecture  prefecture_code="30" prefecture_name="和歌山県" />
+        </district>
+        <district district_code="17" district_name="中国地方">
+            <prefecture  prefecture_code="32" prefecture_name="島根県" />
+            <prefecture  prefecture_code="33" prefecture_name="岡山県" />
+            <prefecture  prefecture_code="34" prefecture_name="広島県" />
+            <prefecture  prefecture_code="35" prefecture_name="山口県" />
+        </district>
+        <district district_code="18" district_name="四国">
+            <prefecture  prefecture_code="36" prefecture_name="徳島県" />
+            <prefecture  prefecture_code="37" prefecture_name="香川県" />
+        </district>
+        <district district_code="19" district_name="九州">
+            <prefecture  prefecture_code="40" prefecture_name="福岡県" />
+            <prefecture  prefecture_code="44" prefecture_name="大分県" />
+        </district>
+        <district district_code="20" district_name="沖縄">
+            <prefecture  prefecture_code="47" prefecture_name="沖縄県" />
+        </district>
+    </departure>
+</root>

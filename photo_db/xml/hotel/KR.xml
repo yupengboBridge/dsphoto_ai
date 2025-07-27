@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hPUS101_130 hotel_code="P0937" hotel_name="アヴァニセントラル釜山" />
+	<hPUS101 hotel_code="P0937" hotel_name="アヴァニセントラル釜山" />
+	<hSEL101_130 hotel_code="4425" hotel_name="L7明洞" />
+	<hSEL101_130 hotel_code="S1376" hotel_name="L7弘大" />
+	<hSEL101_130 hotel_code="S0016" hotel_name="イビス アンバサダー 明洞" />
+	<hSEL101_130 hotel_code="S1103" hotel_name="イビススタイルズアンバサダーソウル明洞" />
+	<hSEL101_130 hotel_code="4715" hotel_name="クラウン観光（梨泰院クラウンホテル）" />
+	<hSEL101_130 hotel_code="6250" hotel_name="コリアナ" />
+	<hSEL101_130 hotel_code="10633" hotel_name="サボイホテル" />
+	<hSEL101_130 hotel_code="10671" hotel_name="ソラリア西鉄ホテルソウル明洞" />
+	<hSEL101_130 hotel_code="S1325" hotel_name="チサンホテルソウル明洞" />
+	<hSEL101_130 hotel_code="S1230" hotel_name="トラベロッジ東大門ソウル" />
+	<hSEL101_130 hotel_code="S1127" hotel_name="トラベロッジ明洞乙支路" />
+	<hSEL101_130 hotel_code="S0077" hotel_name="ベストウェスタンプレミア国都" />
+	<hSEL101_130 hotel_code="3984" hotel_name="ベストウエスタンプレミアソウルガーデン" />
+	<hSEL101_130 hotel_code="5439" hotel_name="ホテル レックス" />
+	<hSEL101_130 hotel_code="S0813" hotel_name="ホテル　ベニュージー" />
+	<hSEL101_130 hotel_code="S1466" hotel_name="ホテルグレイスリーソウル" />
+	<hSEL101_130 hotel_code="S1393" hotel_name="ホテルトーマス明洞" />
+	<hSEL101_130 hotel_code="S1231" hotel_name="ラマダアンコールソウル東大門" />
+	<hSEL101_130 hotel_code="4426" hotel_name="ロッテシティホテル明洞" />
+	<hSEL101_130 hotel_code="1188" hotel_name="ロッテホテルソウル メインタワー(旧本館)" />
+	<hSEL101_130 hotel_code="10626" hotel_name="仁寺洞クラウン" />
+	<hSEL101_130 hotel_code="10615" hotel_name="世宗ホテル" />
+	<hSEL101_130 hotel_code="S1232" hotel_name="相鉄ホテルズ・ザ・スプラジール・ソウル明洞" />
+	<hSEL101_130 hotel_code="S1102" hotel_name="ミリオレホテルソウル明洞(旧ロワジール明洞)" />
+	<hSEL130 hotel_code="4425" hotel_name="L7明洞" />
+	<hSEL130 hotel_code="S1376" hotel_name="L7弘大" />
+	<hSEL130 hotel_code="S0016" hotel_name="イビス アンバサダー 明洞" />
+	<hSEL130 hotel_code="S1103" hotel_name="イビススタイルズアンバサダーソウル明洞" />
+	<hSEL130 hotel_code="4715" hotel_name="クラウン観光（梨泰院クラウンホテル）" />
+	<hSEL130 hotel_code="6250" hotel_name="コリアナ" />
+	<hSEL130 hotel_code="10633" hotel_name="サボイホテル" />
+	<hSEL130 hotel_code="10671" hotel_name="ソラリア西鉄ホテルソウル明洞" />
+	<hSEL130 hotel_code="S1325" hotel_name="チサンホテルソウル明洞" />
+	<hSEL130 hotel_code="S1230" hotel_name="トラベロッジ東大門ソウル" />
+	<hSEL130 hotel_code="S1127" hotel_name="トラベロッジ明洞乙支路" />
+	<hSEL130 hotel_code="S0077" hotel_name="ベストウェスタンプレミア国都" />
+	<hSEL130 hotel_code="3984" hotel_name="ベストウエスタンプレミアソウルガーデン" />
+	<hSEL130 hotel_code="5439" hotel_name="ホテル レックス" />
+	<hSEL130 hotel_code="S0813" hotel_name="ホテル　ベニュージー" />
+	<hSEL130 hotel_code="S1466" hotel_name="ホテルグレイスリーソウル" />
+	<hSEL130 hotel_code="S1393" hotel_name="ホテルトーマス明洞" />
+	<hSEL130 hotel_code="S1231" hotel_name="ラマダアンコールソウル東大門" />
+	<hSEL130 hotel_code="4426" hotel_name="ロッテシティホテル明洞" />
+	<hSEL130 hotel_code="1188" hotel_name="ロッテホテルソウル メインタワー(旧本館)" />
+	<hSEL130 hotel_code="10626" hotel_name="仁寺洞クラウン" />
+	<hSEL130 hotel_code="10615" hotel_name="世宗ホテル" />
+	<hSEL130 hotel_code="S1232" hotel_name="相鉄ホテルズ・ザ・スプラジール・ソウル明洞" />
+	<hSEL130 hotel_code="S1102" hotel_name="ミリオレホテルソウル明洞(旧ロワジール明洞)" />
+	<hSEL102 hotel_code="4425" hotel_name="L7明洞" />
+	<hSEL102 hotel_code="S1376" hotel_name="L7弘大" />
+	<hSEL102 hotel_code="S0016" hotel_name="イビス アンバサダー 明洞" />
+	<hSEL102 hotel_code="S0986" hotel_name="イビスアンバサダー仁寺洞" />
+	<hSEL102 hotel_code="S1103" hotel_name="イビススタイルズアンバサダーソウル明洞" />
+	<hSEL102 hotel_code="4715" hotel_name="クラウン観光（梨泰院クラウンホテル）" />
+	<hSEL102 hotel_code="10633" hotel_name="サボイホテル" />
+	<hSEL102 hotel_code="10671" hotel_name="ソラリア西鉄ホテルソウル明洞" />
+	<hSEL102 hotel_code="S1325" hotel_name="チサンホテルソウル明洞" />
+	<hSEL102 hotel_code="S1230" hotel_name="トラベロッジ東大門ソウル" />
+	<hSEL102 hotel_code="S1127" hotel_name="トラベロッジ明洞乙支路" />
+	<hSEL102 hotel_code="S1728" hotel_name="ナインツリーホテル東大門" />
+	<hSEL102 hotel_code="S0908" hotel_name="ニュー ソウル ホテル" />
+	<hSEL102 hotel_code="S0077" hotel_name="ベストウェスタンプレミア国都" />
+	<hSEL102 hotel_code="3984" hotel_name="ベストウエスタンプレミアソウルガーデン" />
+	<hSEL102 hotel_code="5439" hotel_name="ホテル レックス" />
+	<hSEL102 hotel_code="S0813" hotel_name="ホテル　ベニュージー" />
+	<hSEL102 hotel_code="S1466" hotel_name="ホテルグレイスリーソウル" />
+	<hSEL102 hotel_code="3300" hotel_name="ロイヤルホテルソウル" />
+	<hSEL102 hotel_code="4426" hotel_name="ロッテシティホテル明洞" />
+	<hSEL102 hotel_code="2661" hotel_name="ロッテホテルソウル エグゼクティブタワー" />
+	<hSEL102 hotel_code="1188" hotel_name="ロッテホテルソウル メインタワー(旧本館)" />
+	<hSEL102 hotel_code="10626" hotel_name="仁寺洞クラウン" />
+	<hSEL102 hotel_code="10615" hotel_name="世宗ホテル" />
+	<hSEL102 hotel_code="S1232" hotel_name="相鉄ホテルズ・ザ・スプラジール・ソウル明洞" />
+	<hSEL102 hotel_code="S1102" hotel_name="ミリオレホテルソウル明洞(旧ロワジール明洞)" />
+	<hOTA102 hotel_code="O0114" hotel_name="ロッテシティホテル大田" />
+</root>

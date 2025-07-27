@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hDEL101_130 hotel_code="D0298" hotel_name="ウェルカム・ホテル・ドゥワルカ" />
+	<hDEL101 hotel_code="D0298" hotel_name="ウェルカム・ホテル・ドゥワルカ" />
+	<hAGR101_130 hotel_code="3745" hotel_name="ジェイピー パレス" />
+	<hAGR101 hotel_code="3745" hotel_name="ジェイピー パレス" />
+	<hAGR130 hotel_code="3745" hotel_name="ジェイピー パレス" />
+	<hBR1101_130 hotel_code="B0770" hotel_name="ラクシュミーヴィラスパレス" />
+	<hBR1130 hotel_code="B0770" hotel_name="ラクシュミーヴィラスパレス" />
+</root>

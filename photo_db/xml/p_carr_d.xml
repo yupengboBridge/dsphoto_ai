@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<p_carr_d>
+		<p_carr_d_code>JL</p_carr_d_code>
+		<p_carr_d_name>日本航空</p_carr_d_name>
+	</p_carr_d>
+	<p_carr_d>
+		<p_carr_d_code>NH</p_carr_d_code>
+		<p_carr_d_name>全日空</p_carr_d_name>
+	</p_carr_d>
+	<p_carr_d>
+		<p_carr_d_code>FW</p_carr_d_code>
+		<p_carr_d_name>アイベックス</p_carr_d_name>
+	</p_carr_d>
+	<p_carr_d>
+		<p_carr_d_code>JC</p_carr_d_code>
+		<p_carr_d_name>ジャルエクスプレス</p_carr_d_name>
+	</p_carr_d>
+	<p_carr_d>
+		<p_carr_d_code>HD</p_carr_d_code>
+		<p_carr_d_name>エアー・ドゥ</p_carr_d_name>
+	</p_carr_d>
+	<p_carr_d>
+		<p_carr_d_code>6J</p_carr_d_code>
+		<p_carr_d_name>スカイネット アジア航空</p_carr_d_name>
+	</p_carr_d>
+	<p_carr_d>
+		<p_carr_d_code>BC</p_carr_d_code>
+		<p_carr_d_name>スカイマークエアラインズ</p_carr_d_name>
+	</p_carr_d>
+	<p_carr_d>
+		<p_carr_d_code>7G</p_carr_d_code>
+		<p_carr_d_name>スターフライヤー</p_carr_d_name>
+	</p_carr_d>
+	<p_carr_d>
+		<p_carr_d_code>3X</p_carr_d_code>
+		<p_carr_d_name>日本エアーコミューター</p_carr_d_name>
+	</p_carr_d>
+	<p_carr_d>
+		<p_carr_d_code>NU</p_carr_d_code>
+		<p_carr_d_name>日本トランスオーシャン</p_carr_d_name>
+	</p_carr_d>
+	<p_carr_d>
+		<p_carr_d_code>YY</p_carr_d_code>
+		<p_carr_d_name>航空会社未定</p_carr_d_name>
+	</p_carr_d>
+</root>

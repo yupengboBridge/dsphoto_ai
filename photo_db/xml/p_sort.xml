@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<p_sort>
+		<p_sort_code>1</p_sort_code>
+		<p_sort_name>旅行代金　安い順</p_sort_name>
+	</p_sort>
+	<p_sort>
+		<p_sort_code>2</p_sort_code>
+		<p_sort_name>旅行代金　高い順</p_sort_name>
+	</p_sort>
+	<p_sort>
+		<p_sort_code>3</p_sort_code>
+		<p_sort_name>旅行日数　短い順</p_sort_name>
+	</p_sort>
+	<p_sort>
+		<p_sort_code>4</p_sort_code>
+		<p_sort_name>旅行日数　長い順</p_sort_name>
+	</p_sort>
+</root>

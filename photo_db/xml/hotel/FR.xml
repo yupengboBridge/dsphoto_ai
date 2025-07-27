@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hPAR101_130 hotel_code="P0062" hotel_name="アスコット オペラ" />
+	<hPAR101_130 hotel_code="5870" hotel_name="ソフィテル・ル・スクリーブ・パリ・オペラ" />
+	<hPAR101_130 hotel_code="P0039" hotel_name="ダヌ オペラ" />
+	<hPAR101_130 hotel_code="3252" hotel_name="レジーナ・ルーブル" />
+	<hPAR101 hotel_code="P0062" hotel_name="アスコット オペラ" />
+	<hPAR101 hotel_code="5870" hotel_name="ソフィテル・ル・スクリーブ・パリ・オペラ" />
+	<hPAR101 hotel_code="P0039" hotel_name="ダヌ オペラ" />
+	<hPAR101 hotel_code="3252" hotel_name="レジーナ・ルーブル" />
+	<hPAR130 hotel_code="3252" hotel_name="レジーナ・ルーブル" />
+	<hPAR102 hotel_code="P0056" hotel_name="34B-アストテル" />
+	<hPAR102 hotel_code="P0065" hotel_name="アストリアアストテル" />
+	<hPAR102 hotel_code="P0032" hotel_name="エドワール セット" />
+	<hPAR102 hotel_code="P0997" hotel_name="グランドホテルパレロイヤル" />
+	<hPAR102 hotel_code="9258" hotel_name="ジョイス ホテル" />
+	<hPAR102 hotel_code="P0143" hotel_name="ジョルジュアストテル" />
+	<hPAR102 hotel_code="5870" hotel_name="ソフィテル・ル・スクリーブ・パリ・オペラ" />
+	<hPAR102 hotel_code="P0057" hotel_name="マルテ・アストテル" />
+	<hPAR102 hotel_code="3252" hotel_name="レジーナ・ルーブル" />
+	<hPAR102 hotel_code="P0030" hotel_name="アカディア アストテル(旧 アカディアオペラ)" />
+</root>

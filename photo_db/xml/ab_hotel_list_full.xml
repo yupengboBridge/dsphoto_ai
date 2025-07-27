@@ -1,0 +1,2169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<dest code="BEU">
+<country code="IT">
+<city code="MIL">
+<hotel>
+<code>XX0082</code>
+<name>中央駅地区スーペリア</name>
+</hotel>
+</city>
+<city code="ROM">
+<hotel>
+<code>X0039</code>
+<name>ホテル指定無し　スタンダードクラス</name>
+</hotel>
+</city>
+<city code="VCE">
+<hotel>
+<code>XX0083</code>
+<name>メストレ地区スタンダード</name>
+</hotel>
+</city>
+</country>
+<country code="ES">
+<city code="MAD">
+<hotel>
+<code>7811</code>
+<name>ヴィラ レアル</name>
+</hotel>
+<hotel>
+<code>XX0024</code>
+<name>グランビア通エリア　スタンダードクラス</name>
+</hotel>
+<hotel>
+<code>X0088</code>
+<name>ホテル指定無し　スタンダードクラス</name>
+</hotel>
+</city>
+<city code="BCN">
+<hotel>
+<code>B0088</code>
+<name>バルメス</name>
+</hotel>
+<hotel>
+<code>B0699</code>
+<name>ホテル指定無し　スーペリアクラス</name>
+</hotel>
+<hotel>
+<code>8403</code>
+<name>クラリス</name>
+</hotel>
+<hotel>
+<code>XX0025</code>
+<name>カタルーニャ地区　スタンダードクラス</name>
+</hotel>
+<hotel>
+<code>X0037</code>
+<name>ホテル指定無し　スタンダードクラス</name>
+</hotel>
+</city>
+<city code="GRX">
+<hotel>
+<code>G0023</code>
+<name>マシア レアル デ ラ アルハンブラ</name>
+</hotel>
+<hotel>
+<code>2320</code>
+<name>パラドールナシオナルグラナダ</name>
+</hotel>
+</city>
+<city code="CRM">
+<hotel>
+<code>2529</code>
+<name>パラドール デ カルモナ</name>
+</hotel>
+</city>
+<city code="ODB">
+<hotel>
+<code>C0422</code>
+<name>ユーロスターズ　パレス</name>
+</hotel>
+</city>
+<city code="SCQ">
+<hotel>
+<code>S0454</code>
+<name>パラドールレイエスカトリコス</name>
+</hotel>
+</city>
+<city code="SVQ">
+<hotel>
+<code>4747</code>
+<name>アルフォンソ トレセ</name>
+</hotel>
+</city>
+</country>
+<country code="DE">
+<city code="MUC">
+<hotel>
+<code>XX0079</code>
+<name>中央駅スーペリア</name>
+</hotel>
+<hotel>
+<code>XX0078</code>
+<name>中央駅スタンダード</name>
+</hotel>
+</city>
+<city code="458">
+<hotel>
+<code>9532</code>
+<name>ロマンティックホテル シュロス ラインフェルス</name>
+</hotel>
+</city>
+</country>
+<country code="FR">
+<city code="PAR">
+<hotel>
+<code>P0062</code>
+<name>アスコット オペラ</name>
+</hotel>
+<hotel>
+<code>5870</code>
+<name>ソフィテル・ル・スクリーブ・パリ・オペラ</name>
+</hotel>
+<hotel>
+<code>P0039</code>
+<name>ダヌ オペラ</name>
+</hotel>
+<hotel>
+<code>3252</code>
+<name>レジーナ・ルーブル</name>
+</hotel>
+<hotel>
+<code>P0056</code>
+<name>34B-アストテル</name>
+</hotel>
+<hotel>
+<code>P0065</code>
+<name>アストリアアストテル</name>
+</hotel>
+<hotel>
+<code>P0032</code>
+<name>エドワール セット</name>
+</hotel>
+<hotel>
+<code>P0997</code>
+<name>グランドホテルパレロイヤル</name>
+</hotel>
+<hotel>
+<code>9258</code>
+<name>ジョイス ホテル</name>
+</hotel>
+<hotel>
+<code>P0143</code>
+<name>ジョルジュアストテル</name>
+</hotel>
+<hotel>
+<code>P0057</code>
+<name>マルテ・アストテル</name>
+</hotel>
+<hotel>
+<code>P0030</code>
+<name>アカディア アストテル(旧 アカディアオペラ)</name>
+</hotel>
+</city>
+</country>
+<country code="PL">
+<city code="KRK">
+<hotel>
+<code>X0082</code>
+<name>ホテル指定無し　スーペリア</name>
+</hotel>
+</city>
+<city code="WAW">
+<hotel>
+<code>X0078</code>
+<name>ホテル指定無し　スーペリア</name>
+</hotel>
+</city>
+</country>
+<country code="PT">
+<city code="LIS">
+<hotel>
+<code>L0309</code>
+<name>ラマダリスボン</name>
+</hotel>
+<hotel>
+<code>X0079</code>
+<name>ホテル指定無し　スーペリアクラス</name>
+</hotel>
+<hotel>
+<code>X0089</code>
+<name>ホテル指定無し　スタンダードクラス</name>
+</hotel>
+</city>
+<city code="CBP">
+<hotel>
+<code>7977</code>
+<name>キンタ・ダス・ラグリマス</name>
+</hotel>
+</city>
+</country>
+<country code="AT">
+<city code="VIE">
+<hotel>
+<code>X0076</code>
+<name>ホテル指定無し　リンク周辺スーペリア</name>
+</hotel>
+<hotel>
+<code>8203</code>
+<name>ザッハー</name>
+</hotel>
+</city>
+</country>
+<country code="HU">
+<city code="BUD">
+<hotel>
+<code>X0081</code>
+<name>ホテル指定無し　スーペリア</name>
+</hotel>
+<hotel>
+<code>2051</code>
+<name>マリオット ブダペスト ホテル</name>
+</hotel>
+</city>
+</country>
+<country code="GB">
+<city code="LON">
+<hotel>
+<code>L0043</code>
+<name>タビストック</name>
+</hotel>
+<hotel>
+<code>2881</code>
+<name>プレジデント ロンドン</name>
+</hotel>
+<hotel>
+<code>4613</code>
+<name>ベッドフォード</name>
+</hotel>
+<hotel>
+<code>X0034</code>
+<name>ホテル指定無し　スタンダードクラス</name>
+</hotel>
+<hotel>
+<code>4614</code>
+<name>ロイヤル ナショナル</name>
+</hotel>
+</city>
+</country>
+<country code="EE">
+<city code="TLL">
+<hotel>
+<code>X0029</code>
+<name>ホテル指定無し（スーペリアクラス）</name>
+</hotel>
+</city>
+</country>
+<country code="NL">
+<city code="AMS">
+<hotel>
+<code>5190</code>
+<name>ホテルオークラ・アムステルダム</name>
+</hotel>
+</city>
+</country>
+<country code="SE">
+<city code="STO">
+<hotel>
+<code>X0085</code>
+<name>ホテル指定無し　スーペリア</name>
+</hotel>
+</city>
+</country>
+<country code="CZ">
+<city code="PRG">
+<hotel>
+<code>7491</code>
+<name>アンバサダーズラターフサ</name>
+</hotel>
+</city>
+</country>
+<country code="DK">
+<city code="CPH">
+<hotel>
+<code>X0083</code>
+<name>ホテル指定無し　スーペリア</name>
+</hotel>
+</city>
+</country>
+<country code="NO">
+<city code="OSL">
+<hotel>
+<code>X0084</code>
+<name>ホテル指定無し　スーペリア</name>
+</hotel>
+</city>
+</country>
+<country code="FI">
+<city code="HEL">
+<hotel>
+<code>X0090</code>
+<name>ホテル指定無し　スタンダードクラス</name>
+</hotel>
+</city>
+<city code="RKA">
+<hotel>
+<code>S1600</code>
+<name>ノーザンライトヴィレッジ</name>
+</hotel>
+</city>
+</country>
+<country code="MT">
+<city code="MLA">
+<hotel>
+<code>M0347</code>
+<name>ザ パレスホテル</name>
+</hotel>
+<hotel>
+<code>5359</code>
+<name>ヒルトン マルタ</name>
+</hotel>
+<hotel>
+<code>X0040</code>
+<name>ホテル指定無し　スタンダードクラス</name>
+</hotel>
+<hotel>
+<code>X0045</code>
+<name>ホテル指定無しスーペリアクラス</name>
+</hotel>
+<hotel>
+<code>4639</code>
+<name>マリーナコリンシアビーチリゾート</name>
+</hotel>
+<hotel>
+<code>2904</code>
+<name>コリンシア ホテル セント ジョージズ ベイ</name>
+</hotel>
+<hotel>
+<code>M0129</code>
+<name>マルタ マリオットホテルスパ(旧ル メリディアン セントジュリアンズ)</name>
+</hotel>
+<hotel>
+<code>1244</code>
+<name>ラディソン　ブル　リゾート　マルタ　セントジュリアン</name>
+</hotel>
+</city>
+</country>
+<country code="LV">
+<city code="RIX">
+<hotel>
+<code>X0030</code>
+<name>ホテル指定無し（スーペリアクラス）</name>
+</hotel>
+</city>
+</country>
+<country code="LT">
+<city code="VNO">
+<hotel>
+<code>X0031</code>
+<name>ホテル指定無し（スーペリアクラス）</name>
+</hotel>
+</city>
+</country>
+</dest>
+<dest code="CHT">
+<country code="AE">
+<city code="DXB">
+<hotel>
+<code>D0344</code>
+<name>JWマリオットマーキース</name>
+</hotel>
+<hotel>
+<code>D0040</code>
+<name>グランド ハイアット ドバイ</name>
+</hotel>
+<hotel>
+<code>D0343</code>
+<name>ハワードジョンソン</name>
+</hotel>
+<hotel>
+<code>D0056</code>
+<name>リビエラ ホテル</name>
+</hotel>
+<hotel>
+<code>D0166</code>
+<name>インターコンチネンタル ドバイ フェスティバルシティー</name>
+</hotel>
+<hotel>
+<code>D0489</code>
+<name>ホリデイ・イン ドバイ フェスティバル シティ</name>
+</hotel>
+<hotel>
+<code>D0049</code>
+<name>ＪＷ マリオット ドバイ</name>
+</hotel>
+<hotel>
+<code>D0530</code>
+<name>コンラッド</name>
+</hotel>
+<hotel>
+<code>D0498</code>
+<name>ローブ ダウンタウン</name>
+</hotel>
+</city>
+<city code="AUH">
+<hotel>
+<code>A0412</code>
+<name>グランドミレニアムアルワフダ</name>
+</hotel>
+</city>
+<city code="RKT">
+<hotel>
+<code>R0270</code>
+<name>リッツカールトンアルワディデザート</name>
+</hotel>
+</city>
+</country>
+<country code="TR">
+<city code="IST">
+<hotel>
+<code>2866</code>
+<name>コンラッド</name>
+</hotel>
+<hotel>
+<code>I0064</code>
+<name>ペラパレスホテル</name>
+</hotel>
+<hotel>
+<code>I0104</code>
+<name>ルメリディアンイスタンブール エティレール</name>
+</hotel>
+</city>
+<city code="514">
+<hotel>
+<code>C0190</code>
+<name>カッパドキア ケーブ リゾート アンド スパ</name>
+</hotel>
+</city>
+<city code="KYA">
+<hotel>
+<code>K0030</code>
+<name>デデマン</name>
+</hotel>
+</city>
+<city code="513">
+<hotel>
+<code>P0671</code>
+<name>ドーアサーマルヘルス アンド スパ</name>
+</hotel>
+</city>
+</country>
+</dest>
+<dest code="AAS">
+<country code="IN">
+<city code="DEL">
+<hotel>
+<code>D0298</code>
+<name>ウェルカム・ホテル・ドゥワルカ</name>
+</hotel>
+</city>
+<city code="AGR">
+<hotel>
+<code>3745</code>
+<name>ジェイピー パレス</name>
+</hotel>
+</city>
+<city code="BR1">
+<hotel>
+<code>B0770</code>
+<name>ラクシュミーヴィラスパレス</name>
+</hotel>
+</city>
+</country>
+<country code="SG">
+<city code="SIN">
+<hotel>
+<code>2188</code>
+<name>マリーナベイ・サンズ</name>
+</hotel>
+<hotel>
+<code>2682</code>
+<name>コンラッド　センテニアル　シンガポール</name>
+</hotel>
+<hotel>
+<code>1789</code>
+<name>シャングリラ</name>
+</hotel>
+<hotel>
+<code>1192</code>
+<name>スイソテル　ザ　スタンフォード</name>
+</hotel>
+<hotel>
+<code>2966</code>
+<name>マンダリンオーチャード</name>
+</hotel>
+<hotel>
+<code>5711</code>
+<name>ヨーク</name>
+</hotel>
+<hotel>
+<code>6410</code>
+<name>リージェント</name>
+</hotel>
+<hotel>
+<code>1257</code>
+<name>リッツカールトン</name>
+</hotel>
+<hotel>
+<code>10058</code>
+<name>ロイヤル アット クイーンズ</name>
+</hotel>
+<hotel>
+<code>1791</code>
+<name>グランドコップトーンウォーターフロントホテル</name>
+</hotel>
+<hotel>
+<code>S0085</code>
+<name>ペニンシュラ　エクセルシオール ホテル</name>
+</hotel>
+<hotel>
+<code>2189</code>
+<name>グッドウッドパーク</name>
+</hotel>
+<hotel>
+<code>1979</code>
+<name>ザ エリザベス シンガポール</name>
+</hotel>
+<hotel>
+<code>1980</code>
+<name>ビレッジホテルブギス</name>
+</hotel>
+<hotel>
+<code>2965</code>
+<name>フラトン　シンガポール</name>
+</hotel>
+<hotel>
+<code>S1644</code>
+<name>ホテル81ディクソン</name>
+</hotel>
+<hotel>
+<code>3359</code>
+<name>ホテルボス</name>
+</hotel>
+<hotel>
+<code>2190</code>
+<name>マンダリン オリエンタル</name>
+</hotel>
+<hotel>
+<code>4736</code>
+<name>ラッフルズ</name>
+</hotel>
+<hotel>
+<code>S1019</code>
+<name>オーチャード・ランデブー・ホテル・シンガポール</name>
+</hotel>
+<hotel>
+<code>1424</code>
+<name>デイズホテル バイ ウィンダム シンガポール</name>
+</hotel>
+<hotel>
+<code>1792</code>
+<name>パークロイヤルコレクション マリーナベイ(旧:マリーナマンダリン)</name>
+</hotel>
+<hotel>
+<code>4737</code>
+<name>コンコルド ホテル</name>
+</hotel>
+<hotel>
+<code>3664</code>
+<name>ヒルトン シンガポール</name>
+</hotel>
+</city>
+<city code="111">
+<hotel>
+<code>S1531</code>
+<name>ビレッジホテル　アット　セントーサ</name>
+</hotel>
+</city>
+</country>
+<country code="BN">
+<city code="BWN">
+<hotel>
+<code>B0041</code>
+<name>エンパイアホテル＆カントリークラブ</name>
+</hotel>
+</city>
+</country>
+<country code="VN">
+<city code="HAN">
+<hotel>
+<code>10578</code>
+<name>プルマン　ハノイ</name>
+</hotel>
+<hotel>
+<code>4216</code>
+<name>レイクサイド ホテル</name>
+</hotel>
+<hotel>
+<code>10542</code>
+<name>ヒルトン ハノイ オペラ</name>
+</hotel>
+</city>
+<city code="SGN">
+<hotel>
+<code>1043</code>
+<name>サイゴンプリンスホテル</name>
+</hotel>
+</city>
+<city code="HRN">
+<hotel>
+<code>10568</code>
+<name>サイゴンハロンホテル</name>
+</hotel>
+</city>
+</country>
+<country code="MO">
+<city code="MFM">
+<hotel>
+<code>M0163</code>
+<name>ザ・ヴェネチアンマカオ ホテル</name>
+</hotel>
+</city>
+</country>
+<country code="MY">
+<city code="KUL">
+<hotel>
+<code>K0367</code>
+<name>パークロイヤル　サービススイート</name>
+</hotel>
+<hotel>
+<code>6406</code>
+<name>リッツカールトン クアラルンプール</name>
+</hotel>
+<hotel>
+<code>K0343</code>
+<name>セリ　パシフィックホテル</name>
+</hotel>
+</city>
+<city code="PEN">
+<hotel>
+<code>2153</code>
+<name>ゴールデンサンズ リゾート ペナン バイ シャングリラ</name>
+</hotel>
+</city>
+</country>
+<country code="MV">
+<city code="MLE">
+<hotel>
+<code>1836</code>
+<name>オーブル・アット・ヘレンゲリ</name>
+</hotel>
+<hotel>
+<code>M0019</code>
+<name>ココア アイランド</name>
+</hotel>
+<hotel>
+<code>M0411</code>
+<name>コンスタンス　ハラヴェリ　リゾート</name>
+</hotel>
+<hotel>
+<code>M0455</code>
+<name>コンスタンス・ムーフシ・モルディブ</name>
+</hotel>
+<hotel>
+<code>M0669</code>
+<name>サマーアイランド</name>
+</hotel>
+<hotel>
+<code>M0025</code>
+<name>タージ コーラルリーフ リゾート＆スパ</name>
+</hotel>
+<hotel>
+<code>M0027</code>
+<name>トラギリ アイランド リゾート</name>
+</hotel>
+<hotel>
+<code>M0029</code>
+<name>バロス モルディブ</name>
+</hotel>
+<hotel>
+<code>M0030</code>
+<name>バンドス アイランド リゾート</name>
+</hotel>
+<hotel>
+<code>M0808</code>
+<name>フラワリ アイランド リゾート</name>
+</hotel>
+<hotel>
+<code>11769</code>
+<name>フルレ　アイランド</name>
+</hotel>
+<hotel>
+<code>M0035</code>
+<name>フヴァフェンフシ</name>
+</hotel>
+<hotel>
+<code>M0405</code>
+<name>アダーラン　プレステージ　ヴァドゥ</name>
+</hotel>
+<hotel>
+<code>M0018</code>
+<name>オルヴェリ ビーチ &amp; スパ リゾート</name>
+</hotel>
+<hotel>
+<code>M0536</code>
+<name>センターラ ラスフシ リゾート&amp;スパ モルディブ(デラックスクラス)</name>
+</hotel>
+<hotel>
+<code>M0415</code>
+<name>センタラ・グランド・アイランド・リゾート&amp;スパ</name>
+</hotel>
+<hotel>
+<code>M0024</code>
+<name>タージ エキゾティカ リゾート &amp; スパ</name>
+</hotel>
+<hotel>
+<code>M0401</code>
+<name>リリィ　ビーチ　リゾート&amp;スパ</name>
+</hotel>
+</city>
+</country>
+<country code="KR">
+<city code="PUS">
+<hotel>
+<code>P0937</code>
+<name>アヴァニセントラル釜山</name>
+</hotel>
+</city>
+<city code="SEL">
+<hotel>
+<code>4425</code>
+<name>L7明洞</name>
+</hotel>
+<hotel>
+<code>S1376</code>
+<name>Ｌ７弘大</name>
+</hotel>
+<hotel>
+<code>S0016</code>
+<name>イビス アンバサダー 明洞</name>
+</hotel>
+<hotel>
+<code>S1103</code>
+<name>イビススタイルズアンバサダーソウル明洞</name>
+</hotel>
+<hotel>
+<code>4715</code>
+<name>クラウン観光（梨泰院クラウンホテル）</name>
+</hotel>
+<hotel>
+<code>6250</code>
+<name>コリアナ</name>
+</hotel>
+<hotel>
+<code>10633</code>
+<name>サボイホテル</name>
+</hotel>
+<hotel>
+<code>10671</code>
+<name>ソラリア西鉄ホテルソウル明洞</name>
+</hotel>
+<hotel>
+<code>S1325</code>
+<name>チサンホテルソウル明洞</name>
+</hotel>
+<hotel>
+<code>S1230</code>
+<name>トラベロッジ東大門ソウル</name>
+</hotel>
+<hotel>
+<code>S1127</code>
+<name>トラベロッジ明洞乙支路</name>
+</hotel>
+<hotel>
+<code>S0077</code>
+<name>ベストウェスタンプレミア国都</name>
+</hotel>
+<hotel>
+<code>3984</code>
+<name>ベストウエスタンプレミアソウルガーデン</name>
+</hotel>
+<hotel>
+<code>5439</code>
+<name>ホテル レックス</name>
+</hotel>
+<hotel>
+<code>S0813</code>
+<name>ホテル　ベニュージー</name>
+</hotel>
+<hotel>
+<code>S1466</code>
+<name>ホテルグレイスリーソウル</name>
+</hotel>
+<hotel>
+<code>S1393</code>
+<name>ホテルトーマス明洞</name>
+</hotel>
+<hotel>
+<code>S1231</code>
+<name>ラマダアンコールソウル東大門</name>
+</hotel>
+<hotel>
+<code>4426</code>
+<name>ロッテシティホテル明洞</name>
+</hotel>
+<hotel>
+<code>1188</code>
+<name>ロッテホテルソウル メインタワー(旧本館)</name>
+</hotel>
+<hotel>
+<code>10626</code>
+<name>仁寺洞クラウン</name>
+</hotel>
+<hotel>
+<code>10615</code>
+<name>世宗ホテル</name>
+</hotel>
+<hotel>
+<code>S1232</code>
+<name>相鉄ホテルズ・ザ・スプラジール・ソウル明洞</name>
+</hotel>
+<hotel>
+<code>S1102</code>
+<name>ミリオレホテルソウル明洞(旧ロワジール明洞)</name>
+</hotel>
+<hotel>
+<code>S0986</code>
+<name>イビスアンバサダー仁寺洞</name>
+</hotel>
+<hotel>
+<code>S1728</code>
+<name>ナインツリーホテル東大門</name>
+</hotel>
+<hotel>
+<code>S0908</code>
+<name>ニュー ソウル ホテル</name>
+</hotel>
+<hotel>
+<code>3300</code>
+<name>ロイヤルホテルソウル</name>
+</hotel>
+<hotel>
+<code>2661</code>
+<name>ロッテホテルソウル エグゼクティブタワー</name>
+</hotel>
+</city>
+<city code="OTA">
+<hotel>
+<code>O0114</code>
+<name>ロッテシティホテル大田</name>
+</hotel>
+</city>
+</country>
+<country code="HK">
+<city code="HKG">
+<hotel>
+<code>6523</code>
+<name>カオルーンハーバーフロントホテル</name>
+</hotel>
+<hotel>
+<code>2852</code>
+<name>ゴールド コースト ホテル</name>
+</hotel>
+<hotel>
+<code>5293</code>
+<name>ペンタホテル香港カオルーン</name>
+</hotel>
+</city>
+</country>
+<country code="TW">
+<city code="TPE">
+<hotel>
+<code>T0256</code>
+<name>ジャスト・スリープ（林森館）</name>
+</hotel>
+<hotel>
+<code>T0323</code>
+<name>欧華酒店（リビエラ）</name>
+</hotel>
+<hotel>
+<code>2710</code>
+<name>華國大飯店(インペリアルホテル)</name>
+</hotel>
+<hotel>
+<code>T0207</code>
+<name>君品酒店（パレデシン）</name>
+</hotel>
+<hotel>
+<code>4784</code>
+<name>兄弟大飯店(ブラザー)</name>
+</hotel>
+<hotel>
+<code>T0015</code>
+<name>慶泰大飯店(ガーラ)</name>
+</hotel>
+<hotel>
+<code>T0219</code>
+<name>皇家季節酒店（ロイヤルシーズンズ）</name>
+</hotel>
+<hotel>
+<code>3356</code>
+<name>香格里拉遠東国際大飯店(シャングリラファーイスタン)</name>
+</hotel>
+<hotel>
+<code>T0361</code>
+<name>首都大飯店松山館（キャピタル松山館）</name>
+</hotel>
+<hotel>
+<code>T0017</code>
+<name>晶華酒店(リージェント台北)</name>
+</hotel>
+<hotel>
+<code>T0044</code>
+<name>城市商旅(シティースィーツ)南西館</name>
+</hotel>
+<hotel>
+<code>T0242</code>
+<name>神旺商務酒店（サンワンレジデンス）</name>
+</hotel>
+<hotel>
+<code>T0291</code>
+<name>世聯商務飯店（リンクワールド）</name>
+</hotel>
+<hotel>
+<code>T0142</code>
+<name>台北花園大酒店（タイペイガーデン）</name>
+</hotel>
+<hotel>
+<code>3355</code>
+<name>台北凱撤大飯店(シーザーパーク)</name>
+</hotel>
+<hotel>
+<code>11419</code>
+<name>台北城大飯店</name>
+</hotel>
+<hotel>
+<code>3357</code>
+<name>台北亞都麗緻大飯店（ランディス）</name>
+</hotel>
+<hotel>
+<code>T0288</code>
+<name>大倉久和大飯店(オークラプレステージ台北)</name>
+</hotel>
+<hotel>
+<code>4780</code>
+<name>天成大飯店(コスモス）</name>
+</hotel>
+<hotel>
+<code>T0018</code>
+<name>美麗信花園酒店（ミラマーガーデン）</name>
+</hotel>
+<hotel>
+<code>11411</code>
+<name>洛碁大飯店花華分館(グリーンワールド花華分館)</name>
+</hotel>
+<hotel>
+<code>T0036</code>
+<name>老爺商務会館 南西館(ロイヤルイン台北南西)</name>
+</hotel>
+<hotel>
+<code>T0317</code>
+<name>老爺商務会館 林森館(ロイヤルイン台北林森)</name>
+</hotel>
+<hotel>
+<code>4778</code>
+<name>老爺大酒店（ホテルロイヤル日航）</name>
+</hotel>
+<hotel>
+<code>T0321</code>
+<name>和逸台北忠孝館（ホテルコージー）</name>
+</hotel>
+<hotel>
+<code>T0166</code>
+<name>和逸台北民生館（ホテルコージー）</name>
+</hotel>
+<hotel>
+<code>T0078</code>
+<name>圓山大飯店（グランド）（本館）</name>
+</hotel>
+<hotel>
+<code>T0261</code>
+<name>馥華商旅（フォワードホテル）</name>
+</hotel>
+<hotel>
+<code>4046</code>
+<name>一楽園大飯店</name>
+</hotel>
+<hotel>
+<code>4779</code>
+<name>国賓大飯店（アンバサダー）</name>
+</hotel>
+<hotel>
+<code>T0482</code>
+<name>誠品行旅</name>
+</hotel>
+<hotel>
+<code>4775</code>
+<name>台北君悦酒店　(グランドハイアット台北）</name>
+</hotel>
+<hotel>
+<code>1084</code>
+<name>台北喜来登大飯店(シェラトングランド)</name>
+</hotel>
+<hotel>
+<code>T0212</code>
+<name>台北伸適商旅（センス）</name>
+</hotel>
+<hotel>
+<code>4785</code>
+<name>第一大飯店(ファースト）</name>
+</hotel>
+<hotel>
+<code>4774</code>
+<name>康華大飯店(ゴールデンチャイナ)</name>
+</hotel>
+<hotel>
+<code>4050</code>
+<name>台北西華飯店(シャーウッド)</name>
+</hotel>
+</city>
+<city code="KHH">
+<hotel>
+<code>4576</code>
+<name>漢来大飯店（ハイライ）</name>
+</hotel>
+<hotel>
+<code>3182</code>
+<name>圓山大飯店（グランド）</name>
+</hotel>
+</city>
+</country>
+<country code="TH">
+<city code="BKK">
+<hotel>
+<code>B0913</code>
+<name>ホテル・ニッコー・バンコク</name>
+</hotel>
+</city>
+<city code="HKT">
+<hotel>
+<code>P0609</code>
+<name>ドゥアンジットリゾート＆スパ</name>
+</hotel>
+<hotel>
+<code>1141</code>
+<name>ダイヤモンド クリフ リゾート &amp; スパ</name>
+</hotel>
+</city>
+</country>
+<country code="CN">
+<city code="SHA">
+<hotel>
+<code>S0653</code>
+<name>ホテル・ニッコー上海（上海日航飯店）</name>
+</hotel>
+</city>
+<city code="PEK">
+<hotel>
+<code>3258</code>
+<name>ホテルニッコー新世紀北京(北京新世紀日航飯店)</name>
+</hotel>
+</city>
+<city code="DLC">
+<hotel>
+<code>11275</code>
+<name>大連日航飯店</name>
+</hotel>
+</city>
+<city code="KWL">
+<hotel>
+<code>2101</code>
+<name>桂林漓江大瀑布飯店</name>
+</hotel>
+</city>
+<city code="SZV">
+<hotel>
+<code>9980</code>
+<name>蘇州日航飯店</name>
+</hotel>
+</city>
+</country>
+</dest>
+<dest code="DNU">
+<country code="US">
+<city code="LAX">
+<hotel>
+<code>1731</code>
+<name>ウエスティン ボナベンチャー ホテル</name>
+</hotel>
+<hotel>
+<code>5331</code>
+<name>カワダ ホテル</name>
+</hotel>
+<hotel>
+<code>1387</code>
+<name>ザヒストリックメイフェアーホテル</name>
+</hotel>
+<hotel>
+<code>1487</code>
+<name>シェラトン・グランド・ロサンゼルス</name>
+</hotel>
+<hotel>
+<code>4245</code>
+<name>ビバリー ヒルトン</name>
+</hotel>
+<hotel>
+<code>L0329</code>
+<name>ミヤコ ハイブリッドホテル</name>
+</hotel>
+<hotel>
+<code>1730</code>
+<name>ミヤコ ホテル ロサンゼルス</name>
+</hotel>
+<hotel>
+<code>L0051</code>
+<name>ミレニアム ビルトモア</name>
+</hotel>
+<hotel>
+<code>L0461</code>
+<name>メトロプラザホテル</name>
+</hotel>
+<hotel>
+<code>3555</code>
+<name>ロウズハリウッド</name>
+</hotel>
+<hotel>
+<code>2351</code>
+<name>インターコンチネンタルロサンゼルスダウンタウン</name>
+</hotel>
+<hotel>
+<code>1603</code>
+<name>ダブルツリーバイヒルトン ロサンゼルスダウンタウン</name>
+</hotel>
+</city>
+<city code="NYC">
+<hotel>
+<code>N0095</code>
+<name>ウェスティンニューヨークタイムズスクエア</name>
+</hotel>
+<hotel>
+<code>N0250</code>
+<name>エースホテル</name>
+</hotel>
+<hotel>
+<code>N0306</code>
+<name>エジソン・ホテル・タイムズスクエア</name>
+</hotel>
+<hotel>
+<code>N0206</code>
+<name>グランド　ハイアット　ニューヨーク</name>
+</hotel>
+<hotel>
+<code>N0009</code>
+<name>ザ・キタノ・ニューヨーク</name>
+</hotel>
+<hotel>
+<code>1949</code>
+<name>ニューヨーク・ヒルトン・ミッドタウン</name>
+</hotel>
+<hotel>
+<code>N0253</code>
+<name>パークウエスト</name>
+</hotel>
+<hotel>
+<code>4294</code>
+<name>マリオット マーキース</name>
+</hotel>
+<hotel>
+<code>XX0080</code>
+<name>マンハッタン地区ホテル指定無し</name>
+</hotel>
+<hotel>
+<code>1309</code>
+<name>シェラトン ニューヨークタイムズスクエアホテル</name>
+</hotel>
+<hotel>
+<code>N0233</code>
+<name>ダブルツリー・バイ・ヒルトン・メトロポリタン・ニューヨークシティ</name>
+</hotel>
+<hotel>
+<code>N0373</code>
+<name>ハドソン・ニューヨーク・セントラルパーク</name>
+</hotel>
+<hotel>
+<code>N0331</code>
+<name>ヒルトン ガーデン イン ニューヨーク セントラルパーク サウス</name>
+</hotel>
+<hotel>
+<code>XX0081</code>
+<name>クイーンズ地区ホテル指定無し</name>
+</hotel>
+<hotel>
+<code>N0103</code>
+<name>デイズ ブロードウェイ</name>
+</hotel>
+<hotel>
+<code>N0127</code>
+<name>マンハッタン アット タイムズスクエア</name>
+</hotel>
+<hotel>
+<code>N0426</code>
+<name>ザ　ニューヨーカー　ウインダム　ホテル</name>
+</hotel>
+<hotel>
+<code>N0432</code>
+<name>フリーハンド　ニューヨーク</name>
+</hotel>
+<hotel>
+<code>N0409</code>
+<name>モクシーＮＹＣタイムズスクエア</name>
+</hotel>
+<hotel>
+<code>3605</code>
+<name>ロウ・ニューヨーク</name>
+</hotel>
+</city>
+<city code="LAS">
+<hotel>
+<code>1385</code>
+<name>MGM グランド ホテル テーマ パーク</name>
+</hotel>
+<hotel>
+<code>L0073</code>
+<name>OYO ホテル&amp;カジノ　ラスベガス</name>
+</hotel>
+<hotel>
+<code>2349</code>
+<name>アリア　リゾート＆カジノ</name>
+</hotel>
+<hotel>
+<code>L0024</code>
+<name>ウィン ラスベガス</name>
+</hotel>
+<hotel>
+<code>1919</code>
+<name>エクスカリバー</name>
+</hotel>
+<hotel>
+<code>L0307</code>
+<name>コスモポリタン　オブ　ラスベガス</name>
+</hotel>
+<hotel>
+<code>L0436</code>
+<name>サハラ　ラスベガス</name>
+</hotel>
+<hotel>
+<code>L0210</code>
+<name>ザ ベネチアン リゾート ラスベガス</name>
+</hotel>
+<hotel>
+<code>1384</code>
+<name>ザ リンク ホテル + エクスペリエンス</name>
+</hotel>
+<hotel>
+<code>1917</code>
+<name>ザ　ストラト　ホテル</name>
+</hotel>
+<hotel>
+<code>3890</code>
+<name>シーザスパレス</name>
+</hotel>
+<hotel>
+<code>3554</code>
+<name>ニューヨーク ニューヨーク</name>
+</hotel>
+<hotel>
+<code>4996</code>
+<name>ハラーズ</name>
+</hotel>
+<hotel>
+<code>L0062</code>
+<name>バリーズ ラスベガス</name>
+</hotel>
+<hotel>
+<code>1918</code>
+<name>パーク MGM　ラスベガス</name>
+</hotel>
+<hotel>
+<code>4244</code>
+<name>パリス ラスベガス</name>
+</hotel>
+<hotel>
+<code>3196</code>
+<name>フラミンゴ ラスベガス</name>
+</hotel>
+<hotel>
+<code>L0006</code>
+<name>プラネット ハリウッド リゾート ＆ カジノ</name>
+</hotel>
+<hotel>
+<code>5648</code>
+<name>ベラージオ</name>
+</hotel>
+<hotel>
+<code>3749</code>
+<name>ミラージュ　リゾート&amp;カジノ</name>
+</hotel>
+<hotel>
+<code>2575</code>
+<name>ルクソールホテル＆カジノ</name>
+</hotel>
+<hotel>
+<code>4994</code>
+<name>サーカス サーカス ホテル カジノ &amp; テーマパーク</name>
+</hotel>
+<hotel>
+<code>5649</code>
+<name>トロピカーナ・ラスベガス・ア・ダブルツリー・バイ・ヒルトン</name>
+</hotel>
+<hotel>
+<code>L0462</code>
+<name>トランプ インターナショナル ホテル &amp; タワー ラスベガス</name>
+</hotel>
+</city>
+<city code="ORL">
+<hotel>
+<code>M0060</code>
+<name>ディズニー・アニマルキングダム・ロッジ</name>
+</hotel>
+<hotel>
+<code>M0068</code>
+<name>ディズニー・カリビアン・ビーチ・リゾート</name>
+</hotel>
+<hotel>
+<code>1403</code>
+<name>クラリオン・イン・レイク・ブエナ・ビスタ</name>
+</hotel>
+<hotel>
+<code>N0349</code>
+<name>セレブレーション スイーツ アット オールド タウン</name>
+</hotel>
+<hotel>
+<code>O0092</code>
+<name>ディズニー・アート・オブ・アニメーション・リゾート</name>
+</hotel>
+<hotel>
+<code>O0147</code>
+<name>ディズニー・オールスター・リゾート(館指定無し)</name>
+</hotel>
+<hotel>
+<code>M0072</code>
+<name>ディズニー・コロナド・スプリングス・リゾート</name>
+</hotel>
+<hotel>
+<code>M0065</code>
+<name>ディズニー・ポップ・センチュリー・リゾート</name>
+</hotel>
+</city>
+<city code="ANA">
+<hotel>
+<code>2784</code>
+<name>アナハイムホテル</name>
+</hotel>
+<hotel>
+<code>A0366</code>
+<name>キャッスル・イン＆スイーツ</name>
+</hotel>
+<hotel>
+<code>2262</code>
+<name>クラリオンホテルアナハイムリゾート</name>
+</hotel>
+<hotel>
+<code>A0020</code>
+<name>ディズニー・パラダイス・ピア・ホテル</name>
+</hotel>
+<hotel>
+<code>A0021</code>
+<name>ディズニーランド・ホテル</name>
+</hotel>
+<hotel>
+<code>A0367</code>
+<name>トロピカーナ　イン　アンド　スイーツ</name>
+</hotel>
+<hotel>
+<code>4451</code>
+<name>ヒルトン アナハイム</name>
+</hotel>
+<hotel>
+<code>1131</code>
+<name>アナハイム マジェスティック ガーデンホテル</name>
+</hotel>
+<hotel>
+<code>A0330</code>
+<name>エクステンデッドステイ アメリカ オレンジ カウンティ アナハイム</name>
+</hotel>
+<hotel>
+<code>A0328</code>
+<name>クォリティーイン&amp;スイートアナハイムアットザパーク</name>
+</hotel>
+<hotel>
+<code>A0327</code>
+<name>コルトーナ イン&amp;スイーツ アナハイム リゾート</name>
+</hotel>
+<hotel>
+<code>A0005</code>
+<name>シェラトン パーク ホテル アット ザ アナハイム リゾート</name>
+</hotel>
+<hotel>
+<code>A0022</code>
+<name>ディズニー・グランド・カリフォルニアン・ホテル&amp;スパ</name>
+</hotel>
+<hotel>
+<code>A0340</code>
+<name>ハイアットハウス アナハイムリゾート コンベンションセンター</name>
+</hotel>
+<hotel>
+<code>3070</code>
+<name>ハワードジョンソンホテル&amp;カンファレンスセンターバイウィンダムフラートン</name>
+</hotel>
+</city>
+<city code="SEA">
+<hotel>
+<code>S1619</code>
+<name>ベストウエスタンエグゼクティブインシアトル</name>
+</hotel>
+</city>
+<city code="GMV">
+<hotel>
+<code>3149</code>
+<name>グールディングス ロッジ</name>
+</hotel>
+</city>
+</country>
+<country code="CA">
+<city code="YVR">
+<hotel>
+<code>3396</code>
+<name>カルマナ プラザ ホテル</name>
+</hotel>
+<hotel>
+<code>V0060</code>
+<name>サンドマン スイート オン デビー</name>
+</hotel>
+<hotel>
+<code>1999</code>
+<name>シェラトン ウォール センター ホテル</name>
+</hotel>
+<hotel>
+<code>V0025</code>
+<name>バークレイ ホテル</name>
+</hotel>
+<hotel>
+<code>V0036</code>
+<name>フェアモント ホテル バンクーバー</name>
+</hotel>
+<hotel>
+<code>1431</code>
+<name>ハイアット リージェンシー バンクーバー</name>
+</hotel>
+</city>
+<city code="YBA">
+<hotel>
+<code>2228</code>
+<name>エルク　アベニュー　ホテル</name>
+</hotel>
+<hotel>
+<code>B0149</code>
+<name>ザ・フォックスホテル＆スイーツ</name>
+</hotel>
+<hotel>
+<code>B0020</code>
+<name>ターミガン イン</name>
+</hotel>
+<hotel>
+<code>2440</code>
+<name>フェアモント バンフ スプリングス</name>
+</hotel>
+<hotel>
+<code>B0836</code>
+<name>ムース ホテル＆スイート</name>
+</hotel>
+<hotel>
+<code>3006</code>
+<name>リムロック リゾート ホテル</name>
+</hotel>
+<hotel>
+<code>1646</code>
+<name>ブリュースターズ マウンテン ロッジ</name>
+</hotel>
+</city>
+<city code="YYJ">
+<hotel>
+<code>4384</code>
+<name>シャトー ビクトリア</name>
+</hotel>
+<hotel>
+<code>5127</code>
+<name>フェアモント エンプレス</name>
+</hotel>
+<hotel>
+<code>1559</code>
+<name>ベスト ウエスタン カールトン プラザ</name>
+</hotel>
+</city>
+<city code="YZF">
+<hotel>
+<code>2746</code>
+<name>ザ エクスプローラー ホテル</name>
+</hotel>
+<hotel>
+<code>Y0094</code>
+<name>シャトー　ノバ</name>
+</hotel>
+<hotel>
+<code>4081</code>
+<name>ディスカバリー イン</name>
+</hotel>
+<hotel>
+<code>3704</code>
+<name>クオリティーイン アンド スイーツ イエローナイフ</name>
+</hotel>
+<hotel>
+<code>Y0019</code>
+<name>ディズイン&amp;スィーツ　イエローナイフ</name>
+</hotel>
+</city>
+<city code="YDA">
+<hotel>
+<code>D0459</code>
+<name>ダウンタウン ホテル</name>
+</hotel>
+</city>
+<city code="YXY">
+<hotel>
+<code>W0071</code>
+<name>ベストウエスタンゴールドラッシュイン</name>
+</hotel>
+</city>
+<city code="C94">
+<hotel>
+<code>C0685</code>
+<name>クラレンビルイン</name>
+</hotel>
+</city>
+<city code="YYG">
+<hotel>
+<code>Y0066</code>
+<name>ダンディーアームズイン</name>
+</hotel>
+<hotel>
+<code>2232</code>
+<name>ロッド シャーロットタウン ホテル</name>
+</hotel>
+<hotel>
+<code>Y0028</code>
+<name>シャーロットタウンイン&amp;コンファレンスセンター</name>
+</hotel>
+</city>
+<city code="YYT">
+<hotel>
+<code>S1495</code>
+<name>デルタホテルズバイマリオットセントジョンズカンファレンスセンター</name>
+</hotel>
+</city>
+<city code="YDF">
+<hotel>
+<code>D0507</code>
+<name>ホリディインエクスプレスディアレイク</name>
+</hotel>
+</city>
+<city code="YTO">
+<hotel>
+<code>4385</code>
+<name>ストラスコーナ ホテル</name>
+</hotel>
+<hotel>
+<code>3401</code>
+<name>チェルシーホテル</name>
+</hotel>
+<hotel>
+<code>4079</code>
+<name>フェアモント ロイヤル ヨーク ホテル</name>
+</hotel>
+</city>
+<city code="XLV">
+<hotel>
+<code>3004</code>
+<name>マリオットフォールズビュー</name>
+</hotel>
+<hotel>
+<code>6535</code>
+<name>エンバシースイート[滝側のお部屋]</name>
+</hotel>
+<hotel>
+<code>1202</code>
+<name>オークスホテル オーバールッキング ザ フォールズ</name>
+</hotel>
+<hotel>
+<code>N0101</code>
+<name>クラウン プラザ フォールズビュー[滝の見えるお部屋]</name>
+</hotel>
+<hotel>
+<code>2225</code>
+<name>シェラトン オン ザ フォールズ[滝側のお部屋]</name>
+</hotel>
+<hotel>
+<code>N0125</code>
+<name>マリオットオンザフォールズ</name>
+</hotel>
+</city>
+<city code="YMQ">
+<hotel>
+<code>4078</code>
+<name>デルタ モントリオール</name>
+</hotel>
+<hotel>
+<code>2738</code>
+<name>フェアモント クイーンエリザベス</name>
+</hotel>
+<hotel>
+<code>2445</code>
+<name>ホテル ル キャントリー スィート</name>
+</hotel>
+</city>
+</country>
+</dest>
+<dest code="FOC">
+<country code="NC">
+<city code="NOU">
+<hotel>
+<code>N0065</code>
+<name>カサ デル ソル</name>
+</hotel>
+<hotel>
+<code>N0007</code>
+<name>ラマダホテルアンドスイーツヌメア</name>
+</hotel>
+<hotel>
+<code>N0013</code>
+<name>ル ヌバタ ホテル</name>
+</hotel>
+<hotel>
+<code>N0014</code>
+<name>ル メリディアン ヌーメア</name>
+</hotel>
+<hotel>
+<code>4652</code>
+<name>ル ラゴン ホテル</name>
+</hotel>
+<hotel>
+<code>N0096</code>
+<name>ヒルトン ヌーメア ラ プロムナード レジデンス</name>
+</hotel>
+</city>
+</country>
+<country code="NZ">
+<city code="MON">
+<hotel>
+<code>3590</code>
+<name>ハミテージ ホテル</name>
+</hotel>
+</city>
+</country>
+<country code="FJ">
+<city code="D31">
+<hotel>
+<code>N0012</code>
+<name>ウェスティン リゾート＆スパ</name>
+</hotel>
+<hotel>
+<code>2368</code>
+<name>シェラトン フィジー リゾート</name>
+</hotel>
+</city>
+<city code="NAN">
+<hotel>
+<code>N0036</code>
+<name>アウトリガー フィジー ビーチ リゾート</name>
+</hotel>
+<hotel>
+<code>1501</code>
+<name>シャングリラ フィジアン リゾート＆スパ</name>
+</hotel>
+<hotel>
+<code>N0011</code>
+<name>ソフィテル フィジー リゾート＆スパ</name>
+</hotel>
+<hotel>
+<code>2135</code>
+<name>ノボテルホテル ナンディ</name>
+</hotel>
+<hotel>
+<code>N0035</code>
+<name>ヒルトン フィジー ビーチ リゾート＆スパ</name>
+</hotel>
+<hotel>
+<code>N0412</code>
+<name>フィジー マリオット リゾート モミ ベイ</name>
+</hotel>
+<hotel>
+<code>N0064</code>
+<name>メルキュール ホテル ナンディ</name>
+</hotel>
+<hotel>
+<code>N0411</code>
+<name>インターコンチネンタル フィジー ゴルフ リゾート&amp;スパ</name>
+</hotel>
+</city>
+</country>
+<country code="AU">
+<city code="SYD">
+<hotel>
+<code>4037</code>
+<name>アモラホテル ジャミソン シドニー</name>
+</hotel>
+<hotel>
+<code>S0025</code>
+<name>インターコンチネンタル シドニー</name>
+</hotel>
+<hotel>
+<code>S1707</code>
+<name>オークス ゴールズブロー アパートメント</name>
+</hotel>
+<hotel>
+<code>S0258</code>
+<name>キャピトルスクエアホテル</name>
+</hotel>
+<hotel>
+<code>11499</code>
+<name>シャングリラホテル</name>
+</hotel>
+<hotel>
+<code>S0390</code>
+<name>ディビア　ホテル</name>
+</hotel>
+<hotel>
+<code>11503</code>
+<name>フォーシーズンズ ホテル</name>
+</hotel>
+<hotel>
+<code>11517</code>
+<name>メトロアスパイアホテルシドニー</name>
+</hotel>
+<hotel>
+<code>11508</code>
+<name>メトロホテルマーローシドニーセントラル</name>
+</hotel>
+<hotel>
+<code>2692</code>
+<name>リッジスワールドスクエア</name>
+</hotel>
+<hotel>
+<code>1639</code>
+<name>ホリディ イン ダーリング ハーバー</name>
+</hotel>
+</city>
+<city code="OOL">
+<hotel>
+<code>1250</code>
+<name>キューティーゴールドコースト</name>
+</hotel>
+<hotel>
+<code>2378</code>
+<name>ノボテルサーファーズパラダイス</name>
+</hotel>
+<hotel>
+<code>11529</code>
+<name>パラッツォ ヴェルサーチ</name>
+</hotel>
+<hotel>
+<code>2377</code>
+<name>ヒルトン　サーファーズパラダイス</name>
+</hotel>
+<hotel>
+<code>G0067</code>
+<name>ブレークフリー モロッカン リゾート</name>
+</hotel>
+<hotel>
+<code>11530</code>
+<name>マントラ オン ビュー ホテル</name>
+</hotel>
+<hotel>
+<code>1507</code>
+<name>マントラ レジェンズホテル</name>
+</hotel>
+<hotel>
+<code>3933</code>
+<name>ヴォコ　ゴールドコースト</name>
+</hotel>
+<hotel>
+<code>1147</code>
+<name>ザ スター ゴールドコースト</name>
+</hotel>
+<hotel>
+<code>O0151</code>
+<name>ヒルトン サーファーズパラダイス レジデンス</name>
+</hotel>
+<hotel>
+<code>G0203</code>
+<name>ペッパーズ ソウル サーファーズパラダイス</name>
+</hotel>
+<hotel>
+<code>O0054</code>
+<name>マントラ クラウン タワーズ サーファーズパラダイス</name>
+</hotel>
+<hotel>
+<code>1037</code>
+<name>マントラ　サークル　オン　カビル</name>
+</hotel>
+</city>
+<city code="MEL">
+<hotel>
+<code>M0793</code>
+<name>オークス オン マーケット</name>
+</hotel>
+<hotel>
+<code>11568</code>
+<name>クラウン プラザ メルボルン</name>
+</hotel>
+<hotel>
+<code>M0273</code>
+<name>グレート サザン ホテル メルボルン</name>
+</hotel>
+<hotel>
+<code>1109</code>
+<name>バットマンズ ヒル オン コリンズ</name>
+</hotel>
+<hotel>
+<code>2602</code>
+<name>ホテル ソフィテル メルボルン</name>
+</hotel>
+<hotel>
+<code>11564</code>
+<name>ランガム</name>
+</hotel>
+<hotel>
+<code>2601</code>
+<name>リッジス メルボルン ホテル</name>
+</hotel>
+<hotel>
+<code>M0416</code>
+<name>インターコンチネンタル メルボルン ザ リアルト</name>
+</hotel>
+<hotel>
+<code>1608</code>
+<name>スタンフォード プラザ メルボルン</name>
+</hotel>
+<hotel>
+<code>11575</code>
+<name>ホリディイン イン オン フリンダース</name>
+</hotel>
+</city>
+<city code="CNS">
+<hotel>
+<code>11550</code>
+<name>パシフィック</name>
+</hotel>
+<hotel>
+<code>11546</code>
+<name>シャングリラ ホテル ザ マリーナ ケアンズ</name>
+</hotel>
+</city>
+<city code="BNE">
+<hotel>
+<code>B0968</code>
+<name>イビス ブリスベン</name>
+</hotel>
+<hotel>
+<code>B0381</code>
+<name>ノボテルブリスベン</name>
+</hotel>
+<hotel>
+<code>B0542</code>
+<name>プルマン ブリスベンキングジョージスクエア</name>
+</hotel>
+</city>
+</country>
+</dest>
+<dest code="HWI">
+<country code="HA">
+<city code="HNL">
+<hotel>
+<code>4224</code>
+<name>アウラニディズニーリゾート&amp;スパ</name>
+</hotel>
+<hotel>
+<code>2096</code>
+<name>アクアオアシスアジョイホテル</name>
+</hotel>
+<hotel>
+<code>2094</code>
+<name>アストン ワイキキ ビーチ タワー</name>
+</hotel>
+<hotel>
+<code>2857</code>
+<name>アストン ワイキキサンセット</name>
+</hotel>
+<hotel>
+<code>1908</code>
+<name>アストン ワイキキビーチホテル</name>
+</hotel>
+<hotel>
+<code>1477</code>
+<name>アストン・アット・ザ・ワイキキ・バニアン</name>
+</hotel>
+<hotel>
+<code>4972</code>
+<name>アラモアナ ホテル</name>
+</hotel>
+<hotel>
+<code>2556</code>
+<name>アロヒラニ・リゾート・ワイキキビーチ</name>
+</hotel>
+<hotel>
+<code>3863</code>
+<name>アンバサダーホテル オブ ワイキキ</name>
+</hotel>
+<hotel>
+<code>2555</code>
+<name>イリカイ　ホテル＆スイーツ</name>
+</hotel>
+<hotel>
+<code>H0350</code>
+<name>オヒア　ワイキキ</name>
+</hotel>
+<hotel>
+<code>2856</code>
+<name>クィーン カピオラニ ホテル</name>
+</hotel>
+<hotel>
+<code>4226</code>
+<name>ザ カハラ ホテル＆リゾート</name>
+</hotel>
+<hotel>
+<code>11644</code>
+<name>ザ・サーフジャック・ホテル＆スイムクラブ</name>
+</hotel>
+<hotel>
+<code>4223</code>
+<name>ザ・モダン・ホノルル</name>
+</hotel>
+<hotel>
+<code>1476</code>
+<name>シェラトン プリンセス カイウラニ ホテル</name>
+</hotel>
+<hotel>
+<code>3168</code>
+<name>シェラトン ワイキキ</name>
+</hotel>
+<hotel>
+<code>1721</code>
+<name>ハイアット　プレイス　ワイキキ　ビーチ</name>
+</hotel>
+<hotel>
+<code>4970</code>
+<name>ハレクラニ</name>
+</hotel>
+<hotel>
+<code>3531</code>
+<name>ハレプナ ワイキキ バイ ハレクラニ</name>
+</hotel>
+<hotel>
+<code>11634</code>
+<name>パシフィック　モナーク</name>
+</hotel>
+<hotel>
+<code>2092</code>
+<name>プリンス　ワイキキ</name>
+</hotel>
+<hotel>
+<code>2333</code>
+<name>ルアナ・ワイキキ・ホテル＆スイーツ</name>
+</hotel>
+<hotel>
+<code>2336</code>
+<name>ワイキキ サンド ヴィラ ホテル</name>
+</hotel>
+<hotel>
+<code>3864</code>
+<name>ワイキキ　マリア　バイ　アウトリガー</name>
+</hotel>
+<hotel>
+<code>1378</code>
+<name>アウトリガー ワイキキ ビーチ リゾート</name>
+</hotel>
+<hotel>
+<code>H0040</code>
+<name>アウトリガー・リーフ・ワイキキ・ビーチ・リゾート</name>
+</hotel>
+<hotel>
+<code>11639</code>
+<name>アクア スカイライン アット アイランド コロニー</name>
+</hotel>
+<hotel>
+<code>H0030</code>
+<name>エンバシー・スイート・バイ・ヒルトン・ワイキキ・ビーチ・ウォーク</name>
+</hotel>
+<hotel>
+<code>11636</code>
+<name>オハナ ワイキキ イースト BY アウトリガー</name>
+</hotel>
+<hotel>
+<code>1154</code>
+<name>ザ・リッツカールトンレジデンス・ワイキキビーチ</name>
+</hotel>
+<hotel>
+<code>H0173</code>
+<name>トランプ・インターナショナル・ホテル・ワイキキ・ビーチウォーク</name>
+</hotel>
+<hotel>
+<code>2337</code>
+<name>ハイアットリージェンシーワイキキビーチリゾートアンドスパ</name>
+</hotel>
+<hotel>
+<code>2334</code>
+<name>ヒルトン・ハワイアン・ビレッジ・ワイキキ・ビーチ・リゾート</name>
+</hotel>
+<hotel>
+<code>1906</code>
+<name>ホリディ イン エクスプレス ワイキキ ホノルル</name>
+</hotel>
+<hotel>
+<code>2393</code>
+<name>マイラニロイヤルビーチタワーアットザロイヤルハワイアン</name>
+</hotel>
+<hotel>
+<code>2093</code>
+<name>モアナサーフライダーウェスティンリゾート&amp;スパ</name>
+</hotel>
+<hotel>
+<code>3169</code>
+<name>ロイヤル・ハワイアン・ラグジュアリー・コレクション・リゾート・ワイキキ</name>
+</hotel>
+<hotel>
+<code>2858</code>
+<name>ワイキキ・ビーチコマー by アウトリガー</name>
+</hotel>
+<hotel>
+<code>1907</code>
+<name>ワイキキビーチ マリオット リゾート&amp;スパ</name>
+</hotel>
+</city>
+<city code="KOA">
+<hotel>
+<code>2347</code>
+<name>ザ フェアモント オーキッド ハワイ</name>
+</hotel>
+<hotel>
+<code>2348</code>
+<name>ヒルトン ワイコロア ビレッジ</name>
+</hotel>
+<hotel>
+<code>3547</code>
+<name>ロイヤル コナ リゾート</name>
+</hotel>
+<hotel>
+<code>11806</code>
+<name>アウトリガー・コナ・リゾート&amp;スパ（旧シェラトン・コナ）</name>
+</hotel>
+<hotel>
+<code>1482</code>
+<name>コートヤード キングカメハメハズ コナビーチ ホテル</name>
+</hotel>
+<hotel>
+<code>1914</code>
+<name>ザ ウェスティン ハプナ ビーチ リゾート</name>
+</hotel>
+<hotel>
+<code>2099</code>
+<name>ワイコロア ビーチ マリオット リゾート&amp;スパ</name>
+</hotel>
+</city>
+</country>
+</dest>
+<dest code="MNA">
+<country code="GU">
+<city code="GUM">
+<hotel>
+<code>3843</code>
+<name>グアム リーフ ホテル</name>
+</hotel>
+<hotel>
+<code>3151</code>
+<name>グアムプラザ・リゾート&amp;スパ</name>
+</hotel>
+<hotel>
+<code>8191</code>
+<name>グランド プラザ ホテル</name>
+</hotel>
+<hotel>
+<code>1714</code>
+<name>ザ ウェスティン リゾート グアム</name>
+</hotel>
+<hotel>
+<code>G0206</code>
+<name>ザ ツバキ タワー</name>
+</hotel>
+<hotel>
+<code>G0035</code>
+<name>シェラトンラグーナグアムリゾート</name>
+</hotel>
+<hotel>
+<code>3520</code>
+<name>デュシタニグアムリゾート</name>
+</hotel>
+<hotel>
+<code>8195</code>
+<name>ハイアットリージェンシー グアム</name>
+</hotel>
+<hotel>
+<code>8194</code>
+<name>パシフィックスターリゾート＆スパ</name>
+</hotel>
+<hotel>
+<code>1099</code>
+<name>ヒルトン グアム リゾート ＆ スパ</name>
+</hotel>
+<hotel>
+<code>3845</code>
+<name>フィエスタ リゾート グアム</name>
+</hotel>
+<hotel>
+<code>3519</code>
+<name>ホテル ニッコー グアム</name>
+</hotel>
+<hotel>
+<code>8196</code>
+<name>ホリデイリゾート グアム</name>
+</hotel>
+<hotel>
+<code>8199</code>
+<name>ロイヤルオーキッド グアム</name>
+</hotel>
+<hotel>
+<code>1715</code>
+<name>ロッテホテルグアム</name>
+</hotel>
+<hotel>
+<code>2861</code>
+<name>オンワード・ビーチ・リゾート</name>
+</hotel>
+<hotel>
+<code>2079</code>
+<name>デュシットビーチリゾートグアム(旧アウトリガーグアム)</name>
+</hotel>
+<hotel>
+<code>1300</code>
+<name>パシフィック アイランド クラブ グアム</name>
+</hotel>
+<hotel>
+<code>8181</code>
+<name>ベイビューイースト(旧ベイビューホテルグアム)</name>
+</hotel>
+<hotel>
+<code>8167</code>
+<name>ベイビューウェスト(旧オーシャンビューホテル&amp;レジデンス)</name>
+</hotel>
+<hotel>
+<code>2154</code>
+<name>オンワード・ビーチ・リゾート(オンワードタワー)</name>
+</hotel>
+<hotel>
+<code>8192</code>
+<name>オンワード・ビーチ・リゾート[ウィング]</name>
+</hotel>
+</city>
+</country>
+</dest>
+<dest code="CAF">
+<country code="TN">
+<city code="KAR">
+<hotel>
+<code>5642</code>
+<name>ラ・カスバ</name>
+</hotel>
+</city>
+</country>
+</dest>
+</root>

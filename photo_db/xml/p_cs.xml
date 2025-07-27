@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<p_cs>
+		<p_cs_code>0</p_cs_code>
+		<p_cs_name>エコノミー</p_cs_name>
+	</p_cs>
+	<p_cs>
+		<p_cs_code>1</p_cs_code>
+		<p_cs_name>ビジネス</p_cs_name>
+	</p_cs>
+	<p_cs>
+		<p_cs_code>2</p_cs_code>
+		<p_cs_name>ファースト</p_cs_name>
+	</p_cs>
+	<p_cs>
+		<p_cs_code>3</p_cs_code>
+		<p_cs_name>プレミアムエコノミー</p_cs_name>
+	</p_cs>
+	<p_cs>
+		<p_cs_code>4</p_cs_code>
+		<p_cs_name>スイート</p_cs_name>
+	</p_cs>
+</root>

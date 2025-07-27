@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hMLE101_130 hotel_code="1836" hotel_name="オーブル・アット・ヘレンゲリ" />
+	<hMLE101_130 hotel_code="M0019" hotel_name="ココア アイランド" />
+	<hMLE101_130 hotel_code="M0411" hotel_name="コンスタンス　ハラヴェリ　リゾート" />
+	<hMLE101_130 hotel_code="M0455" hotel_name="コンスタンス・ムーフシ・モルディブ" />
+	<hMLE101_130 hotel_code="M0669" hotel_name="サマーアイランド" />
+	<hMLE101_130 hotel_code="M0025" hotel_name="タージ コーラルリーフ リゾート＆スパ" />
+	<hMLE101_130 hotel_code="M0027" hotel_name="トラギリ アイランド リゾート" />
+	<hMLE101_130 hotel_code="M0029" hotel_name="バロス モルディブ" />
+	<hMLE101_130 hotel_code="M0030" hotel_name="バンドス アイランド リゾート" />
+	<hMLE101_130 hotel_code="M0808" hotel_name="フラワリ アイランド リゾート" />
+	<hMLE101_130 hotel_code="11769" hotel_name="フルレ　アイランド" />
+	<hMLE101_130 hotel_code="M0035" hotel_name="フヴァフェンフシ" />
+	<hMLE101_130 hotel_code="M0405" hotel_name="アダーラン　プレステージ　ヴァドゥ" />
+	<hMLE101_130 hotel_code="M0018" hotel_name="オルヴェリ ビーチ &amp; スパ リゾート" />
+	<hMLE101_130 hotel_code="M0536" hotel_name="センターラ ラスフシ リゾート&amp;スパ モルディブ(デラックスクラス)" />
+	<hMLE101_130 hotel_code="M0415" hotel_name="センタラ・グランド・アイランド・リゾート&amp;スパ" />
+	<hMLE101_130 hotel_code="M0024" hotel_name="タージ エキゾティカ リゾート &amp; スパ" />
+	<hMLE101_130 hotel_code="M0401" hotel_name="リリィ　ビーチ　リゾート&amp;スパ" />
+	<hMLE101 hotel_code="1836" hotel_name="オーブル・アット・ヘレンゲリ" />
+	<hMLE101 hotel_code="M0019" hotel_name="ココア アイランド" />
+	<hMLE101 hotel_code="M0411" hotel_name="コンスタンス　ハラヴェリ　リゾート" />
+	<hMLE101 hotel_code="M0455" hotel_name="コンスタンス・ムーフシ・モルディブ" />
+	<hMLE101 hotel_code="M0669" hotel_name="サマーアイランド" />
+	<hMLE101 hotel_code="M0025" hotel_name="タージ コーラルリーフ リゾート＆スパ" />
+	<hMLE101 hotel_code="M0027" hotel_name="トラギリ アイランド リゾート" />
+	<hMLE101 hotel_code="M0029" hotel_name="バロス モルディブ" />
+	<hMLE101 hotel_code="M0030" hotel_name="バンドス アイランド リゾート" />
+	<hMLE101 hotel_code="M0808" hotel_name="フラワリ アイランド リゾート" />
+	<hMLE101 hotel_code="11769" hotel_name="フルレ　アイランド" />
+	<hMLE101 hotel_code="M0035" hotel_name="フヴァフェンフシ" />
+	<hMLE101 hotel_code="M0405" hotel_name="アダーラン　プレステージ　ヴァドゥ" />
+	<hMLE101 hotel_code="M0018" hotel_name="オルヴェリ ビーチ &amp; スパ リゾート" />
+	<hMLE101 hotel_code="M0536" hotel_name="センターラ ラスフシ リゾート&amp;スパ モルディブ(デラックスクラス)" />
+	<hMLE101 hotel_code="M0415" hotel_name="センタラ・グランド・アイランド・リゾート&amp;スパ" />
+	<hMLE101 hotel_code="M0024" hotel_name="タージ エキゾティカ リゾート &amp; スパ" />
+	<hMLE101 hotel_code="M0401" hotel_name="リリィ　ビーチ　リゾート&amp;スパ" />
+	<hMLE130 hotel_code="1836" hotel_name="オーブル・アット・ヘレンゲリ" />
+	<hMLE130 hotel_code="M0669" hotel_name="サマーアイランド" />
+	<hMLE130 hotel_code="M0025" hotel_name="タージ コーラルリーフ リゾート＆スパ" />
+	<hMLE130 hotel_code="M0027" hotel_name="トラギリ アイランド リゾート" />
+	<hMLE130 hotel_code="M0029" hotel_name="バロス モルディブ" />
+	<hMLE130 hotel_code="M0405" hotel_name="アダーラン　プレステージ　ヴァドゥ" />
+	<hMLE130 hotel_code="M0018" hotel_name="オルヴェリ ビーチ &amp; スパ リゾート" />
+	<hMLE130 hotel_code="M0536" hotel_name="センターラ ラスフシ リゾート&amp;スパ モルディブ(デラックスクラス)" />
+	<hMLE130 hotel_code="M0415" hotel_name="センタラ・グランド・アイランド・リゾート&amp;スパ" />
+	<hMLE130 hotel_code="M0024" hotel_name="タージ エキゾティカ リゾート &amp; スパ" />
+</root>

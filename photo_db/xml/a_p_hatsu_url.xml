@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+   <TYO  hatsuname="東京"  href="http://www.hankyu-travel.com/air/tyo/"  top="tyo"  p_hatsuname="関東発"  p_hatsucode="1" />
+   <OSA  hatsuname="大阪"  href="http://www.hankyu-travel.com/air/osa/"  top="osa"  p_hatsuname="関西発"  p_hatsucode="2" />
+   <NGO  hatsuname="名古屋"  href="http://www.hankyu-travel.com/air/ngo/"  top="ngo"  p_hatsuname="中部・北陸発"  p_hatsucode="3" />
+   <FUK  hatsuname="福岡"  href="http://www.hankyu-travel.com/air/fuk/"  top="fuk"  p_hatsuname="九州発"  p_hatsucode="4" />
+   <SPK  hatsuname="札幌"  href="http://www.hankyu-travel.com/air/spk/"  top="spk"  p_hatsuname="北海道発"  p_hatsucode="5" />
+   <SDJ  hatsuname="仙台"  href="http://www.hankyu-travel.com/air/sdj/"  top="sdj"  p_hatsuname="東北発"  p_hatsucode="6" />
+   <OKJ  hatsuname="岡山"  href="http://www.hankyu-travel.com/air/chs/"  top="hij"  p_hatsuname="中国・四国発"  p_hatsucode="7" />
+   <HIJ  hatsuname="広島"  href="http://www.hankyu-travel.com/air/chs/"  top="hij"  p_hatsuname="中国・四国発"  p_hatsucode="7" />
+   <TAK  hatsuname="高松"  href="http://www.hankyu-travel.com/air/chs/"  top="hij"  p_hatsuname="中国・四国発"  p_hatsucode="7" />
+   <MYJ  hatsuname="松山"  href="http://www.hankyu-travel.com/air/chs/"  top="hij"  p_hatsuname="中国・四国発"  p_hatsucode="7" />
+   <KCZ  hatsuname="高知"  href="http://www.hankyu-travel.com/air/chs/"  top="hij"  p_hatsuname="中国・四国発"  p_hatsucode="7" />
+   <OKA  hatsuname="沖縄"  href="http://www.hankyu-travel.com/air/fuk/"  top="fuk"  p_hatsuname="九州発"  p_hatsucode="4" />
+</root>

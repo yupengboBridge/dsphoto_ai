@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hKUL101_130 hotel_code="K0367" hotel_name="パークロイヤル　サービススイート" />
+	<hKUL101_130 hotel_code="6406" hotel_name="リッツカールトン クアラルンプール" />
+	<hKUL101 hotel_code="K0367" hotel_name="パークロイヤル　サービススイート" />
+	<hKUL130 hotel_code="6406" hotel_name="リッツカールトン クアラルンプール" />
+	<hPEN101_130 hotel_code="2153" hotel_name="ゴールデンサンズ リゾート ペナン バイ シャングリラ" />
+	<hPEN130 hotel_code="2153" hotel_name="ゴールデンサンズ リゾート ペナン バイ シャングリラ" />
+	<hKUL103 hotel_code="K0343" hotel_name="セリ　パシフィックホテル" />
+</root>

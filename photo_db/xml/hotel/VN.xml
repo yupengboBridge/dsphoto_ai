@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hHAN101_130 hotel_code="10578" hotel_name="プルマン　ハノイ" />
+	<hHAN101_130 hotel_code="4216" hotel_name="レイクサイド ホテル" />
+	<hHAN101 hotel_code="10578" hotel_name="プルマン　ハノイ" />
+	<hHAN101 hotel_code="4216" hotel_name="レイクサイド ホテル" />
+	<hSGN101_130 hotel_code="1043" hotel_name="サイゴンプリンスホテル" />
+	<hSGN130 hotel_code="1043" hotel_name="サイゴンプリンスホテル" />
+	<hHAN102 hotel_code="10542" hotel_name="ヒルトン ハノイ オペラ" />
+	<hHRN102 hotel_code="10568" hotel_name="サイゴンハロンホテル" />
+</root>

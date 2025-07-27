@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<p_reg>
+		<p_reg_code>0</p_reg_code>
+		<p_reg_name>往復:帰国便変更不可</p_reg_name>
+	</p_reg>
+	<p_reg>
+		<p_reg_code>1</p_reg_code>
+		<p_reg_name>往復:帰国日のみ
+現地で変更可</p_reg_name>
+	</p_reg>
+	<p_reg>
+		<p_reg_code>2</p_reg_code>
+		<p_reg_name>往復:帰国日・帰国便を
+現地で変更可</p_reg_name>
+	</p_reg>
+	<p_reg>
+		<p_reg_code>3</p_reg_code>
+		<p_reg_name>片道</p_reg_name>
+	</p_reg>
+</root>

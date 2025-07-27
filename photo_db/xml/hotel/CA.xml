@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hYVR101_130 hotel_code="3396" hotel_name="カルマナ プラザ ホテル" />
+	<hYVR101_130 hotel_code="V0060" hotel_name="サンドマン スイート オン デビー" />
+	<hYVR101_130 hotel_code="1999" hotel_name="シェラトン ウォール センター ホテル" />
+	<hYVR101_130 hotel_code="V0025" hotel_name="バークレイ ホテル" />
+	<hYVR101_130 hotel_code="V0036" hotel_name="フェアモント ホテル バンクーバー" />
+	<hYVR101_130 hotel_code="1431" hotel_name="ハイアット リージェンシー バンクーバー" />
+	<hYVR101 hotel_code="3396" hotel_name="カルマナ プラザ ホテル" />
+	<hYVR101 hotel_code="V0060" hotel_name="サンドマン スイート オン デビー" />
+	<hYVR101 hotel_code="1999" hotel_name="シェラトン ウォール センター ホテル" />
+	<hYVR101 hotel_code="V0025" hotel_name="バークレイ ホテル" />
+	<hYVR101 hotel_code="V0036" hotel_name="フェアモント ホテル バンクーバー" />
+	<hYVR101 hotel_code="1431" hotel_name="ハイアット リージェンシー バンクーバー" />
+	<hYBA101_130 hotel_code="2228" hotel_name="エルク　アベニュー　ホテル" />
+	<hYBA101_130 hotel_code="B0149" hotel_name="ザ・フォックスホテル＆スイーツ" />
+	<hYBA101_130 hotel_code="B0020" hotel_name="ターミガン イン" />
+	<hYBA101_130 hotel_code="2440" hotel_name="フェアモント バンフ スプリングス" />
+	<hYBA101_130 hotel_code="B0836" hotel_name="ムース ホテル＆スイート" />
+	<hYBA101_130 hotel_code="3006" hotel_name="リムロック リゾート ホテル" />
+	<hYBA101_130 hotel_code="1646" hotel_name="ブリュースターズ マウンテン ロッジ" />
+	<hYBA101 hotel_code="2228" hotel_name="エルク　アベニュー　ホテル" />
+	<hYBA101 hotel_code="B0149" hotel_name="ザ・フォックスホテル＆スイーツ" />
+	<hYBA101 hotel_code="B0020" hotel_name="ターミガン イン" />
+	<hYBA101 hotel_code="2440" hotel_name="フェアモント バンフ スプリングス" />
+	<hYBA101 hotel_code="B0836" hotel_name="ムース ホテル＆スイート" />
+	<hYBA101 hotel_code="3006" hotel_name="リムロック リゾート ホテル" />
+	<hYBA101 hotel_code="1646" hotel_name="ブリュースターズ マウンテン ロッジ" />
+	<hYYJ101_130 hotel_code="4384" hotel_name="シャトー ビクトリア" />
+	<hYYJ101_130 hotel_code="5127" hotel_name="フェアモント エンプレス" />
+	<hYYJ101_130 hotel_code="1559" hotel_name="ベスト ウエスタン カールトン プラザ" />
+	<hYYJ101 hotel_code="4384" hotel_name="シャトー ビクトリア" />
+	<hYYJ101 hotel_code="5127" hotel_name="フェアモント エンプレス" />
+	<hYYJ101 hotel_code="1559" hotel_name="ベスト ウエスタン カールトン プラザ" />
+	<hYZF101_130 hotel_code="2746" hotel_name="ザ エクスプローラー ホテル" />
+	<hYZF101_130 hotel_code="Y0094" hotel_name="シャトー　ノバ" />
+	<hYZF101_130 hotel_code="4081" hotel_name="ディスカバリー イン" />
+	<hYZF101_130 hotel_code="3704" hotel_name="クオリティーイン アンド スイーツ イエローナイフ" />
+	<hYZF101_130 hotel_code="Y0019" hotel_name="ディズイン&amp;スィーツ　イエローナイフ" />
+	<hYZF101 hotel_code="2746" hotel_name="ザ エクスプローラー ホテル" />
+	<hYZF101 hotel_code="Y0094" hotel_name="シャトー　ノバ" />
+	<hYZF101 hotel_code="4081" hotel_name="ディスカバリー イン" />
+	<hYZF101 hotel_code="3704" hotel_name="クオリティーイン アンド スイーツ イエローナイフ" />
+	<hYZF101 hotel_code="Y0019" hotel_name="ディズイン&amp;スィーツ　イエローナイフ" />
+	<hYDA101_130 hotel_code="D0459" hotel_name="ダウンタウン ホテル" />
+	<hYDA101 hotel_code="D0459" hotel_name="ダウンタウン ホテル" />
+	<hYXY101_130 hotel_code="W0071" hotel_name="ベストウエスタンゴールドラッシュイン" />
+	<hYXY101 hotel_code="W0071" hotel_name="ベストウエスタンゴールドラッシュイン" />
+	<hYVR130 hotel_code="3396" hotel_name="カルマナ プラザ ホテル" />
+	<hYVR130 hotel_code="V0060" hotel_name="サンドマン スイート オン デビー" />
+	<hYVR130 hotel_code="1999" hotel_name="シェラトン ウォール センター ホテル" />
+	<hYVR130 hotel_code="V0025" hotel_name="バークレイ ホテル" />
+	<hYVR130 hotel_code="V0036" hotel_name="フェアモント ホテル バンクーバー" />
+	<hYVR130 hotel_code="1431" hotel_name="ハイアット リージェンシー バンクーバー" />
+	<hYZF130 hotel_code="2746" hotel_name="ザ エクスプローラー ホテル" />
+	<hYZF130 hotel_code="Y0094" hotel_name="シャトー　ノバ" />
+	<hYZF130 hotel_code="Y0019" hotel_name="ディズイン&amp;スィーツ　イエローナイフ" />
+	<hC94101_130 hotel_code="C0685" hotel_name="クラレンビルイン" />
+	<hC94130 hotel_code="C0685" hotel_name="クラレンビルイン" />
+	<hYYG101_130 hotel_code="Y0066" hotel_name="ダンディーアームズイン" />
+	<hYYG101_130 hotel_code="2232" hotel_name="ロッド シャーロットタウン ホテル" />
+	<hYYG101_130 hotel_code="Y0028" hotel_name="シャーロットタウンイン&amp;コンファレンスセンター" />
+	<hYYG130 hotel_code="Y0066" hotel_name="ダンディーアームズイン" />
+	<hYYG130 hotel_code="2232" hotel_name="ロッド シャーロットタウン ホテル" />
+	<hYYG130 hotel_code="Y0028" hotel_name="シャーロットタウンイン&amp;コンファレンスセンター" />
+	<hYYT101_130 hotel_code="S1495" hotel_name="デルタホテルズバイマリオットセントジョンズカンファレンスセンター" />
+	<hYYT130 hotel_code="S1495" hotel_name="デルタホテルズバイマリオットセントジョンズカンファレンスセンター" />
+	<hYDF101_130 hotel_code="D0507" hotel_name="ホリディインエクスプレスディアレイク" />
+	<hYDF130 hotel_code="D0507" hotel_name="ホリディインエクスプレスディアレイク" />
+	<hYTO101_130 hotel_code="4385" hotel_name="ストラスコーナ ホテル" />
+	<hYTO101_130 hotel_code="3401" hotel_name="チェルシーホテル" />
+	<hYTO101_130 hotel_code="4079" hotel_name="フェアモント ロイヤル ヨーク ホテル" />
+	<hYTO130 hotel_code="4385" hotel_name="ストラスコーナ ホテル" />
+	<hYTO130 hotel_code="3401" hotel_name="チェルシーホテル" />
+	<hYTO130 hotel_code="4079" hotel_name="フェアモント ロイヤル ヨーク ホテル" />
+	<hXLV101_130 hotel_code="3004" hotel_name="マリオットフォールズビュー" />
+	<hXLV101_130 hotel_code="6535" hotel_name="エンバシースイート[滝側のお部屋]" />
+	<hXLV101_130 hotel_code="1202" hotel_name="オークスホテル オーバールッキング ザ フォールズ" />
+	<hXLV101_130 hotel_code="N0101" hotel_name="クラウン プラザ フォールズビュー[滝の見えるお部屋]" />
+	<hXLV101_130 hotel_code="2225" hotel_name="シェラトン オン ザ フォールズ[滝側のお部屋]" />
+	<hXLV101_130 hotel_code="N0125" hotel_name="マリオットオンザフォールズ" />
+	<hXLV130 hotel_code="3004" hotel_name="マリオットフォールズビュー" />
+	<hXLV130 hotel_code="6535" hotel_name="エンバシースイート[滝側のお部屋]" />
+	<hXLV130 hotel_code="1202" hotel_name="オークスホテル オーバールッキング ザ フォールズ" />
+	<hXLV130 hotel_code="N0101" hotel_name="クラウン プラザ フォールズビュー[滝の見えるお部屋]" />
+	<hXLV130 hotel_code="2225" hotel_name="シェラトン オン ザ フォールズ[滝側のお部屋]" />
+	<hXLV130 hotel_code="N0125" hotel_name="マリオットオンザフォールズ" />
+	<hYMQ101_130 hotel_code="4078" hotel_name="デルタ モントリオール" />
+	<hYMQ101_130 hotel_code="2738" hotel_name="フェアモント クイーンエリザベス" />
+	<hYMQ101_130 hotel_code="2445" hotel_name="ホテル ル キャントリー スィート" />
+	<hYMQ130 hotel_code="4078" hotel_name="デルタ モントリオール" />
+	<hYMQ130 hotel_code="2738" hotel_name="フェアモント クイーンエリザベス" />
+	<hYMQ130 hotel_code="2445" hotel_name="ホテル ル キャントリー スィート" />
+	<hYVR102 hotel_code="3396" hotel_name="カルマナ プラザ ホテル" />
+	<hYVR102 hotel_code="V0060" hotel_name="サンドマン スイート オン デビー" />
+	<hYVR102 hotel_code="1999" hotel_name="シェラトン ウォール センター ホテル" />
+	<hYVR102 hotel_code="V0025" hotel_name="バークレイ ホテル" />
+	<hYVR102 hotel_code="V0036" hotel_name="フェアモント ホテル バンクーバー" />
+	<hYVR102 hotel_code="1431" hotel_name="ハイアット リージェンシー バンクーバー" />
+	<hYBA102 hotel_code="2228" hotel_name="エルク　アベニュー　ホテル" />
+	<hYBA102 hotel_code="B0149" hotel_name="ザ・フォックスホテル＆スイーツ" />
+	<hYBA102 hotel_code="B0020" hotel_name="ターミガン イン" />
+	<hYBA102 hotel_code="2440" hotel_name="フェアモント バンフ スプリングス" />
+	<hYBA102 hotel_code="B0836" hotel_name="ムース ホテル＆スイート" />
+	<hYBA102 hotel_code="3006" hotel_name="リムロック リゾート ホテル" />
+	<hYBA102 hotel_code="1646" hotel_name="ブリュースターズ マウンテン ロッジ" />
+	<hYYJ102 hotel_code="4384" hotel_name="シャトー ビクトリア" />
+	<hYYJ102 hotel_code="5127" hotel_name="フェアモント エンプレス" />
+	<hYYJ102 hotel_code="1559" hotel_name="ベスト ウエスタン カールトン プラザ" />
+	<hYZF102 hotel_code="2746" hotel_name="ザ エクスプローラー ホテル" />
+	<hYZF102 hotel_code="Y0094" hotel_name="シャトー　ノバ" />
+	<hYZF102 hotel_code="3704" hotel_name="クオリティーイン アンド スイーツ イエローナイフ" />
+	<hYZF102 hotel_code="Y0019" hotel_name="ディズイン&amp;スィーツ　イエローナイフ" />
+	<hYTO102 hotel_code="4385" hotel_name="ストラスコーナ ホテル" />
+	<hYTO102 hotel_code="3401" hotel_name="チェルシーホテル" />
+	<hYTO102 hotel_code="4079" hotel_name="フェアモント ロイヤル ヨーク ホテル" />
+	<hXLV102 hotel_code="3004" hotel_name="マリオットフォールズビュー" />
+	<hXLV102 hotel_code="1202" hotel_name="オークスホテル オーバールッキング ザ フォールズ" />
+	<hXLV102 hotel_code="N0101" hotel_name="クラウン プラザ フォールズビュー[滝の見えるお部屋]" />
+	<hXLV102 hotel_code="2225" hotel_name="シェラトン オン ザ フォールズ[滝側のお部屋]" />
+	<hXLV102 hotel_code="N0125" hotel_name="マリオットオンザフォールズ" />
+	<hYVR103 hotel_code="3396" hotel_name="カルマナ プラザ ホテル" />
+	<hYVR103 hotel_code="V0060" hotel_name="サンドマン スイート オン デビー" />
+	<hYVR103 hotel_code="1999" hotel_name="シェラトン ウォール センター ホテル" />
+	<hYVR103 hotel_code="V0025" hotel_name="バークレイ ホテル" />
+	<hYVR103 hotel_code="V0036" hotel_name="フェアモント ホテル バンクーバー" />
+	<hYVR103 hotel_code="1431" hotel_name="ハイアット リージェンシー バンクーバー" />
+	<hYBA103 hotel_code="2228" hotel_name="エルク　アベニュー　ホテル" />
+	<hYBA103 hotel_code="B0149" hotel_name="ザ・フォックスホテル＆スイーツ" />
+	<hYBA103 hotel_code="B0020" hotel_name="ターミガン イン" />
+	<hYBA103 hotel_code="2440" hotel_name="フェアモント バンフ スプリングス" />
+	<hYBA103 hotel_code="B0836" hotel_name="ムース ホテル＆スイート" />
+	<hYBA103 hotel_code="3006" hotel_name="リムロック リゾート ホテル" />
+	<hYBA103 hotel_code="1646" hotel_name="ブリュースターズ マウンテン ロッジ" />
+	<hYZF103 hotel_code="2746" hotel_name="ザ エクスプローラー ホテル" />
+	<hYZF103 hotel_code="Y0094" hotel_name="シャトー　ノバ" />
+	<hYZF103 hotel_code="3704" hotel_name="クオリティーイン アンド スイーツ イエローナイフ" />
+	<hYZF103 hotel_code="Y0019" hotel_name="ディズイン&amp;スィーツ　イエローナイフ" />
+	<hYTO103 hotel_code="4385" hotel_name="ストラスコーナ ホテル" />
+	<hYTO103 hotel_code="3401" hotel_name="チェルシーホテル" />
+	<hYTO103 hotel_code="4079" hotel_name="フェアモント ロイヤル ヨーク ホテル" />
+	<hXLV103 hotel_code="3004" hotel_name="マリオットフォールズビュー" />
+	<hXLV103 hotel_code="1202" hotel_name="オークスホテル オーバールッキング ザ フォールズ" />
+	<hXLV103 hotel_code="N0101" hotel_name="クラウン プラザ フォールズビュー[滝の見えるお部屋]" />
+	<hXLV103 hotel_code="2225" hotel_name="シェラトン オン ザ フォールズ[滝側のお部屋]" />
+	<hXLV103 hotel_code="N0125" hotel_name="マリオットオンザフォールズ" />
+	<hYVR104 hotel_code="3396" hotel_name="カルマナ プラザ ホテル" />
+	<hYVR104 hotel_code="V0060" hotel_name="サンドマン スイート オン デビー" />
+	<hYVR104 hotel_code="1999" hotel_name="シェラトン ウォール センター ホテル" />
+	<hYVR104 hotel_code="V0025" hotel_name="バークレイ ホテル" />
+	<hYVR104 hotel_code="V0036" hotel_name="フェアモント ホテル バンクーバー" />
+	<hYVR104 hotel_code="1431" hotel_name="ハイアット リージェンシー バンクーバー" />
+	<hYBA104 hotel_code="2228" hotel_name="エルク　アベニュー　ホテル" />
+	<hYBA104 hotel_code="B0149" hotel_name="ザ・フォックスホテル＆スイーツ" />
+	<hYBA104 hotel_code="B0020" hotel_name="ターミガン イン" />
+	<hYBA104 hotel_code="2440" hotel_name="フェアモント バンフ スプリングス" />
+	<hYBA104 hotel_code="B0836" hotel_name="ムース ホテル＆スイート" />
+	<hYBA104 hotel_code="3006" hotel_name="リムロック リゾート ホテル" />
+	<hYBA104 hotel_code="1646" hotel_name="ブリュースターズ マウンテン ロッジ" />
+	<hYZF104 hotel_code="2746" hotel_name="ザ エクスプローラー ホテル" />
+	<hYZF104 hotel_code="Y0094" hotel_name="シャトー　ノバ" />
+	<hYZF104 hotel_code="3704" hotel_name="クオリティーイン アンド スイーツ イエローナイフ" />
+	<hYZF104 hotel_code="Y0019" hotel_name="ディズイン&amp;スィーツ　イエローナイフ" />
+	<hYTO104 hotel_code="4385" hotel_name="ストラスコーナ ホテル" />
+	<hYTO104 hotel_code="3401" hotel_name="チェルシーホテル" />
+	<hYTO104 hotel_code="4079" hotel_name="フェアモント ロイヤル ヨーク ホテル" />
+	<hXLV104 hotel_code="3004" hotel_name="マリオットフォールズビュー" />
+	<hXLV104 hotel_code="1202" hotel_name="オークスホテル オーバールッキング ザ フォールズ" />
+	<hXLV104 hotel_code="N0101" hotel_name="クラウン プラザ フォールズビュー[滝の見えるお部屋]" />
+	<hXLV104 hotel_code="2225" hotel_name="シェラトン オン ザ フォールズ[滝側のお部屋]" />
+	<hXLV104 hotel_code="N0125" hotel_name="マリオットオンザフォールズ" />
+</root>

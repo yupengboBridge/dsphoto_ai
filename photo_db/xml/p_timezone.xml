@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<p_timezone>
+		<p_timezone_code>1</p_timezone_code>
+		<p_timezone_name>午前便</p_timezone_name>
+	</p_timezone>
+	<p_timezone>
+		<p_timezone_code>2</p_timezone_code>
+		<p_timezone_name>午後便</p_timezone_name>
+	</p_timezone>
+	<p_timezone>
+		<p_timezone_code>3</p_timezone_code>
+		<p_timezone_name>夜便</p_timezone_name>
+	</p_timezone>
+</root>

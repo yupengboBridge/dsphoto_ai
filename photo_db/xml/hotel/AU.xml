@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hSYD101_130 hotel_code="4037" hotel_name="アモラホテル ジャミソン シドニー" />
+	<hSYD101_130 hotel_code="S0025" hotel_name="インターコンチネンタル シドニー" />
+	<hSYD101_130 hotel_code="S1707" hotel_name="オークス ゴールズブロー アパートメント" />
+	<hSYD101_130 hotel_code="S0258" hotel_name="キャピトルスクエアホテル" />
+	<hSYD101_130 hotel_code="11499" hotel_name="シャングリラホテル" />
+	<hSYD101_130 hotel_code="S0390" hotel_name="ディビア　ホテル" />
+	<hSYD101_130 hotel_code="11503" hotel_name="フォーシーズンズ ホテル" />
+	<hSYD101_130 hotel_code="11517" hotel_name="メトロアスパイアホテルシドニー" />
+	<hSYD101_130 hotel_code="11508" hotel_name="メトロホテルマーローシドニーセントラル" />
+	<hSYD101_130 hotel_code="2692" hotel_name="リッジスワールドスクエア" />
+	<hSYD101_130 hotel_code="1639" hotel_name="ホリディ イン ダーリング ハーバー" />
+	<hSYD130 hotel_code="4037" hotel_name="アモラホテル ジャミソン シドニー" />
+	<hSYD130 hotel_code="S0025" hotel_name="インターコンチネンタル シドニー" />
+	<hSYD130 hotel_code="S1707" hotel_name="オークス ゴールズブロー アパートメント" />
+	<hSYD130 hotel_code="S0258" hotel_name="キャピトルスクエアホテル" />
+	<hSYD130 hotel_code="11499" hotel_name="シャングリラホテル" />
+	<hSYD130 hotel_code="S0390" hotel_name="ディビア　ホテル" />
+	<hSYD130 hotel_code="11503" hotel_name="フォーシーズンズ ホテル" />
+	<hSYD130 hotel_code="11517" hotel_name="メトロアスパイアホテルシドニー" />
+	<hSYD130 hotel_code="11508" hotel_name="メトロホテルマーローシドニーセントラル" />
+	<hSYD130 hotel_code="2692" hotel_name="リッジスワールドスクエア" />
+	<hSYD130 hotel_code="1639" hotel_name="ホリディ イン ダーリング ハーバー" />
+	<hOOL101_130 hotel_code="1250" hotel_name="キューティーゴールドコースト" />
+	<hOOL101_130 hotel_code="2378" hotel_name="ノボテルサーファーズパラダイス" />
+	<hOOL101_130 hotel_code="11529" hotel_name="パラッツォ ヴェルサーチ" />
+	<hOOL101_130 hotel_code="2377" hotel_name="ヒルトン　サーファーズパラダイス" />
+	<hOOL101_130 hotel_code="G0067" hotel_name="ブレークフリー モロッカン リゾート" />
+	<hOOL101_130 hotel_code="11530" hotel_name="マントラ オン ビュー ホテル" />
+	<hOOL101_130 hotel_code="1507" hotel_name="マントラ レジェンズホテル" />
+	<hOOL101_130 hotel_code="3933" hotel_name="ヴォコ　ゴールドコースト" />
+	<hOOL101_130 hotel_code="1147" hotel_name="ザ スター ゴールドコースト" />
+	<hOOL101_130 hotel_code="O0151" hotel_name="ヒルトン サーファーズパラダイス レジデンス" />
+	<hOOL101_130 hotel_code="G0203" hotel_name="ペッパーズ ソウル サーファーズパラダイス" />
+	<hOOL101_130 hotel_code="O0054" hotel_name="マントラ クラウン タワーズ サーファーズパラダイス" />
+	<hOOL101_130 hotel_code="1037" hotel_name="マントラ　サークル　オン　カビル" />
+	<hOOL130 hotel_code="1250" hotel_name="キューティーゴールドコースト" />
+	<hOOL130 hotel_code="2378" hotel_name="ノボテルサーファーズパラダイス" />
+	<hOOL130 hotel_code="11529" hotel_name="パラッツォ ヴェルサーチ" />
+	<hOOL130 hotel_code="2377" hotel_name="ヒルトン　サーファーズパラダイス" />
+	<hOOL130 hotel_code="G0067" hotel_name="ブレークフリー モロッカン リゾート" />
+	<hOOL130 hotel_code="11530" hotel_name="マントラ オン ビュー ホテル" />
+	<hOOL130 hotel_code="1507" hotel_name="マントラ レジェンズホテル" />
+	<hOOL130 hotel_code="3933" hotel_name="ヴォコ　ゴールドコースト" />
+	<hOOL130 hotel_code="1147" hotel_name="ザ スター ゴールドコースト" />
+	<hOOL130 hotel_code="O0151" hotel_name="ヒルトン サーファーズパラダイス レジデンス" />
+	<hOOL130 hotel_code="G0203" hotel_name="ペッパーズ ソウル サーファーズパラダイス" />
+	<hOOL130 hotel_code="O0054" hotel_name="マントラ クラウン タワーズ サーファーズパラダイス" />
+	<hOOL130 hotel_code="1037" hotel_name="マントラ　サークル　オン　カビル" />
+	<hMEL101_130 hotel_code="M0793" hotel_name="オークス オン マーケット" />
+	<hMEL101_130 hotel_code="11568" hotel_name="クラウン プラザ メルボルン" />
+	<hMEL101_130 hotel_code="M0273" hotel_name="グレート サザン ホテル メルボルン" />
+	<hMEL101_130 hotel_code="1109" hotel_name="バットマンズ ヒル オン コリンズ" />
+	<hMEL101_130 hotel_code="2602" hotel_name="ホテル ソフィテル メルボルン" />
+	<hMEL101_130 hotel_code="11564" hotel_name="ランガム" />
+	<hMEL101_130 hotel_code="2601" hotel_name="リッジス メルボルン ホテル" />
+	<hMEL101_130 hotel_code="M0416" hotel_name="インターコンチネンタル メルボルン ザ リアルト" />
+	<hMEL101_130 hotel_code="1608" hotel_name="スタンフォード プラザ メルボルン" />
+	<hMEL101_130 hotel_code="11575" hotel_name="ホリディイン イン オン フリンダース" />
+	<hMEL130 hotel_code="M0793" hotel_name="オークス オン マーケット" />
+	<hMEL130 hotel_code="11568" hotel_name="クラウン プラザ メルボルン" />
+	<hMEL130 hotel_code="M0273" hotel_name="グレート サザン ホテル メルボルン" />
+	<hMEL130 hotel_code="1109" hotel_name="バットマンズ ヒル オン コリンズ" />
+	<hMEL130 hotel_code="2602" hotel_name="ホテル ソフィテル メルボルン" />
+	<hMEL130 hotel_code="11564" hotel_name="ランガム" />
+	<hMEL130 hotel_code="2601" hotel_name="リッジス メルボルン ホテル" />
+	<hMEL130 hotel_code="M0416" hotel_name="インターコンチネンタル メルボルン ザ リアルト" />
+	<hMEL130 hotel_code="1608" hotel_name="スタンフォード プラザ メルボルン" />
+	<hMEL130 hotel_code="11575" hotel_name="ホリディイン イン オン フリンダース" />
+	<hCNS101_130 hotel_code="11550" hotel_name="パシフィック" />
+	<hCNS101_130 hotel_code="11546" hotel_name="シャングリラ ホテル ザ マリーナ ケアンズ" />
+	<hCNS130 hotel_code="11550" hotel_name="パシフィック" />
+	<hCNS130 hotel_code="11546" hotel_name="シャングリラ ホテル ザ マリーナ ケアンズ" />
+	<hBNE101_130 hotel_code="B0968" hotel_name="イビス ブリスベン" />
+	<hBNE101_130 hotel_code="B0381" hotel_name="ノボテルブリスベン" />
+	<hBNE101_130 hotel_code="B0542" hotel_name="プルマン ブリスベンキングジョージスクエア" />
+	<hBNE130 hotel_code="B0968" hotel_name="イビス ブリスベン" />
+	<hBNE130 hotel_code="B0381" hotel_name="ノボテルブリスベン" />
+	<hBNE130 hotel_code="B0542" hotel_name="プルマン ブリスベンキングジョージスクエア" />
+	<hSYD102 hotel_code="4037" hotel_name="アモラホテル ジャミソン シドニー" />
+	<hSYD102 hotel_code="S0025" hotel_name="インターコンチネンタル シドニー" />
+	<hSYD102 hotel_code="11499" hotel_name="シャングリラホテル" />
+	<hSYD102 hotel_code="11517" hotel_name="メトロアスパイアホテルシドニー" />
+	<hSYD102 hotel_code="11508" hotel_name="メトロホテルマーローシドニーセントラル" />
+	<hSYD102 hotel_code="2692" hotel_name="リッジスワールドスクエア" />
+	<hSYD102 hotel_code="1639" hotel_name="ホリディ イン ダーリング ハーバー" />
+	<hSYD103 hotel_code="4037" hotel_name="アモラホテル ジャミソン シドニー" />
+	<hSYD103 hotel_code="S0025" hotel_name="インターコンチネンタル シドニー" />
+	<hSYD103 hotel_code="11499" hotel_name="シャングリラホテル" />
+	<hSYD103 hotel_code="11503" hotel_name="フォーシーズンズ ホテル" />
+	<hSYD103 hotel_code="11517" hotel_name="メトロアスパイアホテルシドニー" />
+	<hSYD103 hotel_code="11508" hotel_name="メトロホテルマーローシドニーセントラル" />
+	<hSYD103 hotel_code="2692" hotel_name="リッジスワールドスクエア" />
+	<hSYD103 hotel_code="1639" hotel_name="ホリディ イン ダーリング ハーバー" />
+	<hSYD104 hotel_code="4037" hotel_name="アモラホテル ジャミソン シドニー" />
+	<hSYD104 hotel_code="S0025" hotel_name="インターコンチネンタル シドニー" />
+	<hSYD104 hotel_code="11499" hotel_name="シャングリラホテル" />
+	<hSYD104 hotel_code="11503" hotel_name="フォーシーズンズ ホテル" />
+	<hSYD104 hotel_code="11517" hotel_name="メトロアスパイアホテルシドニー" />
+	<hSYD104 hotel_code="11508" hotel_name="メトロホテルマーローシドニーセントラル" />
+	<hSYD104 hotel_code="2692" hotel_name="リッジスワールドスクエア" />
+	<hSYD104 hotel_code="1639" hotel_name="ホリディ イン ダーリング ハーバー" />
+	<hSYD105 hotel_code="4037" hotel_name="アモラホテル ジャミソン シドニー" />
+	<hSYD105 hotel_code="S0025" hotel_name="インターコンチネンタル シドニー" />
+	<hSYD105 hotel_code="11499" hotel_name="シャングリラホテル" />
+	<hSYD105 hotel_code="11503" hotel_name="フォーシーズンズ ホテル" />
+	<hSYD105 hotel_code="11517" hotel_name="メトロアスパイアホテルシドニー" />
+	<hSYD105 hotel_code="11508" hotel_name="メトロホテルマーローシドニーセントラル" />
+	<hSYD105 hotel_code="2692" hotel_name="リッジスワールドスクエア" />
+	<hSYD105 hotel_code="1639" hotel_name="ホリディ イン ダーリング ハーバー" />
+</root>

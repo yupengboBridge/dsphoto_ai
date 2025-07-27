@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<p_sort_a>
+		<p_sort_a_code>1</p_sort_a_code>
+		<p_sort_a_name>旅行代金　安い順</p_sort_a_name>
+	</p_sort_a>
+	<p_sort_a>
+		<p_sort_a_code>2</p_sort_a_code>
+		<p_sort_a_name>旅行代金　高い順</p_sort_a_name>
+	</p_sort_a>
+	<p_sort_a>
+		<p_sort_a_code>3</p_sort_a_code>
+		<p_sort_a_name>航空会社　昇順</p_sort_a_name>
+	</p_sort_a>
+	<p_sort_a>
+		<p_sort_a_code>4</p_sort_a_code>
+		<p_sort_a_name>航空会社　降順</p_sort_a_name>
+	</p_sort_a>
+	<p_sort_a>
+		<p_sort_a_code>5</p_sort_a_code>
+		<p_sort_a_name>有効期間　短い順</p_sort_a_name>
+	</p_sort_a>
+	<p_sort_a>
+		<p_sort_a_code>6</p_sort_a_code>
+		<p_sort_a_name>有効期間　長い順</p_sort_a_name>
+	</p_sort_a>
+</root>

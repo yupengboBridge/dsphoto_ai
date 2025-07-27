@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+   <h101_130_133  hatsuname="東京"  href="http://www.hankyu-travel.com/tyo-i/"  top="tyo"  p_hatsuname="関東発"  p_hatsucode="1"  sortnum="1" />
+   <h101  hatsuname="東京(成田)"  href="http://www.hankyu-travel.com/tyo-i/"  top="tyo"  p_hatsuname="関東発"  p_hatsucode="1"  sortnum="2" />
+   <h130  hatsuname="東京(羽田)"  href="http://www.hankyu-travel.com/tyo-i/"  top="tyo"  p_hatsuname="関東発"  p_hatsucode="1"  sortnum="3" />
+   <h102  hatsuname="大阪"  href="http://www.hankyu-travel.com/osa-i/"  top="osa"  p_hatsuname="関西発"  p_hatsucode="2"  sortnum="4" />
+   <h103  hatsuname="名古屋"  href="http://www.hankyu-travel.com/ngo-i/"  top="ngo"  p_hatsuname="中部・北陸発"  p_hatsucode="3"  sortnum="5" />
+   <h104  hatsuname="福岡"  href="http://www.hankyu-travel.com/fuk-i/"  top="fuk"  p_hatsuname="九州・沖縄発"  p_hatsucode="4"  sortnum="6" />
+   <h105  hatsuname="北海道"  href="http://www.hankyu-travel.com/spk-i/"  top="spk"  p_hatsuname="北海道発"  p_hatsucode="5"  sortnum="7" />
+   <h117  hatsuname="青森"  href="http://www.hankyu-travel.com/sdj-i/"  top="sdj"  p_hatsuname="東北・新潟発"  p_hatsucode="6"  sortnum="8" />
+   <h129  hatsuname="三沢"  href="http://www.hankyu-travel.com/sdj-i/"  top="sdj"  p_hatsuname="東北・新潟発"  p_hatsucode="6"  sortnum="9" />
+   <h126  hatsuname="花巻"  href="http://www.hankyu-travel.com/sdj-i/"  top="sdj"  p_hatsuname="東北・新潟発"  p_hatsucode="6"  sortnum="10" />
+   <h109  hatsuname="仙台"  href="http://www.hankyu-travel.com/sdj-i/"  top="sdj"  p_hatsuname="東北・新潟発"  p_hatsucode="6"  sortnum="11" />
+   <h118  hatsuname="秋田"  href="http://www.hankyu-travel.com/sdj-i/"  top="sdj"  p_hatsuname="東北・新潟発"  p_hatsucode="6"  sortnum="12" />
+   <h128  hatsuname="山形"  href="http://www.hankyu-travel.com/sdj-i/"  top="sdj"  p_hatsuname="東北・新潟発"  p_hatsucode="6"  sortnum="13" />
+   <h125  hatsuname="福島"  href="http://www.hankyu-travel.com/sdj-i/"  top="sdj"  p_hatsuname="東北・新潟発"  p_hatsucode="6"  sortnum="14" />
+   <h119  hatsuname="新潟"  href="http://www.hankyu-travel.com/sdj-i/"  top="sdj"  p_hatsuname="東北・新潟発"  p_hatsucode="6"  sortnum="15" />
+   <h124  hatsuname="富山"  href="http://www.hankyu-travel.com/ngo-i/"  top="ngo"  p_hatsuname="中部・北陸発"  p_hatsucode="3"  sortnum="16" />
+   <h114  hatsuname="石川"  href="http://www.hankyu-travel.com/ngo-i/"  top="ngo"  p_hatsuname="中部・北陸発"  p_hatsucode="3"  sortnum="17" />
+   <h112  hatsuname="静岡"  href="http://www.hankyu-travel.com/ngo-i/"  top="ngo"  p_hatsuname="中部・北陸発"  p_hatsucode="3"  sortnum="18" />
+   <h131  hatsuname="出雲"  href="http://www.hankyu-travel.com/chs-i/"  top="hij"  p_hatsuname="中国・四国発"  p_hatsucode="7"  sortnum="19" />
+   <h113  hatsuname="岡山"  href="http://www.hankyu-travel.com/chs-i/"  top="hij"  p_hatsuname="中国・四国発"  p_hatsucode="7"  sortnum="20" />
+   <h107  hatsuname="広島"  href="http://www.hankyu-travel.com/chs-i/"  top="hij"  p_hatsuname="中国・四国発"  p_hatsucode="7"  sortnum="21" />
+   <h132  hatsuname="山口宇部"  href="http://www.hankyu-travel.com/chs-i/"  top="hij"  p_hatsuname="中国・四国発"  p_hatsucode="7"  sortnum="22" />
+   <h115  hatsuname="徳島"  href="http://www.hankyu-travel.com/chs-i/"  top="hij"  p_hatsuname="中国・四国発"  p_hatsucode="7"  sortnum="23" />
+   <h111  hatsuname="高松"  href="http://www.hankyu-travel.com/chs-i/"  top="hij"  p_hatsuname="中国・四国発"  p_hatsucode="7"  sortnum="24" />
+   <h108  hatsuname="松山"  href="http://www.hankyu-travel.com/chs-i/"  top="hij"  p_hatsuname="中国・四国発"  p_hatsucode="7"  sortnum="25" />
+   <h110  hatsuname="高知"  href="http://www.hankyu-travel.com/chs-i/"  top="hij"  p_hatsuname="中国・四国発"  p_hatsucode="7"  sortnum="26" />
+   <h127  hatsuname="北九州"  href="http://www.hankyu-travel.com/fuk-i/"  top="fuk"  p_hatsuname="九州・沖縄発"  p_hatsucode="4"  sortnum="27" />
+   <h122  hatsuname="長崎"  href="http://www.hankyu-travel.com/fuk-i/"  top="fuk"  p_hatsuname="九州・沖縄発"  p_hatsucode="4"  sortnum="28" />
+   <h120  hatsuname="熊本"  href="http://www.hankyu-travel.com/fuk-i/"  top="fuk"  p_hatsuname="九州・沖縄発"  p_hatsucode="4"  sortnum="29" />
+   <h121  hatsuname="大分"  href="http://www.hankyu-travel.com/fuk-i/"  top="fuk"  p_hatsuname="九州・沖縄発"  p_hatsucode="4"  sortnum="30" />
+   <h123  hatsuname="宮崎"  href="http://www.hankyu-travel.com/fuk-i/"  top="fuk"  p_hatsuname="九州・沖縄発"  p_hatsucode="4"  sortnum="31" />
+   <h116  hatsuname="鹿児島"  href="http://www.hankyu-travel.com/fuk-i/"  top="fuk"  p_hatsuname="九州・沖縄発"  p_hatsucode="4"  sortnum="32" />
+   <h106  hatsuname="沖縄"  href="http://www.hankyu-travel.com/fuk-i/"  top="fuk"  p_hatsuname="九州・沖縄発"  p_hatsucode="4"  sortnum="33" />
+   <h133  hatsuname="横浜"  href="http://www.hankyu-travel.com/tyo-i/"  top="tyo"  p_hatsuname="関東発"  p_hatsucode="1"  sortnum="99" />
+</root>

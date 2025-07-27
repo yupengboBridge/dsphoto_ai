@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<p_mainbrand>
+		<p_mainbrand_code>01</p_mainbrand_code>
+		<p_mainbrand_name>トラピックス</p_mainbrand_name>
+	</p_mainbrand>
+	<p_mainbrand>
+		<p_mainbrand_code>02</p_mainbrand_code>
+		<p_mainbrand_name>e-very</p_mainbrand_name>
+	</p_mainbrand>
+	<p_mainbrand>
+		<p_mainbrand_code>03</p_mainbrand_code>
+		<p_mainbrand_name>クリスタルハート</p_mainbrand_name>
+	</p_mainbrand>
+	<p_mainbrand>
+		<p_mainbrand_code>04</p_mainbrand_code>
+		<p_mainbrand_name>ロイヤルコレクション</p_mainbrand_name>
+	</p_mainbrand>
+	<p_mainbrand>
+		<p_mainbrand_code>05</p_mainbrand_code>
+		<p_mainbrand_name>支店主催（その他）</p_mainbrand_name>
+	</p_mainbrand>
+	<p_mainbrand>
+		<p_mainbrand_code>06</p_mainbrand_code>
+		<p_mainbrand_name>フレンドツアー</p_mainbrand_name>
+	</p_mainbrand>
+</root>

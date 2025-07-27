@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hD31101_130 hotel_code="N0012" hotel_name="ウェスティン リゾート＆スパ" />
+	<hD31101_130 hotel_code="2368" hotel_name="シェラトン フィジー リゾート" />
+	<hD31101 hotel_code="N0012" hotel_name="ウェスティン リゾート＆スパ" />
+	<hD31101 hotel_code="2368" hotel_name="シェラトン フィジー リゾート" />
+	<hNAN101_130 hotel_code="N0036" hotel_name="アウトリガー フィジー ビーチ リゾート" />
+	<hNAN101_130 hotel_code="1501" hotel_name="シャングリラ フィジアン リゾート＆スパ" />
+	<hNAN101_130 hotel_code="N0011" hotel_name="ソフィテル フィジー リゾート＆スパ" />
+	<hNAN101_130 hotel_code="2135" hotel_name="ノボテルホテル ナンディ" />
+	<hNAN101_130 hotel_code="N0035" hotel_name="ヒルトン フィジー ビーチ リゾート＆スパ" />
+	<hNAN101_130 hotel_code="N0412" hotel_name="フィジー マリオット リゾート モミ ベイ" />
+	<hNAN101_130 hotel_code="N0064" hotel_name="メルキュール ホテル ナンディ" />
+	<hNAN101_130 hotel_code="N0411" hotel_name="インターコンチネンタル フィジー ゴルフ リゾート&amp;スパ" />
+	<hNAN101 hotel_code="N0036" hotel_name="アウトリガー フィジー ビーチ リゾート" />
+	<hNAN101 hotel_code="1501" hotel_name="シャングリラ フィジアン リゾート＆スパ" />
+	<hNAN101 hotel_code="N0011" hotel_name="ソフィテル フィジー リゾート＆スパ" />
+	<hNAN101 hotel_code="2135" hotel_name="ノボテルホテル ナンディ" />
+	<hNAN101 hotel_code="N0035" hotel_name="ヒルトン フィジー ビーチ リゾート＆スパ" />
+	<hNAN101 hotel_code="N0412" hotel_name="フィジー マリオット リゾート モミ ベイ" />
+	<hNAN101 hotel_code="N0064" hotel_name="メルキュール ホテル ナンディ" />
+	<hNAN101 hotel_code="N0411" hotel_name="インターコンチネンタル フィジー ゴルフ リゾート&amp;スパ" />
+</root>

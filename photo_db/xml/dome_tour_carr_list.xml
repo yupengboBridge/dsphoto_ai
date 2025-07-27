@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <air air_code="3X" air_name="日本エアコミューター" />
+    <air air_code="6J" air_name="ソラシドエア" />
+    <air air_code="7G" air_name="スターフライヤー" />
+    <air air_code="BC" air_name="スカイマーク" />
+    <air air_code="FW" air_name="アイベックスエアラインズ" />
+    <air air_code="GK" air_name="ジェットスター・ジャパン" />
+    <air air_code="HD" air_name="AIR-DO" />
+    <air air_code="IJ" air_name="春秋航空日本" />
+    <air air_code="JH" air_name="フジドリームエアラインズ" />
+    <air air_code="JL" air_name="日本航空" />
+    <air air_code="MM" air_name="ピーチ・アビエーション" />
+    <air air_code="NH" air_name="ANA" />
+    <air air_code="NU" air_name="日本トランスオーシャン航空" />
+    <air air_code="RX" air_name="琉球エアーコミューター" />
+    <air air_code="XM" air_name="ジェイ・エア" />
+    <air air_code="YY" air_name="その他" />
+</root>

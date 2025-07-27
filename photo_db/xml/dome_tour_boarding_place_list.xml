@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <departure hatsu_name ="北海道" p_hatsu_sub ="101013,101319,101011,101012,101014,101015,101016,101017,101018,101320,101321,101322">
+        <district boarding_place_code ="13" boarding_place_name ="深川駅" />
+        <district boarding_place_code ="2" boarding_place_name ="帯広駅" />
+        <district boarding_place_code ="11" boarding_place_name ="旭川駅" />
+        <district boarding_place_code ="12" boarding_place_name ="大谷地駅" />
+        <district boarding_place_code ="115" boarding_place_name ="豊岡" />
+        <district boarding_place_code ="18" boarding_place_name ="釧路駅" />
+        <district boarding_place_code ="53" boarding_place_name ="新札幌" />
+        <district boarding_place_code ="37" boarding_place_name ="滝川駅" />
+        <district boarding_place_code ="106" boarding_place_name ="南永山駅" />
+        <district boarding_place_code ="3" boarding_place_name ="末広" />
+        <district boarding_place_code ="1" boarding_place_name ="札幌駅" />
+    </departure>
+    <departure hatsu_name ="東北" p_hatsu_sub ="102022,102025,102021,102023,102024,102026">
+        <district boarding_place_code ="133" boarding_place_name ="盛岡駅" />
+        <district boarding_place_code ="1931" boarding_place_name ="白石城下広場(旧刈田病院)" />
+        <district boarding_place_code ="139" boarding_place_name ="仙台駅" />
+        <district boarding_place_code ="154" boarding_place_name ="大曲駅" />
+        <district boarding_place_code ="152" boarding_place_name ="秋田駅" />
+        <district boarding_place_code ="157" boarding_place_name ="山形駅" />
+        <district boarding_place_code ="165" boarding_place_name ="福島駅" />
+        <district boarding_place_code ="171" boarding_place_name ="新白河駅" />
+        <district boarding_place_code ="164" boarding_place_name ="郡山駅" />
+    </departure>
+    <departure hatsu_name ="青森県" p_hatsu_sub ="102022">
+    </departure>
+    <departure hatsu_name ="岩手県" p_hatsu_sub ="102025">
+        <district boarding_place_code ="133" boarding_place_name ="盛岡駅" />
+    </departure>
+    <departure hatsu_name ="宮城県" p_hatsu_sub ="102021">
+        <district boarding_place_code ="1931" boarding_place_name ="白石城下広場(旧刈田病院)" />
+        <district boarding_place_code ="139" boarding_place_name ="仙台駅" />
+    </departure>
+    <departure hatsu_name ="秋田県" p_hatsu_sub ="102023">
+        <district boarding_place_code ="154" boarding_place_name ="大曲駅" />
+        <district boarding_place_code ="152" boarding_place_name ="秋田駅" />
+    </departure>
+    <departure hatsu_name ="山形県" p_hatsu_sub ="102024">
+        <district boarding_place_code ="157" boarding_place_name ="山形駅" />
+    </departure>
+    <departure hatsu_name ="福島県" p_hatsu_sub ="102026">
+        <district boarding_place_code ="165" boarding_place_name ="福島駅" />
+        <district boarding_place_code ="171" boarding_place_name ="新白河駅" />
+        <district boarding_place_code ="164" boarding_place_name ="郡山駅" />
+    </departure>
+    <departure hatsu_name ="関東" p_hatsu_sub ="104041,104042,104043,104044,104045,104049,104046,104047,104048,105051,105052,105053">
+        <district boarding_place_code ="1523" boarding_place_name ="北品川駅" />
+        <district boarding_place_code ="308" boarding_place_name ="町田駅" />
+        <district boarding_place_code ="300" boarding_place_name ="池袋駅" />
+        <district boarding_place_code ="298" boarding_place_name ="品川駅" />
+        <district boarding_place_code ="297" boarding_place_name ="上野駅" />
+        <district boarding_place_code ="296" boarding_place_name ="東京駅" />
+        <district boarding_place_code ="299" boarding_place_name ="新宿駅" />
+        <district boarding_place_code ="4842" boarding_place_name ="上野駅公園口" />
+        <district boarding_place_code ="301" boarding_place_name ="新横浜駅" />
+        <district boarding_place_code ="351" boarding_place_name ="横浜駅" />
+        <district boarding_place_code ="365" boarding_place_name ="横須賀中央駅" />
+        <district boarding_place_code ="360" boarding_place_name ="武蔵小杉駅" />
+        <district boarding_place_code ="355" boarding_place_name ="川崎駅" />
+        <district boarding_place_code ="357" boarding_place_name ="相模大野駅" />
+        <district boarding_place_code ="353" boarding_place_name ="藤沢駅" />
+        <district boarding_place_code ="224" boarding_place_name ="所沢駅" />
+        <district boarding_place_code ="223" boarding_place_name ="南越谷駅" />
+        <district boarding_place_code ="222" boarding_place_name ="川越駅" />
+        <district boarding_place_code ="221" boarding_place_name ="さいたま新都心駅" />
+        <district boarding_place_code ="220" boarding_place_name ="大宮駅" />
+        <district boarding_place_code ="250" boarding_place_name ="西船橋駅" />
+        <district boarding_place_code ="201" boarding_place_name ="矢板駅" />
+        <district boarding_place_code ="199" boarding_place_name ="氏家駅" />
+        <district boarding_place_code ="198" boarding_place_name ="西那須野駅" />
+        <district boarding_place_code ="175" boarding_place_name ="宇都宮駅" />
+        <district boarding_place_code ="386" boarding_place_name ="新発田駅" />
+        <district boarding_place_code ="391" boarding_place_name ="燕三条駅" />
+        <district boarding_place_code ="1884" boarding_place_name ="ビックスワン" />
+        <district boarding_place_code ="389" boarding_place_name ="道の駅豊栄" />
+        <district boarding_place_code ="385" boarding_place_name ="長岡" />
+        <district boarding_place_code ="384" boarding_place_name ="新潟駅" />
+        <district boarding_place_code ="390" boarding_place_name ="長岡IC" />
+        <district boarding_place_code ="479" boarding_place_name ="飯田IC" />
+        <district boarding_place_code ="477" boarding_place_name ="松本駅" />
+        <district boarding_place_code ="475" boarding_place_name ="伊那IC" />
+        <district boarding_place_code ="474" boarding_place_name ="みどり湖PA" />
+        <district boarding_place_code ="2372" boarding_place_name ="安曇野IC" />
+        <district boarding_place_code ="472" boarding_place_name ="長野駅" />
+        <district boarding_place_code ="1798" boarding_place_name ="小島田" />
+        <district boarding_place_code ="1571" boarding_place_name ="小布施ハイウェイオアシス" />
+    </departure>
+    <departure hatsu_name ="東京都" p_hatsu_sub ="104041,104042">
+        <district boarding_place_code ="1523" boarding_place_name ="北品川駅" />
+        <district boarding_place_code ="308" boarding_place_name ="町田駅" />
+        <district boarding_place_code ="300" boarding_place_name ="池袋駅" />
+        <district boarding_place_code ="298" boarding_place_name ="品川駅" />
+        <district boarding_place_code ="297" boarding_place_name ="上野駅" />
+        <district boarding_place_code ="296" boarding_place_name ="東京駅" />
+        <district boarding_place_code ="299" boarding_place_name ="新宿駅" />
+        <district boarding_place_code ="4842" boarding_place_name ="上野駅公園口" />
+    </departure>
+    <departure hatsu_name ="神奈川県" p_hatsu_sub ="104043,104044">
+        <district boarding_place_code ="301" boarding_place_name ="新横浜駅" />
+        <district boarding_place_code ="351" boarding_place_name ="横浜駅" />
+        <district boarding_place_code ="365" boarding_place_name ="横須賀中央駅" />
+        <district boarding_place_code ="360" boarding_place_name ="武蔵小杉駅" />
+        <district boarding_place_code ="355" boarding_place_name ="川崎駅" />
+        <district boarding_place_code ="357" boarding_place_name ="相模大野駅" />
+        <district boarding_place_code ="353" boarding_place_name ="藤沢駅" />
+    </departure>
+    <departure hatsu_name ="埼玉県" p_hatsu_sub ="104045">
+        <district boarding_place_code ="224" boarding_place_name ="所沢駅" />
+        <district boarding_place_code ="223" boarding_place_name ="南越谷駅" />
+        <district boarding_place_code ="222" boarding_place_name ="川越駅" />
+        <district boarding_place_code ="221" boarding_place_name ="さいたま新都心駅" />
+        <district boarding_place_code ="220" boarding_place_name ="大宮駅" />
+    </departure>
+    <departure hatsu_name ="千葉県" p_hatsu_sub ="104049">
+        <district boarding_place_code ="250" boarding_place_name ="西船橋駅" />
+    </departure>
+    <departure hatsu_name ="茨城県" p_hatsu_sub ="104046">
+    </departure>
+    <departure hatsu_name ="栃木県" p_hatsu_sub ="104047">
+        <district boarding_place_code ="201" boarding_place_name ="矢板駅" />
+        <district boarding_place_code ="199" boarding_place_name ="氏家駅" />
+        <district boarding_place_code ="198" boarding_place_name ="西那須野駅" />
+        <district boarding_place_code ="175" boarding_place_name ="宇都宮駅" />
+    </departure>
+    <departure hatsu_name ="群馬県" p_hatsu_sub ="104048">
+    </departure>
+    <departure hatsu_name ="新潟県" p_hatsu_sub ="105051">
+        <district boarding_place_code ="386" boarding_place_name ="新発田駅" />
+        <district boarding_place_code ="391" boarding_place_name ="燕三条駅" />
+        <district boarding_place_code ="1884" boarding_place_name ="ビックスワン" />
+        <district boarding_place_code ="389" boarding_place_name ="道の駅豊栄" />
+        <district boarding_place_code ="385" boarding_place_name ="長岡" />
+        <district boarding_place_code ="384" boarding_place_name ="新潟駅" />
+        <district boarding_place_code ="390" boarding_place_name ="長岡IC" />
+    </departure>
+    <departure hatsu_name ="山梨県" p_hatsu_sub ="105052">
+    </departure>
+    <departure hatsu_name ="長野県" p_hatsu_sub ="105053">
+        <district boarding_place_code ="479" boarding_place_name ="飯田IC" />
+        <district boarding_place_code ="477" boarding_place_name ="松本駅" />
+        <district boarding_place_code ="475" boarding_place_name ="伊那IC" />
+        <district boarding_place_code ="474" boarding_place_name ="みどり湖PA" />
+        <district boarding_place_code ="2372" boarding_place_name ="安曇野IC" />
+        <district boarding_place_code ="472" boarding_place_name ="長野駅" />
+        <district boarding_place_code ="1798" boarding_place_name ="小島田" />
+        <district boarding_place_code ="1571" boarding_place_name ="小布施ハイウェイオアシス" />
+    </departure>
+    <departure hatsu_name ="中部・北陸" p_hatsu_sub ="111111,111112,111114,103032,103031,103033,111113">
+        <district boarding_place_code ="540" boarding_place_name ="高蔵寺駅" />
+        <district boarding_place_code ="2194" boarding_place_name ="御器所駅" />
+        <district boarding_place_code ="1279" boarding_place_name ="刈谷駅" />
+        <district boarding_place_code ="1304" boarding_place_name ="江南駅" />
+        <district boarding_place_code ="1359" boarding_place_name ="東岡崎駅" />
+        <district boarding_place_code ="1298" boarding_place_name ="犬山駅" />
+        <district boarding_place_code ="2273" boarding_place_name ="豊川駅" />
+        <district boarding_place_code ="558" boarding_place_name ="豊田市役場" />
+        <district boarding_place_code ="2213" boarding_place_name ="浄水駅" />
+        <district boarding_place_code ="2298" boarding_place_name ="豊明駅" />
+        <district boarding_place_code ="1347" boarding_place_name ="太田川駅" />
+        <district boarding_place_code ="1278" boarding_place_name ="蒲郡駅" />
+        <district boarding_place_code ="1296" boarding_place_name ="小牧駅" />
+        <district boarding_place_code ="1286" boarding_place_name ="岩倉駅" />
+        <district boarding_place_code ="1332" boarding_place_name ="安城駅" />
+        <district boarding_place_code ="553" boarding_place_name ="赤池駅" />
+        <district boarding_place_code ="1389" boarding_place_name ="藤が丘駅" />
+        <district boarding_place_code ="2308" boarding_place_name ="野並駅" />
+        <district boarding_place_code ="550" boarding_place_name ="春日井駅" />
+        <district boarding_place_code ="1965" boarding_place_name ="名鉄知立駅" />
+        <district boarding_place_code ="539" boarding_place_name ="名古屋駅" />
+        <district boarding_place_code ="544" boarding_place_name ="豊田市駅" />
+        <district boarding_place_code ="541" boarding_place_name ="名鉄一宮駅" />
+        <district boarding_place_code ="1368" boarding_place_name ="西尾駅" />
+        <district boarding_place_code ="557" boarding_place_name ="豊橋駅" />
+        <district boarding_place_code ="552" boarding_place_name ="星ヶ丘駅" />
+        <district boarding_place_code ="556" boarding_place_name ="尾張旭駅" />
+        <district boarding_place_code ="1949" boarding_place_name ="名鉄鳴海駅" />
+        <district boarding_place_code ="1253" boarding_place_name ="大府駅" />
+        <district boarding_place_code ="1372" boarding_place_name ="碧南中央駅" />
+        <district boarding_place_code ="513" boarding_place_name ="三島駅" />
+        <district boarding_place_code ="510" boarding_place_name ="吉田IC" />
+        <district boarding_place_code ="516" boarding_place_name ="静岡駅" />
+        <district boarding_place_code ="520" boarding_place_name ="焼津駅" />
+        <district boarding_place_code ="511" boarding_place_name ="浜松駅" />
+        <district boarding_place_code ="512" boarding_place_name ="富士駅" />
+        <district boarding_place_code ="523" boarding_place_name ="新富士駅" />
+        <district boarding_place_code ="517" boarding_place_name ="掛川駅" />
+        <district boarding_place_code ="564" boarding_place_name ="四日市駅" />
+        <district boarding_place_code ="562" boarding_place_name ="津駅" />
+        <district boarding_place_code ="2300" boarding_place_name ="伊勢市駅" />
+        <district boarding_place_code ="1267" boarding_place_name ="桑名駅" />
+        <district boarding_place_code ="2210" boarding_place_name ="松阪駅" />
+        <district boarding_place_code ="567" boarding_place_name ="白子駅" />
+        <district boarding_place_code ="2289" boarding_place_name ="久居駅" />
+        <district boarding_place_code ="2313" boarding_place_name ="鈴鹿市駅" />
+        <district boarding_place_code ="426" boarding_place_name ="小杉駅" />
+        <district boarding_place_code ="424" boarding_place_name ="高岡駅" />
+        <district boarding_place_code ="2182" boarding_place_name ="高岡砺波スマートＩＣ" />
+        <district boarding_place_code ="425" boarding_place_name ="富山駅" />
+        <district boarding_place_code ="439" boarding_place_name ="徳光PA" />
+        <district boarding_place_code ="438" boarding_place_name ="金沢駅" />
+        <district boarding_place_code ="1378" boarding_place_name ="七尾駅" />
+        <district boarding_place_code ="454" boarding_place_name ="鯖江駅" />
+        <district boarding_place_code ="448" boarding_place_name ="福井駅" />
+        <district boarding_place_code ="458" boarding_place_name ="武生駅" />
+        <district boarding_place_code ="1960" boarding_place_name ="南条ＳＡ" />
+        <district boarding_place_code ="456" boarding_place_name ="敦賀駅" />
+        <district boarding_place_code ="1353" boarding_place_name ="美濃太田駅" />
+        <district boarding_place_code ="506" boarding_place_name ="岐阜羽島駅" />
+        <district boarding_place_code ="2244" boarding_place_name ="土岐市駅" />
+        <district boarding_place_code ="2234" boarding_place_name ="那珂駅" />
+        <district boarding_place_code ="503" boarding_place_name ="岐阜駅" />
+        <district boarding_place_code ="2357" boarding_place_name ="可児駅" />
+        <district boarding_place_code ="2292" boarding_place_name ="穂積駅" />
+        <district boarding_place_code ="2196" boarding_place_name ="鵜沼駅" />
+        <district boarding_place_code ="507" boarding_place_name ="多治見駅" />
+        <district boarding_place_code ="508" boarding_place_name ="大垣駅" />
+        <district boarding_place_code ="1993" boarding_place_name ="ＪＲ瑞浪駅" />
+    </departure>
+    <departure hatsu_name ="愛知県" p_hatsu_sub ="111111">
+        <district boarding_place_code ="540" boarding_place_name ="高蔵寺駅" />
+        <district boarding_place_code ="2194" boarding_place_name ="御器所駅" />
+        <district boarding_place_code ="1279" boarding_place_name ="刈谷駅" />
+        <district boarding_place_code ="1304" boarding_place_name ="江南駅" />
+        <district boarding_place_code ="1359" boarding_place_name ="東岡崎駅" />
+        <district boarding_place_code ="1298" boarding_place_name ="犬山駅" />
+        <district boarding_place_code ="2273" boarding_place_name ="豊川駅" />
+        <district boarding_place_code ="558" boarding_place_name ="豊田市役場" />
+        <district boarding_place_code ="2213" boarding_place_name ="浄水駅" />
+        <district boarding_place_code ="2298" boarding_place_name ="豊明駅" />
+        <district boarding_place_code ="1347" boarding_place_name ="太田川駅" />
+        <district boarding_place_code ="1278" boarding_place_name ="蒲郡駅" />
+        <district boarding_place_code ="1296" boarding_place_name ="小牧駅" />
+        <district boarding_place_code ="1286" boarding_place_name ="岩倉駅" />
+        <district boarding_place_code ="1332" boarding_place_name ="安城駅" />
+        <district boarding_place_code ="553" boarding_place_name ="赤池駅" />
+        <district boarding_place_code ="1389" boarding_place_name ="藤が丘駅" />
+        <district boarding_place_code ="2308" boarding_place_name ="野並駅" />
+        <district boarding_place_code ="550" boarding_place_name ="春日井駅" />
+        <district boarding_place_code ="1965" boarding_place_name ="名鉄知立駅" />
+        <district boarding_place_code ="539" boarding_place_name ="名古屋駅" />
+        <district boarding_place_code ="544" boarding_place_name ="豊田市駅" />
+        <district boarding_place_code ="541" boarding_place_name ="名鉄一宮駅" />
+        <district boarding_place_code ="1368" boarding_place_name ="西尾駅" />
+        <district boarding_place_code ="557" boarding_place_name ="豊橋駅" />
+        <district boarding_place_code ="552" boarding_place_name ="星ヶ丘駅" />
+        <district boarding_place_code ="556" boarding_place_name ="尾張旭駅" />
+        <district boarding_place_code ="1949" boarding_place_name ="名鉄鳴海駅" />
+        <district boarding_place_code ="1253" boarding_place_name ="大府駅" />
+        <district boarding_place_code ="1372" boarding_place_name ="碧南中央駅" />
+    </departure>
+    <departure hatsu_name ="静岡県" p_hatsu_sub ="111112">
+        <district boarding_place_code ="513" boarding_place_name ="三島駅" />
+        <district boarding_place_code ="510" boarding_place_name ="吉田IC" />
+        <district boarding_place_code ="516" boarding_place_name ="静岡駅" />
+        <district boarding_place_code ="520" boarding_place_name ="焼津駅" />
+        <district boarding_place_code ="511" boarding_place_name ="浜松駅" />
+        <district boarding_place_code ="512" boarding_place_name ="富士駅" />
+        <district boarding_place_code ="523" boarding_place_name ="新富士駅" />
+        <district boarding_place_code ="517" boarding_place_name ="掛川駅" />
+    </departure>
+    <departure hatsu_name ="三重県" p_hatsu_sub ="111114">
+        <district boarding_place_code ="564" boarding_place_name ="四日市駅" />
+        <district boarding_place_code ="562" boarding_place_name ="津駅" />
+        <district boarding_place_code ="2300" boarding_place_name ="伊勢市駅" />
+        <district boarding_place_code ="1267" boarding_place_name ="桑名駅" />
+        <district boarding_place_code ="2210" boarding_place_name ="松阪駅" />
+        <district boarding_place_code ="567" boarding_place_name ="白子駅" />
+        <district boarding_place_code ="2289" boarding_place_name ="久居駅" />
+        <district boarding_place_code ="2313" boarding_place_name ="鈴鹿市駅" />
+    </departure>
+    <departure hatsu_name ="富山県" p_hatsu_sub ="103032">
+        <district boarding_place_code ="426" boarding_place_name ="小杉駅" />
+        <district boarding_place_code ="424" boarding_place_name ="高岡駅" />
+        <district boarding_place_code ="2182" boarding_place_name ="高岡砺波スマートＩＣ" />
+        <district boarding_place_code ="425" boarding_place_name ="富山駅" />
+    </departure>
+    <departure hatsu_name ="石川県" p_hatsu_sub ="103031">
+        <district boarding_place_code ="439" boarding_place_name ="徳光PA" />
+        <district boarding_place_code ="438" boarding_place_name ="金沢駅" />
+        <district boarding_place_code ="1378" boarding_place_name ="七尾駅" />
+    </departure>
+    <departure hatsu_name ="福井県" p_hatsu_sub ="103033">
+        <district boarding_place_code ="454" boarding_place_name ="鯖江駅" />
+        <district boarding_place_code ="448" boarding_place_name ="福井駅" />
+        <district boarding_place_code ="458" boarding_place_name ="武生駅" />
+        <district boarding_place_code ="1960" boarding_place_name ="南条ＳＡ" />
+        <district boarding_place_code ="456" boarding_place_name ="敦賀駅" />
+    </departure>
+    <departure hatsu_name ="岐阜県" p_hatsu_sub ="111113">
+        <district boarding_place_code ="1353" boarding_place_name ="美濃太田駅" />
+        <district boarding_place_code ="506" boarding_place_name ="岐阜羽島駅" />
+        <district boarding_place_code ="2244" boarding_place_name ="土岐市駅" />
+        <district boarding_place_code ="2234" boarding_place_name ="那珂駅" />
+        <district boarding_place_code ="503" boarding_place_name ="岐阜駅" />
+        <district boarding_place_code ="2357" boarding_place_name ="可児駅" />
+        <district boarding_place_code ="2292" boarding_place_name ="穂積駅" />
+        <district boarding_place_code ="2196" boarding_place_name ="鵜沼駅" />
+        <district boarding_place_code ="507" boarding_place_name ="多治見駅" />
+        <district boarding_place_code ="508" boarding_place_name ="大垣駅" />
+        <district boarding_place_code ="1993" boarding_place_name ="ＪＲ瑞浪駅" />
+    </departure>
+    <departure hatsu_name ="関西" p_hatsu_sub ="106061,106063,106062,106065,106064,106066">
+        <district boarding_place_code ="589" boarding_place_name ="梅田" />
+        <district boarding_place_code ="647" boarding_place_name ="天王寺茶臼山郵便局" />
+        <district boarding_place_code ="588" boarding_place_name ="新大阪駅" />
+        <district boarding_place_code ="626" boarding_place_name ="堺駅" />
+        <district boarding_place_code ="624" boarding_place_name ="阪急三番街高速バスターミナル" />
+        <district boarding_place_code ="615" boarding_place_name ="河内長野駅" />
+        <district boarding_place_code ="593" boarding_place_name ="三国ヶ丘駅" />
+        <district boarding_place_code ="590" boarding_place_name ="難波" />
+        <district boarding_place_code ="592" boarding_place_name ="高槻駅" />
+        <district boarding_place_code ="657" boarding_place_name ="枚方市駅" />
+        <district boarding_place_code ="1299" boarding_place_name ="富田駅" />
+        <district boarding_place_code ="619" boarding_place_name ="金剛駅" />
+        <district boarding_place_code ="661" boarding_place_name ="三宮駅" />
+        <district boarding_place_code ="673" boarding_place_name ="ナフコツーワンスタイル 西宮店" />
+        <district boarding_place_code ="691" boarding_place_name ="宝塚駅" />
+        <district boarding_place_code ="1284" boarding_place_name ="亀山駅" />
+        <district boarding_place_code ="696" boarding_place_name ="緑PA" />
+        <district boarding_place_code ="663" boarding_place_name ="明石駅" />
+        <district boarding_place_code ="668" boarding_place_name ="西鈴欄台駅" />
+        <district boarding_place_code ="1666" boarding_place_name ="尼崎駅" />
+        <district boarding_place_code ="690" boarding_place_name ="姫路駅" />
+        <district boarding_place_code ="687" boarding_place_name ="川西能勢口駅" />
+        <district boarding_place_code ="1251" boarding_place_name ="名谷駅" />
+        <district boarding_place_code ="1291" boarding_place_name ="三ノ宮駅" />
+        <district boarding_place_code ="677" boarding_place_name ="学園都市駅" />
+        <district boarding_place_code ="1259" boarding_place_name ="西神中央駅" />
+        <district boarding_place_code ="1258" boarding_place_name ="垂水駅" />
+        <district boarding_place_code ="1695" boarding_place_name ="淡路ハイウェイオアシス" />
+        <district boarding_place_code ="665" boarding_place_name ="芦屋ラポルテ" />
+        <district boarding_place_code ="1709" boarding_place_name ="陸の港" />
+        <district boarding_place_code ="676" boarding_place_name ="加古川駅" />
+        <district boarding_place_code ="574" boarding_place_name ="四条大宮駅" />
+        <district boarding_place_code ="2189" boarding_place_name ="京阪宇治駅" />
+        <district boarding_place_code ="575" boarding_place_name ="竹田駅" />
+        <district boarding_place_code ="585" boarding_place_name ="大久保駅" />
+        <district boarding_place_code ="1414" boarding_place_name ="松井山手駅" />
+        <district boarding_place_code ="1540" boarding_place_name ="長岡京駅" />
+        <district boarding_place_code ="573" boarding_place_name ="京都駅" />
+        <district boarding_place_code ="1409" boarding_place_name ="城陽市役所前" />
+        <district boarding_place_code ="2252" boarding_place_name ="石清水八幡宮駅" />
+        <district boarding_place_code ="581" boarding_place_name ="山科駅" />
+        <district boarding_place_code ="707" boarding_place_name ="奈良駅" />
+        <district boarding_place_code ="5005" boarding_place_name ="学研奈良登美ヶ丘駅" />
+        <district boarding_place_code ="703" boarding_place_name ="生駒駅" />
+        <district boarding_place_code ="704" boarding_place_name ="大和西大寺駅" />
+        <district boarding_place_code ="568" boarding_place_name ="大津駅" />
+        <district boarding_place_code ="708" boarding_place_name ="和歌山駅" />
+        <district boarding_place_code ="713" boarding_place_name ="和歌山市駅" />
+    </departure>
+    <departure hatsu_name ="大阪府" p_hatsu_sub ="106061">
+        <district boarding_place_code ="589" boarding_place_name ="梅田" />
+        <district boarding_place_code ="647" boarding_place_name ="天王寺茶臼山郵便局" />
+        <district boarding_place_code ="588" boarding_place_name ="新大阪駅" />
+        <district boarding_place_code ="626" boarding_place_name ="堺駅" />
+        <district boarding_place_code ="624" boarding_place_name ="阪急三番街高速バスターミナル" />
+        <district boarding_place_code ="615" boarding_place_name ="河内長野駅" />
+        <district boarding_place_code ="593" boarding_place_name ="三国ヶ丘駅" />
+        <district boarding_place_code ="590" boarding_place_name ="難波" />
+        <district boarding_place_code ="592" boarding_place_name ="高槻駅" />
+        <district boarding_place_code ="657" boarding_place_name ="枚方市駅" />
+        <district boarding_place_code ="1299" boarding_place_name ="富田駅" />
+        <district boarding_place_code ="619" boarding_place_name ="金剛駅" />
+    </departure>
+    <departure hatsu_name ="兵庫県" p_hatsu_sub ="106063">
+        <district boarding_place_code ="661" boarding_place_name ="三宮駅" />
+        <district boarding_place_code ="673" boarding_place_name ="ナフコツーワンスタイル 西宮店" />
+        <district boarding_place_code ="691" boarding_place_name ="宝塚駅" />
+        <district boarding_place_code ="1284" boarding_place_name ="亀山駅" />
+        <district boarding_place_code ="696" boarding_place_name ="緑PA" />
+        <district boarding_place_code ="663" boarding_place_name ="明石駅" />
+        <district boarding_place_code ="668" boarding_place_name ="西鈴欄台駅" />
+        <district boarding_place_code ="1666" boarding_place_name ="尼崎駅" />
+        <district boarding_place_code ="690" boarding_place_name ="姫路駅" />
+        <district boarding_place_code ="687" boarding_place_name ="川西能勢口駅" />
+        <district boarding_place_code ="1251" boarding_place_name ="名谷駅" />
+        <district boarding_place_code ="1291" boarding_place_name ="三ノ宮駅" />
+        <district boarding_place_code ="677" boarding_place_name ="学園都市駅" />
+        <district boarding_place_code ="1259" boarding_place_name ="西神中央駅" />
+        <district boarding_place_code ="1258" boarding_place_name ="垂水駅" />
+        <district boarding_place_code ="1695" boarding_place_name ="淡路ハイウェイオアシス" />
+        <district boarding_place_code ="665" boarding_place_name ="芦屋ラポルテ" />
+        <district boarding_place_code ="1709" boarding_place_name ="陸の港" />
+        <district boarding_place_code ="676" boarding_place_name ="加古川駅" />
+    </departure>
+    <departure hatsu_name ="京都府" p_hatsu_sub ="106062">
+        <district boarding_place_code ="574" boarding_place_name ="四条大宮駅" />
+        <district boarding_place_code ="2189" boarding_place_name ="京阪宇治駅" />
+        <district boarding_place_code ="575" boarding_place_name ="竹田駅" />
+        <district boarding_place_code ="585" boarding_place_name ="大久保駅" />
+        <district boarding_place_code ="1414" boarding_place_name ="松井山手駅" />
+        <district boarding_place_code ="1540" boarding_place_name ="長岡京駅" />
+        <district boarding_place_code ="573" boarding_place_name ="京都駅" />
+        <district boarding_place_code ="1409" boarding_place_name ="城陽市役所前" />
+        <district boarding_place_code ="2252" boarding_place_name ="石清水八幡宮駅" />
+        <district boarding_place_code ="581" boarding_place_name ="山科駅" />
+    </departure>
+    <departure hatsu_name ="奈良県" p_hatsu_sub ="106065">
+        <district boarding_place_code ="707" boarding_place_name ="奈良駅" />
+        <district boarding_place_code ="5005" boarding_place_name ="学研奈良登美ヶ丘駅" />
+        <district boarding_place_code ="703" boarding_place_name ="生駒駅" />
+        <district boarding_place_code ="704" boarding_place_name ="大和西大寺駅" />
+    </departure>
+    <departure hatsu_name ="滋賀県" p_hatsu_sub ="106064">
+        <district boarding_place_code ="568" boarding_place_name ="大津駅" />
+    </departure>
+    <departure hatsu_name ="和歌山県" p_hatsu_sub ="106066">
+        <district boarding_place_code ="708" boarding_place_name ="和歌山駅" />
+        <district boarding_place_code ="713" boarding_place_name ="和歌山市駅" />
+    </departure>
+    <departure hatsu_name ="中国・四国" p_hatsu_sub ="107071,107072,107073,107074,107075,108084,108083,108081,108082">
+        <district boarding_place_code ="725" boarding_place_name ="岡山駅" />
+        <district boarding_place_code ="727" boarding_place_name ="赤磐" />
+        <district boarding_place_code ="726" boarding_place_name ="倉敷駅" />
+        <district boarding_place_code ="797" boarding_place_name ="草津病院" />
+        <district boarding_place_code ="787" boarding_place_name ="宮島口駅" />
+        <district boarding_place_code ="799" boarding_place_name ="小谷SA" />
+        <district boarding_place_code ="786" boarding_place_name ="楽々園" />
+        <district boarding_place_code ="774" boarding_place_name ="草津東町" />
+        <district boarding_place_code ="796" boarding_place_name ="榎浦橋" />
+        <district boarding_place_code ="1534" boarding_place_name ="アルパーク" />
+        <district boarding_place_code ="814" boarding_place_name ="西御所" />
+        <district boarding_place_code ="788" boarding_place_name ="宮内分れ" />
+        <district boarding_place_code ="798" boarding_place_name ="海老園1丁目" />
+        <district boarding_place_code ="795" boarding_place_name ="廿日市駅" />
+        <district boarding_place_code ="779" boarding_place_name ="庚午中" />
+        <district boarding_place_code ="805" boarding_place_name ="福山SA" />
+        <district boarding_place_code ="781" boarding_place_name ="不動院駅" />
+        <district boarding_place_code ="801" boarding_place_name ="庚午南" />
+        <district boarding_place_code ="888" boarding_place_name ="中筋駅" />
+        <district boarding_place_code ="793" boarding_place_name ="桜尾" />
+        <district boarding_place_code ="780" boarding_place_name ="東区スポーツセンター" />
+        <district boarding_place_code ="792" boarding_place_name ="佐伯区区役所" />
+        <district boarding_place_code ="777" boarding_place_name ="福山駅" />
+        <district boarding_place_code ="861" boarding_place_name ="五日市駅" />
+        <district boarding_place_code ="776" boarding_place_name ="広島駅" />
+        <district boarding_place_code ="1270" boarding_place_name ="海老山公園" />
+        <district boarding_place_code ="778" boarding_place_name ="庚午北" />
+        <district boarding_place_code ="1566" boarding_place_name ="光" />
+        <district boarding_place_code ="893" boarding_place_name ="下関駅" />
+        <district boarding_place_code ="896" boarding_place_name ="新山口駅" />
+        <district boarding_place_code ="899" boarding_place_name ="小野田駅" />
+        <district boarding_place_code ="1312" boarding_place_name ="岩国駅" />
+        <district boarding_place_code ="1502" boarding_place_name ="下松" />
+        <district boarding_place_code ="894" boarding_place_name ="小月駅" />
+        <district boarding_place_code ="904" boarding_place_name ="宇部新川駅" />
+        <district boarding_place_code ="903" boarding_place_name ="徳山駅" />
+        <district boarding_place_code ="900" boarding_place_name ="新下関駅" />
+        <district boarding_place_code ="902" boarding_place_name ="新岩国駅" />
+        <district boarding_place_code ="1572" boarding_place_name ="防府駅" />
+        <district boarding_place_code ="1891" boarding_place_name ="吉野川SA" />
+        <district boarding_place_code ="911" boarding_place_name ="徳島駅" />
+        <district boarding_place_code ="931" boarding_place_name ="高松駅" />
+        <district boarding_place_code ="1519" boarding_place_name ="己斐" />
+        <district boarding_place_code ="932" boarding_place_name ="坂出駅" />
+        <district boarding_place_code ="933" boarding_place_name ="宇多津駅" />
+        <district boarding_place_code ="1903" boarding_place_name ="多度津駅" />
+        <district boarding_place_code ="926" boarding_place_name ="ゆめタウン高松" />
+        <district boarding_place_code ="925" boarding_place_name ="ゲオ国分寺" />
+        <district boarding_place_code ="942" boarding_place_name ="松山市駅" />
+        <district boarding_place_code ="965" boarding_place_name ="松山駅" />
+        <district boarding_place_code ="951" boarding_place_name ="郡中港駅" />
+        <district boarding_place_code ="955" boarding_place_name ="伊予大洲駅" />
+        <district boarding_place_code ="958" boarding_place_name ="伊予三島駅" />
+        <district boarding_place_code ="1508" boarding_place_name ="東温ハタダお菓子館" />
+        <district boarding_place_code ="954" boarding_place_name ="八幡浜駅" />
+        <district boarding_place_code ="950" boarding_place_name ="伊予松前バス停" />
+        <district boarding_place_code ="957" boarding_place_name ="三崎港" />
+        <district boarding_place_code ="1880" boarding_place_name ="新久米" />
+        <district boarding_place_code ="1479" boarding_place_name ="利楽温泉坊ちゃん劇場" />
+        <district boarding_place_code ="979" boarding_place_name ="石鎚山SA" />
+        <district boarding_place_code ="944" boarding_place_name ="新居浜IC" />
+        <district boarding_place_code ="981" boarding_place_name ="高知駅" />
+        <district boarding_place_code ="982" boarding_place_name ="西島園芸団地" />
+        <district boarding_place_code ="993" boarding_place_name ="はりまや橋" />
+    </departure>
+    <departure hatsu_name ="岡山県" p_hatsu_sub ="107071">
+        <district boarding_place_code ="725" boarding_place_name ="岡山駅" />
+        <district boarding_place_code ="727" boarding_place_name ="赤磐" />
+        <district boarding_place_code ="726" boarding_place_name ="倉敷駅" />
+    </departure>
+    <departure hatsu_name ="広島県" p_hatsu_sub ="107072">
+        <district boarding_place_code ="797" boarding_place_name ="草津病院" />
+        <district boarding_place_code ="787" boarding_place_name ="宮島口駅" />
+        <district boarding_place_code ="799" boarding_place_name ="小谷SA" />
+        <district boarding_place_code ="786" boarding_place_name ="楽々園" />
+        <district boarding_place_code ="774" boarding_place_name ="草津東町" />
+        <district boarding_place_code ="796" boarding_place_name ="榎浦橋" />
+        <district boarding_place_code ="1534" boarding_place_name ="アルパーク" />
+        <district boarding_place_code ="814" boarding_place_name ="西御所" />
+        <district boarding_place_code ="788" boarding_place_name ="宮内分れ" />
+        <district boarding_place_code ="798" boarding_place_name ="海老園1丁目" />
+        <district boarding_place_code ="795" boarding_place_name ="廿日市駅" />
+        <district boarding_place_code ="779" boarding_place_name ="庚午中" />
+        <district boarding_place_code ="805" boarding_place_name ="福山SA" />
+        <district boarding_place_code ="781" boarding_place_name ="不動院駅" />
+        <district boarding_place_code ="801" boarding_place_name ="庚午南" />
+        <district boarding_place_code ="888" boarding_place_name ="中筋駅" />
+        <district boarding_place_code ="793" boarding_place_name ="桜尾" />
+        <district boarding_place_code ="780" boarding_place_name ="東区スポーツセンター" />
+        <district boarding_place_code ="792" boarding_place_name ="佐伯区区役所" />
+        <district boarding_place_code ="777" boarding_place_name ="福山駅" />
+        <district boarding_place_code ="861" boarding_place_name ="五日市駅" />
+        <district boarding_place_code ="776" boarding_place_name ="広島駅" />
+        <district boarding_place_code ="1270" boarding_place_name ="海老山公園" />
+        <district boarding_place_code ="778" boarding_place_name ="庚午北" />
+    </departure>
+    <departure hatsu_name ="山口県" p_hatsu_sub ="107073">
+        <district boarding_place_code ="1566" boarding_place_name ="光" />
+        <district boarding_place_code ="893" boarding_place_name ="下関駅" />
+        <district boarding_place_code ="896" boarding_place_name ="新山口駅" />
+        <district boarding_place_code ="899" boarding_place_name ="小野田駅" />
+        <district boarding_place_code ="1312" boarding_place_name ="岩国駅" />
+        <district boarding_place_code ="1502" boarding_place_name ="下松" />
+        <district boarding_place_code ="894" boarding_place_name ="小月駅" />
+        <district boarding_place_code ="904" boarding_place_name ="宇部新川駅" />
+        <district boarding_place_code ="903" boarding_place_name ="徳山駅" />
+        <district boarding_place_code ="900" boarding_place_name ="新下関駅" />
+        <district boarding_place_code ="902" boarding_place_name ="新岩国駅" />
+        <district boarding_place_code ="1572" boarding_place_name ="防府駅" />
+    </departure>
+    <departure hatsu_name ="鳥取県" p_hatsu_sub ="107074">
+    </departure>
+    <departure hatsu_name ="島根県" p_hatsu_sub ="107075">
+    </departure>
+    <departure hatsu_name ="徳島県" p_hatsu_sub ="108084">
+        <district boarding_place_code ="1891" boarding_place_name ="吉野川SA" />
+        <district boarding_place_code ="911" boarding_place_name ="徳島駅" />
+    </departure>
+    <departure hatsu_name ="香川県" p_hatsu_sub ="108083">
+        <district boarding_place_code ="931" boarding_place_name ="高松駅" />
+        <district boarding_place_code ="1519" boarding_place_name ="己斐" />
+        <district boarding_place_code ="932" boarding_place_name ="坂出駅" />
+        <district boarding_place_code ="933" boarding_place_name ="宇多津駅" />
+        <district boarding_place_code ="1903" boarding_place_name ="多度津駅" />
+        <district boarding_place_code ="926" boarding_place_name ="ゆめタウン高松" />
+        <district boarding_place_code ="925" boarding_place_name ="ゲオ国分寺" />
+    </departure>
+    <departure hatsu_name ="愛媛県" p_hatsu_sub ="108081">
+        <district boarding_place_code ="942" boarding_place_name ="松山市駅" />
+        <district boarding_place_code ="965" boarding_place_name ="松山駅" />
+        <district boarding_place_code ="951" boarding_place_name ="郡中港駅" />
+        <district boarding_place_code ="955" boarding_place_name ="伊予大洲駅" />
+        <district boarding_place_code ="958" boarding_place_name ="伊予三島駅" />
+        <district boarding_place_code ="1508" boarding_place_name ="東温ハタダお菓子館" />
+        <district boarding_place_code ="954" boarding_place_name ="八幡浜駅" />
+        <district boarding_place_code ="950" boarding_place_name ="伊予松前バス停" />
+        <district boarding_place_code ="957" boarding_place_name ="三崎港" />
+        <district boarding_place_code ="1880" boarding_place_name ="新久米" />
+        <district boarding_place_code ="1479" boarding_place_name ="利楽温泉坊ちゃん劇場" />
+        <district boarding_place_code ="979" boarding_place_name ="石鎚山SA" />
+        <district boarding_place_code ="944" boarding_place_name ="新居浜IC" />
+    </departure>
+    <departure hatsu_name ="高知県" p_hatsu_sub ="108082">
+        <district boarding_place_code ="981" boarding_place_name ="高知駅" />
+        <district boarding_place_code ="982" boarding_place_name ="西島園芸団地" />
+        <district boarding_place_code ="993" boarding_place_name ="はりまや橋" />
+    </departure>
+    <departure hatsu_name ="九州・沖縄" p_hatsu_sub ="109090,109091,109094,109092,109095,109093,109096,109097,110000">
+        <district boarding_place_code ="1024" boarding_place_name ="博多駅" />
+        <district boarding_place_code ="2394" boarding_place_name ="博多南駅" />
+        <district boarding_place_code ="2401" boarding_place_name ="大牟田駅" />
+        <district boarding_place_code ="1628" boarding_place_name ="小郡駅" />
+        <district boarding_place_code ="1050" boarding_place_name ="赤間駅" />
+        <district boarding_place_code ="1025" boarding_place_name ="引野口" />
+        <district boarding_place_code ="2395" boarding_place_name ="甘木駅" />
+        <district boarding_place_code ="4850" boarding_place_name ="ＪＲ筑前前原駅　北口" />
+        <district boarding_place_code ="2393" boarding_place_name ="古賀駅" />
+        <district boarding_place_code ="1028" boarding_place_name ="久留米駅" />
+        <district boarding_place_code ="1027" boarding_place_name ="行橋駅" />
+        <district boarding_place_code ="2399" boarding_place_name ="二日市駅" />
+        <district boarding_place_code ="2388" boarding_place_name ="西鉄飯塚バスセンター" />
+        <district boarding_place_code ="2396" boarding_place_name ="羽犬塚駅" />
+        <district boarding_place_code ="2398" boarding_place_name ="後藤寺" />
+        <district boarding_place_code ="2390" boarding_place_name ="七隈線福大前駅" />
+        <district boarding_place_code ="4800" boarding_place_name ="福間駅" />
+        <district boarding_place_code ="1023" boarding_place_name ="小倉駅" />
+        <district boarding_place_code ="2389" boarding_place_name ="春日駅" />
+        <district boarding_place_code ="2400" boarding_place_name ="香椎駅" />
+        <district boarding_place_code ="1065" boarding_place_name ="唐津駅" />
+        <district boarding_place_code ="1063" boarding_place_name ="小城" />
+        <district boarding_place_code ="2383" boarding_place_name ="鹿島バスセンター" />
+        <district boarding_place_code ="1057" boarding_place_name ="基山PA" />
+        <district boarding_place_code ="1062" boarding_place_name ="有田駅" />
+        <district boarding_place_code ="2386" boarding_place_name ="伊万里駅" />
+        <district boarding_place_code ="1059" boarding_place_name ="武雄温泉駅" />
+        <district boarding_place_code ="1800" boarding_place_name ="新鳥栖駅" />
+        <district boarding_place_code ="2382" boarding_place_name ="みやき町風の館" />
+        <district boarding_place_code ="1811" boarding_place_name ="鳥栖駅" />
+        <district boarding_place_code ="2384" boarding_place_name ="白石中町バス停" />
+        <district boarding_place_code ="1058" boarding_place_name ="佐賀駅" />
+        <district boarding_place_code ="2385" boarding_place_name ="嬉野バスセンター" />
+        <district boarding_place_code ="1089" boarding_place_name ="大村駅" />
+        <district boarding_place_code ="1076" boarding_place_name ="大塔" />
+        <district boarding_place_code ="1079" boarding_place_name ="長崎駅" />
+        <district boarding_place_code ="1260" boarding_place_name ="長崎港" />
+        <district boarding_place_code ="1088" boarding_place_name ="昭和町" />
+        <district boarding_place_code ="1077" boarding_place_name ="大橋駅" />
+        <district boarding_place_code ="1073" boarding_place_name ="諫早駅" />
+        <district boarding_place_code ="1075" boarding_place_name ="波佐見有田IC" />
+        <district boarding_place_code ="1072" boarding_place_name ="佐世保駅" />
+        <district boarding_place_code ="1096" boarding_place_name ="山江SA" />
+        <district boarding_place_code ="1116" boarding_place_name ="宇土駅" />
+        <district boarding_place_code ="2010" boarding_place_name ="熊本市民会館" />
+        <district boarding_place_code ="1094" boarding_place_name ="熊本駅" />
+        <district boarding_place_code ="1135" boarding_place_name ="別府北浜" />
+        <district boarding_place_code ="1137" boarding_place_name ="鉄輪口" />
+        <district boarding_place_code ="1133" boarding_place_name ="かんたんバス停" />
+        <district boarding_place_code ="1134" boarding_place_name ="別府交通センター" />
+        <district boarding_place_code ="1131" boarding_place_name ="大分駅" />
+        <district boarding_place_code ="1181" boarding_place_name ="宮崎駅" />
+        <district boarding_place_code ="1423" boarding_place_name ="都城北入口バス亭" />
+        <district boarding_place_code ="1180" boarding_place_name ="宮崎空港" />
+        <district boarding_place_code ="1207" boarding_place_name ="鹿児島中央駅" />
+        <district boarding_place_code ="1196" boarding_place_name ="鹿児島空港" />
+        <district boarding_place_code ="1197" boarding_place_name ="桜島SA" />
+        <district boarding_place_code ="1200" boarding_place_name ="吉松PA" />
+        <district boarding_place_code ="2375" boarding_place_name ="川内港" />
+        <district boarding_place_code ="1223" boarding_place_name ="垂水港" />
+        <district boarding_place_code ="1198" boarding_place_name ="吉野・早馬バス停" />
+        <district boarding_place_code ="1199" boarding_place_name ="天文館" />
+        <district boarding_place_code ="1202" boarding_place_name ="鹿屋商工会議所" />
+    </departure>
+    <departure hatsu_name ="福岡県" p_hatsu_sub ="109090,109091">
+        <district boarding_place_code ="1024" boarding_place_name ="博多駅" />
+        <district boarding_place_code ="2394" boarding_place_name ="博多南駅" />
+        <district boarding_place_code ="2401" boarding_place_name ="大牟田駅" />
+        <district boarding_place_code ="1628" boarding_place_name ="小郡駅" />
+        <district boarding_place_code ="1050" boarding_place_name ="赤間駅" />
+        <district boarding_place_code ="1025" boarding_place_name ="引野口" />
+        <district boarding_place_code ="2395" boarding_place_name ="甘木駅" />
+        <district boarding_place_code ="4850" boarding_place_name ="ＪＲ筑前前原駅　北口" />
+        <district boarding_place_code ="2393" boarding_place_name ="古賀駅" />
+        <district boarding_place_code ="1028" boarding_place_name ="久留米駅" />
+        <district boarding_place_code ="1027" boarding_place_name ="行橋駅" />
+        <district boarding_place_code ="2399" boarding_place_name ="二日市駅" />
+        <district boarding_place_code ="2388" boarding_place_name ="西鉄飯塚バスセンター" />
+        <district boarding_place_code ="2396" boarding_place_name ="羽犬塚駅" />
+        <district boarding_place_code ="2398" boarding_place_name ="後藤寺" />
+        <district boarding_place_code ="2390" boarding_place_name ="七隈線福大前駅" />
+        <district boarding_place_code ="4800" boarding_place_name ="福間駅" />
+        <district boarding_place_code ="1023" boarding_place_name ="小倉駅" />
+        <district boarding_place_code ="2389" boarding_place_name ="春日駅" />
+        <district boarding_place_code ="2400" boarding_place_name ="香椎駅" />
+    </departure>
+    <departure hatsu_name ="佐賀県" p_hatsu_sub ="109094">
+        <district boarding_place_code ="1065" boarding_place_name ="唐津駅" />
+        <district boarding_place_code ="1063" boarding_place_name ="小城" />
+        <district boarding_place_code ="2383" boarding_place_name ="鹿島バスセンター" />
+        <district boarding_place_code ="1057" boarding_place_name ="基山PA" />
+        <district boarding_place_code ="1062" boarding_place_name ="有田駅" />
+        <district boarding_place_code ="2386" boarding_place_name ="伊万里駅" />
+        <district boarding_place_code ="1059" boarding_place_name ="武雄温泉駅" />
+        <district boarding_place_code ="1800" boarding_place_name ="新鳥栖駅" />
+        <district boarding_place_code ="2382" boarding_place_name ="みやき町風の館" />
+        <district boarding_place_code ="1811" boarding_place_name ="鳥栖駅" />
+        <district boarding_place_code ="2384" boarding_place_name ="白石中町バス停" />
+        <district boarding_place_code ="1058" boarding_place_name ="佐賀駅" />
+        <district boarding_place_code ="2385" boarding_place_name ="嬉野バスセンター" />
+    </departure>
+    <departure hatsu_name ="長崎県" p_hatsu_sub ="109092">
+        <district boarding_place_code ="1089" boarding_place_name ="大村駅" />
+        <district boarding_place_code ="1076" boarding_place_name ="大塔" />
+        <district boarding_place_code ="1079" boarding_place_name ="長崎駅" />
+        <district boarding_place_code ="1260" boarding_place_name ="長崎港" />
+        <district boarding_place_code ="1088" boarding_place_name ="昭和町" />
+        <district boarding_place_code ="1077" boarding_place_name ="大橋駅" />
+        <district boarding_place_code ="1073" boarding_place_name ="諫早駅" />
+        <district boarding_place_code ="1075" boarding_place_name ="波佐見有田IC" />
+        <district boarding_place_code ="1072" boarding_place_name ="佐世保駅" />
+    </departure>
+    <departure hatsu_name ="熊本県" p_hatsu_sub ="109095">
+        <district boarding_place_code ="1096" boarding_place_name ="山江SA" />
+        <district boarding_place_code ="1116" boarding_place_name ="宇土駅" />
+        <district boarding_place_code ="2010" boarding_place_name ="熊本市民会館" />
+        <district boarding_place_code ="1094" boarding_place_name ="熊本駅" />
+    </departure>
+    <departure hatsu_name ="大分県" p_hatsu_sub ="109093">
+        <district boarding_place_code ="1135" boarding_place_name ="別府北浜" />
+        <district boarding_place_code ="1137" boarding_place_name ="鉄輪口" />
+        <district boarding_place_code ="1133" boarding_place_name ="かんたんバス停" />
+        <district boarding_place_code ="1134" boarding_place_name ="別府交通センター" />
+        <district boarding_place_code ="1131" boarding_place_name ="大分駅" />
+    </departure>
+    <departure hatsu_name ="宮崎県" p_hatsu_sub ="109096">
+        <district boarding_place_code ="1181" boarding_place_name ="宮崎駅" />
+        <district boarding_place_code ="1423" boarding_place_name ="都城北入口バス亭" />
+        <district boarding_place_code ="1180" boarding_place_name ="宮崎空港" />
+    </departure>
+    <departure hatsu_name ="鹿児島県" p_hatsu_sub ="109097">
+        <district boarding_place_code ="1207" boarding_place_name ="鹿児島中央駅" />
+        <district boarding_place_code ="1196" boarding_place_name ="鹿児島空港" />
+        <district boarding_place_code ="1197" boarding_place_name ="桜島SA" />
+        <district boarding_place_code ="1200" boarding_place_name ="吉松PA" />
+        <district boarding_place_code ="2375" boarding_place_name ="川内港" />
+        <district boarding_place_code ="1223" boarding_place_name ="垂水港" />
+        <district boarding_place_code ="1198" boarding_place_name ="吉野・早馬バス停" />
+        <district boarding_place_code ="1199" boarding_place_name ="天文館" />
+        <district boarding_place_code ="1202" boarding_place_name ="鹿屋商工会議所" />
+    </departure>
+    <departure hatsu_name ="沖縄県" p_hatsu_sub ="110000">
+    </departure>
+</root>

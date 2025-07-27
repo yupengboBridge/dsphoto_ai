@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<p_etc>
+		<p_etc_code>1</p_etc_code>
+		<p_etc_name>直行便</p_etc_name>
+	</p_etc>
+	<p_etc>
+		<p_etc_code>2</p_etc_code>
+		<p_etc_name>正規割引航空券</p_etc_name>
+	</p_etc>
+	<p_etc>
+		<p_etc_code>3</p_etc_code>
+		<p_etc_name>子供料金あり</p_etc_name>
+	</p_etc>
+</root>

@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <departure place_departure_code="101,130,133" place_departure_name="東京">
+        <district district_code="BEU" district_name="ヨーロッパ">
+            <country country_code="GB" country_name="イギリス">
+                <city city_code="LON" city_name="ロンドン" />
+            </country>
+            <country country_code="IT" country_name="イタリア">
+                <city city_code="ROM" city_name="ローマ" />
+                <city city_code="MIL" city_name="ミラノ" />
+                <city city_code="FLR" city_name="フィレンツェ" />
+                <city city_code="VCE" city_name="ベネチア" />
+                <city city_code="XVY" city_name="メストレ" />
+                <city city_code="NAP" city_name="ナポリ" />
+            </country>
+            <country country_code="AT" country_name="オーストリア">
+                <city city_code="VIE" city_name="ウィーン" />
+            </country>
+            <country country_code="ES" country_name="スペイン">
+                <city city_code="MAD" city_name="マドリッド" />
+                <city city_code="BCN" city_name="バルセロナ" />
+                <city city_code="GRX" city_name="グラナダ" />
+                <city city_code="ODB" city_name="コルドバ" />
+                <city city_code="500" city_name="トレド" />
+                <city city_code="CRM" city_name="カルモナ" />
+                <city city_code="SVQ" city_name="セビリア" />
+                <city city_code="TGO" city_name="タラゴナ" />
+                <city city_code="VLC" city_name="バレンシア" />
+                <city city_code="MJS" city_name="ミハス" />
+                <city city_code="552" city_name="ラ マンチャ" />
+                <city city_code="CDZ" city_name="カディス" />
+                <city city_code="PMI" city_name="パルマ デ マリョルカ" />
+            </country>
+            <country country_code="CZ" country_name="チェコ">
+                <city city_code="PRG" city_name="プラハ" />
+            </country>
+            <country country_code="DE" country_name="ドイツ">
+                <city city_code="BER" city_name="ベルリン" />
+                <city city_code="MUC" city_name="ミュンヘン" />
+                <city city_code="FRA" city_name="フランクフルト" />
+            </country>
+            <country country_code="FR" country_name="フランス">
+                <city city_code="PAR" city_name="パリ" />
+                <city city_code="NCE" city_name="ニース" />
+            </country>
+            <country country_code="PL" country_name="ポーランド">
+                <city city_code="KRK" city_name="クラクフ" />
+                <city city_code="WAW" city_name="ワルシャワ" />
+            </country>
+            <country country_code="PT" country_name="ポルトガル">
+                <city city_code="EVR" city_name="エヴォラ" />
+                <city city_code="PST" city_name="シントラ" />
+                <city city_code="LIS" city_name="リスボン" />
+            </country>
+            <country country_code="HU" country_name="ハンガリー">
+                <city city_code="BUD" city_name="ブダペスト" />
+            </country>
+            <country country_code="RU" country_name="ロシア">
+                <city city_code="DHZ" city_name="コルサコフ" />
+                <city city_code="VVO" city_name="ウラジオストク" />
+            </country>
+            <country country_code="IS" country_name="アイスランド">
+                <city city_code="REK" city_name="レイキャビク" />
+            </country>
+            <country country_code="GR" country_name="ギリシャ">
+                <city city_code="P73" city_name="ピレウス" />
+                <city city_code="JMK" city_name="ミコノス" />
+            </country>
+            <country country_code="NO" country_name="ノルウェー">
+                <city city_code="TRD" city_name="トロンヘイム" />
+                <city city_code="HVG" city_name="ホニングスヴォーグ" />
+            </country>
+            <country country_code="BE" country_name="ベルギー">
+                <city city_code="ZGJ" city_name="ブルージュ" />
+            </country>
+            <country country_code="MC" country_name="モナコ">
+                <city city_code="MCM" city_name="モンテカルロ" />
+            </country>
+            </district>
+        <district district_code="CAF" district_name="アフリカ">
+            <country country_code="ZA" country_name="南アフリカ">
+                <city city_code="K47" city_name="クルーガーエリア" />
+                <city city_code="PRY" city_name="プレトリア" />
+            </country>
+            </district>
+        <district district_code="CHT" district_name="中近東">
+            <country country_code="AE" country_name="アラブ首長国連邦">
+                <city city_code="DXB" city_name="ドバイ" />
+            </country>
+            <country country_code="OM" country_name="オマーン">
+                <city city_code="SLL" city_name="サラーラ" />
+            </country>
+            </district>
+        <district district_code="AAS" district_name="アジア">
+            <country country_code="IN" country_name="インド">
+                <city city_code="DEL" city_name="デリー" />
+                <city city_code="AGR" city_name="アグラ" />
+                <city city_code="O02" city_name="オルチャ" />
+                <city city_code="HJR" city_name="カジュラホ" />
+                <city city_code="SRT" city_name="サルナート" />
+                <city city_code="JAI" city_name="ジャイプ－ル" />
+                <city city_code="J01" city_name="ジャンシー" />
+                <city city_code="VNS" city_name="ベナレス" />
+                <city city_code="BR1" city_name="バラトプール" />
+                <city city_code="GOI" city_name="ゴア" />
+            </country>
+            <country country_code="SG" country_name="シンガポール">
+                <city city_code="SIN" city_name="シンガポール" />
+                <city city_code="111" city_name="セントーサ島" />
+            </country>
+            <country country_code="LK" country_name="スリランカ">
+                <city city_code="KDY" city_name="キャンディ" />
+                <city city_code="CMB" city_name="コロンボ" />
+                <city city_code="SGR" city_name="シギリヤ" />
+                <city city_code="DML" city_name="ダンブッラ" />
+                <city city_code="PNW" city_name="ポロンナルワ" />
+            </country>
+            <country country_code="BN" country_name="ブルネイ">
+                <city city_code="BWN" city_name="バンダル スリ ブガワン" />
+            </country>
+            <country country_code="VN" country_name="ベトナム">
+                <city city_code="HAN" city_name="ハノイ" />
+                <city city_code="HRN" city_name="ハロン湾" />
+                <city city_code="SGN" city_name="ホーチミン" />
+            </country>
+            <country country_code="MO" country_name="マカオ">
+                <city city_code="MFM" city_name="マカオ" />
+            </country>
+            <country country_code="MY" country_name="マレーシア">
+                <city city_code="KUL" city_name="クアラルンプール" />
+                <city city_code="BKI" city_name="コタキナバル（ボルネオ島）" />
+                <city city_code="P39" city_name="プトラジャヤ" />
+                <city city_code="MKZ" city_name="マラッカ" />
+                <city city_code="IPO" city_name="イポー" />
+                <city city_code="CAH" city_name="キャメロン ハイランド" />
+                <city city_code="K24" city_name="クアラカンサー" />
+                <city city_code="B38" city_name="ブキットメラ" />
+                <city city_code="PEN" city_name="ペナン" />
+            </country>
+            <country country_code="MV" country_name="モルディブ">
+                <city city_code="MLE" city_name="マーレ" />
+            </country>
+            <country country_code="KR" country_name="韓国">
+                <city city_code="PUS" city_name="釜山（プサン）" />
+                <city city_code="SEL" city_name="ソウル" />
+                <city city_code="CJU" city_name="済州島（チェジュド）" />
+                <city city_code="ICH" city_name="利川（イチョン）" />
+            </country>
+            <country country_code="HK" country_name="香港">
+                <city city_code="HKG" city_name="香港" />
+                <city city_code="KRU" city_name="九龍（キュウリュウ）" />
+            </country>
+            <country country_code="TW" country_name="台湾">
+                <city city_code="TPE" city_name="台北" />
+                <city city_code="KHH" city_name="高雄" />
+                <city city_code="HUN" city_name="花蓮" />
+                <city city_code="101,130,133" city_name="九フン" />
+                <city city_code="HSZ" city_name="新竹" />
+                <city city_code="109" city_name="太魯閣" />
+                <city city_code="TXG" city_name="台中" />
+                <city city_code="TTT" city_name="台東" />
+                <city city_code="TNN" city_name="台南" />
+                <city city_code="TAY" city_name="桃園" />
+                <city city_code="01T" city_name="日月潭" />
+                <city city_code="T02" city_name="基隆" />
+            </country>
+            <country country_code="TH" country_name="タイ">
+                <city city_code="BKK" city_name="バンコク" />
+                <city city_code="005" city_name="アユタヤ" />
+            </country>
+            <country country_code="CN" country_name="中国">
+                <city city_code="SHA" city_name="上海(シャンハイ)" />
+                <city city_code="PEK" city_name="北京(ペキン)" />
+                <city city_code="CAN" city_name="広州(コウシュウ)" />
+                <city city_code="DLC" city_name="大連(ダイレン)" />
+                <city city_code="KWL" city_name="桂林(ケイリン)" />
+                <city city_code="JNZ" city_name="金州(キンシュウ)" />
+                <city city_code="SZV" city_name="蘇州（ソシュウ）" />
+                <city city_code="WUX" city_name="無錫(ムシャク)" />
+                <city city_code="LOG" city_name="龍勝（リュウショウ）" />
+                <city city_code="01C" city_name="旅順（リョジュン）" />
+            </country>
+            </district>
+        <district district_code="DNU" district_name="北米">
+            <country country_code="US" country_name="アメリカ合衆国">
+                <city city_code="LAX" city_name="ロサンゼルス" />
+                <city city_code="NYC" city_name="ニューヨーク" />
+                <city city_code="LAS" city_name="ラスベガス" />
+                <city city_code="ORL" city_name="オーランド" />
+                <city city_code="ANP" city_name="アーチーズ国立公園" />
+                <city city_code="ANA" city_name="アナハイム" />
+                <city city_code="MVM" city_name="カイエンタ" />
+                <city city_code="CRN" city_name="キャピトルリーフ国立公園" />
+                <city city_code="GCN" city_name="グランドキャニオン" />
+                <city city_code="811" city_name="ザイオン国立公園" />
+                <city city_code="SDX" city_name="セドナ" />
+                <city city_code="300" city_name="デッドホースポイント州立公園" />
+                <city city_code="BCE" city_name="ブライスキャニオン" />
+                <city city_code="PGA" city_name="ペイジ" />
+                <city city_code="CNY" city_name="モアブ" />
+                <city city_code="GMV" city_name="モニュメントバレー" />
+                <city city_code="MFH" city_name="メスキート" />
+                <city city_code="SFO" city_name="サンフランシスコ" />
+            </country>
+            <country country_code="CA" country_name="カナダ">
+                <city city_code="YVR" city_name="バンクーバー" />
+                <city city_code="YBA" city_name="バンフ" />
+                <city city_code="YYJ" city_name="ビクトリア" />
+                <city city_code="807" city_name="カナディアンロッキー" />
+                <city city_code="YZF" city_name="イエローナイフ" />
+                <city city_code="YDA" city_name="ドーソンシティ" />
+                <city city_code="YXY" city_name="ホワイトホース" />
+                <city city_code="YMQ" city_name="モントリオール" />
+                <city city_code="C94" city_name="クラレンビル" />
+                <city city_code="823" city_name="グロスモーン国立公園" />
+                <city city_code="YYG" city_name="シャーロットタウン" />
+                <city city_code="YYT" city_name="セント ジョンズ(ニューファンドランド)" />
+                <city city_code="YDF" city_name="ディアレイク(ニューファンドランド)" />
+                <city city_code="YTO" city_name="トロント" />
+                <city city_code="XLV" city_name="ナイアガラフォールズ" />
+                <city city_code="819" city_name="プリンスエドワード島" />
+            </country>
+            </district>
+        <district district_code="ESU" district_name="中南米">
+            <country country_code="MX" country_name="メキシコ">
+                <city city_code="MEX" city_name="メキシコシティ" />
+                <city city_code="CUN" city_name="カンクン" />
+                <city city_code="CZA" city_name="チチェンイッツァ" />
+                <city city_code="USR" city_name="ウシュマル" />
+                <city city_code="TTW" city_name="テオティワカン" />
+                <city city_code="CZM" city_name="コスメル" />
+                <city city_code="MZT" city_name="マサトラン" />
+            </country>
+            <country country_code="PE" country_name="ペルー">
+                <city city_code="LIM" city_name="リマ" />
+                <city city_code="CUZ" city_name="クスコ" />
+                <city city_code="MFT" city_name="マチュピチュ" />
+                <city city_code="NZA" city_name="ナスカ" />
+                <city city_code="OLL" city_name="オリャンタイタンボ" />
+            </country>
+            <country country_code="CR" country_name="コスタリカ">
+                <city city_code="P27" city_name="プンタレナス" />
+            </country>
+            <country country_code="CO" country_name="コロンビア">
+                <city city_code="CTG" city_name="カルタヘナ" />
+            </country>
+            </district>
+        <district district_code="FOC" district_name="オセアニア">
+            <country country_code="NC" country_name="ニューカレドニア">
+                <city city_code="NOU" city_name="ヌーメア" />
+            </country>
+            <country country_code="NZ" country_name="ニュージーランド">
+                <city city_code="AKL" city_name="オークランド" />
+                <city city_code="CHC" city_name="クライストチャーチ" />
+                <city city_code="ZQN" city_name="クイーンズタウン" />
+                <city city_code="MFN" city_name="ミルフォードサウンド" />
+                <city city_code="MON" city_name="マウントクック" />
+                <city city_code="ROT" city_name="ロトルア" />
+                <city city_code="Z10" city_name="アロータウン" />
+                <city city_code="TUO" city_name="タウポ" />
+                <city city_code="TEU" city_name="テアナウ" />
+                <city city_code="TPO" city_name="テカポ" />
+                <city city_code="TON" city_name="トンガリロ" />
+                <city city_code="301" city_name="ワイトモ" />
+            </country>
+            <country country_code="FJ" country_name="フィジー">
+                <city city_code="NAN" city_name="ナンディ" />
+            </country>
+            <country country_code="AU" country_name="オーストラリア">
+                <city city_code="SYD" city_name="シドニー" />
+                <city city_code="OOL" city_name="ゴールドコースト" />
+                <city city_code="MEL" city_name="メルボルン" />
+                <city city_code="CNS" city_name="ケアンズ" />
+                <city city_code="BNE" city_name="ブリスベン" />
+                <city city_code="BLU" city_name="ブルーマウンテンズ" />
+            </country>
+            </district>
+        <district district_code="HWI" district_name="ハワイ">
+            <country country_code="HA" country_name="ハワイ(米国)">
+                <city city_code="HNL" city_name="ホノルル" />
+                <city city_code="804" city_name="オアフ島" />
+                <city city_code="803" city_name="ハワイ島" />
+                <city city_code="KOA" city_name="カイルア コナ" />
+                <city city_code="KOL" city_name="コオリナ" />
+                <city city_code="WKL" city_name="ワイコロア" />
+            </country>
+            </district>
+        <district district_code="MNA" district_name="ミクロネシア">
+            <country country_code="GU" country_name="グアム">
+                <city city_code="GUM" city_name="グアム" />
+            </country>
+            <country country_code="SP" country_name="サイパン">
+                <city city_code="SPN" city_name="サイパン" />
+            </country>
+            </district>
+     </departure>
+    <departure place_departure_code="101" place_departure_name="成田">
+        <district district_code="BEU" district_name="ヨーロッパ">
+            <country country_code="GB" country_name="イギリス">
+                <city city_code="LON" city_name="ロンドン" />
+            </country>
+            <country country_code="IT" country_name="イタリア">
+                <city city_code="ROM" city_name="ローマ" />
+                <city city_code="MIL" city_name="ミラノ" />
+                <city city_code="FLR" city_name="フィレンツェ" />
+                <city city_code="VCE" city_name="ベネチア" />
+                <city city_code="XVY" city_name="メストレ" />
+            </country>
+            <country country_code="AT" country_name="オーストリア">
+                <city city_code="VIE" city_name="ウィーン" />
+            </country>
+            <country country_code="ES" country_name="スペイン">
+                <city city_code="MAD" city_name="マドリッド" />
+                <city city_code="BCN" city_name="バルセロナ" />
+                <city city_code="GRX" city_name="グラナダ" />
+                <city city_code="ODB" city_name="コルドバ" />
+                <city city_code="500" city_name="トレド" />
+                <city city_code="CRM" city_name="カルモナ" />
+                <city city_code="SVQ" city_name="セビリア" />
+            </country>
+            <country country_code="CZ" country_name="チェコ">
+                <city city_code="PRG" city_name="プラハ" />
+            </country>
+            <country country_code="DE" country_name="ドイツ">
+                <city city_code="BER" city_name="ベルリン" />
+                <city city_code="MUC" city_name="ミュンヘン" />
+                <city city_code="FRA" city_name="フランクフルト" />
+            </country>
+            <country country_code="FR" country_name="フランス">
+                <city city_code="PAR" city_name="パリ" />
+                <city city_code="NCE" city_name="ニース" />
+            </country>
+            <country country_code="PL" country_name="ポーランド">
+                <city city_code="KRK" city_name="クラクフ" />
+                <city city_code="WAW" city_name="ワルシャワ" />
+            </country>
+            <country country_code="PT" country_name="ポルトガル">
+                <city city_code="EVR" city_name="エヴォラ" />
+                <city city_code="PST" city_name="シントラ" />
+                <city city_code="LIS" city_name="リスボン" />
+            </country>
+            </district>
+        <district district_code="CAF" district_name="アフリカ">
+            <country country_code="ZA" country_name="南アフリカ">
+                <city city_code="K47" city_name="クルーガーエリア" />
+                <city city_code="PRY" city_name="プレトリア" />
+            </country>
+            </district>
+        <district district_code="CHT" district_name="中近東">
+            <country country_code="AE" country_name="アラブ首長国連邦">
+                <city city_code="DXB" city_name="ドバイ" />
+            </country>
+            </district>
+        <district district_code="AAS" district_name="アジア">
+            <country country_code="IN" country_name="インド">
+                <city city_code="DEL" city_name="デリー" />
+                <city city_code="AGR" city_name="アグラ" />
+                <city city_code="O02" city_name="オルチャ" />
+                <city city_code="HJR" city_name="カジュラホ" />
+                <city city_code="SRT" city_name="サルナート" />
+                <city city_code="JAI" city_name="ジャイプ－ル" />
+                <city city_code="J01" city_name="ジャンシー" />
+                <city city_code="VNS" city_name="ベナレス" />
+            </country>
+            <country country_code="SG" country_name="シンガポール">
+                <city city_code="SIN" city_name="シンガポール" />
+                <city city_code="111" city_name="セントーサ島" />
+            </country>
+            <country country_code="LK" country_name="スリランカ">
+                <city city_code="KDY" city_name="キャンディ" />
+                <city city_code="CMB" city_name="コロンボ" />
+                <city city_code="SGR" city_name="シギリヤ" />
+                <city city_code="DML" city_name="ダンブッラ" />
+                <city city_code="PNW" city_name="ポロンナルワ" />
+            </country>
+            <country country_code="BN" country_name="ブルネイ">
+                <city city_code="BWN" city_name="バンダル スリ ブガワン" />
+            </country>
+            <country country_code="VN" country_name="ベトナム">
+                <city city_code="HAN" city_name="ハノイ" />
+                <city city_code="HRN" city_name="ハロン湾" />
+            </country>
+            <country country_code="MO" country_name="マカオ">
+                <city city_code="MFM" city_name="マカオ" />
+            </country>
+            <country country_code="MY" country_name="マレーシア">
+                <city city_code="KUL" city_name="クアラルンプール" />
+                <city city_code="BKI" city_name="コタキナバル（ボルネオ島）" />
+                <city city_code="P39" city_name="プトラジャヤ" />
+                <city city_code="MKZ" city_name="マラッカ" />
+            </country>
+            <country country_code="MV" country_name="モルディブ">
+                <city city_code="MLE" city_name="マーレ" />
+            </country>
+            <country country_code="KR" country_name="韓国">
+                <city city_code="PUS" city_name="釜山（プサン）" />
+            </country>
+            <country country_code="HK" country_name="香港">
+                <city city_code="HKG" city_name="香港" />
+                <city city_code="KRU" city_name="九龍（キュウリュウ）" />
+            </country>
+            <country country_code="TW" country_name="台湾">
+                <city city_code="TPE" city_name="台北" />
+                <city city_code="KHH" city_name="高雄" />
+                <city city_code="HUN" city_name="花蓮" />
+                <city city_code="133" city_name="九フン" />
+                <city city_code="HSZ" city_name="新竹" />
+                <city city_code="109" city_name="太魯閣" />
+                <city city_code="TXG" city_name="台中" />
+                <city city_code="TTT" city_name="台東" />
+                <city city_code="TNN" city_name="台南" />
+                <city city_code="TAY" city_name="桃園" />
+                <city city_code="01T" city_name="日月潭" />
+            </country>
+            </district>
+        <district district_code="DNU" district_name="北米">
+            <country country_code="US" country_name="アメリカ合衆国">
+                <city city_code="LAX" city_name="ロサンゼルス" />
+                <city city_code="NYC" city_name="ニューヨーク" />
+                <city city_code="LAS" city_name="ラスベガス" />
+                <city city_code="ORL" city_name="オーランド" />
+                <city city_code="ANP" city_name="アーチーズ国立公園" />
+                <city city_code="ANA" city_name="アナハイム" />
+                <city city_code="MVM" city_name="カイエンタ" />
+                <city city_code="CRN" city_name="キャピトルリーフ国立公園" />
+                <city city_code="GCN" city_name="グランドキャニオン" />
+                <city city_code="811" city_name="ザイオン国立公園" />
+                <city city_code="SDX" city_name="セドナ" />
+                <city city_code="300" city_name="デッドホースポイント州立公園" />
+                <city city_code="BCE" city_name="ブライスキャニオン" />
+                <city city_code="PGA" city_name="ペイジ" />
+                <city city_code="CNY" city_name="モアブ" />
+                <city city_code="GMV" city_name="モニュメントバレー" />
+            </country>
+            <country country_code="CA" country_name="カナダ">
+                <city city_code="YVR" city_name="バンクーバー" />
+                <city city_code="YBA" city_name="バンフ" />
+                <city city_code="YYJ" city_name="ビクトリア" />
+                <city city_code="807" city_name="カナディアンロッキー" />
+                <city city_code="YZF" city_name="イエローナイフ" />
+                <city city_code="YDA" city_name="ドーソンシティ" />
+                <city city_code="YXY" city_name="ホワイトホース" />
+            </country>
+            </district>
+        <district district_code="ESU" district_name="中南米">
+            <country country_code="MX" country_name="メキシコ">
+                <city city_code="MEX" city_name="メキシコシティ" />
+                <city city_code="CUN" city_name="カンクン" />
+                <city city_code="CZA" city_name="チチェンイッツァ" />
+                <city city_code="USR" city_name="ウシュマル" />
+                <city city_code="TTW" city_name="テオティワカン" />
+            </country>
+            </district>
+        <district district_code="FOC" district_name="オセアニア">
+            <country country_code="NC" country_name="ニューカレドニア">
+                <city city_code="NOU" city_name="ヌーメア" />
+            </country>
+            <country country_code="NZ" country_name="ニュージーランド">
+                <city city_code="AKL" city_name="オークランド" />
+                <city city_code="CHC" city_name="クライストチャーチ" />
+                <city city_code="ZQN" city_name="クイーンズタウン" />
+                <city city_code="MFN" city_name="ミルフォードサウンド" />
+                <city city_code="MON" city_name="マウントクック" />
+                <city city_code="ROT" city_name="ロトルア" />
+                <city city_code="Z10" city_name="アロータウン" />
+                <city city_code="TUO" city_name="タウポ" />
+                <city city_code="TEU" city_name="テアナウ" />
+                <city city_code="TPO" city_name="テカポ" />
+                <city city_code="TON" city_name="トンガリロ" />
+                <city city_code="301" city_name="ワイトモ" />
+            </country>
+            <country country_code="FJ" country_name="フィジー">
+                <city city_code="NAN" city_name="ナンディ" />
+            </country>
+            </district>
+        <district district_code="HWI" district_name="ハワイ">
+            <country country_code="HA" country_name="ハワイ(米国)">
+                <city city_code="HNL" city_name="ホノルル" />
+                <city city_code="804" city_name="オアフ島" />
+                <city city_code="803" city_name="ハワイ島" />
+                <city city_code="KOA" city_name="カイルア コナ" />
+                <city city_code="KOL" city_name="コオリナ" />
+                <city city_code="WKL" city_name="ワイコロア" />
+            </country>
+            </district>
+        <district district_code="MNA" district_name="ミクロネシア">
+            <country country_code="GU" country_name="グアム">
+                <city city_code="GUM" city_name="グアム" />
+            </country>
+            </district>
+     </departure>
+    <departure place_departure_code="130" place_departure_name="羽田">
+        <district district_code="BEU" district_name="ヨーロッパ">
+            <country country_code="GB" country_name="イギリス">
+                <city city_code="LON" city_name="ロンドン" />
+            </country>
+            <country country_code="IT" country_name="イタリア">
+                <city city_code="ROM" city_name="ローマ" />
+            </country>
+            <country country_code="AT" country_name="オーストリア">
+                <city city_code="VIE" city_name="ウィーン" />
+            </country>
+            <country country_code="ES" country_name="スペイン">
+                <city city_code="MAD" city_name="マドリッド" />
+                <city city_code="BCN" city_name="バルセロナ" />
+                <city city_code="GRX" city_name="グラナダ" />
+                <city city_code="ODB" city_name="コルドバ" />
+                <city city_code="TGO" city_name="タラゴナ" />
+                <city city_code="VLC" city_name="バレンシア" />
+                <city city_code="MJS" city_name="ミハス" />
+                <city city_code="552" city_name="ラ マンチャ" />
+            </country>
+            <country country_code="CZ" country_name="チェコ">
+                <city city_code="PRG" city_name="プラハ" />
+            </country>
+            <country country_code="DE" country_name="ドイツ">
+                <city city_code="BER" city_name="ベルリン" />
+                <city city_code="MUC" city_name="ミュンヘン" />
+                <city city_code="FRA" city_name="フランクフルト" />
+            </country>
+            <country country_code="HU" country_name="ハンガリー">
+                <city city_code="BUD" city_name="ブダペスト" />
+            </country>
+            <country country_code="FR" country_name="フランス">
+                <city city_code="PAR" city_name="パリ" />
+            </country>
+            <country country_code="RU" country_name="ロシア">
+                <city city_code="DHZ" city_name="コルサコフ" />
+            </country>
+            </district>
+        <district district_code="CHT" district_name="中近東">
+            <country country_code="AE" country_name="アラブ首長国連邦">
+                <city city_code="DXB" city_name="ドバイ" />
+            </country>
+            </district>
+        <district district_code="AAS" district_name="アジア">
+            <country country_code="IN" country_name="インド">
+                <city city_code="DEL" city_name="デリー" />
+                <city city_code="AGR" city_name="アグラ" />
+                <city city_code="JAI" city_name="ジャイプ－ル" />
+                <city city_code="BR1" city_name="バラトプール" />
+            </country>
+            <country country_code="SG" country_name="シンガポール">
+                <city city_code="SIN" city_name="シンガポール" />
+                <city city_code="111" city_name="セントーサ島" />
+            </country>
+            <country country_code="TH" country_name="タイ">
+                <city city_code="BKK" city_name="バンコク" />
+                <city city_code="005" city_name="アユタヤ" />
+            </country>
+            <country country_code="VN" country_name="ベトナム">
+                <city city_code="SGN" city_name="ホーチミン" />
+            </country>
+            <country country_code="MY" country_name="マレーシア">
+                <city city_code="KUL" city_name="クアラルンプール" />
+                <city city_code="IPO" city_name="イポー" />
+                <city city_code="CAH" city_name="キャメロン ハイランド" />
+                <city city_code="K24" city_name="クアラカンサー" />
+                <city city_code="B38" city_name="ブキットメラ" />
+                <city city_code="P39" city_name="プトラジャヤ" />
+                <city city_code="PEN" city_name="ペナン" />
+                <city city_code="MKZ" city_name="マラッカ" />
+            </country>
+            <country country_code="MV" country_name="モルディブ">
+                <city city_code="MLE" city_name="マーレ" />
+            </country>
+            <country country_code="KR" country_name="韓国">
+                <city city_code="SEL" city_name="ソウル" />
+                <city city_code="CJU" city_name="済州島（チェジュド）" />
+                <city city_code="ICH" city_name="利川（イチョン）" />
+            </country>
+            <country country_code="TW" country_name="台湾">
+                <city city_code="TPE" city_name="台北" />
+                <city city_code="T02" city_name="基隆" />
+                <city city_code="133" city_name="九フン" />
+            </country>
+            <country country_code="CN" country_name="中国">
+                <city city_code="SHA" city_name="上海(シャンハイ)" />
+                <city city_code="PEK" city_name="北京(ペキン)" />
+                <city city_code="CAN" city_name="広州(コウシュウ)" />
+                <city city_code="DLC" city_name="大連(ダイレン)" />
+                <city city_code="KWL" city_name="桂林(ケイリン)" />
+                <city city_code="JNZ" city_name="金州(キンシュウ)" />
+                <city city_code="SZV" city_name="蘇州（ソシュウ）" />
+                <city city_code="WUX" city_name="無錫(ムシャク)" />
+                <city city_code="LOG" city_name="龍勝（リュウショウ）" />
+                <city city_code="01C" city_name="旅順（リョジュン）" />
+            </country>
+            </district>
+        <district district_code="DNU" district_name="北米">
+            <country country_code="US" country_name="アメリカ合衆国">
+                <city city_code="LAX" city_name="ロサンゼルス" />
+                <city city_code="NYC" city_name="ニューヨーク" />
+                <city city_code="LAS" city_name="ラスベガス" />
+                <city city_code="ORL" city_name="オーランド" />
+                <city city_code="ANA" city_name="アナハイム" />
+                <city city_code="MVM" city_name="カイエンタ" />
+                <city city_code="GCN" city_name="グランドキャニオン" />
+                <city city_code="811" city_name="ザイオン国立公園" />
+                <city city_code="SDX" city_name="セドナ" />
+                <city city_code="PGA" city_name="ペイジ" />
+                <city city_code="MFH" city_name="メスキート" />
+                <city city_code="GMV" city_name="モニュメントバレー" />
+            </country>
+            <country country_code="CA" country_name="カナダ">
+                <city city_code="YVR" city_name="バンクーバー" />
+                <city city_code="YMQ" city_name="モントリオール" />
+                <city city_code="YZF" city_name="イエローナイフ" />
+                <city city_code="C94" city_name="クラレンビル" />
+                <city city_code="823" city_name="グロスモーン国立公園" />
+                <city city_code="YYG" city_name="シャーロットタウン" />
+                <city city_code="YYT" city_name="セント ジョンズ(ニューファンドランド)" />
+                <city city_code="YDF" city_name="ディアレイク(ニューファンドランド)" />
+                <city city_code="YTO" city_name="トロント" />
+                <city city_code="XLV" city_name="ナイアガラフォールズ" />
+                <city city_code="819" city_name="プリンスエドワード島" />
+            </country>
+            </district>
+        <district district_code="ESU" district_name="中南米">
+            <country country_code="PE" country_name="ペルー">
+                <city city_code="LIM" city_name="リマ" />
+                <city city_code="CUZ" city_name="クスコ" />
+                <city city_code="MFT" city_name="マチュピチュ" />
+                <city city_code="NZA" city_name="ナスカ" />
+                <city city_code="OLL" city_name="オリャンタイタンボ" />
+            </country>
+            </district>
+        <district district_code="FOC" district_name="オセアニア">
+            <country country_code="AU" country_name="オーストラリア">
+                <city city_code="SYD" city_name="シドニー" />
+                <city city_code="OOL" city_name="ゴールドコースト" />
+                <city city_code="MEL" city_name="メルボルン" />
+                <city city_code="CNS" city_name="ケアンズ" />
+                <city city_code="BNE" city_name="ブリスベン" />
+                <city city_code="BLU" city_name="ブルーマウンテンズ" />
+            </country>
+            </district>
+        <district district_code="HWI" district_name="ハワイ">
+            <country country_code="HA" country_name="ハワイ(米国)">
+                <city city_code="HNL" city_name="ホノルル" />
+                <city city_code="804" city_name="オアフ島" />
+                <city city_code="KOL" city_name="コオリナ" />
+            </country>
+            </district>
+     </departure>
+    <departure place_departure_code="102" place_departure_name="関空">
+        <district district_code="BEU" district_name="ヨーロッパ">
+            <country country_code="GB" country_name="イギリス">
+                <city city_code="LON" city_name="ロンドン" />
+                <city city_code="XWH" city_name="ストックオントレント" />
+                <city city_code="STF" city_name="ストラトフォード アポン エイボン" />
+                <city city_code="CEG" city_name="チェスター" />
+                <city city_code="B80" city_name="ボートン・オン・ザ・ウォーター" />
+                <city city_code="LPL" city_name="リバプール" />
+            </country>
+            <country country_code="IT" country_name="イタリア">
+                <city city_code="ROM" city_name="ローマ" />
+                <city city_code="MIL" city_name="ミラノ" />
+                <city city_code="FLR" city_name="フィレンツェ" />
+                <city city_code="VCE" city_name="ベネチア" />
+                <city city_code="NAP" city_name="ナポリ" />
+                <city city_code="AXB" city_name="アルベロベッロ" />
+                <city city_code="PSA" city_name="ピサ" />
+                <city city_code="AQF" city_name="アマルフィ" />
+                <city city_code="O11" city_name="オストゥーニ" />
+                <city city_code="C45" city_name="チビタ バーニョレッジョ" />
+                <city city_code="VRN" city_name="ベローナ" />
+                <city city_code="141" city_name="マテーラ" />
+                <city city_code="XVY" city_name="メストレ" />
+                <city city_code="L37" city_name="ロコロトンド" />
+            </country>
+            <country country_code="EE" country_name="エストニア">
+                <city city_code="TLL" city_name="タリン" />
+            </country>
+            <country country_code="AT" country_name="オーストリア">
+                <city city_code="VIE" city_name="ウィーン" />
+            </country>
+            <country country_code="NL" country_name="オランダ">
+                <city city_code="AMS" city_name="アムステルダム" />
+                <city city_code="KDR" city_name="キンデルダイク" />
+                <city city_code="HAG" city_name="ハーグ" />
+            </country>
+            <country country_code="GR" country_name="ギリシャ">
+                <city city_code="ATH" city_name="アテネ" />
+                <city city_code="OYM" city_name="オリンピア" />
+                <city city_code="KLM" city_name="カランバカ" />
+                <city city_code="E52" city_name="デルフィ" />
+                <city city_code="E53" city_name="メテオラ" />
+            </country>
+            <country country_code="SE" country_name="スウェーデン">
+                <city city_code="STO" city_name="ストックホルム" />
+            </country>
+            <country country_code="ES" country_name="スペイン">
+                <city city_code="MAD" city_name="マドリッド" />
+                <city city_code="BCN" city_name="バルセロナ" />
+                <city city_code="GRX" city_name="グラナダ" />
+                <city city_code="ODB" city_name="コルドバ" />
+                <city city_code="500" city_name="トレド" />
+                <city city_code="SCQ" city_name="サンティアゴ・デ・コンポステーラ" />
+                <city city_code="SVQ" city_name="セビリア" />
+                <city city_code="MJS" city_name="ミハス" />
+            </country>
+            <country country_code="CZ" country_name="チェコ">
+                <city city_code="C50" city_name="チェスキー クルムロフ" />
+                <city city_code="PRG" city_name="プラハ" />
+            </country>
+            <country country_code="DK" country_name="デンマーク">
+                <city city_code="CPH" city_name="コペンハーゲン" />
+            </country>
+            <country country_code="DE" country_name="ドイツ">
+                <city city_code="BER" city_name="ベルリン" />
+                <city city_code="MUC" city_name="ミュンヘン" />
+                <city city_code="FRA" city_name="フランクフルト" />
+                <city city_code="QTK" city_name="ローテンブルク" />
+                <city city_code="HDB" city_name="ハイデルベルク" />
+                <city city_code="458" city_name="サンクト ゴア" />
+                <city city_code="SCH" city_name="シュバンガウ" />
+                <city city_code="NUE" city_name="ニュルンベルク" />
+                <city city_code="454" city_name="リューデスハイム" />
+            </country>
+            <country country_code="NO" country_name="ノルウェー">
+                <city city_code="OSL" city_name="オスロ" />
+            </country>
+            <country country_code="HU" country_name="ハンガリー">
+                <city city_code="BUD" city_name="ブダペスト" />
+            </country>
+            <country country_code="FI" country_name="フィンランド">
+                <city city_code="HEL" city_name="ヘルシンキ" />
+            </country>
+            <country country_code="FR" country_name="フランス">
+                <city city_code="PAR" city_name="パリ" />
+                <city city_code="NCE" city_name="ニース" />
+                <city city_code="ZMS" city_name="モンサンミッシェル" />
+                <city city_code="QTJ" city_name="シャルトル" />
+                <city city_code="607" city_name="ロワール地方" />
+                <city city_code="VRS" city_name="ヴェルサイユ" />
+            </country>
+            <country country_code="BE" country_name="ベルギー">
+                <city city_code="ANR" city_name="アントワープ" />
+                <city city_code="GNE" city_name="ゲント" />
+                <city city_code="BRU" city_name="ブリュッセル" />
+                <city city_code="ZGJ" city_name="ブルージュ" />
+            </country>
+            <country country_code="PT" country_name="ポルトガル">
+                <city city_code="493" city_name="オビドス" />
+                <city city_code="CBP" city_name="コインブラ" />
+                <city city_code="PST" city_name="シントラ" />
+                <city city_code="OPO" city_name="ポルト" />
+                <city city_code="LIS" city_name="リスボン" />
+            </country>
+            <country country_code="MT" country_name="マルタ">
+                <city city_code="MLA" city_name="マルタ島" />
+            </country>
+            <country country_code="LV" country_name="ラトビア">
+                <city city_code="RIX" city_name="リガ" />
+            </country>
+            <country country_code="LT" country_name="リトアニア">
+                <city city_code="VNO" city_name="ヴィリニウス" />
+            </country>
+            </district>
+        <district district_code="CAF" district_name="アフリカ">
+            <country country_code="EG" country_name="エジプト">
+                <city city_code="CAI" city_name="カイロ" />
+                <city city_code="G08" city_name="ギザ" />
+                <city city_code="LXR" city_name="ルクソール" />
+                <city city_code="ABS" city_name="アブ シンベル" />
+                <city city_code="ASW" city_name="アスワン" />
+            </country>
+            <country country_code="TN" country_name="チュニジア">
+                <city city_code="EDJ" city_name="エルジャム" />
+                <city city_code="KAR" city_name="カイルアン" />
+                <city city_code="SBD" city_name="シディ ブ サイド" />
+                <city city_code="SOS" city_name="スース" />
+                <city city_code="TUN" city_name="チュニス" />
+            </country>
+            <country country_code="MA" country_name="モロッコ">
+                <city city_code="FEZ" city_name="フェズ" />
+                <city city_code="RAK" city_name="マラケシュ" />
+                <city city_code="CAS" city_name="カサブランカ" />
+                <city city_code="701" city_name="エルフード" />
+                <city city_code="C66" city_name="シャウエン" />
+                <city city_code="TDR" city_name="トドラ渓谷" />
+                <city city_code="M03" city_name="ミデルト" />
+                <city city_code="704" city_name="メルズーカ" />
+                <city city_code="RBA" city_name="ラバト" />
+                <city city_code="OZZ" city_name="ワルザザート" />
+            </country>
+            </district>
+        <district district_code="CHT" district_name="中近東">
+            <country country_code="AE" country_name="アラブ首長国連邦">
+                <city city_code="DXB" city_name="ドバイ" />
+                <city city_code="AUH" city_name="アブダビ" />
+                <city city_code="AAN" city_name="アルアイン" />
+                <city city_code="SHJ" city_name="シャルジャ" />
+                <city city_code="RKT" city_name="ラスアルハイマ" />
+            </country>
+            <country country_code="TR" country_name="トルコ">
+                <city city_code="IST" city_name="イスタンブール" />
+                <city city_code="ADB" city_name="イズミール" />
+                <city city_code="514" city_name="カッパドキア" />
+                <city city_code="TR2" city_name="エフェソス" />
+                <city city_code="KYA" city_name="コンヤ" />
+                <city city_code="513" city_name="パムッカレ" />
+                <city city_code="BTZ" city_name="ブルサ" />
+                <city city_code="TRB" city_name="ベルガマ" />
+            </country>
+            </district>
+        <district district_code="AAS" district_name="アジア">
+            <country country_code="SG" country_name="シンガポール">
+                <city city_code="SIN" city_name="シンガポール" />
+            </country>
+            <country country_code="VN" country_name="ベトナム">
+                <city city_code="HAN" city_name="ハノイ" />
+                <city city_code="HRN" city_name="ハロン湾" />
+            </country>
+            <country country_code="KR" country_name="韓国">
+                <city city_code="SEL" city_name="ソウル" />
+                <city city_code="04K" city_name="慶州（キョンジュ）" />
+                <city city_code="SWN" city_name="水原（スウォン）" />
+                <city city_code="OTA" city_name="大田（テジョン）" />
+                <city city_code="886" city_name="扶余（プヨ）" />
+            </country>
+            <country country_code="TW" country_name="台湾">
+                <city city_code="TPE" city_name="台北" />
+                <city city_code="KHH" city_name="高雄" />
+                <city city_code="133" city_name="九フン" />
+                <city city_code="S26" city_name="十分" />
+                <city city_code="TXG" city_name="台中" />
+                <city city_code="TNN" city_name="台南" />
+                <city city_code="TAY" city_name="桃園" />
+                <city city_code="01T" city_name="日月潭" />
+            </country>
+            </district>
+        <district district_code="DNU" district_name="北米">
+            <country country_code="US" country_name="アメリカ合衆国">
+                <city city_code="LAX" city_name="ロサンゼルス" />
+                <city city_code="NYC" city_name="ニューヨーク" />
+                <city city_code="LAS" city_name="ラスベガス" />
+                <city city_code="ANA" city_name="アナハイム" />
+                <city city_code="800" city_name="ウィリアムス" />
+                <city city_code="GCN" city_name="グランドキャニオン" />
+                <city city_code="811" city_name="ザイオン国立公園" />
+                <city city_code="SDX" city_name="セドナ" />
+                <city city_code="BCE" city_name="ブライスキャニオン" />
+                <city city_code="PGA" city_name="ペイジ" />
+                <city city_code="GMV" city_name="モニュメントバレー" />
+            </country>
+            <country country_code="CA" country_name="カナダ">
+                <city city_code="YVR" city_name="バンクーバー" />
+                <city city_code="YBA" city_name="バンフ" />
+                <city city_code="YYJ" city_name="ビクトリア" />
+                <city city_code="807" city_name="カナディアンロッキー" />
+                <city city_code="YZF" city_name="イエローナイフ" />
+                <city city_code="YTO" city_name="トロント" />
+                <city city_code="XLV" city_name="ナイアガラフォールズ" />
+            </country>
+            </district>
+        <district district_code="FOC" district_name="オセアニア">
+            <country country_code="AU" country_name="オーストラリア">
+                <city city_code="SYD" city_name="シドニー" />
+            </country>
+            </district>
+        <district district_code="HWI" district_name="ハワイ">
+            <country country_code="HA" country_name="ハワイ(米国)">
+                <city city_code="HNL" city_name="ホノルル" />
+                <city city_code="804" city_name="オアフ島" />
+            </country>
+            </district>
+     </departure>
+    <departure place_departure_code="103" place_departure_name="名古屋">
+        <district district_code="CHT" district_name="中近東">
+            <country country_code="AE" country_name="アラブ首長国連邦">
+                <city city_code="DXB" city_name="ドバイ" />
+                <city city_code="AUH" city_name="アブダビ" />
+            </country>
+            </district>
+        <district district_code="AAS" district_name="アジア">
+            <country country_code="SG" country_name="シンガポール">
+                <city city_code="SIN" city_name="シンガポール" />
+                <city city_code="111" city_name="セントーサ島" />
+            </country>
+            <country country_code="TH" country_name="タイ">
+                <city city_code="HKT" city_name="プーケット" />
+            </country>
+            <country country_code="MY" country_name="マレーシア">
+                <city city_code="KUL" city_name="クアラルンプール" />
+                <city city_code="S0Z" city_name="シャーアラム" />
+                <city city_code="P39" city_name="プトラジャヤ" />
+                <city city_code="MKZ" city_name="マラッカ" />
+            </country>
+            <country country_code="TW" country_name="台湾">
+                <city city_code="TPE" city_name="台北" />
+                <city city_code="133" city_name="九フン" />
+            </country>
+            </district>
+        <district district_code="DNU" district_name="北米">
+            <country country_code="US" country_name="アメリカ合衆国">
+                <city city_code="LAX" city_name="ロサンゼルス" />
+                <city city_code="ANA" city_name="アナハイム" />
+            </country>
+            <country country_code="CA" country_name="カナダ">
+                <city city_code="YVR" city_name="バンクーバー" />
+                <city city_code="YBA" city_name="バンフ" />
+                <city city_code="807" city_name="カナディアンロッキー" />
+                <city city_code="YZF" city_name="イエローナイフ" />
+                <city city_code="YTO" city_name="トロント" />
+                <city city_code="XLV" city_name="ナイアガラフォールズ" />
+            </country>
+            </district>
+        <district district_code="FOC" district_name="オセアニア">
+            <country country_code="AU" country_name="オーストラリア">
+                <city city_code="SYD" city_name="シドニー" />
+                <city city_code="BLU" city_name="ブルーマウンテンズ" />
+            </country>
+            </district>
+        <district district_code="HWI" district_name="ハワイ">
+            <country country_code="HA" country_name="ハワイ(米国)">
+                <city city_code="HNL" city_name="ホノルル" />
+                <city city_code="804" city_name="オアフ島" />
+            </country>
+            </district>
+     </departure>
+    <departure place_departure_code="104" place_departure_name="福岡">
+        <district district_code="CHT" district_name="中近東">
+            <country country_code="AE" country_name="アラブ首長国連邦">
+                <city city_code="DXB" city_name="ドバイ" />
+            </country>
+            </district>
+        <district district_code="AAS" district_name="アジア">
+            <country country_code="KR" country_name="韓国">
+                <city city_code="PUS" city_name="釜山（プサン）" />
+            </country>
+            <country country_code="TW" country_name="台湾">
+                <city city_code="TPE" city_name="台北" />
+            </country>
+            </district>
+        <district district_code="DNU" district_name="北米">
+            <country country_code="US" country_name="アメリカ合衆国">
+                <city city_code="NYC" city_name="ニューヨーク" />
+                <city city_code="ORL" city_name="オーランド" />
+            </country>
+            <country country_code="CA" country_name="カナダ">
+                <city city_code="YVR" city_name="バンクーバー" />
+                <city city_code="YBA" city_name="バンフ" />
+                <city city_code="807" city_name="カナディアンロッキー" />
+                <city city_code="YZF" city_name="イエローナイフ" />
+                <city city_code="YTO" city_name="トロント" />
+                <city city_code="XLV" city_name="ナイアガラフォールズ" />
+            </country>
+            </district>
+        <district district_code="ESU" district_name="中南米">
+            <country country_code="AR" country_name="アルゼンチン">
+                <city city_code="USH" city_name="ウシュアイア" />
+                <city city_code="BUE" city_name="ブエノスアイレス" />
+            </country>
+            </district>
+        <district district_code="FOC" district_name="オセアニア">
+            <country country_code="AU" country_name="オーストラリア">
+                <city city_code="SYD" city_name="シドニー" />
+                <city city_code="BLU" city_name="ブルーマウンテンズ" />
+            </country>
+            </district>
+        <district district_code="HWI" district_name="ハワイ">
+            <country country_code="HA" country_name="ハワイ(米国)">
+                <city city_code="HNL" city_name="ホノルル" />
+                <city city_code="804" city_name="オアフ島" />
+            </country>
+            </district>
+        <district district_code="MNA" district_name="ミクロネシア">
+            <country country_code="GU" country_name="グアム">
+                <city city_code="GUM" city_name="グアム" />
+            </country>
+            </district>
+     </departure>
+    <departure place_departure_code="105" place_departure_name="北海道">
+        <district district_code="DNU" district_name="北米">
+            <country country_code="US" country_name="アメリカ合衆国">
+                <city city_code="NYC" city_name="ニューヨーク" />
+                <city city_code="ORL" city_name="オーランド" />
+            </country>
+            </district>
+        <district district_code="FOC" district_name="オセアニア">
+            <country country_code="AU" country_name="オーストラリア">
+                <city city_code="SYD" city_name="シドニー" />
+                <city city_code="BLU" city_name="ブルーマウンテンズ" />
+            </country>
+            </district>
+        <district district_code="HWI" district_name="ハワイ">
+            <country country_code="HA" country_name="ハワイ(米国)">
+                <city city_code="HNL" city_name="ホノルル" />
+                <city city_code="804" city_name="オアフ島" />
+            </country>
+            </district>
+     </departure>
+    <departure place_departure_code="126" place_departure_name="花巻">
+     </departure>
+    <departure place_departure_code="109" place_departure_name="仙台">
+        <district district_code="HWI" district_name="ハワイ">
+            <country country_code="HA" country_name="ハワイ(米国)">
+                <city city_code="HNL" city_name="ホノルル" />
+                <city city_code="804" city_name="オアフ島" />
+            </country>
+            </district>
+     </departure>
+    <departure place_departure_code="118" place_departure_name="秋田">
+     </departure>
+    <departure place_departure_code="141" place_departure_name="大館能代">
+     </departure>
+    <departure place_departure_code="128" place_departure_name="山形">
+     </departure>
+    <departure place_departure_code="140" place_departure_name="庄内">
+     </departure>
+    <departure place_departure_code="125" place_departure_name="福島">
+     </departure>
+    <departure place_departure_code="119" place_departure_name="新潟">
+        <district district_code="HWI" district_name="ハワイ">
+            <country country_code="HA" country_name="ハワイ(米国)">
+                <city city_code="HNL" city_name="ホノルル" />
+                <city city_code="804" city_name="オアフ島" />
+            </country>
+            </district>
+     </departure>
+    <departure place_departure_code="139" place_departure_name="長野">
+     </departure>
+    <departure place_departure_code="134" place_departure_name="茨城">
+     </departure>
+    <departure place_departure_code="124" place_departure_name="富山">
+     </departure>
+    <departure place_departure_code="114" place_departure_name="石川">
+        <district district_code="HWI" district_name="ハワイ">
+            <country country_code="HA" country_name="ハワイ(米国)">
+                <city city_code="HNL" city_name="ホノルル" />
+                <city city_code="804" city_name="オアフ島" />
+            </country>
+            </district>
+     </departure>
+    <departure place_departure_code="112" place_departure_name="静岡">
+     </departure>
+    <departure place_departure_code="131" place_departure_name="出雲">
+     </departure>
+    <departure place_departure_code="135" place_departure_name="米子">
+     </departure>
+    <departure place_departure_code="136" place_departure_name="鳥取">
+     </departure>
+    <departure place_departure_code="113" place_departure_name="岡山">
+     </departure>
+    <departure place_departure_code="107" place_departure_name="広島">
+        <district district_code="HWI" district_name="ハワイ">
+            <country country_code="HA" country_name="ハワイ(米国)">
+                <city city_code="HNL" city_name="ホノルル" />
+                <city city_code="804" city_name="オアフ島" />
+            </country>
+            </district>
+     </departure>
+    <departure place_departure_code="132" place_departure_name="山口宇部">
+     </departure>
+    <departure place_departure_code="138" place_departure_name="岩国">
+     </departure>
+    <departure place_departure_code="115" place_departure_name="徳島">
+     </departure>
+    <departure place_departure_code="111" place_departure_name="高松">
+     </departure>
+    <departure place_departure_code="108" place_departure_name="松山">
+        <district district_code="HWI" district_name="ハワイ">
+            <country country_code="HA" country_name="ハワイ(米国)">
+                <city city_code="HNL" city_name="ホノルル" />
+                <city city_code="804" city_name="オアフ島" />
+            </country>
+            </district>
+     </departure>
+    <departure place_departure_code="110" place_departure_name="高知">
+     </departure>
+    <departure place_departure_code="127" place_departure_name="北九州">
+     </departure>
+    <departure place_departure_code="122" place_departure_name="長崎">
+        <district district_code="AAS" district_name="アジア">
+            <country country_code="KR" country_name="韓国">
+                <city city_code="PUS" city_name="釜山（プサン）" />
+                <city city_code="CJU" city_name="済州島（チェジュド）" />
+            </country>
+            <country country_code="TW" country_name="台湾">
+                <city city_code="TPE" city_name="台北" />
+                <city city_code="T02" city_name="基隆" />
+            </country>
+            </district>
+     </departure>
+    <departure place_departure_code="120" place_departure_name="熊本">
+     </departure>
+    <departure place_departure_code="121" place_departure_name="大分">
+     </departure>
+    <departure place_departure_code="123" place_departure_name="宮崎">
+     </departure>
+    <departure place_departure_code="116" place_departure_name="鹿児島">
+     </departure>
+    <departure place_departure_code="106" place_departure_name="沖縄">
+        <district district_code="AAS" district_name="アジア">
+            <country country_code="KR" country_name="韓国">
+                <city city_code="CJU" city_name="済州島（チェジュド）" />
+            </country>
+            </district>
+     </departure>
+</root>

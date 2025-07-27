@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<hHKG101_130 hotel_code="6523" hotel_name="カオルーンハーバーフロントホテル" />
+	<hHKG101_130 hotel_code="2852" hotel_name="ゴールド コースト ホテル" />
+	<hHKG101_130 hotel_code="5293" hotel_name="ペンタホテル香港カオルーン" />
+	<hHKG101 hotel_code="6523" hotel_name="カオルーンハーバーフロントホテル" />
+	<hHKG101 hotel_code="2852" hotel_name="ゴールド コースト ホテル" />
+	<hHKG101 hotel_code="5293" hotel_name="ペンタホテル香港カオルーン" />
+</root>
