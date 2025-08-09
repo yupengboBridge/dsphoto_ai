@@ -35,6 +35,7 @@ try {
                 //$disp_counter->update_data($db_link);
                 
                 $tmp1 = $img['photo_filename'];
+                
                 // liukeyu add strat 20110905
                 if (isset($_REQUEST['x']) && isset($_REQUEST['y']) && is_numeric($_REQUEST['x']) && is_numeric($_REQUEST['y']) && (int) $_REQUEST['x'] > 0 && (int) $_REQUEST['y'] > 0) {
                     $imgWidth = $_REQUEST['x'];
