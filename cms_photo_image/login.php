@@ -252,7 +252,7 @@ function login()
 	<div id="header">
 		<div>
 			<h1 style="height: 40px;">BUD PHOTO WEB</h1>
-			<span style="position: absolute;top: 43px;left: 15px;font-size: 15px;">Ver2.2.0</span>
+			<span style="position: absolute;top: 43px;left: 15px;font-size: 15px;">Ver3.0.0</span>
 		</div>
 	</div>
 	<!--ヘッダーの構造は、ここまで-->

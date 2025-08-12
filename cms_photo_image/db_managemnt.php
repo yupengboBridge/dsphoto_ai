@@ -832,6 +832,11 @@ function sftpUpload($xmlfilename)
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>無題ドキュメント</title>
 <link rel="stylesheet" href="css/base.css" type="text/css" media="all" />
+<style>
+	table.db_management td.btn input {
+    width: 200px !important;
+}
+</style>
 <script type="text/javascript" src="js/common.js"  charset="utf-8"></script>
 <script type="text/javascript">
 <!--
@@ -1078,7 +1083,7 @@ window.onload = function()
 		<div class="list_contents">
 			<table width="800" border="0" cellspacing="0" cellpadding="0" class="db_management ttl_other_data">
 				<tr>
-					<td class="ttl_data">画像 データベース</td>
+					<td class="ttl_data">画像・動画 データベース</td>
 				</tr>
 			</table>
 			<table width="800" border="0" cellspacing="0" cellpadding="0" class="db_management">
@@ -1108,28 +1113,28 @@ window.onload = function()
                 </tr>
                 <tr>
                     <td class="btn dot">
-                        <input type="button" name="button_photo_no_condition" id="button_photo_data_download_condition" value="全写真データダウンロード" onclick="document.cookie = 'photo_no_val=xx; expires=Tue, 1-Jan-1980 00:00:00;';parent.bottom.location.href='./photo_data_download_condition.php';"/>
+                        <input type="button" name="button_photo_no_condition" id="button_photo_data_download_condition" value="全写真・動画データダウンロード" onclick="document.cookie = 'photo_no_val=xx; expires=Tue, 1-Jan-1980 00:00:00;';parent.bottom.location.href='./photo_data_download_condition.php';"/>
                     </td>
                     <td class="dot">すべてのデータをダウンロードする</td>
 
                 </tr>
 				<tr>
-					<td class="btn dot"><input type="button" name="button3" id="button3" value="削除画像予定リスト" onclick="parent.bottom.width='1060px';parent.bottom.location.href='./photo_delete_list.php'" /></td>
-					<td class="dot">2が月の削除予定の画像リストの確認はここから</td>
+					<td class="btn dot"><input type="button" name="button3" id="button3" value="削除画像・動画予定リスト" onclick="parent.bottom.width='1060px';parent.bottom.location.href='./photo_delete_list.php'" /></td>
+					<td class="dot">2が月の削除予定の画像・動画リストの確認はここから</td>
 
 				</tr>
 				<tr>
-					<td class="btn dot"><input type="button" name="button4" id="button4" value="削除された画像リスト" onclick="parent.bottom.width='1060px';parent.bottom.location.href='./photo_deleted_list.php'" /></td>
-					<td class="dot">削除された画像の確認はここから</td>
+					<td class="btn dot"><input type="button" name="button4" id="button4" value="削除された画像・動画リスト" onclick="parent.bottom.width='1060px';parent.bottom.location.href='./photo_deleted_list.php'" /></td>
+					<td class="dot">削除された画像・動画の確認はここから</td>
 				</tr>
 				<tr>
 <!--				<tr>
 					<td class="btn"><input type="button" name="download_dellog" id="download_dellog" value="削除ログダウンロード"  onclick='download("delete_image.log",3);'/></td>
-					<td>削除した画像のログをダウンロードします</td>
+					<td>削除した画像・動画のログをダウンロードします</td>
 				</tr>-->
 				<tr>
-					<td class="btn dot"><input type="button" name="button5" id="button5" value="不許可画像リスト" onclick="parent.bottom.width='1360px';parent.bottom.location.href='./photo_nopermis_list.php'" /></td>
-					<td class="dot">不許可画像リストの確認はここから</td>
+					<td class="btn dot"><input type="button" name="button5" id="button5" value="不許可画像・動画リスト" onclick="parent.bottom.width='1360px';parent.bottom.location.href='./photo_nopermis_list.php'" /></td>
+					<td class="dot">不許可画像・動画リストの確認はここから</td>
 				</tr>
 				<tr>
 					<td class="btn dot"><input type="button" name="button5" id="button6" value="一括更新" onclick="parent.bottom.width='1360px';parent.bottom.location.href='./uploadexcel.php'" /></td>

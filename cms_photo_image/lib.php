@@ -176,7 +176,7 @@ function db_connect()
  **/
 function error_exit($msg)
 {
-	// エラーが有った場合は、エラー画面を表示します�?
+	// エラーが有った場合は、エラー画面を表示します ?
 	global $charset;
 	global $site_name;
 
@@ -855,6 +855,7 @@ class FileUpload
 				list($width, $height, $type, $attr) = $size;
 				$this->img_width[] = $width;
 				$this->img_height[] = $height;
+
 				//create webp image
 				if($type == IMAGETYPE_JPEG){
 					$image = imagecreatefromjpeg($this->svfullpath[0]);
@@ -866,7 +867,6 @@ class FileUpload
 					@imagewebp($image, $tmp2_webp);
 				}
 
-				#pc_sp($width,$height,$path);
 				// クレジットを書き込みます。
 				/*
 				if (!empty($this->credit))
@@ -904,7 +904,6 @@ class FileUpload
 		}
 		else
 		{
-			//$this->file['tmp_name'], $tmppath
 			$this->result = false;
 			$this->message = "ファイルのアップロードに失敗しました。（move_upload_fileエラー)".$this->file['tmp_name'].'移动到'.$tmppath;
 			throw new Exception($this->message);
@@ -1019,7 +1018,6 @@ class FileUpload
         }
         return $result;
     }
-
 	/**
 	 * サムネイルを作成します。
 	 *  元ファイルと縦・横同じ比率で作成します。
@@ -1778,7 +1776,7 @@ class FileUploadBatch
 
 				// 画像の一部を透かしイメージにします。
 				imagefilledrectangle ($img , $alpha_x1 , $alpha_y1, $alpha_x2, $alpha_y2, $alpha);
-
+				
 				if($i==2) $tmp_telop_text = mb_substr($telop_text,0,16,"utf-8");
 				if($i==1) $tmp_telop_text = mb_substr($telop_text,16,16,"utf-8");
 
@@ -2713,9 +2711,11 @@ class PhotoImageData
 	var $image5;									// バイナリを変換したイメージ（サムネイル4）
 	var $comp_code;									// ユーザー管理番号
 	//xu add it on 2010-12-01 start
+	var $renpoji_number;							//レンポジ番号
 	var $photo_url;									//page url
 	var $photo_org_no;								//元画像番号
 	//xu add it on 2010-12-01 end
+	var $movie_poster;								//動画ポスター
 
 	function __construct() {
 		// タイムゾーンを設定します。
@@ -2808,6 +2808,8 @@ class PhotoImageData
 		$this->keyword_str = "";					// キーワード
 		$this->registration_classifications = new RegistrationClassifications();
 													// 登録分類
+		$this->renpoji_number="";
+		$this->movie_poster="";
 	}
 
 	/**
@@ -2878,7 +2880,9 @@ class PhotoImageData
 		$this->image2 = $imgdata['image2'];																			// バイナリを変換したイメージ（サムネイル1）
 		$this->image3 = $imgdata['image3'];																			// バイナリを変換したイメージ（サムネイル2）
 		$this->image4 = $imgdata['image4'];																			// バイナリを変換したイメージ（サムネイル3）
-		$this->image5 = $imgdata['image5'];																			// バイナリを変換したイメージ（サムネイル4）
+		$this->image5 = $imgdata['image5'];																			// バイナリを変換したイメージ（サムネイル4）	
+		$this->renpoji_number = $imgdata['renpoji_number'];															// レンポジ番号
+		$this->movie_poster = $imgdata['movie_poster'];															    // 動画ポスター
 		//xu add it on 2010-12-01 start
 		$this->photo_org_no = $imgdata['photo_org_no'];
 		$this->photo_url = $imgdata['photo_url'];
@@ -4737,11 +4741,9 @@ class PhotoImageDB extends PhotoImageData
 			}
 		}
 	}
-
 	//jinxin add 2012/02/09 start
-
 	function get_nopermit_log($db_link,$pid,&$p_mno,&$p_photoname,&$photo_explanation,&$bud_photo_no,&$date_from,&$date_to,&$nopermission)
-	{
+		{
 		//$sql = "SELECT photo_mno,photo_name FROM photoimg WHERE photo_id = ?";//yupengbo comment 2011/11/18
 		$sql = "SELECT photo_mno,photo_name,photo_explanation,bud_photo_no,dfrom,dto,nopermit_note FROM photoimg WHERE photo_id = ?";
 		//yupengbo modify 2011/11/18 end
@@ -4786,7 +4788,6 @@ class PhotoImageDB extends PhotoImageData
 	}
 
 	//jinxin add 2012/02/09 end
-
 	//yupengbo add 2011/12/12 start
 	/*
 	 * 関数名：get_photo_ext
@@ -4882,7 +4883,6 @@ class PhotoImageDB extends PhotoImageData
 			}
 		}
 	}
-
 	//yupengbo add 2011/12/12 end
 
 	/*
@@ -6199,7 +6199,6 @@ class PhotoImageLog
 	}
 }
 //yupengbo add 2011/11/17
-
 //jinxin add 2012/02/07 start
 class PhotoImageNopermit
 {
@@ -6273,8 +6272,8 @@ class ImageSearch
 	var $sp_country_prefecture_id;						// 国・都道府県
 	var $sp_place_id;									// 地名
 	var $sp_monopoly_use;								// 独占使用
-	var $sp_login_id;                                   // 当前登录用户
-	var $sp_nopermission_reason;						// no permit reason add by jinxin 2012/02/07
+	var $sp_login_id;                                    // 当前登录用户
+	var $sp_nopermission_reason;						//no permission reason add by jinxin 2012/02/10
 
 	var $images;										// イメージのインスタンス保存用（配列）
 	var $imagescount;									// 	イメージ総数
@@ -6332,7 +6331,7 @@ class ImageSearch
 		$sp_country_prefecture_id = "";						// 国・都道府県
 		$sp_place_id = "";									// 地名
 		$sp_monopoly_use = "";								// 独占使用
-		$this->sp_login_id = "";                            // 当前登录用户
+		$this->sp_login_id = "";                           // 当前登录用户
 
 		$this->images = array();							// イメージのインスタンス保存用
 		$this->imagescount = 0;								// イメージ総数
@@ -6598,6 +6597,7 @@ class ImageSearch
 
 		// Group Byを設定します。
 		//$sql .= "group by photoimg.photo_id, photoimg.photo_mno ";
+
 		return $sql;
 	}
 
@@ -6610,19 +6610,8 @@ class ImageSearch
 	 * sp_str_content:選択の検索条件（詳細検索）
 	 * 戻り値：無し
 	 */
-	#liucongxu2
-	function select_image_keyword($db_link,$sp_str,$sp_str_content,$p_tmp_kikan)
+	function select_image_keyword($db_link,$sp_str,$sp_str_content,$p_tmp_kikan,$media_type)
 	{
-
-		// echo '第1个值';
-		// var_dump($db_link);
-		// echo '第2个值';
-		// echo $sp_str;
-		// echo '第3个值';
-		// echo $sp_str_content;
-		// echo '第4个值';
-		// echo $p_tmp_kikan;
-		// echo 'end';
 		$sql_where = "";
 		$sql = "";
 		$tmpsql2_1 = "";
@@ -6630,37 +6619,6 @@ class ImageSearch
 
 		if (!empty($sp_str))
 		{
-			// 検索内容の文字列（「or」で区切り）→配列に変換します。
-//			$flg1 = stripos($sp_str," or ");
-//			$flg2 = stripos($sp_str,"　or ");
-//			$flg3 = stripos($sp_str," or　");
-//			$flg4 = stripos($sp_str,"　or　");
-//			if ($flg1 || $flg2 || $flg3 || $flg4)
-//			{
-//				// 正常のSQL文は以下のようなSQL文です。
-//				/*
-//					SELECT DISTINCT photo_id FROM keyword WHERE
-//					keyword_name COLLATE utf8_bin LIKE '２月%' OR
-//					keyword_name COLLATE utf8_bin LIKE '８月%'
-//				*/
-//				if ($flg1) $kwd_a = spliti(" or ", $sp_str);
-//				if ($flg2) $kwd_a = spliti("　or ", $sp_str);
-//				if ($flg3) $kwd_a = spliti(" or　", $sp_str);
-//				if ($flg4) $kwd_a = spliti("　or　", $sp_str);
-//				$ed = count($kwd_a);
-//				for ($i = 0 ; $i < $ed ; $i++)
-//				{
-//					if (!empty($sql_where) && !empty($kwd_a[$i]))
-//					{
-//						 $sql_where.= " OR ";
-//					}
-//					if (!empty($kwd_a[$i]))
-//					{
-//						$sql_where.= "keyword_name LIKE '%".$kwd_a[$i]."%'";
-//					}
-//				}
-//				$sql = " SELECT DISTINCT photo_id FROM keyword WHERE ".$sql_where;
-//			} else {
 				// 文字列に「-」をあるかどうかチェックする
 				$tmpstr = "_".$sp_str;
 				$flg = stripos($tmpstr,"\"");
@@ -6814,12 +6772,22 @@ class ImageSearch
 				$sql .= " AND photoimg.kikan = 'mukigen')";
 			}
 		}
+		
+		if(empty($media_type) || $media_type=='photo'){
+			$sql .= " AND (photoimg.renpoji_number is null or photoimg.renpoji_number='')";
+		}else{
+			if($media_type=="video")
+			{
+				$sql .= " AND (photoimg.renpoji_number is not null and photoimg.renpoji_number <>'')";
+			}
+		}
 
 		$sqlcount = $sql;
 
 		$sql .= " ORDER BY keyword.photo_id DESC";
 		$tmpistart = (int)$this->istart;
 		$tmpend = (int)$this->iend;
+
 		if ($tmpistart >= 0 && $tmpend > 0)
 		{
 			$sql .= " LIMIT ".$this->istart.",".$this->iend;
@@ -6848,12 +6816,14 @@ class ImageSearch
 			}
 
 			$sp_p_id = "";
+
 			if ((int)$this->istart >= 0 && (int)$this->iend > 0)
 			{
 				$tmpend = $this->iend - $this->istart;
 			} else {
 				$tmpend = 0;
 			}
+
 			$tmpi = 0;
 			while($image_data = $stmt->fetch(PDO::FETCH_ASSOC))
 			{
@@ -6869,8 +6839,7 @@ class ImageSearch
 				$sp_p_id = $sp_p_id.$image_data['photo_id'].",";
 			}
 			$sp_p_id = substr($sp_p_id,0,strlen($sp_p_id) - 1);
-			#echo $sp_p_id;
-			#'liucongxu';
+			//echo $sp_p_id;
 			$this->sp_photo_id_str = $sp_p_id;
 			$this->select_image($db_link,"");
 		}
@@ -6909,6 +6878,7 @@ class ImageSearch
 		{
 			// 処理数を取得します。
 			$icount = $stmt->rowCount();
+
 			// 選択されたデータ数が１かどうかチェックします。
 			if ($icount > 0)
 			{
@@ -6966,7 +6936,7 @@ class ImageSearch
 		return $this->images;
 	}
 //added by wangtongchao 2011-12-13 end
- 	function select_image($db_link, $p_tmp_kikan)
+	function select_image($db_link, $p_tmp_kikan, $media_type)
 	{
 		// SQLをセットします。
 		$sql = $this->set_sql();
@@ -6974,8 +6944,6 @@ class ImageSearch
 		$optset = false;
 
 		// 写真番号
-		#echo $this->sp_photo_id_str;
-		#$this->sp_photo_id_str = '';
 		if (!empty($this->sp_photo_id_str))
 		{
 			$sql .= " WHERE photo_id IN (".$this->sp_photo_id_str.") ";
@@ -6993,8 +6961,6 @@ class ImageSearch
 			{
 				$sql .= " AND ";
 			}
-			//$sql .= "photo_mno LIKE ? ";
-			//$opt[] = $this->sp_photo_mno;
 			$sql .= "photo_mno COLLATE utf8_bin LIKE ".$this->sp_photo_mno;
 			$optset = true;
 		}
@@ -7077,12 +7043,6 @@ class ImageSearch
 			$sql .= "photoimg.borrowing_ahead_id=" . $tmp[0];
 			if (count($tmp) > 1)
 			{
-				//if (substr($tmp[1],0,1) == "*")
-				//{
-				//	$sql .= " AND photoimg.content_borrowing_ahead COLLATE utf8_bin LIKE '%".substr($tmp[1],1)."%'";
-				//} else {
-				//	$sql .= " AND photoimg.content_borrowing_ahead COLLATE utf8_bin LIKE '".$tmp[1]."%'";
-				//}
 				$sql .= " AND photoimg.content_borrowing_ahead COLLATE utf8_bin LIKE '%".$tmp[1]."%'";
 			}
 			$optset = true;
@@ -7106,12 +7066,6 @@ class ImageSearch
 			{
 				if (!empty($tmp[1]))
 				{
-					//if (substr($tmp[1],0,1) == "*")
-					//{
-					//	$sql .= " AND use_condition COLLATE utf8_bin LIKE '%".substr($tmp[1],1)."%'";
-					//} else {
-					//	$sql .= " AND use_condition COLLATE utf8_bin LIKE '".$tmp[1]."%'";
-					//}
 					$sql .= " AND use_condition COLLATE utf8_bin LIKE '%".$tmp[1]."%'";
 				}
 			}
@@ -7240,12 +7194,6 @@ class ImageSearch
 			{
 				$sql .= "bud_photo_no = NULL OR bud_photo_no = '' OR bud_photo_no = null OR bud_photo_no = \"\"";
 			} else {
-				//if (substr($this->sp_bud_photo_no,0,1) == "*")
-				//{
-				//	$sql .= "bud_photo_no COLLATE utf8_bin LIKE '%".substr($this->sp_bud_photo_no,1)."%'";
-				//} else {
-				//	$sql .= "bud_photo_no COLLATE utf8_bin LIKE '".$this->sp_bud_photo_no."%'";
-				//}
 				$sql .= "bud_photo_no COLLATE utf8_bin LIKE '%".$this->sp_bud_photo_no."%'";
 			}
 			$optset = true;
@@ -7266,6 +7214,33 @@ class ImageSearch
 			$optset = true;
 		}
 
+		if(empty($media_type) || $media_type=='photo'){
+			if ($optset == false)
+			{
+				$sql .= " WHERE ";
+			}
+			else
+			{
+				$sql .= " AND ";
+			}
+			$sql .= "(photoimg.renpoji_number is null or photoimg.renpoji_number='') ";
+			$optset = true;
+		}else{
+			if($media_type=="video")
+			{
+				if ($optset == false)
+				{
+					$sql .= " WHERE ";
+				}
+				else
+				{
+					$sql .= " AND ";
+				}
+				$sql .= "(photoimg.renpoji_number is not null and photoimg.renpoji_number <>'') ";
+				$optset = true;
+			}
+		}
+		
 		// 登録許可者
 		if (!empty($this->sp_permission_person))
 		{
@@ -7298,9 +7273,6 @@ class ImageSearch
 			$sql .= " AND (POSITION( customer_section COLLATE utf8_bin IN '".$tmp_customer."' ) >0 ";
 			$sql .= " OR POSITION( customer_name COLLATE utf8_bin IN '".$tmp_customer."' ) >0) ";
 			$optset = true;
-//			$sql .= "( customer_section COLLATE utf8_bin LIKE ".$this->sp_customer_info;
-//			$sql .= " OR customer_name COLLATE utf8_bin LIKE ".$this->sp_customer_info.")";
-//			$optset = true;
 		}
 
 		// 海外、国内、イメージ
@@ -7345,14 +7317,6 @@ class ImageSearch
 			}
 			// --------WHERE SQL文を構築する（開始）--------------------------------------
 			// 正常のSQL文は以下のようなSQL文です。
-			/*
-				photo_id IN (
-					SELECT photoid FROM registration_classification WHERE direction_id IN
-					(
-						SELECT direction_id FROM direction WHERE direction_name like '%中国%'
-					)
-				)
-			*/
 			$sql1 = "SELECT photo_id FROM registration_classification WHERE direction_id IN(";
 			$sql2 = "SELECT direction_id FROM direction WHERE direction_name COLLATE utf8_bin like".$this->sp_direction_id;
 			$sql3 = $sql1.$sql2.")";
@@ -7374,14 +7338,6 @@ class ImageSearch
 			}
 			// --------WHERE SQL文を構築する（開始）--------------------------------------
 			// 正常のSQL文は以下のようなSQL文です。
-			/*
-				photo_id IN (
-					SELECT photoid FROM registration_classification WHERE country_prefecture_id IN
-					(
-						SELECT country_prefecture_id FROM country_prefecture WHERE country_prefecture_name like '%中国%'
-					)
-				)
-			*/
 			$sql1 = "SELECT photo_id FROM registration_classification WHERE country_prefecture_id IN(";
 			$sql2 = "SELECT country_prefecture_id FROM country_prefecture WHERE country_prefecture_name COLLATE utf8_bin like".$this->sp_country_prefecture_id;
 			$sql3 = $sql1.$sql2.")";
@@ -7403,14 +7359,6 @@ class ImageSearch
 			}
 			// --------WHERE SQL文を構築する（開始）--------------------------------------
 			// 正常のSQL文は以下のようなSQL文です。
-			/*
-				photo_id IN (
-					SELECT photoid FROM registration_classification WHERE place_id IN
-					(
-						SELECT place_id FROM place WHERE place_name like '%中国%'
-					)
-				)
-			*/
 			$sql1 = "SELECT photo_id FROM registration_classification WHERE place_id IN(";
 			$sql2 = "SELECT place_id FROM place WHERE place_name COLLATE utf8_bin like".$this->sp_place_id;
 			$sql3 = $sql1.$sql2.")";
@@ -7432,19 +7380,6 @@ class ImageSearch
 			}
 			// --------WHERE SQL文を構築する（開始）--------------------------------------
 			// 正常のSQL文は以下のようなSQL文です。
-			/*
-				photo_id IN (
-					SELECT photo_id FROM keyword WHERE keyword_name like '%中国%'
-					AND keyword_name
-					IN (
-					SELECT category_name
-					FROM category
-					WHERE category_name
-					COLLATE utf8_bin LIKE '%物%'
-					)
-				)
-			*/
-			#echo $this->sp_keyword_str;
 			$sql1 = "SELECT photo_id FROM keyword WHERE keyword_name COLLATE utf8_bin LIKE".$this->sp_keyword_str;
 			$sql1 .= " AND keyword_name IN (";
 			$sql1 .= "SELECT category_name FROM category WHERE category_name COLLATE utf8_bin LIKE".$this->sp_keyword_str.")";
@@ -7521,7 +7456,6 @@ class ImageSearch
 		//2008-12-22 debug
 		$sql .= " photoimg.publishing_situation_id = 2";
 
-		//$sql .= " photoimg.publishing_situation_id = 2 OR photoimg.publishing_situation_id = 1";
 		if(!empty($p_tmp_kikan))
 		{
 			if((int)$p_tmp_kikan == 3)
@@ -7555,18 +7489,15 @@ class ImageSearch
 				$sql .= " LIMIT ".$this->istart.",".$this->iend;
 			}
 		}
-		#echo $sql;
+
 		$stmt = $db_link->prepare($sql);
-		#var_dump($stmt);
 		$result = $stmt->execute();
 		if ($result == true)
 		{
 			#liucongxu1011
-			#echo 'result=true';
 			// 処理数を取得します。
-			#echo $sql;
 			$icount = $stmt->rowCount();
-			#echo 'icount='.$icount;
+
 			#liucongxu20211
 			// 選択されたデータ数が１かどうかチェックします。
 			if ($icount > 0)
@@ -7586,17 +7517,13 @@ class ImageSearch
 				}
 
 				$this->images = array();
-				//if (!empty($this->istart) && !empty($this->iend))
-				//{
+
 					if ((int)$this->istart >= 0 && (int)$this->iend > 0)
 					{
 						$tmpend = $this->iend - $this->istart;
 					} else {
 						$tmpend = 0;
 					}
-				//} else {
-				//	$tmpend = 0;
-				//}
 
 				$tmpi = 0;
 				while($image_data = $stmt->fetch(PDO::FETCH_ASSOC))
@@ -7623,7 +7550,6 @@ class ImageSearch
 			$err = $stmt->errorInfo();
 			$this->message = "画像の読み込みに失敗しました。（条件設定エラー）";
 			throw new Exception($this->message);
-			//echo $err[2];
 		}
 
 		return $this->images;
@@ -7848,7 +7774,6 @@ class ImageSearch
 	{
 		// SQLをセットします。
 		$sql = $this->set_sql();
-		//$sql .= " WHERE photo_mno = \"申請中\"";
 		$sql .= " WHERE photoimg.publishing_situation_id = 2";
 		//yupengbo add 2011/11/14 start
 		if(!empty($where)) {
@@ -7863,12 +7788,7 @@ class ImageSearch
 			$sql .= " ORDER BY photo_id ";
 		}
 		//yupengbo add 2011/11/15 end
-		//$sql .= " ORDER BY photo_id ";//yupengbo comment 2011/11/15
-//echo($sql);
-//echo($sel_data);
-//exit;
-		//if (!empty($this->istart) && !empty($this->iend))
-		//{
+
 			$tmpistart = (int)$this->istart;
 			$tmpend = (int)$this->iend;
 
@@ -7876,8 +7796,7 @@ class ImageSearch
 			{
 				$sql .= " LIMIT ".$this->istart.",".$this->per_page;
 			}
-		//}
-//		echo $sql;
+
 		$this->images = array();
 		// 条件を設定します。
 		$stmt = $db_link->prepare($sql);
@@ -7890,9 +7809,6 @@ class ImageSearch
 			// 選択されたデータ数が１かどうかチェックします。
 			if ($icount > 0)
 			{
-				error_log(date('Y-m-d H:i:s') .
-                'sql语句：' . $sql . PHP_EOL . 'num:' . $icount . PHP_EOL,
-                3, 'aaaa.log');
 				$this->images = array();
 				if (!empty($this->istart) && !empty($this->iend))
 				{
@@ -7951,7 +7867,6 @@ class ImageSearch
 		// 条件を設定します。
 		$stmt = $db_link->prepare($sql);
 		$result = $stmt->execute();
-		// echo $sql;
 		if ($result == true)
 		{
 			// 処理数を取得します。
@@ -7984,7 +7899,6 @@ class ImageSearch
 		return $this->images;
 	}
 	//yupengbo add 2011/11/17 end
-
 	//jinxin add 2012/02/07 start
 	function select_image_nopermit($db_link,$where="",$orderby="permit_date")
 	{

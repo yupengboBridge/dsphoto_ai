@@ -22,8 +22,8 @@ $db_link;
 // サイト情報
 $site_name = '写真管理システム';
 
-$site_url = 'http://cmsphotoimg.hcstec.com/';
-$image_url = 'http://cmsphotoimg.hcstec.com/';
+$site_url = 'http://photodb.hcstec.com/cms_photo_image/';
+$image_url = 'http://photodb.hcstec.com/cms_photo_image/';
 //$site_url = 'http://www.e-mon.vc/test/photo_db/';
 $login_page = $site_url . 'login.php';
 $logout_page = $site_url . 'logout.php';
@@ -49,7 +49,7 @@ $credit_fontsize = array(8, 10, 14, 16, 16, 16);						// -160, -320, -480, -640,
 $table_log_name = "photo_log_cms";//ログテーブル名前 yupengbo add 2011/11/21
 
 //$comp_code = '00000';
-
+$end_point = 'https://player-api.p.uliza.jp/v1/players/default-player/cread/hei?type=normal&name=';
 //
 //
 //

@@ -24,8 +24,8 @@ $db_link;
 
 // サイト情報
 $site_name = '写真管理システム';
-$site_url = 'http://photodb.hcstec.com/';
-$image_url = 'http://photodb.hcstec.com/';
+$site_url = 'http://photodb.hcstec.com/photo_db/';
+$image_url = 'http://photodb.hcstec.com/photo_db/';
 //$site_url = 'http://www.e-mon.vc/test/photodb1213/';
 $login_page = $site_url . 'login.php';
 $logout_page = $site_url . 'logout.php';
@@ -49,7 +49,7 @@ $font_name_batch = "/data/photo_db/sazanami-gothic.ttf";
 $credit_fontsize = array(8, 10, 14, 16, 16, 16);						// -160, -320, -480, -640, -800, 801-（変更しないで下さい）
 $table_log_name = "photo_log";//ログテーブル名前 yupengbo add 2011/11/21
 //$comp_code = '00000';
-
+$end_point = 'https://player-api.p.uliza.jp/v1/players/default-player/cread/hei?type=normal&name=';
 //
 //
 //

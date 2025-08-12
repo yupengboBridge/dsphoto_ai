@@ -1,5 +1,4 @@
 <?php
-
 require_once('./Pager.php');
 require_once('./config.php');
 require_once('./lib.php');
@@ -8,12 +7,14 @@ date_default_timezone_set('Asia/Tokyo');
 
 // セッション管理をスタートします。
 session_start();
+
 $s_login_id = array_get_value($_SESSION,'login_id' ,"");
 $s_login_name = array_get_value($_SESSION,'user_name' ,"");
 $s_security_level = array_get_value($_SESSION,'security_level' ,"");
 $comp_code = array_get_value($_SESSION,'compcode' ,"");
 $s_group_id = array_get_value($_SESSION,'group' ,"");
 $s_user_id = array_get_value($_SESSION,'user_id' ,"");
+
 //// for Debug
 //$s_user_id = 1;
 //$s_login_name = "BUD管理者";
@@ -55,11 +56,12 @@ $search_value_val2 = mb_convert_kana($search_value_val,"KV","UTF-8");
 $search_value = $search_value_val2;
 $syousai_content = urldecode(array_get_value($_REQUEST,"syousai_content",""));
 $c_array = urldecode(array_get_value($_REQUEST,"c_array",""));
+$media_type = urldecode(array_get_value($_REQUEST,"media_type",""));
 $p_kikan1 = array_get_value($_REQUEST, 'p_kikan' ,"");
 
 // 画面初期化フラグ
 $init_flg = array_get_value($_REQUEST,"init","");
-// echo $init_flg;
+
 // 開始行
 $startcnt = 0;
 // 終了行
@@ -73,6 +75,7 @@ $img_all = new ImageSearch();
 $db_link = null;
 
 $imagecount = 0;
+
 /*
  * 関数名：getSearchCount
  * 関数説明：検索結果の総数を表示する
@@ -163,6 +166,8 @@ function dispSelectValue()
 function ShowPagesList()
 {
 	global $index,$search_value,$syousai_content,$c_array,$pager_links,$imagecount,$p_kikan1;
+	global $media_type;
+
 	//ページングの処理---------------------------------------------------Start
 	$submit_url = "search_result.php?pageID=%d&ppage=".$GLOBALS["page_images_cnt"];
 	if (!empty($index)) $submit_url .= "&selIndex=".$index;
@@ -170,6 +175,8 @@ function ShowPagesList()
 	if (!empty($syousai_content)) $submit_url .= "&syousai_content=".urlencode($syousai_content);
 	if (!empty($c_array)) $submit_url .= "&c_array=".urlencode($c_array);
 	if (!empty($p_kikan1)) $submit_url .= "&p_kikan=".$p_kikan1;
+	if (!empty($media_type)) $submit_url .= "&media_type=".urlencode($media_type);
+
 	$submit_url .= "#hl";
 	// Pagerのパラメータを設定します。
 	$option = array(
@@ -219,6 +226,7 @@ function ShowPagesList()
 function ShowPageHeaderFooter($headFooterFlag)
 {
 	global $pager_links,$search_value,$syousai_content,$c_array,$init_flg;
+	global $media_type;
 
 	//ページングの処理------Start
 	//Pager
@@ -283,6 +291,8 @@ function ShowPageHeaderFooter($headFooterFlag)
 				}
 			}
 		}
+		if ($media_type=='photo' || empty($media_type)) $tmp .= "  画像";
+		if ($media_type=='video') $tmp .= "  動画";
 		$tmp1 = santen_reader("検索条件： ".$tmp,160);
 		print "		<div id='hl'><p>".$tmp1."</p></div>\r\n";
 		print "	</div>\r\n";
@@ -309,6 +319,7 @@ function ShowPageHeaderFooter($headFooterFlag)
 				}
 			}
 		}
+		if (!empty($media_type)) $tmp .= "  ".$media_type;
 		$tmp1 = santen_reader("検索条件： ".$tmp,160);
 		print "		<div id='hl'><p>".$tmp1."</p></div>\r\n";
 		print "	</div>\r\n";
@@ -467,6 +478,8 @@ function dateDiff($date1,$date2)
 function disp_img()
 {
 	global $change_value, $img_all, $index, $search_value, $init_flg, $syousai_content, $imagecount, $s_user_id, $p_kikan1 ;//2020新增 image_search_url
+	global $media_type;
+	
 	if ($init_flg != 1)
 	{
 		$tmpcur_page_global = (int)array_get_value($_REQUEST,"pageID","0");
@@ -506,21 +519,20 @@ function disp_img()
 			{
 				if ($init_flg != 1 && !empty($search_value) && !empty($syousai_content))
 				{
-					$img_all->select_image_keyword($db_link, $search_value, $syousai_content, $p_kikan1);
+					$img_all->select_image_keyword($db_link, $search_value, $syousai_content, $p_kikan1, $media_type);
 				} elseif ($init_flg != 1 && empty($search_value) && !empty($syousai_content)) {
-					$img_all->select_image_keyword($db_link, "", $syousai_content, $p_kikan1);
+					$img_all->select_image_keyword($db_link, "", $syousai_content, $p_kikan1, $media_type);
 				} elseif ($init_flg != 1 && !empty($search_value) && empty($syousai_content)) {
-					$img_all->select_image_keyword($db_link, $search_value, "", $p_kikan1);
-					#var_dump($img_all);
+					$img_all->select_image_keyword($db_link, $search_value, "", $p_kikan1, $media_type);
 				} elseif ($init_flg != 1 && empty($search_value) && empty($syousai_content)) {
 					$img_all->sp_photo_id_str = "";
-					$img_all->select_image($db_link, $p_kikan1);
+					$img_all->select_image($db_link, $p_kikan1, $media_type);
 				}
 			} elseif (!empty($syousai_content)) {
-				$img_all->select_image_keyword($db_link, "", $syousai_content, $p_kikan1);
+				$img_all->select_image_keyword($db_link, "", $syousai_content, $p_kikan1, $media_type);
 			} else {
 				$img_all->sp_photo_id_str = "";
-				$img_all->select_image($db_link, $p_kikan1);
+				$img_all->select_image($db_link, $p_kikan1, $media_type);
 			}
 
 			// イメージ総数を保存する
@@ -531,11 +543,12 @@ function disp_img()
 			$msg[] = $e->getMessage();
 			error_exit($msg);
 		}
-		#var_dump($img_all);
+
 		$img_ary = $img_all->images;
+
 		$ed = count($img_ary);
-		#var_dump($img_ary);
 	}
+
 	if ($init_flg == 1)
 	{
 		//へーだーの表示
@@ -662,10 +675,9 @@ function disp_img()
 	//イメージの表示処理--------------------------------------------------Start
 	print "<div id = \"photo_contents\" class=\"photo_contents\">\r\n";
 	$ph_img_all = new PhotoImageDataAll();
+
 	$groupcnt = 0;
-	#liucongxu2021
-	#echo count($img_ary);
-	#var_dump($img_ary);
+
 	$db_link = db_connect();
 	for ($i = 0 ; $i < count($img_ary) ; $i++)
 	{
@@ -737,7 +749,7 @@ function disp_img()
 //				continue;
 //			}
 //		}
-		
+
 		$groupcnt = $groupcnt + 1;
 
 		if ($groupcnt == 1)
@@ -796,80 +808,19 @@ function disp_img()
 				}
 			}
 		}
-		if (!empty($ph_img_all->photo_mno))
-		{
-		// 	//jpg格式
-		// 	$webp = strpos($_SERVER['HTTP_ACCEPT'], 'image/webp');
-		// 	define('IS_WEBP', $webp === false ? 0 : 1);
-		// 	if(IS_WEBP == '0'){
-		// 		$webp_ext = pathinfo(dp(santen_reader($ph_img_all->photo_mno, 23)), PATHINFO_EXTENSION);
-		// 			if($webp_ext == 'webp'){
-		// 			$file_only_name_array = explode('.webp',
-		// 				dp(santen_reader($ph_img_all->photo_mno, 23)));
-		// 			$A = $file_only_name_array[0].'.jpg';
-  //   				//$ph_img_all->up_url[3] = $file_only_name_array[0].'.jpg';
-  //   				print "<dt class='".$class_name."'>". $A ."</dt>\r\n";
-		// 		}
-		// 	}else{
-		// 	print "<dt class='".$class_name."'>". dp(santen_reader($ph_img_all->photo_mno, 23)) ."</dt>\r\n";}
-		// }
-
-			print "<dt class='".$class_name."'>". dp(santen_reader($ph_img_all->photo_mno, 23)) ."</dt>\r\n";}
-		else
-		{
-			print "<dt class='".$class_name."'>　</dt>\r\n";
+		if(!empty($ph_img_all->renpoji_number)){
+			print "<dt class='".$class_name."'>". dp(santen_reader($ph_img_all->renpoji_number, 23)) ."</dt>\r\n";
+		}else{
+			if (!empty($ph_img_all->photo_mno))
+			{
+				print "<dt class='".$class_name."'>". dp(santen_reader($ph_img_all->photo_mno, 23)) ."</dt>\r\n";
+			}
+			else
+			{
+				print "<dt class='".$class_name."'>　</dt>\r\n";
+			}
 		}
-		//wangtongchao 2011/08/22 add end
-		//wangtongchao 2011/08/22 delete start
-//		if((int)$retval > 0 && (int)$retval <= 90 && $retval_to >= 0 && $retval_from >= 0)
-//		{
-//			if (!empty($ph_img_all->photo_mno))
-//			{
-//				print "<dt class='number three_months'>". dp(santen_reader($ph_img_all->photo_mno, 23)) ."</dt>\r\n";
-//			}
-//			else
-//			{
-//				print "<dt class='number'>　</dt>\r\n";
-//			}
-//		} elseif((int)$retval > 0 && (int)$retval > 90 && (int)$retval <= 180 && $retval_to >= 0 && $retval_from >= 0) {
-//			if (!empty($ph_img_all->photo_mno))
-//			{
-//				print "<dt class='number six_months'>". dp(santen_reader($ph_img_all->photo_mno, 23)) ."</dt>\r\n";
-//			}
-//			else
-//			{
-//				print "<dt class='number'>　</dt>\r\n";
-//			}
-//		//2009/06/30 仕様変更　開始-----------------------------------------------------------------------
-//		//本日が掲載終了日のものについて、赤い帯がでなくなっています。
-//		} elseif((int)$retval == 0) {
-//			if (!empty($ph_img_all->photo_mno))
-//			{
-//				print "<dt class='number three_months'>". dp(santen_reader($ph_img_all->photo_mno, 23)) ."</dt>\r\n";
-//			}
-//			else
-//			{
-//				print "<dt class='number'>　</dt>\r\n";
-//			}
-//		//2009/06/30 仕様変更　終了-----------------------------------------------------------------------
-//		} else {
-//			if (!empty($ph_img_all->photo_mno))
-//			{
-//				print "<dt class='number'>". dp(santen_reader($ph_img_all->photo_mno, 23)) ."</dt>\r\n";
-//			}
-//			else
-//			{
-//				print "<dt class='number'>　</dt>\r\n";
-//			}
-//		}
-		//wangtongchao 2011/08/22 delete end
-		//-------------------------------------------------------------------------------------------------------------
-		
-		//yupengbo modify 20110105 start
-		//changed by wangtongchao 2011-12-06 begin up_url[3]->up_url[3]."?".time().
-		//图片显示
-		# 判断浏览器是否支持webp解析 1支持  0不支持
-		
+
 		$webp = strpos($_SERVER['HTTP_ACCEPT'], 'image/webp');
 		define('IS_WEBP', $webp === false ? 0 : 1);
 		if(IS_WEBP == '0'){
@@ -879,37 +830,59 @@ function disp_img()
     			$ph_img_all->up_url[3] = $file_only_name_array[0].'.jpg';
 			}
 		}
-		if (!empty($tmpclsname))
-		{
-			if ($tmpclsname == "photo200")
+		$renpoji = isset($ph_img_all->renpoji_number) ? $ph_img_all->renpoji_number : null;
+		if ($renpoji === null || trim((string)$renpoji) === '') {
+			if (!empty($tmpclsname))
 			{
-				$tmp_height = 200 / 4 * 3;
-				//print "<dd><img height='".$tmp_height."px' width='200px' src=".$ph_img_all->up_url[2]." alt='イメージ'/></dd>\r\n";
-				//print "<dd><img height='".$tmp_height."px' width='200px' src=".$ph_img_all->up_url[3]." alt='イメージ'/></dd>\r\n";
-				print "<dd><img height='".$tmp_height."px' width='200px' src=".$ph_img_all->up_url[3]."?".time()." alt='イメージ'/></dd>\r\n";
-			} elseif ($tmpclsname == "photo140") {
 				$tmp_height = 140 / 4 * 3;
-				//print "<dd><img height='".$tmp_height."px' width='140px' src=".$ph_img_all->up_url[2]." alt='イメージ'/></dd>\r\n";
-				//print "<dd><img height='".$tmp_height."px' width='140px' src=".$ph_img_all->up_url[3]." alt='イメージ'/></dd>\r\n";
-				print "<dd><img height='".$tmp_height."px' width='140px' src=".$ph_img_all->up_url[3]."?".time()." alt='イメージ'/></dd>\r\n";
-			} elseif ($tmpclsname == "photo100") {
-				$tmp_height = 100 / 4 * 3;
-				//print "<dd><img height='".$tmp_height."px' width='100px' src=".$ph_img_all->up_url[2]." alt='イメージ'/></dd>\r\n";
-				//print "<dd><img height='".$tmp_height."px' width='100px' src=".$ph_img_all->up_url[3]." alt='イメージ'/></dd>\r\n";
-				print "<dd><img height='".$tmp_height."px' width='100px' src=".$ph_img_all->up_url[3]."?".time()." alt='イメージ'/></dd>\r\n";
-			} else {
-				$tmp_height = 140 / 4 * 3;
-				//print "<dd><img height='".$tmp_height."px' width='140px' src=".$ph_img_all->up_url[2]." alt='イメージ'/></dd>\r\n";
-				//print "<dd><img height='".$tmp_height."px' width='140px' src=".$ph_img_all->up_url[3]." alt='イメージ'/></dd>\r\n";
+				$tmp_width = "";
+				if ($tmpclsname == "photo200")
+				{
+					$tmp_height = 200 / 4 * 3;
+					$tmp_width = "200px";
+				} elseif ($tmpclsname == "photo140") {
+					$tmp_width = "140px";
+				} elseif ($tmpclsname == "photo100") {
+					$tmp_height = 100 / 4 * 3;
+					$tmp_width = "100px";
+				}
+			}
+
+			if(!empty($tmp_width)){
+				print "<dd><img height='".$tmp_height."px' width='".$tmp_width."' src=".$ph_img_all->up_url[3]."?".time()." alt='イメージ'/></dd>\r\n";
+			}else{
 				print "<dd><img height='".$tmp_height."px' src=".$ph_img_all->up_url[3]."?".time()." alt='イメージ'/></dd>\r\n";
 			}
-		} else {
+		}else{
 			$tmp_height = 140 / 4 * 3;
-			//print "<dd><img height='".$tmp_height."px' width='140px' src=".$ph_img_all->up_url[2]." alt='イメージ'/></dd>\r\n";
-			//print "<dd><img height='".$tmp_height."px' width='140px' src=".$ph_img_all->up_url[3]." alt='イメージ'/></dd>\r\n";
-			print "<dd><img height='".$tmp_height."px' src=".$ph_img_all->up_url[3]."?".time()." alt='イメージ'/></dd>\r\n";
+			$tmp_width = "";
+
+			if (!empty($tmpclsname))
+			{
+				if ($tmpclsname == "photo200")
+				{
+					$tmp_height = 200 / 4 * 3;
+					$tmp_width = "200px";
+				} elseif ($tmpclsname == "photo140") {
+					$tmp_width = "140px";
+				} elseif ($tmpclsname == "photo100") {
+					$tmp_height = 100 / 4 * 3;
+					$tmp_width = "100px";
+				}
+			}
+			if(!empty($tmp_width)){
+				print "<dd><span class='thumb-with-play' style='width:".$tmp_width.";height:".$tmp_height."px;'>";
+				print "  <img src=\"".$ph_img_all->movie_poster."\" alt='イメージ'/>";
+				print "  <span class='play-icon' aria-hidden='true'></span>";
+				print "</span></dd>\r\n";
+			}else{
+				print "<dd><span class='thumb-with-play' style='height:".$tmp_height."px;'>";
+				print "  <img src=\"".$ph_img_all->movie_poster."\" alt='イメージ'/>";
+				print "  <span class='play-icon' aria-hidden='true'></span>";
+				print "</span></dd>\r\n";
+			}
 		}
-		//changed by wangtongchao 2011-12-06 end
+
 		//web add liucogxu 
 		print "<dd class='list'>\r\n";
 		print "<ul>\r\n";
@@ -927,8 +900,6 @@ function disp_img()
 		#print $pc_img;
 		print "</ul>\r\n";
 		print "</dd>\r\n";
-		
-
 		if (!empty($ph_img_all->photo_name))
 		{
 			print "<dd class='p_name'>".dp(santen_reader($ph_img_all->photo_name,13))."</dd>\r\n";
@@ -981,7 +952,6 @@ function disp_img()
 		}
 	}
 	print "</div>\r\n";
-
 	//イメージの表示処理--------------------------------------------------End
 
 	//フッターの表示
@@ -1041,6 +1011,42 @@ function disp_img()
 <!--CSSリンク　ここから-->
 <link rel="stylesheet" href="./css/master.css" type="text/css" media="all" />
 <style type="text/css">
+	.thumb-with-play {
+		position: relative;
+		display: inline-block;
+		/* 幅・高さはHTML側で指定可（例: width:200px;height:120px） */
+		overflow: hidden;
+	}
+
+	.thumb-with-play img {
+		width: 100%;
+		height: 100%;
+		display: block;
+		object-fit: cover; /* 必要に応じて */
+	}
+
+	/* 中央の赤い三角アイコン */
+	.thumb-with-play .play-icon {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		/* 三角形をborderで描画 */
+		width: 0;
+		height: 0;
+		border-left: 30px solid #e14242;        /* 三角の色（赤） */
+		border-top: 15px solid transparent;   /* 三角の上辺透明 */
+		border-bottom: 15px solid transparent;/* 三角の下辺透明 */
+		opacity: 0.9;
+		pointer-events: none; /* クリック透過 */
+	}
+
+	/* あると嬉しい: ホバーで少し強調 */
+	.thumb-with-play:hover .play-icon {
+		filter: drop-shadow(0 0 6px rgba(0,0,0,.5));
+		transform: translate(-50%, -50%) scale(1.05);
+	}
+
 	.aa.hover { background-color:#224272; }
 	.sppc {
 		width: 20px;
@@ -1110,6 +1116,19 @@ if (!empty($GLOBALS["c_array"]))
 	print "var g_c_array = '';";
 }
 
+if (!empty($GLOBALS["media_type"]))
+{
+	$tmpstr = "__".$GLOBALS["media_type"];
+	$flg = stripos($tmpstr,"\"");
+	if ($flg)
+	{
+		print "var g_media_type = ".$GLOBALS["media_type"].";\r\n";
+	} else {
+		print "var g_media_type = \"".$GLOBALS["media_type"]."\";\r\n";
+	}
+} else {
+	print "var g_media_type = '';";
+}
 
 if (!empty($GLOBALS["init_flg"]))
 {
@@ -1178,7 +1197,6 @@ function init_clip()
 		}
 	}
 }
-
 
 function setClipboard(pid) {
 	var objkey = "code"+pid;
@@ -1328,6 +1346,11 @@ function select_change(obj)
 	{
 		if (url1.length > 0) url1 = url1 + "&c_array=" + encodeURIComponent(g_c_array);
 		else url1 = url1 + "?c_array=" + encodeURIComponent(g_c_array);
+	}
+	if (g_media_type.length > 0)
+	{
+		if (url1.length > 0) url1 = url1 + "&media_type=" + encodeURIComponent(g_media_type);
+		else url1 = url1 + "?media_type=" + encodeURIComponent(g_media_type);
 	}
 
     if(p_kikan.length >0){

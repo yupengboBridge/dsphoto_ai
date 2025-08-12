@@ -1,7 +1,6 @@
 <?php
 require_once('./config.php');
 require_once('./lib.php');
-
 // セッション管理をスタートします。
 session_start();
 
@@ -174,7 +173,7 @@ window.onload = init;
 		<div>
 			<div>
 				<h1 style="height: 40px;">BUD PHOTO WEB</h1>
-				<span style="position: absolute;top: 43px;left: 15px;font-size: 15px;">Ver2.2.0</span>
+				<span style="position: absolute;top: 43px;left: 15px;font-size: 15px;">Ver3.0.0</span>
 			</div>
 			<ul id="navi_menu">
 				<li class="search"><a href="#" onclick='go_search();' title="画面検索" >画面検索</a></li>

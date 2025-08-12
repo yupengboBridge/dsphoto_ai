@@ -70,7 +70,7 @@ catch(Exception $e)
 <html xmlns="https://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>画像表示</title>
+<title>画像・動画表示</title>
 <meta name="Keywords" content="キーワードが入ります" />
 <meta name="Description" content="" />
 <meta http-equiv="content-style-type" content="text/css" />
@@ -117,6 +117,15 @@ catch(Exception $e)
 			font-weight: bold;
 			pointer-events: none; /* テキストがクリックを邪魔しないように */
 			user-select: none;
+		}
+		.uliza-player{
+			width:640px;
+			max-width:100%;
+			aspect-ratio:16/9;
+			text-align: center;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			display: inline-block;
 		}
     </style>
 <!--CSSリンク　ここまで-->
@@ -812,6 +821,7 @@ function getCurrentPageUrl() {
 function disp_one_image()
 {
 	global $is,$reg_class,$p_gamen_flg,$s_security_level, $s_user_id, $p_photo_id;
+	global $end_point;
 
 	if (empty($is->images[0])) return;
 
@@ -827,14 +837,19 @@ function disp_one_image()
 	// 検索結果画面から引き続き場合
 	if ($p_gamen_flg == 2)
 	{
-		print "<p class=\"cap_details\">【検索結果一覧画像の詳細】</p>\r\n";
+		print "<p class=\"cap_details\">【検索結果一覧画像・動画の詳細】</p>\r\n";
 	}
 	// ピックアップ画面から引き続き場合
 	if ($p_gamen_flg == 1)
 	{
-		print "<p class=\"cap_details\">【ピックアップ中画像の詳細】</p>\r\n";
+		print "<p class=\"cap_details\">【ピックアップ中画像・動画の詳細】</p>\r\n";
 	}
-	print "	<h2><span>画像番号：</span>".dp($is->images[0]->photo_mno)."<span>画像名：</span>".dp($is->images[0]->photo_name)."</h2>\r\n";
+	$renpoji = isset($is->images[0]->renpoji_number) ? $is->images[0]->renpoji_number : null;
+	if ($renpoji === null || trim((string)$renpoji) === '') {
+		print "	<h2><span>画像・動画番号：</span>".dp($is->images[0]->photo_mno)."<span>画像・動画名：</span>".dp($is->images[0]->photo_name)."</h2>\r\n";
+	}else{
+		print "	<h2><span>画像・動画番号：</span>".dp($renpoji)."<span>画像・動画名：</span>".dp($is->images[0]->photo_name)."</h2>\r\n";
+	}
 	print "	<div class=\"detail_contents\">\r\n";
 	print "		<div class=\"detail_left_contents\">\r\n";
 	print "			<input type=\"hidden\" id=\"prev_photo_id\" value=\"".$p_prev_id."\"/>";
@@ -876,10 +891,19 @@ function disp_one_image()
 		// } else {
 		// 	print "<p class=\"thumbnailsize_s\"><img src=".$tmp_url." width=\"400\" height=\"300\" /></p>\r\n";
 		// }
-		print "<div class=\"image-container\">";
-		print "    <img src=".$tmp_url." alt=\"sample\" />";
-		print "    <div class=\"watermark\">SAMPLE</div>";
-		print "</div>";
+
+		$renpoji = isset($is->images[0]->renpoji_number) ? trim((string)$is->images[0]->renpoji_number) : '';
+		if ($renpoji !== '') {
+		  print "<div class='uliza-player'>\n";
+		  print "  <script type=\"text/javascript\" charset=\"utf-8\" defer src=\"".$end_point.$renpoji."\">//{\"videoAnalytics\":{\"userId\":\"[GAUSERID]\"}}</script>\n";
+		  print "</div>\n";
+		} else {
+		  // 画像表示など従来の処理
+		  print "<div class=\"image-container\">";
+		  print "    <img src=".$tmp_url." alt=\"sample\" />";
+		  print "    <div class=\"watermark\">SAMPLE</div>";
+		  print "</div>";
+		}
 	}
 
 	$tmpkey = "code".$is->images[0]->photo_id;
@@ -908,11 +932,16 @@ function disp_one_image()
         print "         <input type=\"hidden\" name=\"hidden_photo_id\" value=\"".$p_photo_id."\"/>\r\n";
         print "         <input type=\"hidden\" name=\"hidden_login_id\" value=\"".$s_user_id."\"/>\r\n";
         print "         <input type=\"hidden\" name=\"hidden_back_url\" value=\"".getCurrentPageUrl()."\"/>\r\n";
-        print "         <p class='correct_delet_bt'>\r\n";
-	    print "             <input type=\"file\" name=\"p_photo_filename\" id=\"p_photo_filename\" value=\"\"  />\r\n";
-	    print "             <input type=\"button\" value=\"×\" onclick=\"clearInputFile()\" class=\"remove_file_btn\">\r\n";
-	    print "             <input type=\"submit\" value=\"アップロード\" style='font-size: 12px;'/>\r\n";
-	    print "         </p>\r\n";
+
+		$renpoji = isset($is->images[0]->renpoji_number) ? $is->images[0]->renpoji_number : null;
+		if ($renpoji === null || trim((string)$renpoji) === '') {
+			print "         <p class='correct_delet_bt'>\r\n";
+			print "             <input type=\"file\" name=\"p_photo_filename\" id=\"p_photo_filename\" value=\"\"  />\r\n";
+			print "             <input type=\"button\" value=\"×\" onclick=\"clearInputFile()\" class=\"remove_file_btn\">\r\n";
+			print "             <input type=\"submit\" value=\"アップロード\" style='font-size: 12px;'/>\r\n";
+			print "         </p>\r\n";
+		}
+
         print "         </form>\r\n";
 		//print "			<p class='correct_delet_bt'><a href='#' onclick='go_reg_edit(\"".$is->images[0]->photo_id."\");return false;' title='修正/削除'>修正/削除</a>";
         print "			<p class='correct_delet_bt'>\r\n";
@@ -947,14 +976,19 @@ function disp_one_image()
 		$show_image_size_y = $is->images[0]->image_size_y;
 	}*/
 
-	print "			<dl class=\"photo_wide\">\r\n";
-	print "				<dt>登録サイズ</dt>\r\n";
-	print "				<dd>".dp($is->images[0]->image_size_x."×".$is->images[0]->image_size_y)."pix</dd>\r\n";
-	print "			</dl>\r\n";
+	// renpoji_number は空白またはNULLのときのみ表示（値がある場合は非表示）
+	$renpoji = isset($is->images[0]->renpoji_number) ? $is->images[0]->renpoji_number : null;
+	if ($renpoji === null || trim((string)$renpoji) === '') {
+		print "			<dl class=\"photo_wide\">\r\n";
+		print "				<dt>登録サイズ</dt>\r\n";
+		print "				<dd>".dp($is->images[0]->image_size_x."×".$is->images[0]->image_size_y)."pix</dd>\r\n";
+		print "			</dl>\r\n";
+	}
+
 	print "		</div>\r\n";
 	print "		<div class=\"tabContainer\">\r\n";
 	print "			<ul class=\"tabMenu\">\r\n";
-	print "				<li id=\"qa01\"><a href=\"#qa01_area\" title=\"画像内容\" onclick='changeTabs(1);return false;'>画像内容</a></li>\r\n";
+	print "				<li id=\"qa01\"><a href=\"#qa01_area\" title=\"画像・動画内容\" onclick='changeTabs(1);return false;'>画像・動画内容</a></li>\r\n";
 
 	if ($s_security_level == 3 || $s_security_level == 4)
 	{
@@ -969,11 +1003,15 @@ function disp_one_image()
 	print "					<dd>".dp($is->images[0]->publishing_situation_name)."</dd>\r\n";
 	print "				</dl>\r\n";
 	print "				<dl>\r\n";
-	print "					<dt>画像番号</dt>\r\n";
-	print "					<dd>".dp($is->images[0]->photo_mno)."</dd>\r\n";
+	print "					<dt>画像・動画番号</dt>\r\n";
+	if ($renpoji === null || trim((string)$renpoji) === '') {
+		print "					<dd>".dp($is->images[0]->photo_mno)."</dd>\r\n";
+	}else{
+		print "					<dd>".dp($renpoji)."</dd>\r\n";
+	}
 	print "				</dl>\r\n";
 	print "				<dl>\r\n";
-	print "				<dt>画像名</dt>\r\n";
+	print "				<dt>画像・動画名</dt>\r\n";
 	print "					<dd>".dp($is->images[0]->photo_name)."</dd>\r\n";
 	print "				</dl>\r\n";
 	print "				<dl>\r\n";
@@ -1005,9 +1043,18 @@ function disp_one_image()
 	//}
 	print "			</div>\r\n";
 
-	print "			<div id=\"qa02_area\" style=\"display:none\">\r\n";
-	print "				<p>".dp("<img id=\"myTourPh\" src=\"https://x.hankyu-travel.com/photo_db/image_search_kikan.php?p_photo_mno=".$is->images[0]->photo_mno."\" />")."</p>\r\n";
-	print "			</div>\r\n";
+	// ソース詳細タブ
+	$renpoji = isset($is->images[0]->renpoji_number) ? $is->images[0]->renpoji_number : null;
+	if ($renpoji === null || trim((string)$renpoji) === '') {
+		print "			<div id=\"qa02_area\" style=\"display:none\">\r\n";
+		print "				<p>".dp("<img id=\"myTourPh\" src=\"https://x.hankyu-travel.com/photo_db/image_search_kikan.php?p_photo_mno=".$is->images[0]->photo_mno."\" />")."</p>\r\n";
+		print "			</div>\r\n";
+	}else{
+		print "			<div id=\"qa02_area\" style=\"display:none\">\r\n";
+		print "				<p>".dp("<script type=\"text/javascript\" charset=\"utf-8\" defer src=\"".$end_point.$renpoji."\">//{\"videoAnalytics\":{\"userId\":\"[GAUSERID]\"}}</script>")."</p>\r\n";
+		print "			</div>\r\n";
+	}
+
 	print "			<div id=\"qa03_area\" style=\"display:none\">\r\n";
 	print "				<p class=\"ttl_lead\">基本情報</p>\r\n";
 	print "				<dl>\r\n";
@@ -1015,11 +1062,15 @@ function disp_one_image()
 	print "					<dd>".dp($is->images[0]->publishing_situation_name)."</dd>\r\n";
 	print "				</dl>\r\n";
 	print "				<dl>\r\n";
-	print "					<dt>画像番号</dt>\r\n";
-	print "					<dd>".dp($is->images[0]->photo_mno)."</dd>\r\n";
+	print "					<dt>画像・動画番号</dt>\r\n";
+	if ($renpoji === null || trim((string)$renpoji) === '') {
+		print "					<dd>".dp($is->images[0]->photo_mno)."</dd>\r\n";
+	}else{
+		print "					<dd>".dp($renpoji)."</dd>\r\n";
+	}
 	print "				</dl>\r\n";
 	print "				<dl>\r\n";
-	print "					<dt>画像名</dt>\r\n";
+	print "					<dt>画像・動画名</dt>\r\n";
 	print "					<dd>".dp($is->images[0]->photo_name)."</dd>\r\n";
 	print "				</dl>\r\n";
 	print "				<dl>\r\n";

@@ -3100,6 +3100,8 @@ class PhotoImageData
 	var $is_publish;                                //公開・制限付き
 	var $is_mall;									//MALL画像フラグ（１：MALL、その以外：MALL以外）
 	var $is_extension;								//MALL画像自動延期かどうかのフラグ
+	var $renpoji_number;							//レンポジ番号
+	var $movie_poster;								//動画ポスター
 	var $update_user;
 	var $update_date;
 
@@ -3185,6 +3187,8 @@ class PhotoImageData
 		$this->is_publish = 1;
 		$this->is_mall = 0;
 		$this->is_extension=0;
+		$this->renpoji_number="";
+		$this->movie_poster="";
 		$this->update_user_name="";
 		$this->update_date="";
 	}
@@ -3262,6 +3266,8 @@ class PhotoImageData
 		$this->is_publish = $imgdata['is_publish'];
 		$this->is_mall = $imgdata['is_mall'];
 		$this->is_extension = $imgdata['is_extension'];
+		$this->renpoji_number = $imgdata['renpoji_number'];
+		$this->movie_poster = $imgdata['movie_poster'];
 		$this->update_date = $imgdata['update_date'];
 		$this->update_user = $imgdata['update_user'];
 	}
@@ -7800,7 +7806,7 @@ class ImageSearch
 	 * sp_str_content:選択の検索条件（詳細検索）
 	 * 戻り値：無し
 	 */
-	function select_image_keyword($db_link,$sp_str,$sp_str_content,$p_tmp_kikan)
+	function select_image_keyword($db_link,$sp_str,$sp_str_content,$p_tmp_kikan,$media_type)
 	{
 		$sql_where = "";
 		$sql = "";
@@ -7971,6 +7977,15 @@ class ImageSearch
 				$sql .= " AND photoimg.kikan = 'mukigen')";
 			}
 		}
+		
+		if(empty($media_type) || $media_type=='photo'){
+			$sql .= " AND (photoimg.renpoji_number is null or photoimg.renpoji_number='')";
+		}else{
+			if($media_type=="video")
+			{
+				$sql .= " AND (photoimg.renpoji_number is not null and photoimg.renpoji_number <>'')";
+			}
+		}
 
 		$sqlcount = $sql;
 
@@ -8138,7 +8153,7 @@ class ImageSearch
 		return $sql_where;
 	}
 
-	function select_image($db_link, $p_tmp_kikan)
+	function select_image($db_link, $p_tmp_kikan, $media_type)
 	{
 		// SQLをセットします。
 		$sql = $this->set_sql();
@@ -8292,6 +8307,17 @@ class ImageSearch
 		{
 			$sql .= $this->build_select_image_where($opts, "permission_person COLLATE utf8_bin LIKE ".$this->sp_permission_person);
 			$opts = true;
+		}
+		
+		if(empty($media_type) || $media_type=='photo'){
+			$sql .= $this->build_select_image_where($opts, "(photoimg.renpoji_number is null or photoimg.renpoji_number='')");
+			$opts = true;
+		}else{
+			if($media_type=="video")
+			{
+				$sql .= $this->build_select_image_where($opts, "(photoimg.renpoji_number is not null and photoimg.renpoji_number <>'')");
+				$opts = true;
+			}
 		}
 
 		// お客様情報

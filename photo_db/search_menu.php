@@ -406,6 +406,32 @@ function disp_range($r_id,$r_name)
 <meta name="Description" content="" />
 <meta http-equiv="content-style-type" content="text/css" />
 <meta http-equiv="content-script-type" content="text/javascript" />
+<style>
+	.media_type_checkbox {
+		margin-bottom: 15px;
+	}
+	.media_type_checkbox dt {
+		margin-bottom: 5px;
+		color: #224272;
+		font-weight: bold;
+		font-size: 12px;
+		line-height: 25px;
+		float: left;
+		width: 98px;
+	}
+	.media_type_checkbox dd {
+		margin-left: 0;
+	}
+	.media_type_checkbox ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.media_type_checkbox li {
+		display: inline-block;
+		margin-right: 10px;
+	}
+</style>
 <!--CSSリンク　ここから-->
 <?php if ($s_security_level == 4) { ?>
 <link rel="stylesheet" href="./css/master.css" type="text/css" media="all" />
@@ -1352,6 +1378,31 @@ function go_search()
 			setCookie("c_array_ck","");
 		}
 	}
+	// media_type_photoとmedia_type_videoのチェック状態を確認し、両方未チェックの場合はmedia_type_photoをチェック済みにする
+	var mediaTypePhoto = document.getElementById("media_type_photo");
+	var mediaTypeVideo = document.getElementById("media_type_video");
+	var media_type_param = "";
+
+	if (mediaTypePhoto && mediaTypeVideo) {
+		if (!mediaTypePhoto.checked && !mediaTypeVideo.checked) {
+			mediaTypePhoto.checked = true;
+		}
+		// 検索条件に追加
+		if (mediaTypePhoto.checked && mediaTypeVideo.checked) {
+			media_type_param = "both";
+		} else if (mediaTypePhoto.checked) {
+			media_type_param = "photo";
+		} else if (mediaTypeVideo.checked) {
+			media_type_param = "video";
+		}
+		if (media_type_param !== "") {
+			if (url.indexOf("?") === -1) {
+				url = url + "?media_type=" + encodeURIComponent(media_type_param);
+			} else {
+				url = url + "&media_type=" + encodeURIComponent(media_type_param);
+			}
+		}
+	}
 
 	// 詳細検索の条件を設定する(ここから)
 	// 「何で検索しますか？」を選択した場合
@@ -2286,6 +2337,25 @@ window.onload = init;
 				<!-- <dt class="bt_search"><a href="#"><img src="parts/detail_search_bt0.gif" alt="詳細検索" width="113" height="21" border="0" id="image001" name="image001" onclick="changedetail_search();" /></a></dt>  -->
 				<dt class="bt_search">詳細検索</dt>
 				<dd class="search_contents">
+					<dl class="media_type_checkbox">
+						<dt>ファイル形式</dt>
+						<dd>
+							<ul style="list-style:none; margin:0; padding:0;">
+								<li style="display:inline-block; margin-right:10px;">
+									<label>
+										<input type="checkbox" id="media_type_photo" name="media_type_photo" checked>
+										写真
+									</label>
+								</li>
+								<li style="display:inline-block;">
+									<label>
+										<input type="checkbox" id="media_type_video" name="media_type_video">
+										動画
+									</label>
+								</li>
+							</ul>
+						</dd>
+					</dl>
 					<dl id="publishing_limit">
 						<dt>掲載期限</dt>
 						<dd>
