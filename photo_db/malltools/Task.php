@@ -18,6 +18,7 @@ require_once ($root_path.'/malltools/exception/BaseException.php');
 require_once ($root_path.'/malltools/exception/WarningException.php');
 require_once ($root_path.'/malltools/exception/CrashException.php');
 require_once ($root_path.'/malltools/Mail.php');
+require_once ($root_path.'/malltools/fetch_uliza_poster.php');
 
 
 class Task

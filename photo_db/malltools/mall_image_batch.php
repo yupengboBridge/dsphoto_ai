@@ -69,7 +69,8 @@ function insertPhotoImage($par_csv_content){
 			"p_from" => date('Y-m-d H:i:s'),//掲載期間From
 			"reg_pub_period" => "shitei",//掲載期間
 			"p_keyword_str" => "",//keywords(CSVのデータから変更後),
-			"is_publish" => $par_csv_content[16]
+			"is_publish" => $par_csv_content[16],
+			"renpoji_number" => isset($par_csv_content[18]) ? $par_csv_content[18] : ""
 		);
 
 		// ＤＢへ接続します。
@@ -396,7 +397,8 @@ function updatePhotoImage($par_csv_content){
 			"post_name" => "",//お客様部署(CSVのデータから変更後)
 			"customer_name" => "",//お客様名(CSVのデータから変更後)
 			"reg_remarks" => $par_csv_content[15],//備考(CSVのデータのまま)
-			"p_keyword_str" => ""//keywords(CSVのデータから変更後)
+			"p_keyword_str" => "",//keywords(CSVのデータから変更後)
+			"renpoji_number" => isset($par_csv_content[18]) ? $par_csv_content[18] : ""
 		);
 
 		// ＤＢへ接続します。
@@ -862,6 +864,19 @@ function set_update_data(&$pi, $d_ary)
 	$pi->note = array_get_value($d_ary,"reg_remarks" ,"");
 	// キーワード文字列（スペース区切り）
 	$pi->keyword_str = array_get_value($d_ary, 'p_keyword_str' ,"");
+	// レンポジ番号
+	if (isset($d_ary["renpoji_number"])) {
+		$pi->renpoji_number = $d_ary["renpoji_number"];
+		if(!empty($pi->renpoji_number)){
+			$client = new UlizaPosterClient();
+			$result = $client->fetchPoster($pi->renpoji_number);
+			if ($result['ok']) {
+				$pi->movie_poster = $result['poster'];
+			} else {
+				$pi->movie_poster = "";
+			}
+		}
+	}
 }
 
 function checkCsvData($line){
@@ -870,7 +885,7 @@ function checkCsvData($line){
 	try {
 		$db_link = db_connect();
 
-		if(count($line) !==18){
+		if(count($line) !==19){
 			$ret_error_msg = "MALL_NO:".$line[1].":::CSVフォーマットエラー";
 			throw new Exception($ret_error_msg);
 		}
@@ -1014,6 +1029,19 @@ function set_insert_data(&$pi, $d_ary)
 	$pi->kikan = $d_ary["reg_pub_period"];
 	$pi->photo_server_flg = 0;
 	$pi->is_publish = $d_ary["is_publish"];
+	// レンポジ番号
+	if (isset($d_ary["renpoji_number"])) {
+		$pi->renpoji_number = $d_ary["renpoji_number"];
+		if(!empty($pi->renpoji_number)){
+			$client = new UlizaPosterClient();
+			$result = $client->fetchPoster($pi->renpoji_number);
+			if ($result['ok']) {
+				$pi->movie_poster = $result['poster'];
+			} else {
+				$pi->movie_poster = "";
+			}
+		}
+	}
 }
 
 ?>

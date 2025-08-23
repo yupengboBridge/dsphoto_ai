@@ -319,8 +319,10 @@ function ShowPageHeaderFooter($headFooterFlag)
 				}
 			}
 		}
-		if (!empty($media_type)) $tmp .= "  ".$media_type;
+		if ($media_type=='photo' || empty($media_type)) $tmp .= "  画像";
+		if ($media_type=='video') $tmp .= "  動画";
 		$tmp1 = santen_reader("検索条件： ".$tmp,160);
+
 		print "		<div id='hl'><p>".$tmp1."</p></div>\r\n";
 		print "	</div>\r\n";
 	}
@@ -557,8 +559,6 @@ function disp_img()
 		ShowPageHeaderFooter(1);
 
 		//2008/01/19 仕様変更 下記のURLより行う------------------------------------------
-		//http://www3.bud-international.co.jp/hei/cms/090119_photo_db/sample_index.html
-		//print "<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>\r\n";
 		print "<BR><BR><BR><BR><BR>\r\n";
 		print "<p class=\"search_displays\">ここに検索結果が表示されます</p>\r\n";
 		print "<BR><BR><BR><BR><BR>\r\n";
@@ -646,12 +646,6 @@ function disp_img()
 			print "	objs[i].disabled = false;\r\n";
 			print "}\r\n";
 
-//			print "var objs=window.parent.frames[1].document.getElementsByTagName('select');\r\n";
-//			print "for(var i=0;i<objs.length;i++)\r\n";
-//			print "{\r\n";
-//			print "	objs[i].disabled = false;\r\n";
-//			print "}\r\n";
-
 			print "</script>\r\n";
 			//----------------------------------------------------------------------------------------------------------
 			return;
@@ -689,27 +683,6 @@ function disp_img()
 		$retval_to = dateDiff($ph_img_all->dto,$now);
 		$retval_from = dateDiff($now,$ph_img_all->dfrom);
 
-//		if(!empty($p_kikan1))
-//		{
-//			//「3ヵ月未満を除外」
-//			if((int)$p_kikan1 == 3 && (int)$retval > 0 && (int)$retval <= 90 && $retval_to >= 0 && $retval_from >= 0)
-//			{
-//				continue;
-//			}
-//
-//			//「6ヵ月未満を除外」
-//			if((int)$p_kikan1 == 6 && (int)$retval > 0 && (int)$retval > 90 && (int)$retval <= 180 && $retval_to >= 0 && $retval_from >= 0)
-//			{
-//				continue;
-//			}
-//
-//			//「期限のないもの」
-//			if((int)$p_kikan1 == 9 && $ph_img_all->kikan != "mukigen" && $ph_img_all->kikan != "sankagetu" && $ph_img_all->kikan != "hantoshi" && $ph_img_all->kikan != "ichinen" && $ph_img_all->kikan != "shitei")
-//			{
-//				continue;
-//			}
-//		}
-
 		$groupcnt = $groupcnt + 1;
 
 		if ($groupcnt == 1)
@@ -732,8 +705,12 @@ function disp_img()
 		}
 
 		$tmpkey = "code".$ph_img_all->photo_id;
-		print "<input type='hidden' value='".$ph_img_all->photo_mno.$ph_img_all->photo_name."' id='".$tmpkey."' name='".$tmpkey."' />\r\n";
-
+		if(!empty($ph_img_all->renpoji_number)){
+			print "<input type='hidden' value='".$ph_img_all->renpoji_number.$ph_img_all->photo_name."' id='".$tmpkey."' name='".$tmpkey."' />\r\n";
+		}else{
+			print "<input type='hidden' value='".$ph_img_all->photo_mno.$ph_img_all->photo_name."' id='".$tmpkey."' name='".$tmpkey."' />\r\n";
+		}
+		
 		$class_name = "number";
 		if($ph_img_all->registration_division_id == "4"){
 			$class_name = "number page_limited";
@@ -827,8 +804,17 @@ function disp_img()
 		print "<input name='img_chk' type='checkbox' value=\"".$ph_img_all->photo_id."\" onclick=\"setCookie_CheckBox(this,'pickup_chk');\"/>\r\n";
 		print "</li>\r\n";
 		print "<li class='icon_bt_info' title='詳細情報'><a href='#' onclick='disp_ImageInformation(\"".$ph_img_all->photo_id."\");return false;'>情報</a></li>\r\n";
-		print "<li class='icon_bt_pickup' title='ピックアップ'><a href='#' onclick='if (pickup(\"" .$ph_img_all->photo_id. "\", ".$s_user_id.")==false){alert(\"既にピックアップしています。\");} return false;'>ピックアップ</a></li>\r\n";
-		print "<li class='icon_bt_copy' title='ソースをコピー'><a href='#' id='clip_".$ph_img_all->photo_id."' onclick='if(setClipboard(\"".$ph_img_all->photo_id."\")){ alert(\"写真情報をクリップボードにコピーしました。\");} return false;'>コピー</a></li>\r\n";
+		
+		if ($renpoji === null || trim((string)$renpoji) === '') {
+			print "<li class='icon_bt_pickup' title='ピックアップ'><a href='#' onclick='if (pickup(\"" .$ph_img_all->photo_id. "\", ".$s_user_id.")==false){alert(\"既にピックアップしています。\");} return false;'>ピックアップ</a></li>\r\n";
+		}
+		
+		if ($renpoji !== null && trim((string)$renpoji) !== '') {
+			print "<li class='icon_bt_copy' title='ソースをコピー'><a href='#' id='clip_".$ph_img_all->photo_id."' onclick='if(setClipboard(\"".$ph_img_all->photo_id."\")){ alert(\"写真情報をクリップボードにコピーしました。\");} return false;'>コピー</a></li>\r\n";
+		}else{
+			print "<li class='icon_bt_copy' title='ソースをコピー'><a href='#' id='clip_".$ph_img_all->photo_id."' onclick='if(setClipboard(\"".$ph_img_all->photo_id."\")){ alert(\"写真情報をクリップボードにコピーしました。\");} return false;'>コピー</a></li>\r\n";
+		}
+
 		if(!$ph_img_all->is_publish){
 			print "<li class='icon_bt_publish' title='制限付き'><a href='#'></a></li>";
 		}
@@ -987,7 +973,7 @@ function disp_img()
 <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"      charset="utf-8"></script>-->
 <script type="text/javascript" src="./js/jquery.min.js"     charset="utf-8"></script>
 <script type="text/javascript" src="./js/kirikae.js"     charset="utf-8"></script>
-<script type="text/javascript" src="./js/common.js"      charset="utf-8"></script>
+<script type="text/javascript" src="./js/common.js?v=20250816"      charset="utf-8"></script>
 <script type="text/javascript" src="./js/image_disp.js"  charset="utf-8"></script>
 <script type="text/javascript" src="./zeroclipboard/ZeroClipboard.js"></script>
 <script type="text/javascript">
@@ -1084,21 +1070,6 @@ if (!empty($GLOBALS["p_kikan1"]))
 var ua = navigator.userAgent.toLowerCase();
 var is_pc_ie  = ( (ua.indexOf('msie') != -1 ) && ( ua.indexOf('win') != -1 ) && ( ua.indexOf('opera') == -1 ) && ( ua.indexOf('webtv') == -1 ) );
 
-//function setClipboard(pid)
-//{
-//	var objkey = "code"+pid;
-//	if (is_pc_ie)
-//	{
-//		var copytext = document.getElementById(objkey).createTextRange();
-//		copytext.execCommand("Copy");
-//	}else{
-//		//document.getElementById('copy').innerHTML = "";
-//		var swf = "<embed src='./js/setClipboard.swf' FlashVars='code="+encodeURIComponent(document.getElementById(objkey).value)+"' width='0' height='0' type='application/x-shockwave-flash'></embed>";
-//		//alert(swf);
-//		//document.getElementById('copy').innerHTML = swf;
-//	}
-//}
-
 function init_clip()
 {
 	var a_objs = document.getElementsByTagName("a");
@@ -1125,62 +1096,6 @@ function init_clip()
 	        });
 		}
 	}
-}
-
-function setClipboard(pid) {
-	var objkey = "code"+pid;
-	var maintext = document.getElementById(objkey).value;
-
-const input = document.createElement('input');
-    document.body.appendChild(input);
-    input.setAttribute('readonly', 'readonly');/////控制移动端闪屏
-    input.setAttribute('value', maintext );/////复制内容
-    input.setSelectionRange(0, 999999);/////控制复制内容多少
-    input.select();
-    if (document.execCommand('copy')) {
-        document.execCommand('copy');
-		// alert("写真情報をクリップボードにコピーしました。");
-        document.body.removeChild(input);
-		return true;
-//         console.log('复制成功');
-    }else{
-
-//       console.log('该浏览器不支持此功能');
-		document.body.removeChild(input);
-		return false;
-   }
-
-/*
-	if (window.clipboardData) {
-		return (window.clipboardData.setData("Text", maintext));
-	} else if (window.netscape) {
-
-		try {
-			netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
-		} catch (e) {
-			alert("Firefox設定されたセキュリティー制限のため、クリップボードを使用できません\n，もし使いたいなら、下記の手順に基づいて設定してください。\n　　①firefoxのWEBアドレスに「about:config」を入力して、コントロール パネルを呼びます。\n　　②「signed.applets.codebase_principal_support」に「true」を設定してください。");
-			return false;
-		}
-
-		netscape.security.PrivilegeManager.enablePrivilege('UniversalXPConnect');
-		var clip = Components.classes['@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);
-		if (!clip) return;
-		var trans = Components.classes['@mozilla.org/widget/transferable;1'].createInstance(Components.interfaces.nsITransferable);
-		if (!trans) return;
-		trans.addDataFlavor('text/unicode');
-		var str = new Object();
-		var len = new Object();
-		var str = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);
-		var copytext=maintext;
-		str.data=copytext;
-		trans.setTransferData("text/unicode",str,copytext.length*2);
-		var clipid=Components.interfaces.nsIClipboard;
-		if (!clip) return false;
-		clip.setData(trans,null,clipid.kGlobalClipboard);
-		return true;
-	}
-	*/
-	return false;
 }
 
 /*

@@ -2140,7 +2140,6 @@ class FileUploadBatchMall
 		// クレジットを設定します。
 		$tmp_cre = mb_ereg_replace('^[　]+', '', $cre); // 先頭の全角スペース削除
 		$this->credit = mb_ereg_replace('[　]+$', '', $tmp_cre); // 末尾の全角スペース削除
-		//$this->credit = trim(trim($cre),"　");
 		// 指定されたアップロードファイル名を取得します。
 		$this->upfile = $fln;
 		// アップロードするファイル名から拡張子を抜出します。
@@ -4895,7 +4894,9 @@ class PhotoImageDB extends PhotoImageData
 		$sql .= "dto=?,";
 		$sql .= "kikan=?,";
 		$sql .= "is_extension=?,";
-		$sql .= "bud_photo_no=?";
+		$sql .= "bud_photo_no=?,";
+		$sql .= "renpoji_number=?,";
+		$sql .= "movie_poster=?";
 		$sql .= " WHERE mall_no=?";
 
 		$stmt = $db_link->prepare($sql);
@@ -4978,7 +4979,19 @@ class PhotoImageDB extends PhotoImageData
 		} else {
 			$stmt->bindValue(13,null);
 		}
-		$stmt->bindParam(14,$this->mall_no);
+		if(!empty($this->renpoji_number))
+		{
+			$stmt->bindParam(14,$this->renpoji_number);
+		} else {
+			$stmt->bindValue(14,null);
+		}
+		if(!empty($this->movie_poster))
+		{
+			$stmt->bindParam(15,$this->movie_poster);
+		} else {
+			$stmt->bindValue(15,null);
+		}
+		$stmt->bindParam(16,$this->mall_no);
 		// トランザクションを開始します。（オートコミットがオフになります。）
 		$db_link->beginTransaction();
 
@@ -5120,8 +5133,12 @@ class PhotoImageDB extends PhotoImageData
 		$sql .= "`ext`,";
 		$sql .= "`photo_server_flg`,";
 		$sql .= "`is_publish`,";
-		$sql .= "`mall_no`";
+		$sql .= "`mall_no`,";
+		$sql .= "`renpoji_number`,";
+		$sql .= "`movie_poster`";
 		$sql .= ")VALUES(";
+		$sql .= "?,";
+		$sql .= "?,";
 		$sql .= "?,";
 		$sql .= "?,";
 		$sql .= "?,";
@@ -5257,6 +5274,18 @@ class PhotoImageDB extends PhotoImageData
 		$stmt->bindParam(31,$this->photo_server_flg);
 		$stmt->bindParam(32,$this->is_publish);
 		$stmt->bindParam(33,$this->mall_no);
+		if(!empty($this->renpoji_number))
+		{
+			$stmt->bindParam(34,$this->renpoji_number);
+		} else {
+			$stmt->bindValue(34,null);
+		}
+		if(!empty($this->movie_poster))
+		{
+			$stmt->bindParam(35,$this->movie_poster);
+		} else {
+			$stmt->bindValue(35,null);
+		}
 
 		// トランザクションを開始します。（オートコミットがオフになります。）
 		$db_link->beginTransaction();

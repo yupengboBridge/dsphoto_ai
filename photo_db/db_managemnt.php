@@ -1121,8 +1121,8 @@ window.onload = function()
 					<td class="dot">不許可画像・動画リストの確認はここから</td>
 				</tr>
 					<tr>
-					<td class="btn dot"><input type="button" name="button5" id="button7" value="写真・動画一括登録"  onclick="openNewPage('./web_uploads.php')"  /></td>
-					<td class="dot">写真・動画一括登録</td>
+					<td class="btn dot"><input type="button" name="button5" id="button7" value="写真一括登録"  onclick="openNewPage('./web_uploads.php')"  /></td>
+					<td class="dot">写真一括登録</td>
 				</tr>
 				
 			</table>

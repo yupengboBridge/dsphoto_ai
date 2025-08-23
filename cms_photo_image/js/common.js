@@ -589,3 +589,22 @@ function calcUTFByte(str)
     }//for end  
     return len;  
 }
+
+function setClipboard(pid) {
+	var objkey = "code"+pid;
+	var maintext = document.getElementById(objkey).value;
+ 	const input = document.createElement('input');
+	document.body.appendChild(input);
+	input.setAttribute('readonly', 'readonly');/////控制移动端闪屏
+	input.setAttribute('value', maintext );/////复制内容
+	input.setSelectionRange(0, 999999);/////控制复制内容多少
+	input.select();
+	if (document.execCommand('copy')) {
+		document.execCommand('copy');
+		document.body.removeChild(input);
+		return true;
+	}else{
+		document.body.removeChild(input);
+		return false;
+	}
+}

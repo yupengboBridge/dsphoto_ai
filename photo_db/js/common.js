@@ -594,3 +594,23 @@ function calcUTFByte(str)
     }//for end  
     return len;  
 }
+
+function setClipboard(pid)
+{
+	var objkey = "code"+pid;
+	var maintext = document.getElementById(objkey).value;
+	const input = document.createElement('input');
+	document.body.appendChild(input);
+	input.setAttribute('readonly', 'readonly');
+	input.setAttribute('value', maintext );
+	input.setSelectionRange(0, 999999);
+	input.select();
+	if (document.execCommand('copy')) {
+		document.execCommand('copy');
+		document.body.removeChild(input);
+		return true;
+	}else{
+		document.body.removeChild(input);
+		return false;
+	}
+}

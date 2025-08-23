@@ -60,9 +60,32 @@ class Img {
 				$scaledWidth = (int)($originalWidth * $scale);
 				$this->image->scaleImage(0, $height);
 
-				// 中央800pxを切り抜く
-				$xCrop = max(0, ($scaledWidth - $width) / 2);
-				$this->image->cropImage($width, $height, $xCrop, 0);
+				if ($scaledWidth < $width) {
+					// 縦長画像と同じ処理（白ベタ追加）
+					$x = max(0, ($width - $scaledWidth) / 2);
+					$canvas = new \Imagick();
+					$canvas->newImage($width, $height, 'white', 'jpg');
+
+					// 色空間変換（CMYK対応）
+					if ($colorSpace == \Imagick::COLORSPACE_CMYK) {
+						$cmykProfilePath = $this->cmykIccPath;
+						$srgbProfilePath = $this->srgbIccPath;
+						$this->image->profileImage('*', null);
+						$this->image->profileImage('icc', file_get_contents($cmykProfilePath));
+						$this->image->profileImage('icc', file_get_contents($srgbProfilePath));
+						$this->image->modulateImage(100, 110, 100);
+						$this->image->transformImageColorspace(\Imagick::COLORSPACE_SRGB);
+					}
+
+					$canvas->compositeImage($this->image, \Imagick::COMPOSITE_DEFAULT, $x, 0);
+					$canvas->setImageColorspace(\Imagick::COLORSPACE_SRGB);
+					$canvas->setImageFormat('jpeg');
+					$this->image = $canvas;
+				}else{
+					// 中央800pxを切り抜く
+					$xCrop = max(0, ($scaledWidth - $width) / 2);
+					$this->image->cropImage($width, $height, $xCrop, 0);
+				}
 			} elseif ($originalWidth < $originalHeight) {
 				// 縦長画像 → 幅を保ちつつ高さ600にスケーリング、白ベタ追加
 				$scale = $height / $originalHeight;

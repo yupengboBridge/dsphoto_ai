@@ -130,7 +130,7 @@ catch(Exception $e)
     </style>
 <!--CSSリンク　ここまで-->
 <!--javascript ここから -->
-<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/common.js?v=20250816" type="text/javascript" charset="utf-8"></script>
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript">
 <?php
@@ -163,61 +163,6 @@ var is_pc_ie  = ( (ua.indexOf('msie') != -1 ) && ( ua.indexOf('win') != -1 ) && 
 function clearInputFile() {
     var fileInput = document.getElementById('p_photo_filename');
     fileInput.value = '';
-}
-
-function setClipboard(pid)
-{
-	var objkey = "code"+pid;
-	var maintext = document.getElementById(objkey).value;
-  // 2020 修改
-const input = document.createElement('input');
-    document.body.appendChild(input);
-    input.setAttribute('readonly', 'readonly');/////控制移动端闪屏
-    input.setAttribute('value', maintext );/////复制内容
-    input.setSelectionRange(0, 999999);/////控制复制内容多少
-    input.select();
-    if (document.execCommand('copy')) {
-        document.execCommand('copy');
-		// alert("写真情報をクリップボードにコピーしました。");
-        document.body.removeChild(input);
-		return true;
-//         console.log('复制成功');
-    }else{
-
-//       console.log('该浏览器不支持此功能');
-		document.body.removeChild(input);
-		return false;
-   }
-	/*
-	if (window.clipboardData) {
-		return (window.clipboardData.setData("Text", maintext));
-	} else if (window.netscape) {
-
-		try {
-			netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
-		} catch (e) {
-			alert("Firefox設定されたセキュリティー制限のため、クリップボードを使用できません\n，もし使いたいなら、下記の手順に基づいて設定してください。\n　　①firefoxのWEBアドレスに「about:config」を入力して、コントロール パネルを呼びます。\n　　②「signed.applets.codebase_principal_support」に「true」を設定してください。");
-			return false;
-		}
-
-		netscape.security.PrivilegeManager.enablePrivilege('UniversalXPConnect');
-		var clip = Components.classes['@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);
-		if (!clip) return;
-		var trans = Components.classes['@mozilla.org/widget/transferable;1'].createInstance(Components.interfaces.nsITransferable);
-		if (!trans) return;
-		trans.addDataFlavor('text/unicode');
-		var str = new Object();
-		var len = new Object();
-		var str = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);
-		var copytext=maintext;
-		str.data=copytext;
-		trans.setTransferData("text/unicode",str,copytext.length*2);
-		var clipid=Components.interfaces.nsIClipboard;
-		if (!clip) return false;
-		clip.setData(trans,null,clipid.kGlobalClipboard);
-		return true;
-	}*/
-	return false;
 }
 
 /*
@@ -363,7 +308,7 @@ function setMitaImagesCookie(p_id)
 	var idstr = getCookie(ck_id);
 	// カンマ区切りの文字列を配列にします。
 	var id_a = new Array();
-	id_a = idstr.explode(",");
+	id_a = idstr.split(",");
 	// 既にクッキーで設定されているものについては、除外します。
 	if (check_array(id_a, p_id) == -1)
 	{
@@ -881,18 +826,12 @@ function disp_one_image()
 	}
 	//------------------------------------------------------------------------------
 
+	$renpoji = isset($is->images[0]->renpoji_number) ? trim((string)$is->images[0]->renpoji_number) : '';
+
 	$tmp_url = "./image_search_kikan4.php?p_photo_mno=".$is->images[0]->photo_mno;
 	$isize = $is->images[0]->image_size_x;
 	if(!empty($isize))
 	{
-		// if((int)$isize >= 400)
-		// {
-		// 	print "<p class=\"thumbnailsize\"><img src=".$tmp_url." width=\"400\" height=\"300\" /></p>\r\n";
-		// } else {
-		// 	print "<p class=\"thumbnailsize_s\"><img src=".$tmp_url." width=\"400\" height=\"300\" /></p>\r\n";
-		// }
-
-		$renpoji = isset($is->images[0]->renpoji_number) ? trim((string)$is->images[0]->renpoji_number) : '';
 		if ($renpoji !== '') {
 		  print "<div class='uliza-player'>\n";
 		  print "  <script type=\"text/javascript\" charset=\"utf-8\" defer src=\"".$end_point.$renpoji."\">//{\"videoAnalytics\":{\"userId\":\"[GAUSERID]\"}}</script>\n";
@@ -907,16 +846,21 @@ function disp_one_image()
 	}
 
 	$tmpkey = "code".$is->images[0]->photo_id;
-	print "<input type='hidden' value='".$is->images[0]->photo_mno.$is->images[0]->photo_name."' id='".$tmpkey."' name='".$tmpkey."' />\r\n";
+	if(empty($renpoji)){
+		print "<input type='hidden' value='".$is->images[0]->photo_mno.$is->images[0]->photo_name."' id='".$tmpkey."' name='".$tmpkey."' />\r\n";
+	}else{
+		print "<input type='hidden' value='".$renpoji.$is->images[0]->photo_name."' id='".$tmpkey."' name='".$tmpkey."' />\r\n";
+	}
 
-	//print "<input type='hidden' value='<img id=\"myTourPh\" src=\"https://x.hankyu-travel.com/photo_db/image_search_kikan.php?p_photo_mno=".$is->images[0]->photo_mno."\" />' id='p_mno' name='p_mno' />";
 	print "			<ul class=\"detail_bt_eria\">\r\n";
 	// 検索結果画面から引き続き場合
 	if ($p_gamen_flg == 2)
 	{
-		print "				<li class=\"detail_bt_pickup\"><a href=\"#\" onclick='if (pickup(\"" .$is->images[0]->photo_id. "\", ".$s_user_id.")==false){alert(\"既にピックアップしています。\");}' title='ピックアップ'>ピックアップ</a></li>\r\n";
+		if (empty($renpoji)) {
+			print "				<li class=\"detail_bt_pickup\"><a href=\"#\" onclick='if (pickup(\"" .$is->images[0]->photo_id. "\", ".$s_user_id.")==false){alert(\"既にピックアップしています。\");}' title='ピックアップ'>ピックアップ</a></li>\r\n";
+		}
 	}
-	//print "				<li class=\"detail_bt_copy\"><a href=\"#\" title='ソースをコピー' onclick='setClipboard();alert(\"ソースをクリップボードにコピーしました。\");return false;'>ソースをコピー</a></li>\r\n";
+
 	print "				<li class=\"detail_bt_copy\"><a href=\"#\" title='ソースをコピー' onclick='setClipboard(\"".$is->images[0]->photo_id."\"); alert(\"写真情報をクリップボードにコピーしました。\"); return false;'>ソースをコピー</a></li>\r\n";
 
 	if ($p_gamen_flg == 1)

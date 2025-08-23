@@ -187,6 +187,11 @@ if ($p_action == "login")
 <meta http-equiv="content-script-type" content="text/javascript" />
 <!--CSSリンク　ここから-->
 <link rel="stylesheet" href="./css/master.css" type="text/css" media="all" />
+<style>
+	#login {
+		width: 230px!important;
+	}
+</style>
 <!--CSSリンク　ここまで-->
 <!--javascript ここから -->
 <script type="text/javascript">
