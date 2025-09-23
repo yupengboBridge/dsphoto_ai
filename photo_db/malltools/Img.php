@@ -73,7 +73,7 @@ class Img {
 						$this->image->profileImage('*', null);
 						$this->image->profileImage('icc', file_get_contents($cmykProfilePath));
 						$this->image->profileImage('icc', file_get_contents($srgbProfilePath));
-						$this->image->modulateImage(100, 110, 100);
+						//$this->image->modulateImage(100, 110, 100);
 						$this->image->transformImageColorspace(\Imagick::COLORSPACE_SRGB);
 					}
 
@@ -105,7 +105,7 @@ class Img {
 					$this->image->profileImage('*', null);
 					$this->image->profileImage('icc', file_get_contents($cmykProfilePath));
 					$this->image->profileImage('icc', file_get_contents($srgbProfilePath));
-					$this->image->modulateImage(100, 110, 100);
+					//$this->image->modulateImage(100, 110, 100);
 					$this->image->transformImageColorspace(\Imagick::COLORSPACE_SRGB);
 				}
 
@@ -131,7 +131,7 @@ class Img {
 					$this->image->profileImage('*', null);
 					$this->image->profileImage('icc', file_get_contents($cmykProfilePath));
 					$this->image->profileImage('icc', file_get_contents($srgbProfilePath));
-					$this->image->modulateImage(100, 110, 100);
+					//$this->image->modulateImage(100, 110, 100);
 					$this->image->transformImageColorspace(\Imagick::COLORSPACE_SRGB);
 				}
 
@@ -180,7 +180,7 @@ class Img {
 			$this->image->profileImage('*', null);
 			$this->image->profileImage('icc', file_get_contents($this->cmykIccPath));
 			$this->image->profileImage('icc', file_get_contents($this->srgbIccPath));
-			$this->image->modulateImage(100, 110, 100);
+			//$this->image->modulateImage(100, 110, 100);
 			$this->image->transformImageColorspace(\Imagick::COLORSPACE_SRGB);
 		}
 

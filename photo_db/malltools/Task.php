@@ -66,7 +66,8 @@ class Task
             $this->image = new Img();
 			
 			$this->cmykIccPath = $root_path.'/malltools/icc/JapanColor2011Coated.icc';
-			$this->srgbIccPath = $root_path.'/malltools/icc/sRGB_v4_ICC_preference_displayclass.icc';
+			//$this->srgbIccPath = $root_path.'/malltools/icc/sRGB_v4_ICC_preference_displayclass.icc';
+			$this->srgbIccPath = $root_path.'/malltools/icc/AdobeRGB1998.icc';
 			
 			$this->image->cmykIccPath = $this->cmykIccPath;
 			$this->image->srgbIccPath = $this->srgbIccPath;
@@ -183,9 +184,12 @@ class Task
 
         for($i=0;$i<count($processing_dirs);$i++){
             $processing_dir = $processing_dirs[$i];
+			if(empty($manual)){
+				if("20250904170002" != $processing_dir) continue;
+			}
             $this->rows = 1;
             try{
-                
+                print($processing_dir);
                 if(empty($manual)){
                     $this->downLoadFile($processing_dir);
 
@@ -225,7 +229,7 @@ class Task
 
                 stream_filter_append($handle, 'convert.iconv.CP932/UTF-8');
                 while (!feof($handle)) {
-                    $buffer = rtrim(fgets($handle));    //日本語ファイルはfgetcsv使うのやめておく
+                    $buffer = rtrim(fgets($handle), "\n");    //日本語ファイルはfgetcsv使うのやめておく
                     if (empty($buffer) | $this->rows == 1) {
                         $this->rows++;
                         continue;
@@ -332,7 +336,7 @@ class Task
 
         $this->taskResult->endTime = time();
         if($this->taskResult->isCrash || $this->taskResult->isError){
-            $this->taskService->sendMail($this->taskResult);
+            //$this->taskService->sendMail($this->taskResult);
         }
 
         return $this->taskResult;
@@ -351,21 +355,24 @@ class Task
      */
     private function process_add($data){
         try {
-            $this->image = new Img();
-			
-			$this->image->cmykIccPath = $this->cmykIccPath;
-			$this->image->srgbIccPath = $this->srgbIccPath;
-			
-            $this->image->load($this->image_path.$data[1]);
-            $prefix = strtoupper(substr($data[1], 0, 2));
-            if ($prefix === 'LF' || $prefix === 'LH') {
-                $this->image->cropForLHAndLF($this->cropConfig['width'], $this->cropConfig['height']);
-            } else {
-                $this->image->crop($this->cropConfig['width'], $this->cropConfig['height']);
+            // $data[18]が空でない場合は処理をスキップ
+            if (empty($data[18])) {
+                $this->image = new Img();
+                
+                $this->image->cmykIccPath = $this->cmykIccPath;
+                $this->image->srgbIccPath = $this->srgbIccPath;
+                
+                $this->image->load($this->image_path.$data[1]);
+                $prefix = strtoupper(substr($data[1], 0, 2));
+                if ($prefix === 'LF' || $prefix === 'LH') {
+                    $this->image->cropForLHAndLF($this->cropConfig['width'], $this->cropConfig['height']);
+                } else {
+                    $this->image->crop($this->cropConfig['width'], $this->cropConfig['height']);
+                }
+                $outputFile = $this->crop_save_path.$data[1];
+                $this->image->save($outputFile);
+                $this->image->clean();
             }
-            $outputFile = $this->crop_save_path.$data[1];
-            $this->image->save($outputFile);
-            $this->image->clean();
             insertPhotoImage($data);
         } catch (Exception $e) {
             throw new Exception($e->getMessage());
@@ -385,7 +392,7 @@ class Task
                 $ret_flag = CommonPhotoImage::checkAdditionalConstraints1($this->connect,$photo['bud_photo_no'],$data[11]);
                 if($ret_flag){
                     $ext = pathinfo($data[1], PATHINFO_EXTENSION);
-                    if("EPS" != strtoupper($ext)){
+                    if("EPS" != strtoupper($ext) || empty($data[18])){
                         $this->image = new Img();
                         
                         $this->image->cmykIccPath = $this->cmykIccPath;
@@ -428,6 +435,10 @@ class Task
                 }else{
                     $file_check = false;
                 }
+            }
+            //レンポジ番号が存在している場合は画像ファイル存在性チェックを行わないので処理をスキップ
+            if (!empty($line[18])) {
+                return true;
             }
 
             if($file_check === true){

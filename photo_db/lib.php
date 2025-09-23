@@ -2077,7 +2077,7 @@ class FileUploadBatchMall
 	/**
 	 * コンストラクター
 	 */
-	function __construct($fln,$cf, $thdir, $flw, $fname, $cre, $wcredit, $image_root_dir, $photo_db_root_dir)
+	function __construct($fln,$cf, $thdir, $flw, $fname, $cre, $wcredit, $image_root_dir, $photo_db_root_dir, $tmp_name="")
 	{
 		// メンバーを初期化します。
 		$this->message = "";						// メッセージ
@@ -2103,6 +2103,7 @@ class FileUploadBatchMall
 		// ファイル情報を設定します。
 		$this->filename = $fln;
 		$this->uploadconf = $cf;
+		$this->tmp_name = $tmp_name;
 
 		// 定義ファイルの内容をチェックします。
 		if (empty($this->uploadconf['dir']))
@@ -2256,15 +2257,23 @@ class FileUploadBatchMall
 		$this->dirno = rand(0, 9);										// ディレクトリ名（0-9）をランダムで決定します。
 		$this->dirno .= "/";
 		$this->svname = date("YmdHis", $reg_time) . $rnd;				// 保存ファイル名（元）
-
 		// 一旦、テンポラリーにアップしたファイルを保存します。
 		$tmppath = $this->uploadconf['temp_dir'].$this->svname.$this->ext;
-		$cmdstr = "cp ".$this->image_root_dir.$this->filename." ".$this->photo_db_root_dir."/".$tmppath;
 
-		echo exec( $cmdstr );
+		$new_photo_db_root_dir = $this->photo_db_root_dir."/";
+		if(empty($this->photo_db_root_dir)) {
+			$new_photo_db_root_dir = "";
+			if (!move_uploaded_file($this->tmp_name, $tmppath) == true)
+			{
+				throw new Exception("ファイルをアップロードできませんでした。");
+			}
+		}else{
+			$cmdstr = "cp ".$this->image_root_dir.$this->filename." ".$new_photo_db_root_dir.$tmppath;
+			echo exec( $cmdstr );
+		}
 
 		// 保存したファイルのタイプを取得します。
-		$type = exif_imagetype($this->photo_db_root_dir."/".$this->uploadconf['temp_dir'].$this->svname . $this->ext);
+		$type = exif_imagetype($new_photo_db_root_dir.$this->uploadconf['temp_dir'].$this->svname . $this->ext);
 
 		if ($type == IMAGETYPE_GIF || $type == IMAGETYPE_JPEG || $type == IMAGETYPE_PNG)
 		{
@@ -2272,13 +2281,13 @@ class FileUploadBatchMall
 			$this->svfullpath = array();
 			$this->svfullpath[] = $this->uploadconf['dir']. $this->dirno . $this->svname . $this->ext;
 
-			$cmdstr = "mv ".$this->photo_db_root_dir."/".$tmppath." ".$this->photo_db_root_dir."/".$this->svfullpath[0];
+			$cmdstr = "mv ".$new_photo_db_root_dir.$tmppath." ".$new_photo_db_root_dir.$this->svfullpath[0];
 			echo exec( $cmdstr );
 
 			// 画像のサイズを取得します。
 			$this->img_width = array();
 			$this->img_height = array();
-			$size = @getimagesize($this->photo_db_root_dir."/".$this->svfullpath[0]);
+			$size = @getimagesize($new_photo_db_root_dir.$this->svfullpath[0]);
 			list($width, $height, $type, $attr) = $size;
 			$this->img_width[] = $width;
 			$this->img_height[] = $height;
@@ -2288,7 +2297,7 @@ class FileUploadBatchMall
 			$this->up_url[] = $this->uploadconf['site_url'] . $this->svfullpath[0];
 
 			// ファイルをWebPに変換します。start
-			$fullPath = $this->photo_db_root_dir."/".$this->svfullpath[0];
+			$fullPath = $new_photo_db_root_dir.$this->svfullpath[0];
 			// ファイル名とWebPパス
             $filenameWithExt = basename($fullPath);
             $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
@@ -2302,7 +2311,7 @@ class FileUploadBatchMall
 		else
 		{
 			// ファイルタイプがそれ以外の場合はそのファイルを削除します。
-			//@unlink($this->photo_db_root_dir."/".$tmppath);
+			//@unlink($new_photo_db_root_dir.$tmppath);
 			$this->result = false;
 			$this->message = "アップロードしたファイルタイプがjpg,gif,png以外です。type::".$type;
 			throw new Exception($this->message);
@@ -2382,6 +2391,11 @@ class FileUploadBatchMall
 	 */
 	function make_thumbfile()
 	{
+		$new_photo_db_root_dir = $this->photo_db_root_dir."/";
+		if(empty($this->photo_db_root_dir)) {
+			$new_photo_db_root_dir = "";
+		}
+
 		// チェックでエラーが発生している場合は、例外をスローします。
 		if ($this->result == false)
 		{
@@ -2402,7 +2416,7 @@ class FileUploadBatchMall
 		}
 
 		// 画像のサイズを取得します。
-		$size = @getimagesize($this->photo_db_root_dir."/".$srcfilename);
+		$size = @getimagesize($new_photo_db_root_dir.$srcfilename);
 		list($width, $height, $type, $attr) = $size;
 
 		// 設定されているサムネイルのサイズとフォルダの数を比較します。
@@ -2434,7 +2448,7 @@ class FileUploadBatchMall
 					$tmp2 = str_replace("thumb2","thumb3",$tmp1);
 				}
 
-				$size = @getimagesize($this->photo_db_root_dir."/".$tmp);
+				$size = @getimagesize($new_photo_db_root_dir.$tmp);
 				list($width, $height, $type, $attr) = $size;
 
 				// 縦・横の比率を合わせて、サムネイル用の縦、横を計算します。
@@ -2466,43 +2480,43 @@ class FileUploadBatchMall
 				if ($type == IMAGETYPE_JPEG)
 				{
 					// アップロードしたファイルを読み込みます。
-					$ufimage = @ImageCreateFromJPEG($this->photo_db_root_dir."/".$tmp);
+					$ufimage = @ImageCreateFromJPEG($new_photo_db_root_dir.$tmp);
 					// 空のサムネイル画像を作成します。
 					$thumb = @ImageCreateTrueColor($thumb_width, $thumb_height);
 					// 空のサムネイル画像にアップロードしたファイルをコピーします。
 					@imagecopyresampled($thumb, $ufimage, 0, 0, 0, 0, $thumb_width, $thumb_height, $width, $height);
 					// 画像にクレジットを書き込みます。
 					$thumb = $this->write_credit2($thumb, "SAMPLE", $font_size, $thumb_width, $thumb_height);
-					@imagejpeg($thumb, $this->photo_db_root_dir."/".$tmp2);
+					@imagejpeg($thumb, $new_photo_db_root_dir.$tmp2);
 					//create webp format image
-					$tmp2_webp = preg_replace('/\.(jpe?g|png)$/i', '.webp', $this->photo_db_root_dir."/".$tmp2);
+					$tmp2_webp = preg_replace('/\.(jpe?g|png)$/i', '.webp', $new_photo_db_root_dir.$tmp2);
 					@imagewebp($thumb, $tmp2_webp);
 				}
 				else if ($type == IMAGETYPE_GIF)
 				{
 					// アップロードしたファイルを読み込みます。
-					$ufimage = @ImageCreateFromGIF($this->photo_db_root_dir."/".$tmp);
+					$ufimage = @ImageCreateFromGIF($new_photo_db_root_dir.$tmp);
 					// 空のサムネイル画像を作成します。
 					$thumb = @ImageCreateTrueColor($thumb_width, $thumb_height);
 					// 空のサムネイル画像にアップロードしたファイルをコピーします。
 					@imagecopyresampled($thumb, $ufimage, 0, 0, 0, 0, $thumb_width, $thumb_height, $width, $height);
 					// 画像にクレジットを書き込みます。
 					$thumb = $this->write_credit2($thumb, "SAMPLE", $font_size, $thumb_width, $thumb_height);
-					@imagegif($thumb, $this->photo_db_root_dir."/".$tmp2);
+					@imagegif($thumb, $new_photo_db_root_dir.$tmp2);
 				}
 				else if ($type == IMAGETYPE_PNG)
 				{
 					// アップロードしたファイルを読み込みます。
-					$ufimage = @ImageCreateFromPNG($this->photo_db_root_dir."/".$tmp);
+					$ufimage = @ImageCreateFromPNG($new_photo_db_root_dir.$tmp);
 					// 空のサムネイル画像を作成します。
 					$thumb = @ImageCreateTrueColor($thumb_width, $thumb_height);
 					// 空のサムネイル画像にアップロードしたファイルをコピーします。
 					@imagecopyresampled($thumb, $ufimage, 0, 0, 0, 0, $thumb_width, $thumb_height, $width, $height);
 					// 画像にクレジットを書き込みます。
 					$thumb = $this->write_credit2($thumb, "SAMPLE", $font_size, $thumb_width, $thumb_height);
-					@imagepng($thumb, $this->photo_db_root_dir."/".$tmp2);
+					@imagepng($thumb, $new_photo_db_root_dir.$tmp2);
 					//create webp format image
-					$tmp2_webp = preg_replace('/\.(jpe?g|png)$/i', '.webp', $this->photo_db_root_dir."/".$tmp2);
+					$tmp2_webp = preg_replace('/\.(jpe?g|png)$/i', '.webp', $new_photo_db_root_dir.$tmp2);
 					@imagewebp($thumb, $tmp2_webp);
 				}
 
@@ -2529,7 +2543,7 @@ class FileUploadBatchMall
 				if ($type == IMAGETYPE_JPEG)
 				{
 					// アップロードしたファイルを読み込みます。
-					$ufimage = @ImageCreateFromJPEG($this->photo_db_root_dir."/".$srcfilename);
+					$ufimage = @ImageCreateFromJPEG($new_photo_db_root_dir.$srcfilename);
 
 					// 空のサムネイル画像を作成します。
 					$thumb = @ImageCreateTrueColor($thumb_width, $thumb_height);
@@ -2549,15 +2563,15 @@ class FileUploadBatchMall
 
 					// ファイルを保存します。
 					$thfilename = $this->thumbdir[$i] . $this->dirno . $this->svname . "th" . ($i + 1) . $this->ext;
-					@imagejpeg($thumb, $this->photo_db_root_dir."/".$thfilename);
+					@imagejpeg($thumb, $new_photo_db_root_dir.$thfilename);
 					//create webp format image
-					$tmp2_webp = preg_replace('/\.(jpe?g|png)$/i', '.webp', $this->photo_db_root_dir."/".$thfilename);
+					$tmp2_webp = preg_replace('/\.(jpe?g|png)$/i', '.webp', $new_photo_db_root_dir.$thfilename);
 					@imagewebp($thumb, $tmp2_webp);
 				}
 				else if ($type == IMAGETYPE_GIF)
 				{
 					// アップロードしたファイルを読み込みます。
-					$ufimage = @ImageCreateFromGIF($this->photo_db_root_dir."/".$srcfilename);
+					$ufimage = @ImageCreateFromGIF($new_photo_db_root_dir.$srcfilename);
 
 					// 空のサムネイル画像を作成します。
 					$thumb = @ImageCreateTrueColor($thumb_width, $thumb_height);
@@ -2577,12 +2591,12 @@ class FileUploadBatchMall
 
 					// ファイルを保存します。
 					$thfilename = $this->thumbdir[$i] . $this->dirno . $this->svname . "th" . ($i + 1) . $this->ext;
-					@imagegif($thumb, $this->photo_db_root_dir."/".$thfilename);
+					@imagegif($thumb, $new_photo_db_root_dir.$thfilename);
 				}
 				else if ($type == IMAGETYPE_PNG)
 				{
 					// アップロードしたファイルを読み込みます。
-					$ufimage = @ImageCreateFromPNG($this->photo_db_root_dir."/".$srcfilename);
+					$ufimage = @ImageCreateFromPNG($new_photo_db_root_dir.$srcfilename);
 
 					// 空のサムネイル画像を作成します。
 					$thumb = @ImageCreateTrueColor($thumb_width, $thumb_height);
@@ -2602,9 +2616,9 @@ class FileUploadBatchMall
 
 					// ファイルを保存します。
 					$thfilename = $this->thumbdir[$i] . $this->dirno . $this->svname . "th" . ($i + 1) . $this->ext;
-					@imagepng($thumb, $this->photo_db_root_dir."/".$thfilename);
+					@imagepng($thumb, $new_photo_db_root_dir.$thfilename);
 					//create webp format image
-					$tmp2_webp = preg_replace('/\.(jpe?g|png)$/i', '.webp', $this->photo_db_root_dir."/".$thfilename);
+					$tmp2_webp = preg_replace('/\.(jpe?g|png)$/i', '.webp', $new_photo_db_root_dir.$thfilename);
 					@imagewebp($thumb, $tmp2_webp);
 				}
 
@@ -5097,7 +5111,7 @@ class PhotoImageDB extends PhotoImageData
 	 * パラメタ：db_link：ＤＢリンク
 	 * 戻り値：無し
 	 */
-	function batch_insert_data_for_mall($db_link)
+	function batch_insert_data_for_mall($db_link,$is_update_thumb=true)
 	{
 		// 写真データを更新します。
 		$sql = "INSERT INTO photoimg(";
@@ -5307,7 +5321,7 @@ class PhotoImageDB extends PhotoImageData
 				$this->registration_classifications->insert_data($db_link, $this->photo_id);
 				$this->update_keyword($db_link);
 
-				if ((int)$this->publishing_situation_id == 2)
+				if ((int)$this->publishing_situation_id == 2 && $is_update_thumb)
 				{
 					// イメージをバイナリを変換して、DBに保存する
 					$this->write_imagetodb_for_mall($db_link, $this->photo_id);
@@ -8935,7 +8949,6 @@ class ImageSearch
 				$tmpi = 0;
 				while($image_data = $stmt->fetch(PDO::FETCH_ASSOC))
 				{
-//					print_r($image_data);			//add by jinxin 2012/02/07
 					$tmpi = $tmpi + 1;
 					if (($tmpend > 0) && ($tmpi > $tmpend)) break;
 					// 画像データをセットします。

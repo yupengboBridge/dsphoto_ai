@@ -131,7 +131,7 @@ catch(Exception $e)
 <!--CSSリンク　ここまで-->
 <!--javascript ここから -->
 <script src="./js/common.js?v=20250816" type="text/javascript" charset="utf-8"></script>
-<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript">
 <?php
 if (!empty($GLOBALS["s_user_id"]))
@@ -828,7 +828,7 @@ function disp_one_image()
 
 	$renpoji = isset($is->images[0]->renpoji_number) ? trim((string)$is->images[0]->renpoji_number) : '';
 
-	$tmp_url = "./image_search_kikan4.php?p_photo_mno=".$is->images[0]->photo_mno;
+	$tmp_url = $is->images[0]->photo_filename_th1;
 	$isize = $is->images[0]->image_size_x;
 	if(!empty($isize))
 	{

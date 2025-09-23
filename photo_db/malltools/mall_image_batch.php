@@ -260,63 +260,68 @@ function insertPhotoImage($par_csv_content){
 
 		set_insert_data($pi, $insert_data_ary);
 
-		$new_thumb_dir = array_slice($thumb_dir, 0, -1);
-		$new_thumb_width = array_slice($thumb_width, 0, -1);
-		$new_write_credit = array_slice($write_credit, 0, -1);
-		// アップロード用のインスタンスを生成します。
-		$fl = new FileUploadBatchMall(
-			$par_csv_content[1],
-			$upload_conf,
-			$new_thumb_dir,
-			$new_thumb_width,
-			$font_name_batch,
-			$par_csv_content[11],
-			$new_write_credit,
-			$image_root_dir,
-			$photo_db_root_dir
-		);
+		$is_update_thumb = false;
+		if (empty($insert_data_ary['renpoji_number'])) {
+			$new_thumb_dir = array_slice($thumb_dir, 0, -1);
+			$new_thumb_width = array_slice($thumb_width, 0, -1);
+			$new_write_credit = array_slice($write_credit, 0, -1);
+			// アップロード用のインスタンスを生成します。
+			$fl = new FileUploadBatchMall(
+				$par_csv_content[1],
+				$upload_conf,
+				$new_thumb_dir,
+				$new_thumb_width,
+				$font_name_batch,
+				$par_csv_content[11],
+				$new_write_credit,
+				$image_root_dir,
+				$photo_db_root_dir
+			);
 
-		if ($fl->result == false) {
-			$error_msg = "BUD_PHOTO_NO::" . $par_csv_content[1] . ":::FileUploadBatch初期化がエラーになりました。";
-			CommonUtil::writeUploadPhotoImageLog($error_msg, $photo_db_root_dir);
-			throw new Exception($error_msg);
-		}
-		$fl->upload();
-		if ($fl->result == false) {
-			$error_msg = "BUD_PHOTO_NO::" . $par_csv_content[1] . ":::ファイルアップロードがエラーになりました。";
-			CommonUtil::writeUploadPhotoImageLog($error_msg,$photo_db_root_dir);
-			throw new Exception($error_msg);
-		}
-		// サムネイルを作成します。
-		$fl->make_thumbfile();
-		if ($fl->result == false) {
-			$error_msg = "BUD_PHOTO_NO::" . $par_csv_content[1] . ":::サムネイル作成がエラーになりました。";
-			CommonUtil::writeUploadPhotoImageLog($error_msg,$photo_db_root_dir);
-			throw new Exception($error_msg);
-		}
-		// DB保存用のデータを設定します。
-		$pi->up_url = $fl->up_url;                    // アップロードURL
-		$pi->img_width = $fl->img_width;              // イメージサイズ（横）
-		$pi->img_height = $fl->img_height;            // イメージサイズ（縦）
-		$pi->ext = $fl->ext;                          // 拡張子
-		$pi->image_size_x = $fl->img_width[0];        // 画像サイズ（横）
-		$pi->image_size_y = $fl->img_height[0];       // 画像サイズ（縦）
+			if ($fl->result == false) {
+				$error_msg = "BUD_PHOTO_NO::" . $par_csv_content[1] . ":::FileUploadBatch初期化がエラーになりました。";
+				CommonUtil::writeUploadPhotoImageLog($error_msg, $photo_db_root_dir);
+				throw new Exception($error_msg);
+			}
+			$fl->upload();
+			if ($fl->result == false) {
+				$error_msg = "BUD_PHOTO_NO::" . $par_csv_content[1] . ":::ファイルアップロードがエラーになりました。";
+				CommonUtil::writeUploadPhotoImageLog($error_msg,$photo_db_root_dir);
+				throw new Exception($error_msg);
+			}
+			// サムネイルを作成します。
+			$fl->make_thumbfile();
+			if ($fl->result == false) {
+				$error_msg = "BUD_PHOTO_NO::" . $par_csv_content[1] . ":::サムネイル作成がエラーになりました。";
+				CommonUtil::writeUploadPhotoImageLog($error_msg,$photo_db_root_dir);
+				throw new Exception($error_msg);
+			}
+			// DB保存用のデータを設定します。
+			$pi->up_url = $fl->up_url;                    // アップロードURL
+			$pi->img_width = $fl->img_width;              // イメージサイズ（横）
+			$pi->img_height = $fl->img_height;            // イメージサイズ（縦）
+			$pi->ext = $fl->ext;                          // 拡張子
+			$pi->image_size_x = $fl->img_width[0];        // 画像サイズ（横）
+			$pi->image_size_y = $fl->img_height[0];       // 画像サイズ（縦）
 
-		$pi->photo_filename = $fl->up_url[0];			// アップロードURL
-		$pi->photo_filename_th1 = $fl->up_url[1];		// サムネイル1
-		$pi->photo_filename_th2 = $fl->up_url[2];		// サムネイル2
-		$pi->photo_filename_th3 = $fl->up_url[3];		// サムネイル3
-		$pi->photo_filename_th4 = $fl->up_url[4];		// サムネイル4
-		$pi->photo_filename_th5 = isset($fl->up_url[5])?$fl->up_url[5]:"";		// サムネイル5
-		$pi->photo_filename_th6 = isset($fl->up_url[6])?$fl->up_url[6]:"";		// サムネイル6
-		$pi->photo_filename_th7 = isset($fl->up_url[7])?$fl->up_url[7]:"";		// サムネイル7
-		$pi->photo_filename_th8 = isset($fl->up_url[8])?$fl->up_url[8]:"";		// サムネイル8
-		$pi->photo_filename_th9 = isset($fl->up_url[9])?$fl->up_url[9]:"";		// サムネイル9
-		$pi->photo_filename_th10 = isset($fl->up_url[10])?$fl->up_url[10]:"";	// サムネイル10
+			$pi->photo_filename = $fl->up_url[0];			// アップロードURL
+			$pi->photo_filename_th1 = $fl->up_url[1];		// サムネイル1
+			$pi->photo_filename_th2 = $fl->up_url[2];		// サムネイル2
+			$pi->photo_filename_th3 = $fl->up_url[3];		// サムネイル3
+			$pi->photo_filename_th4 = $fl->up_url[4];		// サムネイル4
+			$pi->photo_filename_th5 = isset($fl->up_url[5])?$fl->up_url[5]:"";		// サムネイル5
+			$pi->photo_filename_th6 = isset($fl->up_url[6])?$fl->up_url[6]:"";		// サムネイル6
+			$pi->photo_filename_th7 = isset($fl->up_url[7])?$fl->up_url[7]:"";		// サムネイル7
+			$pi->photo_filename_th8 = isset($fl->up_url[8])?$fl->up_url[8]:"";		// サムネイル8
+			$pi->photo_filename_th9 = isset($fl->up_url[9])?$fl->up_url[9]:"";		// サムネイル9
+			$pi->photo_filename_th10 = isset($fl->up_url[10])?$fl->up_url[10]:"";	// サムネイル10
+
+			$is_update_thumb = true;
+		}
 
 		$pi->photo_db_root_dir = $photo_db_root_dir;
 
-		$insert_flag = $pi->batch_insert_data_for_mall($db_link);
+		$insert_flag = $pi->batch_insert_data_for_mall($db_link,$is_update_thumb);
 
 		if ($insert_flag == false) {
 			$error_msg = "MALL_NO::" . $par_csv_content[1] . ":::" . $pi->message;
@@ -373,6 +378,38 @@ function funcGetMallNo($bud_photo_no){
 	}
 	
 	return $mall_no;
+}
+
+function getFiveStrForSearchKikan5($str)
+{
+    $str_name = "";
+    $len = strlen($str);
+    
+    if ($len < 5) {
+        for ($i = 0; $i < (5 - (int) $len); $i ++) {
+            $str_name .= "0";
+        }
+        $str_name = $str_name . $str;
+    } else {
+        $str_name = substr($str, 0, 5);
+    }
+    return $str_name;
+}
+
+function getNewImageNameForSearchKikan5($fileName, $width, $height)
+{
+	$imageName = "";
+	$type = @pathinfo($fileName, PATHINFO_EXTENSION);
+	$ary_name = explode("-", basename($fileName, "." . $type));
+	$tmp_name = "";
+	for ($i = 0; $i < count($ary_name); $i ++) {
+		$tmp_name = "-";
+		if (strlen($ary_name[$i]) > 0)
+			$tmp_name = $ary_name[$i];
+		$imageName .= $tmp_name;
+	}
+	$imageName .= "-" . getFiveStrForSearchKikan5($width) . "-" . getFiveStrForSearchKikan5($height) . "." . $type;
+	return $imageName;
 }
 
 /**
@@ -554,6 +591,26 @@ function updatePhotoImage($par_csv_content){
 
 		set_update_data($pi, $update_data_ary);
 
+		// このPHPファイルの絶対パスから「/var/www/html/」のようなルートパスを取得
+		$scriptDir = dirname(__FILE__); // 例: /var/www/html/photo_db/malltools
+		$rootPath = realpath($scriptDir . '/../../'); // 例: /var/www/html
+		$newFilePathCmsPhotoImageRoot = $rootPath . "/cms_photo_image/change/";
+		$newFilePathDsPhotoWebRoot = $rootPath . "/photo_db/change/";
+		$newJpgFileName = getNewImageNameForSearchKikan5($photo_image_info['photo_mno'],$photo_image_info['image_size_x'],$photo_image_info['image_size_y']);
+		$newWebpFile = pathinfo($newJpgFileName, PATHINFO_FILENAME) . '.webp';
+		// 指定されたファイルパスを使ってファイルを削除します（存在する場合のみ）
+		$delete_targets = array(
+			$newFilePathCmsPhotoImageRoot . $newJpgFileName,
+			$newFilePathCmsPhotoImageRoot . $newWebpFile,
+			$newFilePathDsPhotoWebRoot . $newJpgFileName,
+			$newFilePathDsPhotoWebRoot . $newWebpFile
+		);
+		foreach ($delete_targets as $del_file) {
+			if (file_exists($del_file)) {
+				@unlink($del_file);
+			}
+		}
+
 		$is_upload = false;
 		// $ext = pathinfo($par_csv_content[1], PATHINFO_EXTENSION);
 		// $end_pos = strlen(substr($par_csv_content[1],2)) - strlen($ext) - 2;
@@ -562,12 +619,15 @@ function updatePhotoImage($par_csv_content){
 		$photo = CommonPhotoImage::getPhotoByMallNo($db_link, $mall_no);
 		$additional_constraints1 = $photo['additional_constraints1'];
 		$additional_constraints1 = str_replace("=_=","",$additional_constraints1);
-		//print($mall_no.":::".trim($par_csv_content[11]).":::".trim($additional_constraints1));
 		if (trim($par_csv_content[11]) != trim($additional_constraints1)) {
 			$is_upload = true;
 		}
 		$ext = pathinfo($par_csv_content[1], PATHINFO_EXTENSION);
 		if("EPS" == strtoupper($ext)){
+			$is_upload = false;
+		}
+
+		if(!empty($update_data_ary['renpoji_number'])){
 			$is_upload = false;
 		}
 
@@ -870,8 +930,8 @@ function set_update_data(&$pi, $d_ary)
 		if(!empty($pi->renpoji_number)){
 			$client = new UlizaPosterClient();
 			$result = $client->fetchPoster($pi->renpoji_number);
-			if ($result['ok']) {
-				$pi->movie_poster = $result['poster'];
+			if (isset($result['ok']) && $result['ok']) {
+				$pi->movie_poster = isset($result['poster']) ? $result['poster'] : "";
 			} else {
 				$pi->movie_poster = "";
 			}
@@ -929,6 +989,20 @@ function checkCsvData($line){
 		if(trim($line[16])===""){
 			$ret_error_msg = "MALL_NO:".$line[1].':::画像の公開制限がないためが処理できません。';
 			throw new Exception($ret_error_msg);
+		}
+
+		$renpoji_number = $line[18];
+		if(!empty($renpoji_number)){
+			$client = new UlizaPosterClient();
+			$result = $client->fetchPoster($renpoji_number);
+			$movie_poster = "";
+			if (isset($result['ok']) && $result['ok']) {
+				$movie_poster = isset($result['poster']) ? $result['poster'] : "";
+			}
+			if(empty($movie_poster)){
+				$ret_error_msg = "レンポジ番号:".$renpoji_number.':::動画のULIZA期限切れ・ULIZAに存在しないため処理できません。';
+				throw new Exception($ret_error_msg);
+			}
 		}
 
 		return true;
@@ -1035,8 +1109,8 @@ function set_insert_data(&$pi, $d_ary)
 		if(!empty($pi->renpoji_number)){
 			$client = new UlizaPosterClient();
 			$result = $client->fetchPoster($pi->renpoji_number);
-			if ($result['ok']) {
-				$pi->movie_poster = $result['poster'];
+			if (isset($result['ok']) && $result['ok']) {
+				$pi->movie_poster = isset($result['poster']) ? $result['poster'] : "";
 			} else {
 				$pi->movie_poster = "";
 			}

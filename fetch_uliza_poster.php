@@ -8,7 +8,7 @@ class UlizaPosterClient
     /** @var string */
     private $endpoint;
 
-    public function __construct($endpoint = 'https://player-api.p.uliza.jp/v1/players/default-player/cread/hei?type=normal&name=')
+    public function __construct($endpoint = 'https://player-api.p.uliza.jp/v1/players/default-player/cread/admin')
     {
         $this->endpoint = $endpoint;
     }
@@ -21,8 +21,10 @@ class UlizaPosterClient
      */
     public function fetchPoster($name)
     {
+        var_dump($name);
         $url = $this->buildUrl($name);
         list($status, $body, $err) = $this->httpGet($url);
+        var_dump($body);
         if ($err !== null) {
             return [
                 'ok' => false,
@@ -120,6 +122,7 @@ class UlizaPosterClient
         ]);
 
         $body = curl_exec($ch);
+        var_dump($body);
         $errno = curl_errno($ch);
         $error = $errno ? curl_error($ch) : null;
         $httpCode = (int) curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
