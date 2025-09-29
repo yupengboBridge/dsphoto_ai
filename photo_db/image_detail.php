@@ -830,7 +830,7 @@ function disp_one_image()
 
 	$tmp_url = $is->images[0]->photo_filename_th1;
 	$isize = $is->images[0]->image_size_x;
-	if(!empty($isize))
+	if(!empty($isize) || $renpoji !== '')
 	{
 		if ($renpoji !== '') {
 		  print "<div class='uliza-player'>\n";

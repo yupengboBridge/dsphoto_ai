@@ -802,7 +802,7 @@ function disp_one_image()
 	$tmp_url = "./disp_register_image.php?p_photo_id=".$p_photo_id;
 	$isize = $is->images[0]->image_size_x;
 	$renpoji = isset($is->images[0]->renpoji_number) ? trim((string)$is->images[0]->renpoji_number) : '';
-	if(!empty($isize))
+	if(!empty($isize) || $renpoji !== '')
 	{
 		if ($renpoji !== '') {
 		  print "<div class='uliza-player'>\n";

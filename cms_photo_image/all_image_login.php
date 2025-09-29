@@ -164,7 +164,7 @@ exit(0);
  */
 function pc_sp_all($width,$height,$path,$is_all="no",$photo_id=0){
     //长宽判断条件，生成SP
-    if(($is_all=="no" && ($width>2400||$height>2400)) || ($is_all=="all")) {
+    if(($is_all=="no" && ($width>2400||$height>2400||($width==1252&&$height==578))) || ($is_all=="all")) {
         $result_th11 = update_photo_filename_th($path, 1,$photo_id);
         if ($result_th11 == false) {
             $err_message = "photo_filename_th11の生成がエラーになりました。";
@@ -172,7 +172,7 @@ function pc_sp_all($width,$height,$path,$is_all="no",$photo_id=0){
         }
     }
     //长宽判断条件，生成SP
-    if(($is_all=="no" && ($width>2400||$height>2400)) || ($is_all=="all")) {
+    if(($is_all=="no" && ($width>2400||$height>2400||($width==1252&&$height==578))) || ($is_all=="all")) {
         $result_th12 = update_photo_filename_th($path, 2,$photo_id);
         if ($result_th12 == false) {
             $err_message = "photo_filename_th12の生成がエラーになりました。";

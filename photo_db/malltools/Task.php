@@ -5,6 +5,9 @@ if (PHP_SAPI === 'cli') {
     $root_path = "..";
 }
 
+// Set global $photo_db_root_dir for mall_image_batch.php compatibility
+$GLOBALS['photo_db_root_dir'] = $root_path;
+
 require_once ($root_path.'/config.php');
 require_once ($root_path.'/lib.php');
 require_once ($root_path.'/malltools/mall_image_batch.php');
@@ -251,6 +254,13 @@ class Task
                             if($check_csv_flg === false){
                                 $this->rows++;
                                 continue;
+                            }
+                            $renpoji_number = $line[18];
+                            $ext = strtolower(pathinfo($line[1], PATHINFO_EXTENSION));
+                            // $extが画像拡張子（jpg, jpeg, png, gif, bmp, tiff, webpなど）の場合、かつ$renpoji_numberが存在する時、$line[18]を空白にする
+                            $image_extensions = ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'tiff', 'webp'];
+                            if (in_array($ext, $image_extensions) && !empty($renpoji_number)) {
+                                $line[18] = "";
                             }
                             if ($line[0]=='U'){
                                 $mall_no = funcGetMallNo($line[1]);

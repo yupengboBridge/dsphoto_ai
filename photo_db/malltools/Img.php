@@ -6,7 +6,11 @@ class Img {
 	private $imagePath;
 	private $isCrop;
 	public $cmykIccPath;
-	public $srgbIccPath;
+	public $adobeRgbIccPath; // Changed from srgbIccPath to adobeRgbIccPath
+	
+	// Cache ICC profiles to avoid repeated file_get_contents()
+	private $cachedCmykProfile = null;
+	private $cachedAdobeRgbProfile = null;
 
 	public function __construct()
 	{
@@ -15,6 +19,108 @@ class Img {
 		}
 		$this->image = new \Imagick();
 		$this->isCrop = true;
+		
+		// Set default ICC profile paths
+		$this->setDefaultICCPaths();
+		
+		// Pre-load ICC profiles for better performance
+		$this->loadICCCache();
+	}
+
+	/**
+	 * Set default ICC profile paths relative to this file location
+	 */
+	private function setDefaultICCPaths() {
+		$baseDir = dirname(__FILE__);
+		$this->cmykIccPath = $baseDir . '/icc/JapanColor2011Coated.icc';
+		$this->adobeRgbIccPath = $baseDir . '/icc/AdobeRGB1998.icc';
+	}
+
+	/**
+	 * Pre-load ICC profiles into memory for better performance
+	 */
+	private function loadICCCache() {
+		try {
+			// Load Adobe RGB profile (small file - always load)
+			if (file_exists($this->adobeRgbIccPath)) {
+				$this->cachedAdobeRgbProfile = file_get_contents($this->adobeRgbIccPath);
+			}
+		} catch (Exception $e) {
+			
+		}
+	}
+
+	/**
+	 * Check if image has CMYK ICC profile
+	 */
+	private function isCMYKImage() {
+		try {
+			$profiles = $this->image->getImageProfiles('icc');
+			if (!empty($profiles)) {
+				return $this->image->getImageColorspace() === Imagick::COLORSPACE_CMYK;
+			}
+			return false;
+		} catch (Exception $e) {
+			return false;
+		}
+	}
+
+	/**
+	 * Apply Adobe RGB profile to all images (CMYK and RGB)
+	 */
+	private function convertCMYKtoAdobeRGB() {
+		$wasCMYK = $this->isCMYKImage();
+		
+		if (!$wasCMYK) {
+			return $this->applyAdobeRGBProfile();
+		}
+		
+		if (!file_exists($this->cmykIccPath)) {
+			throw new Exception('CMYK ICC profile not found: ' . $this->cmykIccPath);
+		}
+		if (!file_exists($this->adobeRgbIccPath)) {
+			throw new Exception('Adobe RGB ICC profile not found: ' . $this->adobeRgbIccPath);
+		}
+		
+		try {
+			try {
+				$this->image->removeImageProfile('icc');
+			} catch (Exception $e) {
+			}
+			
+			// Load CMYK profile on-demand (large file - 1.9MB)
+			if ($this->cachedCmykProfile === null) {
+				$this->cachedCmykProfile = file_get_contents($this->cmykIccPath);
+			}
+			
+			$this->image->profileImage('icc', $this->cachedCmykProfile);
+			
+			// Apply Adobe RGB profile using cached data
+			$this->image->profileImage('icc', $this->cachedAdobeRgbProfile);
+			
+			// Let Imagick handle colorspace naturally - no forcing
+			$this->image->setImageFormat('jpeg');
+			
+			return true;
+		} catch (Exception $e) {
+			throw new Exception('CMYK to Adobe RGB conversion failed: ' . $e->getMessage());
+		}
+	}
+
+	/**
+	 * Apply Adobe RGB profile to RGB images
+	 */
+	private function applyAdobeRGBProfile() {
+		if (!file_exists($this->adobeRgbIccPath)) {
+			throw new Exception('Adobe RGB ICC profile not found: ' . $this->adobeRgbIccPath);
+		}
+		
+		try {
+			$this->image->profileImage('icc', $this->cachedAdobeRgbProfile);
+			return true;
+		} catch (Exception $e) {
+			throw new Exception('Adobe RGB profile application failed: ' . $e->getMessage());
+		}
 	}
 
 	public function load($imageFile){
@@ -46,8 +152,11 @@ class Img {
 			$originalWidth = $this->image->getImageWidth();
 			$originalHeight = $this->image->getImageHeight();
 
+			// Always apply Adobe RGB profile to ensure consistent color space
+			$needsConversion = $this->convertCMYKtoAdobeRGB();
+
 			if ($originalWidth == $width && $originalHeight == $height) {
-				$this->isCrop = false;
+				$this->isCrop = $needsConversion; // Set true if conversion was performed
 				return;
 			}
 
@@ -66,19 +175,20 @@ class Img {
 					$canvas = new \Imagick();
 					$canvas->newImage($width, $height, 'white', 'jpg');
 
-					// 色空間変換（CMYK対応）
-					if ($colorSpace == \Imagick::COLORSPACE_CMYK) {
-						$cmykProfilePath = $this->cmykIccPath;
-						$srgbProfilePath = $this->srgbIccPath;
-						$this->image->profileImage('*', null);
-						$this->image->profileImage('icc', file_get_contents($cmykProfilePath));
-						$this->image->profileImage('icc', file_get_contents($srgbProfilePath));
-						//$this->image->modulateImage(100, 110, 100);
-						$this->image->transformImageColorspace(\Imagick::COLORSPACE_SRGB);
-					}
+					// 色空間変換（CMYK to Adobe RGB）
+					$wasConverted = $this->convertCMYKtoAdobeRGB();
 
 					$canvas->compositeImage($this->image, \Imagick::COMPOSITE_DEFAULT, $x, 0);
-					$canvas->setImageColorspace(\Imagick::COLORSPACE_SRGB);
+					
+					// Apply Adobe RGB profile to canvas if conversion was performed
+					if ($wasConverted) {
+						try {
+							$canvas->profileImage('icc', $this->cachedAdobeRgbProfile);
+						} catch (Exception $e) {
+							// Continue if profile application fails
+						}
+					}
+					
 					$canvas->setImageFormat('jpeg');
 					$this->image = $canvas;
 				}else{
@@ -98,19 +208,20 @@ class Img {
 				$canvas = new \Imagick();
 				$canvas->newImage($width, $height, 'white', 'jpg');
 
-				// 色空間変換（CMYK対応）
-				if ($colorSpace == \Imagick::COLORSPACE_CMYK) {
-					$cmykProfilePath = $this->cmykIccPath;
-					$srgbProfilePath = $this->srgbIccPath;
-					$this->image->profileImage('*', null);
-					$this->image->profileImage('icc', file_get_contents($cmykProfilePath));
-					$this->image->profileImage('icc', file_get_contents($srgbProfilePath));
-					//$this->image->modulateImage(100, 110, 100);
-					$this->image->transformImageColorspace(\Imagick::COLORSPACE_SRGB);
-				}
+				// 色空間変換（CMYK to Adobe RGB）
+				$wasConverted = $this->convertCMYKtoAdobeRGB();
 
 				$canvas->compositeImage($this->image, \Imagick::COMPOSITE_DEFAULT, $x, 0);
-				$canvas->setImageColorspace(\Imagick::COLORSPACE_SRGB);
+				
+				// Apply Adobe RGB profile to canvas if conversion was performed
+				if ($wasConverted) {
+					try {
+						$canvas->profileImage('icc', $this->cachedAdobeRgbProfile);
+					} catch (Exception $e) {
+						// Continue if profile application fails
+					}
+				}
+				
 				$canvas->setImageFormat('jpeg');
 				$this->image = $canvas;
 			} else {
@@ -125,18 +236,20 @@ class Img {
 				$canvas = new \Imagick();
 				$canvas->newImage($width, $height, 'white', 'jpg');
 
-				if ($colorSpace == \Imagick::COLORSPACE_CMYK) {
-					$cmykProfilePath = $this->cmykIccPath;
-					$srgbProfilePath = $this->srgbIccPath;
-					$this->image->profileImage('*', null);
-					$this->image->profileImage('icc', file_get_contents($cmykProfilePath));
-					$this->image->profileImage('icc', file_get_contents($srgbProfilePath));
-					//$this->image->modulateImage(100, 110, 100);
-					$this->image->transformImageColorspace(\Imagick::COLORSPACE_SRGB);
-				}
+				// 色空間変換（CMYK to Adobe RGB）
+				$wasConverted = $this->convertCMYKtoAdobeRGB();
 
 				$canvas->compositeImage($this->image, \Imagick::COMPOSITE_DEFAULT, $x, $y);
-				$canvas->setImageColorspace(\Imagick::COLORSPACE_SRGB);
+				
+				// Apply Adobe RGB profile to canvas if conversion was performed
+				if ($wasConverted) {
+					try {
+						$canvas->profileImage('icc', $this->cachedAdobeRgbProfile);
+					} catch (Exception $e) {
+						// Continue if profile application fails
+					}
+				}
+				
 				$canvas->setImageFormat('jpeg');
 				$this->image = $canvas;
 			}
@@ -174,21 +287,16 @@ class Img {
 		$x = ($targetWidth - $scaledWidth) / 2;
 		$y = ($targetHeight - $scaledHeight) / 2;
 
-		// CMYK対応
-		$colorSpace = $this->image->getImageColorspace();
-		if ($colorSpace == \Imagick::COLORSPACE_CMYK) {
-			$this->image->profileImage('*', null);
-			$this->image->profileImage('icc', file_get_contents($this->cmykIccPath));
-			$this->image->profileImage('icc', file_get_contents($this->srgbIccPath));
-			//$this->image->modulateImage(100, 110, 100);
-			$this->image->transformImageColorspace(\Imagick::COLORSPACE_SRGB);
-		}
+		// Ensure Adobe RGB profile is applied before compositing
+		$this->convertCMYKtoAdobeRGB();
 
 		// キャンバスに貼り付け（中央）
 		$canvas->compositeImage($this->image, \Imagick::COMPOSITE_DEFAULT, $x, $y);
 
-		if ($colorSpace == \Imagick::COLORSPACE_CMYK) {
-			$canvas->setImageColorspace(\Imagick::COLORSPACE_SRGB);
+		// Always apply Adobe RGB profile to the final canvas
+		try {
+			$canvas->profileImage('icc', $this->cachedAdobeRgbProfile);
+		} catch (Exception $e) {
 		}
 
 		$this->image = $canvas;
@@ -205,7 +313,6 @@ class Img {
 
 				// 根据文件扩展名保存图像
 				$extension = strtolower(pathinfo($filePath, PATHINFO_EXTENSION));
-				print($extension."\n");
 				switch ($extension) {
 					case 'jpg':
 					case 'jpeg':
@@ -220,9 +327,20 @@ class Img {
 					default:
 						return false;
 				}
-				print($filePath."\n");
+				
+				// Check if image object is valid
+				if (!$this->image || !$this->image->valid()) {
+					throw new Exception("Invalid image object before save");
+				}
+				
 				// 保存图像到指定路径
 				$this->image->writeImage($filePath);
+				
+				// Verify file was created
+				if (file_exists($filePath)) {
+				} else {
+					throw new Exception("File was not created: $filePath");
+				}
 			}
 		}catch (Exception $e){
 			throw $e;
@@ -231,6 +349,10 @@ class Img {
 
 	public function clean() {
 		// 清理图像资源
+		if ($this->image === null) {
+			return; // Mock mode
+		}
+		
 		$this->image->clear();
 		$this->image->destroy();
 	}

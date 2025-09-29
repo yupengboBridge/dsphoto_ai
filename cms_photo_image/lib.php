@@ -8,12 +8,8 @@ error_reporting (E_ERROR);
 $one_page_records_cnt = 20;
 function pc_sp($width,$height,$path,$photo_id=0){
 	#长宽判断条件，生成SP
-	if($width>2400||$height>2400) {
+	if($width>2400||$height>2400||($width==1252&&$height==578)) {
 		update_photo_filename_th($path, 1,$photo_id);
-	}
-
-	#长宽判断条件，生成PC
-	if($width>2400||$height>2400) {
 		update_photo_filename_th($path, 2,$photo_id);
 	}
 

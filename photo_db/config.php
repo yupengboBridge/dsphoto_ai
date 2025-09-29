@@ -49,7 +49,8 @@ $font_name_batch = "/data/photo_db/sazanami-gothic.ttf";
 $credit_fontsize = array(8, 10, 14, 16, 16, 16);						// -160, -320, -480, -640, -800, 801-（変更しないで下さい）
 $table_log_name = "photo_log";//ログテーブル名前 yupengbo add 2011/11/21
 //$comp_code = '00000';
-$end_point = 'https://player-api.p.uliza.jp/v1/players/default-player/cread/hei?type=normal&name=';
+//$end_point = 'https://player-api.p.uliza.jp/v1/players/default-player/cread/hei?type=normal&name=';
+$end_point = 'https://player-api.p.uliza.jp/v1/players/heicread%40admin/cread/hei?type=normal&name=';
 //
 //
 //

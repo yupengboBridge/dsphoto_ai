@@ -134,8 +134,6 @@ function db_connect()
  */
 function uploadfiles($csvcontent,$s_logininfo)
 {
-	file_put_contents('/home/xhankyu/public_html/photo_db/soap_login_image_batch_limi.txt', 'webpd'.PHP_EOL,FILE_APPEND);
-	return "OK";
 	global $db_link,$pi,$data_ary;
 	global $classification_id1, $direction_id1, $country_prefecture_id1, $place_id1;
 	global $classification_name1,$direction_name1,$country_prefecture_name1,$place_name1;

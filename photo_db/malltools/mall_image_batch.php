@@ -992,7 +992,9 @@ function checkCsvData($line){
 		}
 
 		$renpoji_number = $line[18];
-		if(!empty($renpoji_number)){
+		$ext = strtolower(pathinfo($line[1], PATHINFO_EXTENSION));
+		$movie_extensions = ['mp4', 'mov', 'avi', 'wmv', 'flv', 'mkv', 'webm', 'm4v'];
+		if (in_array($ext, $movie_extensions) && !empty($renpoji_number)) {
 			$client = new UlizaPosterClient();
 			$result = $client->fetchPoster($renpoji_number);
 			$movie_poster = "";

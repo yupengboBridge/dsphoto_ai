@@ -31,14 +31,19 @@ $charset = 'UTF-8';
 //$db_name = 'ximage';
 
 $db_host = 'localhost';
-$db_user = 'root';
-$db_password = 'root@Hcst2022';
+$db_user = 'photodbuser';
+$db_password = 'h9!rkG726';
 $db_name = 'photodb_image';
+
+// $db_host = 'localhost';
+// $db_user = 'root';
+// $db_password = 'root@Hcst2022';
+// $db_name = 'photodb_image';
 
 $db_charset = 'utf8';
 // サイト情報
 $site_name = '写真管理システム';
-$site_url = 'http://cmsphotoimg.hcstec.com/';
+$site_url = 'https://photo-db.site/cms_photo_image/';
 $db_link;
 
 //$db_host = 'localhost';
@@ -87,16 +92,21 @@ $credit_fontsize = array(8, 10, 14, 18, 22, 26);						// -160, -320, -480, -640,
  * @throws Exception
  */
 	function pc_sp($width,$height,$path){
-		$result_th11 = update_photo_filename_th($path,1);
-		if($result_th11==false){
-			$err_message = "photo_filename_th11の生成がエラーになりました。";
-			throw new Exception($err_message);
-		}
+		#原图片
+	    $original_photo = strstr($path[0],'./uploads/');
+		list($width, $height) = getimagesize($original_photo);
+		if($width>2400||$height>2400||($width==1252&&$height==578)) {
+			$result_th11 = update_photo_filename_th($path,1);
+			if($result_th11==false){
+				$err_message = "photo_filename_th11の生成がエラーになりました。";
+				throw new Exception($err_message);
+			}
 
-		$result_th12 = update_photo_filename_th($path,2);
-		if($result_th12==false){
-			$err_message = "photo_filename_th12の生成がエラーになりました。";
-			throw new Exception($err_message);
+			$result_th12 = update_photo_filename_th($path,2);
+			if($result_th12==false){
+				$err_message = "photo_filename_th12の生成がエラーになりました。";
+				throw new Exception($err_message);
+			}
 		}
 
 		$result_th13 = update_photo_filename_th($path,3);
