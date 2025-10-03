@@ -262,7 +262,7 @@ function dis_category($cg_id,$cg_name)
 {
 
 	$dc = count($cg_id);
-	print "<ul>";
+	print "<ul id='ul_category_list'>";
 	for ($i=0;$i < $dc;$i++)
 	{
 		print "<li class='list_dot'> <em>";
@@ -430,6 +430,11 @@ function disp_range($r_id,$r_name)
 	.media_type_checkbox li {
 		display: inline-block;
 		margin-right: 10px;
+	}
+	#ul_category_list {
+		height: 400px !important;
+		width: 880px !important;
+		overflow: scroll !important;
 	}
 </style>
 <!--CSSリンク　ここから-->

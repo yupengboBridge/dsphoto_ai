@@ -106,7 +106,7 @@ var cnt=1;
 	var idstr = getCookie(ck_id);
 	// カンマ区切りの文字列を配列にします。
 	var id_a = new Array();
-	id_a = idstr.explode(",");
+	id_a = idstr.split(",");
 	var res = id_a.length/max;
 	if (id_a.length % max == 0)
 	{
@@ -188,7 +188,7 @@ function move2(adj)
 	var idstr = getCookie(ck_id);
 	// カンマ区切りの文字列を配列にします。
 	var id_a = new Array();
-	id_a = idstr.explode(",");
+	id_a = idstr.split(",");
 	var res = id_a.length/max;
 	if (id_a.length % max == 0)
 	{
@@ -298,7 +298,7 @@ function change_on()
 		setCookie("bt_cnt",bt_cnt);// クリーク回数をセショーンに設定する
 		var id_a = new Array();
 		// カンマ区切りの文字列を配列にします。
-		id_a = idstr.explode(",");
+		id_a = idstr.split(",");
 		if (id_a.length > 10)
 		{
 			set_frameheight('iframe_middle2',380);
@@ -816,7 +816,11 @@ function disp_slider10()
 				} else {
 					print "<dt>&nbsp&nbsp&nbsp</dt>\r\n";
 				}
-				print "<dd class='samneil'><a href='#'><img width='60px' height='45px' src='".$ph_img_all->up_url[3]."' alt='イメージ'  onclick='disp_ImageInformation(\"".$ph_img_all->photo_id."\");return false;'/></a></dd>\r\n";
+				if(!empty($ph_img_all->movie_poster)){
+					print "<dd class='samneil'><a href='#'><img width='60px' height='45px' src='".$ph_img_all->movie_poster."' alt='イメージ'  onclick='disp_ImageInformation(\"".$ph_img_all->photo_id."\");return false;'/></a></dd>\r\n";
+				} else {
+					print "<dd class='samneil'><a href='#'><img width='60px' height='45px' src='".$ph_img_all->up_url[3]."' alt='イメージ'  onclick='disp_ImageInformation(\"".$ph_img_all->photo_id."\");return false;'/></a></dd>\r\n";
+				}
 				//print "<dd class='bt_delete'><a href='#'><img src='parts/bt_delete.gif' alt='削除' onclick='hide_image(\"".$ph_img_all->photo_id."\");delete_pickup(\"".$ph_img_all->photo_id."\",".$s_user_id.");return false;'/></a></dd>\r\n";
 				print "<dd class='bt_delete'><a href='#'><img src='parts/bt_delete.gif' alt='削除' onclick='delete_pickup(\"".$ph_img_all->photo_id."\",".$s_user_id.");return false;'/></a></dd>\r\n";
 				print "</dl>\r\n";//<dl 'photo'>終了
@@ -922,7 +926,11 @@ function disp_slider30()
 			} else {
 				print "			<dt>&nbsp&nbsp&nbsp</dt>\r\n";
 			}
-			print "				<dd class='samneil'><a href='#'><img width='60px' height='45px' src='".$ph_img_all->up_url[3]."' height='53px' alt='イメージ'  onclick='disp_ImageInformation(\"".$ph_img_all->photo_id."\");return false;'/></a></dd>\r\n";
+			if(!empty($ph_img_all->movie_poster)){
+				print "				<dd class='samneil'><a href='#'><img width='60px' height='45px' src='".$ph_img_all->movie_poster."' alt='イメージ'  onclick='disp_ImageInformation(\"".$ph_img_all->photo_id."\");return false;'/></a></dd>\r\n";
+			} else {
+				print "				<dd class='samneil'><a href='#'><img width='60px' height='45px' src='".$ph_img_all->up_url[3]."' alt='イメージ'  onclick='disp_ImageInformation(\"".$ph_img_all->photo_id."\");return false;'/></a></dd>\r\n";
+			}
 			print "				<dd class='bt_delete'><a href='#'><img src='parts/bt_delete.gif' alt='削除' onclick='hide_image(\"".$ph_img_all->photo_id."\");delete_pickup2(\"".$ph_img_all->photo_id."\",".$s_user_id.");return false;'/></a></dd>\r\n";
 			//print "				<dd class='bt_delete'><a href='#'><img src='parts/bt_delete.gif' alt='削除' onclick='delete_pickup(\"".$ph_img_all->photo_id."\",".$s_user_id.");return false;'/></a></dd>\r\n";
 			print "			</dl>\r\n";// <div 'photo'>終了

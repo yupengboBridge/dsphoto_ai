@@ -453,7 +453,11 @@ function disp_slider10()
 				} else {
 					print "<dt>&nbsp&nbsp&nbsp</dt>\r\n";
 				}
-				print "<dd class='samneil'><a href='#'><img width='60px' height='45px' src='".$ph_img_all->up_url[1]."' alt='イメージ'  onclick='disp_ImageInformation(\"".$ph_img_all->photo_id."\");'/></a></dd>\r\n";
+				if(!empty($ph_img_all->movie_poster)){
+					print "<dd class='samneil'><a href='#'><img width='60px' height='45px' src='".$ph_img_all->movie_poster."' alt='イメージ'  onclick='disp_ImageInformation(\"".$ph_img_all->photo_id."\");'/></a></dd>\r\n";
+				} else {
+					print "<dd class='samneil'><a href='#'><img width='60px' height='45px' src='".$ph_img_all->up_url[1]."' alt='イメージ'  onclick='disp_ImageInformation(\"".$ph_img_all->photo_id."\");'/></a></dd>\r\n";
+				}
 				print "<dd class='bt_delete'><a href='#'><img src='parts/bt_delete.gif' alt='削除' onclick='delete_listimage(\"".$ph_img_all->photo_id."\");'/></a></dd>\r\n";
 				print "</dl>\r\n";// <dl 'photo'>終了
 				print "</li>\r\n";

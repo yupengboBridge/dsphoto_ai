@@ -882,12 +882,13 @@ function disp_img()
 		print "<input name='img_chk' type='checkbox' value=\"".$ph_img_all->photo_id."\" onclick=\"setCookie_CheckBox(this,'pickup_chk');\"/>\r\n";
 		print "</li>\r\n";
 		print "<li class='icon_bt_info' title='詳細情報'><a href='#' onclick='disp_ImageInformation(\"".$ph_img_all->photo_id."\");return false;'>情報</a></li>\r\n";
+		print "<li class='icon_bt_pickup' title='ピックアップ'><a href='#' onclick='if (pickup(\"" .$ph_img_all->photo_id. "\", ".$s_user_id.")==false){alert(\"既にピックアップしています。\");} return false;'>ピックアップ</a></li>\r\n";
 		
-		if ($renpoji === null || trim((string)$renpoji) === '') {
-			print "<li class='icon_bt_pickup' title='ピックアップ'><a href='#' onclick='if (pickup(\"" .$ph_img_all->photo_id. "\", ".$s_user_id.")==false){alert(\"既にピックアップしています。\");} return false;'>ピックアップ</a></li>\r\n";
+		if ($renpoji !== null && trim((string)$renpoji) !== '') {
+			print "<li class='icon_bt_copy' title='ソースをコピー'><a href='#' id='clip_".$ph_img_all->photo_id."' onclick='if(setClipboard(\"".$ph_img_all->photo_id."\")){ alert(\"写真情報をクリップボードにコピーしました。\");} return false;'>コピー</a></li>\r\n";
+		}else{
+			print "<li class='icon_bt_copy' title='ソースをコピー'><a href='#' id='clip_".$ph_img_all->photo_id."' onclick='if(setClipboard(\"".$ph_img_all->photo_id."\")){ alert(\"写真情報をクリップボードにコピーしました。\");} return false;'>コピー</a></li>\r\n";
 		}
-		
-		print "<li class='icon_bt_copy' title='ソースをコピー'><a href='#' id='clip_".$ph_img_all->photo_id."' onclick='if(setClipboard(\"".$ph_img_all->photo_id."\")){ alert(\"写真情報をクリップボードにコピーしました。\");} return false;'>コピー</a></li>\r\n";
 		print "&nbsp;";
 		#sp图标
 		print $sp_img;
@@ -1010,38 +1011,38 @@ function disp_img()
 	.thumb-with-play {
 		position: relative;
 		display: inline-block;
-		/* 幅・高さはHTML側で指定可（例: width:200px;height:120px） */
-		overflow: hidden;
+		height: 105px; /* 必要に応じて調整 */
 	}
 
 	.thumb-with-play img {
-		width: 100%;
-		height: 100%;
 		display: block;
-		object-fit: cover; /* 必要に応じて */
+		height: 100%;
 	}
 
-	/* 中央の赤い三角アイコン */
 	.thumb-with-play .play-icon {
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		/* 三角形をborderで描画 */
-		width: 0;
-		height: 0;
-		border-left: 30px solid #e14242;        /* 三角の色（赤） */
-		border-top: 15px solid transparent;   /* 三角の上辺透明 */
-		border-bottom: 15px solid transparent;/* 三角の下辺透明 */
-		opacity: 0.9;
-		pointer-events: none; /* クリック透過 */
+		width: 50px;
+		height: 30px;
+		background-color: #c4302b; /* 赤い角丸背景 */
+		pointer-events: none;
 	}
 
-	/* あると嬉しい: ホバーで少し強調 */
-	.thumb-with-play:hover .play-icon {
-		filter: drop-shadow(0 0 6px rgba(0,0,0,.5));
-		transform: translate(-50%, -50%) scale(1.05);
+	.thumb-with-play .play-icon::after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-40%, -50%);
+		width: 0;
+		height: 0;
+		border-left: 14px solid white;
+		border-top: 10px solid transparent;
+		border-bottom: 10px solid transparent;
 	}
+
 
 	.aa.hover { background-color:#224272; }
 	.sppc {
@@ -1200,10 +1201,10 @@ function pickupAll()
 		// クッキーを取得します。
 		var idstr = getCookie(ck_id);
 		var id_pickup_ary = new Array();
-		id_pickup_ary = idstr.explode(",");
+		id_pickup_ary = idstr.split(",");
 
 		var id_chk = new Array();
-		id_chk_ary = idstr_chk.explode(",");
+		id_chk_ary = idstr_chk.split(",");
 		for (var i = 0; i < id_chk_ary.length; i++)
 		{
 			// 既にクッキーで設定されているものについては、除外します。
