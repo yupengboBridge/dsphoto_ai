@@ -856,9 +856,7 @@ function disp_one_image()
 	// 検索結果画面から引き続き場合
 	if ($p_gamen_flg == 2)
 	{
-		if (empty($renpoji)) {
-			print "				<li class=\"detail_bt_pickup\"><a href=\"#\" onclick='if (pickup(\"" .$is->images[0]->photo_id. "\", ".$s_user_id.")==false){alert(\"既にピックアップしています。\");}' title='ピックアップ'>ピックアップ</a></li>\r\n";
-		}
+		print "				<li class=\"detail_bt_pickup\"><a href=\"#\" onclick='if (pickup(\"" .$is->images[0]->photo_id. "\", ".$s_user_id.")==false){alert(\"既にピックアップしています。\");}' title='ピックアップ'>ピックアップ</a></li>\r\n";
 	}
 
 	print "				<li class=\"detail_bt_copy\"><a href=\"#\" title='ソースをコピー' onclick='setClipboard(\"".$is->images[0]->photo_id."\"); alert(\"写真情報をクリップボードにコピーしました。\"); return false;'>ソースをコピー</a></li>\r\n";
