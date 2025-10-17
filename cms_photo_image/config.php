@@ -56,7 +56,7 @@ $end_point = 'https://player-api.p.uliza.jp/v1/players/default-player/cread/hei?
 //
 //// web
 //$site_domain = 'e-mon.vc';
-//$site_admin_url = 'http://www.e-mon.vc/test/photodb/admin/';
+//$site_admin_url = 'https://www.e-mon.vc/test/photodb/admin/';
 //
 //$item_image_dir = '/var/www/html/test/images';
 //$item_image_url = './test/images';
@@ -151,7 +151,7 @@ $end_point = 'https://player-api.p.uliza.jp/v1/players/default-player/cread/hei?
 //$mailPort = 25;
 //$msubject = "画像の登録申請が完了しました。";
 //
-//$noimage_url = "http://www.e-mon.vc/test/photodb/images/noimage.jpg";
+//$noimage_url = "https://www.e-mon.vc/test/photodb/images/noimage.jpg";
 //
 //
 //

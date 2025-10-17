@@ -3652,6 +3652,9 @@ class PhotoImageDB extends PhotoImageData
 						// 例外をスローします。
 						$err = $stmt->errorInfo();
 						$this->message = "画像データの更新に失敗しました。（条件設定エラー）";
+						if (isset($err[2])) {
+						    $this->message .= " エラー内容: " . $err[2];
+						}
 						//throw new Exception($this->message);
 						throw new Exception($err[2]);
 					}
@@ -3694,6 +3697,9 @@ class PhotoImageDB extends PhotoImageData
 						// 例外をスローします。
 						$err = $stmt->errorInfo();
 						$this->message = "画像データの更新に失敗しました。（条件設定エラー）";
+						if (isset($err[2])) {
+						    $this->message .= " エラー内容: " . $err[2];
+						}
 						//throw new Exception($this->message);
 						throw new Exception($err[2]);
 					}
@@ -3707,6 +3713,9 @@ class PhotoImageDB extends PhotoImageData
 			}
 		} else {
 			$this->message = "画像データの更新に失敗しました。（条件設定エラー）";
+			if (isset($err[2])) {
+			    $this->message .= " エラー内容: " . $err[2];
+			}
 			throw new Exception($this->message);
 		}
 	}
@@ -4234,6 +4243,9 @@ class PhotoImageDB extends PhotoImageData
 			{
 				$err = $stmt->errorInfo();
 				$this->message = "画像データの更新に失敗しました。（条件設定エラー）";
+				if (isset($err[2])) {
+				    $this->message .= " エラー内容: " . $err[2];
+				}
 				throw new Exception($err[2]);
 			}
 		}
@@ -4279,6 +4291,9 @@ class PhotoImageDB extends PhotoImageData
 			{
 				$err = $stmt->errorInfo();
 				$this->message = "画像データの更新に失敗しました。（条件設定エラー）";
+				if (isset($err[2])) {
+				    $this->message .= " エラー内容: " . $err[2];
+				}
 				throw new Exception($err[2]);
 			}
 		}
@@ -4321,6 +4336,9 @@ class PhotoImageDB extends PhotoImageData
 			{
 				$err = $stmt->errorInfo();
 				$this->message = "画像データの更新に失敗しました。（条件設定エラー）";
+				if (isset($err[2])) {
+				    $this->message .= " エラー内容: " . $err[2];
+				}
 				throw new Exception($err[2]);
 			}
 		}
@@ -4432,6 +4450,9 @@ class PhotoImageDB extends PhotoImageData
 			{
 				$err = $stmt->errorInfo();
 				$this->message = "画像データの更新に失敗しました。（条件設定エラー）";
+				if (isset($err[2])) {
+				    $this->message .= " エラー内容: " . $err[2];
+				}
 				throw new Exception($err[2]);
 			}
 		}
@@ -4861,6 +4882,9 @@ class PhotoImageDB extends PhotoImageData
 	        {
 	            $err = $stmt->errorInfo();
 	            $this->message = "画像データの更新に失敗しました。（条件設定エラー）";
+			if (isset($err[2])) {
+			    $this->message .= " エラー内容: " . $err[2];
+			}
 	            //throw new Exception($this->message);
 	            throw new Exception($err[2]);
 	        }
@@ -5404,6 +5428,9 @@ class PhotoImageDB extends PhotoImageData
 			{
 				$err = $stmt->errorInfo();
 				$this->message = "画像データの更新に失敗しました。（条件設定エラー）";
+				if (isset($err[2])) {
+				    $this->message .= " エラー内容: " . $err[2];
+				}
 				//throw new Exception($this->message);
 				throw new Exception($err[2]);
 			}
@@ -5463,6 +5490,9 @@ class PhotoImageDB extends PhotoImageData
 			{
 				$err = $stmt->errorInfo();
 				$this->message = "画像データの更新に失敗しました。（条件設定エラー）";
+				if (isset($err[2])) {
+				    $this->message .= " エラー内容: " . $err[2];
+				}
 				throw new Exception($this->message);
 			}
 		}

@@ -2,6 +2,7 @@
 header("Cache-Control: no-cache, must-revalidate");
 require_once('./config.php');
 require_once('./lib.php');
+
 // タイムゾーンを設定します。
 date_default_timezone_set('Asia/Tokyo');
 
@@ -141,7 +142,7 @@ if (!empty($GLOBALS["g_arubamu_id"]))
 } else {
 	print "var js_arubamu_id = -1;";
 }
-
+//print "var submit_url = \"".$_SERVER["HTTP_REFERER"]."\"";
 ?>
 
 var ua = navigator.userAgent.toLowerCase();
