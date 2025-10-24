@@ -1,6 +1,7 @@
 <?php
 require_once('./config.php');
 require_once('./lib.php');
+
 // セッション管理をスタートします。
 session_start();
 

@@ -1,4 +1,5 @@
 <?php
+
 require_once('./Pager.php');
 require_once('./config.php');
 require_once('./lib.php');
@@ -7,14 +8,12 @@ date_default_timezone_set('Asia/Tokyo');
 
 // セッション管理をスタートします。
 session_start();
-
 $s_login_id = array_get_value($_SESSION,'login_id' ,"");
 $s_login_name = array_get_value($_SESSION,'user_name' ,"");
 $s_security_level = array_get_value($_SESSION,'security_level' ,"");
 $comp_code = array_get_value($_SESSION,'compcode' ,"");
 $s_group_id = array_get_value($_SESSION,'group' ,"");
 $s_user_id = array_get_value($_SESSION,'user_id' ,"");
-
 //// for Debug
 //$s_user_id = 1;
 //$s_login_name = "BUD管理者";
@@ -61,7 +60,7 @@ $p_kikan1 = array_get_value($_REQUEST, 'p_kikan' ,"");
 
 // 画面初期化フラグ
 $init_flg = array_get_value($_REQUEST,"init","");
-
+// echo $init_flg;
 // 開始行
 $startcnt = 0;
 // 終了行
@@ -75,7 +74,6 @@ $img_all = new ImageSearch();
 $db_link = null;
 
 $imagecount = 0;
-
 /*
  * 関数名：getSearchCount
  * 関数説明：検索結果の総数を表示する
@@ -546,12 +544,11 @@ function disp_img()
 			$msg[] = $e->getMessage();
 			error_exit($msg);
 		}
-
+		#var_dump($img_all);
 		$img_ary = $img_all->images;
-
 		$ed = count($img_ary);
+		#var_dump($img_ary);
 	}
-
 	if ($init_flg == 1)
 	{
 		//へーだーの表示
@@ -678,9 +675,10 @@ function disp_img()
 	//イメージの表示処理--------------------------------------------------Start
 	print "<div id = \"photo_contents\" class=\"photo_contents\">\r\n";
 	$ph_img_all = new PhotoImageDataAll();
-
 	$groupcnt = 0;
-
+	#liucongxu2021
+	#echo count($img_ary);
+	#var_dump($img_ary);
 	$db_link = db_connect();
 	for ($i = 0 ; $i < count($img_ary) ; $i++)
 	{
@@ -752,7 +750,7 @@ function disp_img()
 //				continue;
 //			}
 //		}
-
+		
 		$groupcnt = $groupcnt + 1;
 
 		if ($groupcnt == 1)
@@ -899,6 +897,8 @@ function disp_img()
 		#print $pc_img;
 		print "</ul>\r\n";
 		print "</dd>\r\n";
+		
+
 		if (!empty($ph_img_all->photo_name))
 		{
 			print "<dd class='p_name'>".dp(santen_reader($ph_img_all->photo_name,13))."</dd>\r\n";
@@ -951,6 +951,7 @@ function disp_img()
 		}
 	}
 	print "</div>\r\n";
+
 	//イメージの表示処理--------------------------------------------------End
 
 	//フッターの表示

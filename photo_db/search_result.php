@@ -561,6 +561,8 @@ function disp_img()
 		ShowPageHeaderFooter(1);
 
 		//2008/01/19 仕様変更 下記のURLより行う------------------------------------------
+		//http://www3.bud-international.co.jp/hei/cms/090119_photo_db/sample_index.html
+		//print "<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>\r\n";
 		print "<BR><BR><BR><BR><BR>\r\n";
 		print "<p class=\"search_displays\">ここに検索結果が表示されます</p>\r\n";
 		print "<BR><BR><BR><BR><BR>\r\n";
@@ -648,6 +650,12 @@ function disp_img()
 			print "	objs[i].disabled = false;\r\n";
 			print "}\r\n";
 
+//			print "var objs=window.parent.frames[1].document.getElementsByTagName('select');\r\n";
+//			print "for(var i=0;i<objs.length;i++)\r\n";
+//			print "{\r\n";
+//			print "	objs[i].disabled = false;\r\n";
+//			print "}\r\n";
+
 			print "</script>\r\n";
 			//----------------------------------------------------------------------------------------------------------
 			return;
@@ -684,6 +692,27 @@ function disp_img()
 		$retval = round(dateDiff($ph_img_all->dto,$now));
 		$retval_to = dateDiff($ph_img_all->dto,$now);
 		$retval_from = dateDiff($now,$ph_img_all->dfrom);
+
+//		if(!empty($p_kikan1))
+//		{
+//			//「3ヵ月未満を除外」
+//			if((int)$p_kikan1 == 3 && (int)$retval > 0 && (int)$retval <= 90 && $retval_to >= 0 && $retval_from >= 0)
+//			{
+//				continue;
+//			}
+//
+//			//「6ヵ月未満を除外」
+//			if((int)$p_kikan1 == 6 && (int)$retval > 0 && (int)$retval > 90 && (int)$retval <= 180 && $retval_to >= 0 && $retval_from >= 0)
+//			{
+//				continue;
+//			}
+//
+//			//「期限のないもの」
+//			if((int)$p_kikan1 == 9 && $ph_img_all->kikan != "mukigen" && $ph_img_all->kikan != "sankagetu" && $ph_img_all->kikan != "hantoshi" && $ph_img_all->kikan != "ichinen" && $ph_img_all->kikan != "shitei")
+//			{
+//				continue;
+//			}
+//		}
 
 		$groupcnt = $groupcnt + 1;
 
@@ -1069,6 +1098,21 @@ if (!empty($GLOBALS["p_kikan1"]))
 <!--
 var ua = navigator.userAgent.toLowerCase();
 var is_pc_ie  = ( (ua.indexOf('msie') != -1 ) && ( ua.indexOf('win') != -1 ) && ( ua.indexOf('opera') == -1 ) && ( ua.indexOf('webtv') == -1 ) );
+
+//function setClipboard(pid)
+//{
+//	var objkey = "code"+pid;
+//	if (is_pc_ie)
+//	{
+//		var copytext = document.getElementById(objkey).createTextRange();
+//		copytext.execCommand("Copy");
+//	}else{
+//		//document.getElementById('copy').innerHTML = "";
+//		var swf = "<embed src='./js/setClipboard.swf' FlashVars='code="+encodeURIComponent(document.getElementById(objkey).value)+"' width='0' height='0' type='application/x-shockwave-flash'></embed>";
+//		//alert(swf);
+//		//document.getElementById('copy').innerHTML = swf;
+//	}
+//}
 
 function init_clip()
 {

@@ -3688,7 +3688,7 @@ class FileUploadBatch
 		imagedestroy($image);
 		return $result;
 	}
-
+	
 	/**
 	 * クレジット書き込み用のフォントサイズを決定します。
 	 */
