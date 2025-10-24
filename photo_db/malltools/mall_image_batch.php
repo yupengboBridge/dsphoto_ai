@@ -222,6 +222,11 @@ function insertPhotoImage($par_csv_content){
 			$keywords_str = $par_csv_content[1];
 		}
 
+		if(!empty($insert_data_ary['renpoji_number']))
+		{
+			$keywords_str .= " " . $insert_data_ary['renpoji_number'];
+		}
+
 		$insert_data_ary["p_keyword_str"] = $keywords_str;
 
 		// --------------------------写真説明-----------------------------------------------------------------
@@ -551,6 +556,11 @@ function updatePhotoImage($par_csv_content){
 			$keywords_str .= " " . $par_csv_content[1];
 		} else {
 			$keywords_str = $par_csv_content[1];
+		}
+
+		if(!empty($update_data_ary['renpoji_number']))
+		{
+			$keywords_str .= " " . $update_data_ary['renpoji_number'];
 		}
 
 		$update_data_ary["p_keyword_str"] = $keywords_str;

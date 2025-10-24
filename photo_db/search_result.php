@@ -291,8 +291,9 @@ function ShowPageHeaderFooter($headFooterFlag)
 				}
 			}
 		}
-		if ($media_type=='photo' || empty($media_type)) $tmp .= "  画像";
+		if ($media_type=='photo') $tmp .= "  画像";
 		if ($media_type=='video') $tmp .= "  動画";
+		if ($media_type=='both' || empty($media_type)) $tmp .= "  画像・動画";
 		$tmp1 = santen_reader("検索条件： ".$tmp,160);
 		print "		<div id='hl'><p>".$tmp1."</p></div>\r\n";
 		print "	</div>\r\n";
@@ -319,8 +320,9 @@ function ShowPageHeaderFooter($headFooterFlag)
 				}
 			}
 		}
-		if ($media_type=='photo' || empty($media_type)) $tmp .= "  画像";
+		if ($media_type=='photo') $tmp .= "  画像";
 		if ($media_type=='video') $tmp .= "  動画";
+		if ($media_type=='both' || empty($media_type)) $tmp .= "  画像・動画";
 		$tmp1 = santen_reader("検索条件： ".$tmp,160);
 
 		print "		<div id='hl'><p>".$tmp1."</p></div>\r\n";

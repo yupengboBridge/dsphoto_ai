@@ -1390,7 +1390,7 @@ function go_search()
 
 	if (mediaTypePhoto && mediaTypeVideo) {
 		if (!mediaTypePhoto.checked && !mediaTypeVideo.checked) {
-			mediaTypePhoto.checked = true;
+			media_type_param = "both";
 		}
 		// 検索条件に追加
 		if (mediaTypePhoto.checked && mediaTypeVideo.checked) {
@@ -2354,7 +2354,7 @@ window.onload = init;
 								</li>
 								<li style="display:inline-block;">
 									<label>
-										<input type="checkbox" id="media_type_video" name="media_type_video">
+										<input type="checkbox" id="media_type_video" name="media_type_video" checked>
 										動画
 									</label>
 								</li>

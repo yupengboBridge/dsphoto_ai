@@ -6748,33 +6748,57 @@ class ImageSearch
 
 		if(empty($p_tmp_kikan))
 		{
-			$sql .= " AND keyword.photo_id IN(SELECT photo_id FROM photoimg WHERE photoimg.publishing_situation_id = 2)";
+			$sql .= " AND keyword.photo_id IN(SELECT photo_id FROM photoimg WHERE photoimg.publishing_situation_id = 2";
+			if(empty($media_type) || $media_type=='photo'){
+				$sql .= " AND (photoimg.renpoji_number is null or photoimg.renpoji_number='')";
+			}else{
+				if($media_type=="video")
+				{
+					$sql .= " AND (photoimg.renpoji_number is not null and photoimg.renpoji_number <>'')";
+				}
+			}
+			$sql .= ")";
 		} else {
 			if((int)$p_tmp_kikan == 3)
 			{
 				$sql .= " AND keyword.photo_id IN(SELECT photo_id FROM photoimg WHERE photoimg.publishing_situation_id = 2";
+				if(empty($media_type) || $media_type=='photo'){
+					$sql .= " AND (photoimg.renpoji_number is null or photoimg.renpoji_number='')";
+				}else{
+					if($media_type=="video")
+					{
+						$sql .= " AND (photoimg.renpoji_number is not null and photoimg.renpoji_number <>'')";
+					}
+				}
 				$sql .= " AND DATEDIFF( photoimg.dto, NOW() ) >90 )";
 			}
 
 			if((int)$p_tmp_kikan == 6)
 			{
 				$sql .= " AND keyword.photo_id IN(SELECT photo_id FROM photoimg WHERE photoimg.publishing_situation_id = 2";
+				if(empty($media_type) || $media_type=='photo'){
+					$sql .= " AND (photoimg.renpoji_number is null or photoimg.renpoji_number='')";
+				}else{
+					if($media_type=="video")
+					{
+						$sql .= " AND (photoimg.renpoji_number is not null and photoimg.renpoji_number <>'')";
+					}
+				}
 				$sql .= " AND DATEDIFF( photoimg.dto, NOW() ) >180 )";
 			}
 
 			if((int)$p_tmp_kikan == 9)
 			{
 				$sql .= " AND keyword.photo_id IN(SELECT photo_id FROM photoimg WHERE photoimg.publishing_situation_id = 2";
+				if(empty($media_type) || $media_type=='photo'){
+					$sql .= " AND (photoimg.renpoji_number is null or photoimg.renpoji_number='')";
+				}else{
+					if($media_type=="video")
+					{
+						$sql .= " AND (photoimg.renpoji_number is not null and photoimg.renpoji_number <>'')";
+					}
+				}
 				$sql .= " AND photoimg.kikan = 'mukigen')";
-			}
-		}
-		
-		if(empty($media_type) || $media_type=='photo'){
-			$sql .= " AND (photoimg.renpoji_number is null or photoimg.renpoji_number='')";
-		}else{
-			if($media_type=="video")
-			{
-				$sql .= " AND (photoimg.renpoji_number is not null and photoimg.renpoji_number <>'')";
 			}
 		}
 
@@ -6837,7 +6861,7 @@ class ImageSearch
 			$sp_p_id = substr($sp_p_id,0,strlen($sp_p_id) - 1);
 			//echo $sp_p_id;
 			$this->sp_photo_id_str = $sp_p_id;
-			$this->select_image($db_link,"");
+			$this->select_image($db_link,"",$media_type);
 		}
 		else
 		{
