@@ -2676,8 +2676,8 @@ class FileUploadBatchMall
 		$alpha = imagecolorallocatealpha($img, 255, 255, 255, 100);
 
 		//テキスト描画
-		ImageTTFText($img, $fsize, $font_angle, $tx, $ty, $alpha, "./sazanami-gothic.ttf", $telop_text);
-		ImageTTFText($img, $fsize, $font_angle, $tx, $ty, $alpha, "./sazanami-gothic.ttf", $telop_text);
+		ImageTTFText($img, $fsize, $font_angle, $tx, $ty, $alpha, $this->font_name, $telop_text);
+		ImageTTFText($img, $fsize, $font_angle, $tx, $ty, $alpha, $this->font_name, $telop_text);
 
 		return $img;
 	}
