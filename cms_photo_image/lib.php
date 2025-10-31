@@ -7349,15 +7349,15 @@ class ImageSearch
 			{
 				$sql .= " AND ";
 			}
-			$tmp_customer = "==".$this->sp_customer_info;
-			$sql .= " ISNULL(customer_section) = 0 AND ISNULL(customer_name) = 0";
-			$sql .= " AND customer_section != '' AND customer_name != ''";
-			$sql .= " AND (POSITION( customer_section COLLATE utf8_bin IN '".$tmp_customer."' ) >0 ";
-			$sql .= " OR POSITION( customer_name COLLATE utf8_bin IN '".$tmp_customer."' ) >0) ";
+			// $tmp_customer = "==".$this->sp_customer_info;
+			$sql .= " ISNULL(customer_section) = 0";
+			$sql .= " AND customer_section != ''";
+			// $sql .= " AND (POSITION( customer_section COLLATE utf8_bin IN '".$tmp_customer."' ) >0 ";
+			// $sql .= " OR POSITION( customer_name COLLATE utf8_bin IN '".$tmp_customer."' ) >0) ";
+			// $optset = true;
+			$sql .= " AND ( customer_section COLLATE utf8_bin LIKE '%".$this->sp_customer_info."%'";
+			$sql .= " OR customer_name COLLATE utf8_bin LIKE '%".$this->sp_customer_info."%')";
 			$optset = true;
-//			$sql .= "( customer_section COLLATE utf8_bin LIKE ".$this->sp_customer_info;
-//			$sql .= " OR customer_name COLLATE utf8_bin LIKE ".$this->sp_customer_info.")";
-//			$optset = true;
 		}
 
 		// 海外、国内、イメージ

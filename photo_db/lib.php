@@ -8427,11 +8427,13 @@ class ImageSearch
 		// お客様情報
 		if (!empty($this->sp_customer_info))
 		{
-			$tmp_customer = "==".$this->sp_customer_info;
-			$tmp_sql = " ISNULL(customer_section) = 0 AND ISNULL(customer_name) = 0";
-			$tmp_sql .= " AND customer_section != '' AND customer_name != ''";
-			$tmp_sql .= " AND (POSITION( customer_section COLLATE utf8_bin IN '".$tmp_customer."' ) >0 ";
-			$tmp_sql .= " OR POSITION( customer_name COLLATE utf8_bin IN '".$tmp_customer."' ) >0) ";
+			// $tmp_customer = "==".$this->sp_customer_info;
+			$tmp_sql = " ISNULL(customer_section) = 0";
+			$tmp_sql .= " AND customer_section != ''";
+			// $tmp_sql .= " AND (POSITION( customer_section COLLATE utf8_bin IN '".$tmp_customer."' ) >0 ";
+			// $tmp_sql .= " OR POSITION( customer_name COLLATE utf8_bin IN '".$tmp_customer."' ) >0) ";
+			$sql .= " AND ( customer_section COLLATE utf8_bin LIKE '%".$this->sp_customer_info."%'";
+			$sql .= " OR customer_name COLLATE utf8_bin LIKE '%".$this->sp_customer_info."%')";
 			$sql .= $this->build_select_image_where($opts, $tmp_sql);
 			$opts = true;
 		}
