@@ -130,7 +130,7 @@ function insertPhotoImage($par_csv_content){
 		//CSVファイルに使用期限が「0000/0/00 0:00」の場合、使用期限を３年で取り込む
 		if($dto == "0000/0/00 0:00"){
 			$now = date('Y-m-d H:i:s',time());
-			$insert_data_ary['p_dto'] = date("Y-m-d H:i:s",strtotime("+3years",strtotime($now)));
+			$insert_data_ary['p_dto'] = date("Y-m-d H:i:s",strtotime("+5years",strtotime($now)));
 			$insert_data_ary['is_extension'] = 1;
 		}
 
