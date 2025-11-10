@@ -243,6 +243,15 @@ class Task
                         //$buffer = mb_convert_encoding($buffer, 'UTF-8', 'Shift_JIS');
                         $line = explode("\t", $buffer);
                         try {
+                            if(isset($line[18])){
+	                            $renpoji_number = $line[18];
+	                            $ext = strtolower(pathinfo($line[1], PATHINFO_EXTENSION));
+	                            // $extが画像拡張子（jpg, jpeg, png, gif, bmp, tiff, webpなど）の場合、かつ$renpoji_numberが存在する時、$line[18]を空白にする
+	                            $image_extensions = ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'tiff', 'webp'];
+	                            if (in_array($ext, $image_extensions) && !empty($renpoji_number)) {
+	                                $line[18] = "";
+	                            }
+                            }
                             if($line[0] != 'D'){
                                 $validate_flag = self::fileValidate($line);
                                 if($validate_flag === false){
@@ -254,13 +263,6 @@ class Task
                             if($check_csv_flg === false){
                                 $this->rows++;
                                 continue;
-                            }
-                            $renpoji_number = $line[18];
-                            $ext = strtolower(pathinfo($line[1], PATHINFO_EXTENSION));
-                            // $extが画像拡張子（jpg, jpeg, png, gif, bmp, tiff, webpなど）の場合、かつ$renpoji_numberが存在する時、$line[18]を空白にする
-                            $image_extensions = ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'tiff', 'webp'];
-                            if (in_array($ext, $image_extensions) && !empty($renpoji_number)) {
-                                $line[18] = "";
                             }
                             if ($line[0]=='U'){
                                 $mall_no = funcGetMallNo($line[1]);
@@ -447,7 +449,7 @@ class Task
                 }
             }
             //レンポジ番号が存在している場合は画像ファイル存在性チェックを行わないので処理をスキップ
-            if (!empty($line[18])) {
+            if (isset($line[18]) && !empty($line[18])) {
                 return true;
             }
 
