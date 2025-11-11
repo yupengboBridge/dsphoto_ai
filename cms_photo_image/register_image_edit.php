@@ -74,6 +74,12 @@ $div_classzeroflg = true;													// 分類登録するかどうかフラグ
 $category_id = array();														// カテゴリーID
 $category_name = array();													// カテゴリー名
 
+// バナーキーワード（グローバル）
+$banner_keyword_id = array();
+$banner_keyword_id[0][] = 1;
+$banner_keyword_name = array();
+$banner_keyword_name[0][] = "全国特集バナー";
+
 $range_id = array();														// 使用範囲ID
 $range_name = array();														// 使用範囲名
 
@@ -628,6 +634,7 @@ function set_updatedata()
 	$pi->register_date = array_get_value($_POST,"reg_apply_date", date("Y-m-d"));        // 登録日
 	$pi->note = array_get_value($_POST,"reg_remarks","");									// 備考
 	$pi->keyword_str = array_get_value($_POST, 'p_keyword_str',"");						// キーワード文字列（スペース区切り）
+	$pi->banner_keyword_str = array_get_value($_POST, 'p_banner_keyword_str',"");			// バナーキーワード文字列（スペース区切り）
 
 	$p_classification_id1 = array_get_value($_POST, 'p_classification_id1',"");			// 分類ID(1)
 	$p_direction_id1 = array_get_value($_POST, 'p_direction_id1',"");						// 方面ID(1)
@@ -1422,6 +1429,36 @@ function disp_category($cg_id,$cg_name)
 	}
 }
 
+/*
+ * 関数名：disp_banner_keyword
+ * 関数説明：「バナーキーワード」を出力する
+ */
+function disp_banner_keyword($bk_id,$bk_name)
+{
+	global $pi,$db_link,$p_photo_id;
+
+	// PhotoIDよりバナーキーワードを取得する
+	$pi->get_banner_keyword_str($db_link, $p_photo_id);
+	$kwd_a = array();
+	$kwd_a = explode(" ", $pi->banner_keyword_str);
+
+	$dc = count($bk_id);
+	for ($i = 0; $i < $dc; $i++)
+	{
+		$dc2 = count($bk_id[$i]);
+		for ($j = 0; $j < $dc2; $j++)
+		{
+			$id = "bk_" . $i . "_" . $j;
+			// 既存選択を反映
+			if (check_array_index($kwd_a, dp($bk_name[$i][$j])) != -1)
+			{
+				print "<li class='reg_list reg_clear'> <em><input id=\"".$id."\" type=\"checkbox\" bannerCategory='0' checked=\"checked\" value='".dp($bk_name[$i][$j])."'/>&nbsp;".dp($bk_name[$i][$j])."</em></li>";
+			} else {
+				print "<li class='reg_list reg_clear'> <em><input id=\"".$id."\" type=\"checkbox\" bannerCategory='0' value='".dp($bk_name[$i][$j])."'/>&nbsp;".dp($bk_name[$i][$j])."</em></li>";
+			}
+		}
+	}
+}
 /*
  * 関数名：take_picture_time2
  * 関数説明：「撮影時期」の季節を出力する
@@ -3446,6 +3483,29 @@ function check_input_value()
 
 	// 結合したものをキーワードとします。
 	document.register_image_edit.p_keyword_str.value = keyword_str;
+
+	// バナーキーワードをスペース区切りの文字列（Banner_keyword_str）へ変換します。
+	var banner_keyword_str = "";
+	var tags = document.body.getElementsByTagName("*");
+	for(var i = 0 ; i < tags.length ; i++)
+	{
+		var grp = tags[i].getAttribute("bannerCategory");
+		if(grp != undefined)
+		{
+			if (tags[i].checked == true)
+			{
+				if (banner_keyword_str.length != 0)
+				{
+					banner_keyword_str += " ";
+				}
+
+				banner_keyword_str += tags[i].value;
+			}
+		}
+	}
+
+	// 結合したものをバナーキーワードとします。
+	document.register_image_edit.p_banner_keyword_str.value = banner_keyword_str;
 }
 
 /*
@@ -3661,6 +3721,10 @@ window.onload = function()
 				<dt>カテゴリー</dt>
 				<dd><ul><?php  disp_category($category_id,$category_name);?></ul></dd>
 			</dl>
+			<dl class="reg_banner_keyword reg_clear">
+				<dt>バナーキーワード</dt>
+				<dd><ul><?php  disp_banner_keyword($banner_keyword_id,$banner_keyword_name);?></ul></dd>
+			</dl>
 			<dl class="take_picture reg_clear">
 				<dt>撮影時期</dt>
 				<dd><?php  take_picture_time2($take_picture_time2_id, $take_picture_time2_name); ?></dd>
@@ -3736,6 +3800,7 @@ window.onload = function()
 		<input type="hidden" id="p_dfrom" name="p_dfrom" value="" />
 		<input type="hidden" id="p_dto" name="p_dto" value="" />
 		<input type="hidden" id="p_keyword_str" name="p_keyword_str" value="" />
+		<input type="hidden" id="p_banner_keyword_str" name="p_banner_keyword_str" value="" />
 		<?php  if(!empty($pi->photo_mno)){ ?>
 			<?php
 				$tmp = "__".$pi->photo_mno;

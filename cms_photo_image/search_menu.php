@@ -483,7 +483,7 @@ function changedetail_search()
 	else
 	{
 		top.document.getElementById('iframe_top').rows = "75,500,200,*";
-		top.document.getElementById('iframe_middle1').style.height = 620;
+		top.document.getElementById('iframe_middle1').style.height = 670;
 	}
 	$("dl#detail_search dd.search_contents").slideToggle("fast");
 	var radobj = window.parent.frames[1].document.getElementsByName("publishing_include");
@@ -1626,6 +1626,23 @@ function go_search()
 	}
 	// 詳細検索の条件を設定する(ここまで)
 
+	// バナーキーワード（チェックされている場合、パラメータを付与）
+	var bk_objs = document.getElementsByName("banner_keyword_include");
+	if (bk_objs && bk_objs.length > 0)
+	{
+		for (var i = 0; i < bk_objs.length; i++)
+		{
+			if (bk_objs[i].checked == true)
+			{
+				if (url.indexOf("?") === -1) {
+					url = url + "?banner_keyword=" + encodeURIComponent(bk_objs[i].value);
+				} else {
+					url = url + "&banner_keyword=" + encodeURIComponent(bk_objs[i].value);
+				}
+			}
+		}
+	}
+
 	// クーキーのクリアー
 	clearCookie("pickup_chk");
 	clearCookie("change_value");
@@ -2372,6 +2389,7 @@ window.onload = init;
 							<li><input name="publishing_include" type="radio" value="3" />3ヵ月未満を除外</li>
 							<li><input name="publishing_include" type="radio" value="6" />6ヵ月未満を除外</li>
 							<li><input name="publishing_include" type="radio" value="9" />期限のないもの</li>
+							<li><input name="publishing_include" type="radio" value="9" />2ヵ月以内に削除（本日より60日以内）</li>
 						</ul>
 						</dd>
 					</dl>
@@ -2381,6 +2399,14 @@ window.onload = init;
 						<li><input style="height:20px" name="btn_clear" type="button" value="チェックを外す" onclick="clear_contents();"/></li>
 					</ul>
 					<?php  dis_category($category_id,$category_name);?>
+					<dl id="banner_keyword_limit">
+						<dt>バナーキーワード</dt>
+						<dd>
+						<ul>
+							<li><input name="banner_keyword_include" type="checkbox" value="all_banner" />全国特集バナー</li>
+						</ul>
+						</dd>
+					</dl>
 				</dd>
 			</dl>
 			<!-- <p id="search_bt"><a href="#"><img src="parts/search_bt.gif" alt="検索"  onclick="go_search();return false;"/></a></p> -->

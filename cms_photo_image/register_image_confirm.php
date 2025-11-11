@@ -604,6 +604,29 @@ function disp_category($cg_id,$cg_name)
 }
 
 /*
+ * 関数名：disp_banner_keyword_confirm
+ * 関数説明：「バナーキーワード」を出力する
+ */
+function disp_banner_keyword_confirm()
+{
+	global $pi,$db_link,$p_photo_id;
+	$pi->get_banner_keyword_str($db_link, $p_photo_id);
+	$out = "";
+	if (!empty($pi->banner_keyword_str))
+	{
+		$ary = explode(" ", $pi->banner_keyword_str);
+		for ($i = 0; $i < count($ary); $i++)
+		{
+			$w = trim($ary[$i]);
+			if ($w === "") continue;
+			if (strlen($out) > 0) $out .= " | ";
+			$out .= dp($w);
+		}
+	}
+	print $out;
+}
+
+/*
  * 関数名：take_picture_time2
  * 関数説明：「撮影時期」の季節を出力する
  * パラメタ：
@@ -1142,6 +1165,10 @@ window.onload = function()
 <dl class="reg_category reg_clear">
 	<dt>カテゴリー</dt>
 	<dd><?php  disp_category($category_id,$category_name);?></dd>
+</dl>
+<dl class="reg_banner_keyword reg_clear">
+	<dt>バナーキーワード</dt>
+	<dd><?php  disp_banner_keyword_confirm(); ?></dd>
 </dl>
 <dl class="take_picture reg_clear">
 	<dt>撮影時期</dt>

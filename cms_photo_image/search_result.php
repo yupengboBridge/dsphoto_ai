@@ -56,6 +56,7 @@ $search_value = $search_value_val2;
 $syousai_content = urldecode(array_get_value($_REQUEST,"syousai_content",""));
 $c_array = urldecode(array_get_value($_REQUEST,"c_array",""));
 $media_type = urldecode(array_get_value($_REQUEST,"media_type",""));
+$banner_keyword = urldecode(array_get_value($_REQUEST,"banner_keyword",""));
 $p_kikan1 = array_get_value($_REQUEST, 'p_kikan' ,"");
 
 // 画面初期化フラグ
@@ -174,6 +175,7 @@ function ShowPagesList()
 	if (!empty($c_array)) $submit_url .= "&c_array=".urlencode($c_array);
 	if (!empty($p_kikan1)) $submit_url .= "&p_kikan=".$p_kikan1;
 	if (!empty($media_type)) $submit_url .= "&media_type=".urlencode($media_type);
+	if (!empty($banner_keyword)) $submit_url .= "&banner_keyword=".urlencode($banner_keyword);
 
 	$submit_url .= "#hl";
 	// Pagerのパラメータを設定します。
@@ -391,11 +393,25 @@ function ShowPageHeaderFooter($headFooterFlag)
  */
 function setSearchCondition()
 {
-	global $img_all, $index, $search_value, $s_login_id;
+	global $img_all, $index, $search_value, $s_login_id, $banner_keyword;
 	
 	$img_all->sp_login_id = $s_login_id;
 
-	// 検索条件を設定しない場合
+	// バナーキーワード（常に解釈）
+	if (!empty($banner_keyword))
+	{
+		// 現状は 'all_banner' を「全国特集バナー」にマッピング
+		if ($banner_keyword == "all_banner")
+		{
+			$img_all->sp_banner_keyword = "'%全国特集バナー%'";
+		}
+		else
+		{
+			$img_all->sp_banner_keyword = "'%".$banner_keyword."%'";
+		}
+	}
+
+	// 検索条件を設定しない場合（バナーのみ指定のケースがあるため、ここでreturnしない）
 	if (empty($index)) return;
 
 	// 画像管理番号より検索する

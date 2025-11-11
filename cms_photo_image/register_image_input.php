@@ -72,6 +72,12 @@ $place_name5 = array();														// 地名
 $category_id = array();														// カテゴリーID
 $category_name = array();													// カテゴリー名
 
+// バナーキーワード（グローバル）
+$banner_keyword_id = array();
+$banner_keyword_id[0][] = 1;
+$banner_keyword_name = array();
+$banner_keyword_name[0][] = "全国特集バナー";
+
 $range_id = array();														// 使用範囲ID
 $range_name = array();														// 使用範囲名
 
@@ -391,6 +397,9 @@ function set_insertdata()
 
 	$pi->keyword_str = array_get_value($_POST, 'p_keyword_str' ,"");					// キーワード文字列（スペース区切り）
 	$_SESSION['p_keyword_str'] = array_get_value($_POST, 'p_keyword_str' ,"");			// キーワード文字列（スペース区切り）
+
+	$pi->banner_keyword_str = array_get_value($_POST, 'p_banner_keyword_str' ,"");		// バナーキーワード文字列（スペース区切り）
+	$_SESSION['p_banner_keyword_str'] = array_get_value($_POST, 'p_banner_keyword_str' ,"");	// バナーキーワード文字列（スペース区切り）
 
 	$p_classification_id1 = array_get_value($_POST, 'p_classification_id1' ,"");		// 分類ID(1)
 	$_SESSION['p_classification_id1'] = $p_classification_id1;							// 分類ID(1)
@@ -1321,6 +1330,47 @@ function disp_category($cg_id,$cg_name)
 }
 
 /*
+ * 関数名：disp_banner_keyword
+ * 関数説明：「バナーキーワード」を出力する（disp_category参照）
+ * パラメタ：
+ * $bk_id：　バナーキーワードID配列
+ * $bk_name：バナーキーワード名配列
+ * 戻り値：無し
+ */
+function disp_banner_keyword($bk_id,$bk_name)
+{
+	global $initflg;
+
+	// キーワードーをセッションに設定した場合
+	$s_p_k_s = array_get_value($_SESSION,'p_banner_keyword_str',"");
+	if (!empty($s_p_k_s))
+	{
+		$kwd_a = array();
+		// スペース区切りの文字列を配列にします。
+		$kwd_a = explode(" ", $s_p_k_s);
+	}
+
+	$dc = count($bk_id);
+	for ($i = 0; $i < $dc; $i++)
+	{
+		$id = "bk_" . $bk_id[$i][0];
+		// 画面は初期表示ではない時
+		if ($initflg != 1)
+		{
+			// セッションにキーワードを設定した場合、既存選択を反映
+			if (check_array_index($kwd_a, dp($bk_name[$i][0])) != -1)
+			{
+				print "<li class='reg_list reg_clear'> <em><input id=\"".$id."\" type=\"checkbox\" bannerCategory='0' checked=\"checked\" value='".dp($bk_name[$i][0])."'/>&nbsp;".dp($bk_name[$i][0])."</em></li>";
+			} else {
+				print "<li class='reg_list reg_clear'> <em><input id=\"".$id."\" type=\"checkbox\" bannerCategory='0' value='".dp($bk_name[$i][0])."'/>&nbsp;".dp($bk_name[$i][0])."</em></li>";
+			}
+		} else {
+			print "<li class='reg_list reg_clear'> <em><input id=\"".$id."\" type=\"checkbox\" bannerCategory='0' value='".dp($bk_name[$i][0])."'/>&nbsp;".dp($bk_name[$i][0])."</em></li>";
+		}
+	}
+}
+
+/*
  * 関数名：disp_range
  * 関数説明：「掲載可能範囲」を出力する
  * パラメタ：
@@ -2085,6 +2135,46 @@ function form_submit()
 	// 正常の場合
 	if (ok_flg != false)
 	{
+		// カテゴリーをスペース区切りの文字列（Keyword_str）へ変換します。
+		var keyword_str = "";
+		var tags = document.body.getElementsByTagName("*");
+		for(var i = 0 ; i < tags.length ; i++)
+		{
+			var grp = tags[i].getAttribute("category");
+			if(grp != undefined)
+			{
+				if (tags[i].checked == true)
+				{
+					if (keyword_str.length != 0)
+					{
+						keyword_str += " ";
+					}
+					keyword_str += tags[i].value;
+				}
+			}
+		}
+		document.register_image_input.p_keyword_str.value = keyword_str;
+
+		// バナーキーワードをスペース区切りの文字列（Banner_keyword_str）へ変換します。
+		var banner_keyword_str = "";
+		var tags = document.body.getElementsByTagName("*");
+		for(var i = 0 ; i < tags.length ; i++)
+		{
+			var grp = tags[i].getAttribute("bannerCategory");
+			if(grp != undefined)
+			{
+				if (tags[i].checked == true)
+				{
+					if (banner_keyword_str.length != 0)
+					{
+						banner_keyword_str += " ";
+					}
+					banner_keyword_str += tags[i].value;
+				}
+			}
+		}
+		document.register_image_input.p_banner_keyword_str.value = banner_keyword_str;
+
 		// 掲載期間の「月」を取得する
 		var key_month = "take_picture_time_name";
 		var objs_month = document.getElementsByName(key_month);
@@ -2602,6 +2692,29 @@ function check_input_value()
 
 	// 結合したものをキーワードとします。
 	document.register_image_input.p_keyword_str.value = keyword_str;
+
+	// バナーキーワードをスペース区切りの文字列（Banner_keyword_str）へ変換します。
+	var banner_keyword_str = "";
+	var tags = document.body.getElementsByTagName("*");
+	for(var i = 0 ; i < tags.length ; i++)
+	{
+		var grp = tags[i].getAttribute("bannerCategory");
+		if(grp != undefined)
+		{
+			if (tags[i].checked == true)
+			{
+				if (banner_keyword_str.length != 0)
+				{
+					banner_keyword_str += " ";
+				}
+
+				banner_keyword_str += tags[i].value;
+			}
+		}
+	}
+
+	// 結合したものをキーワードとします。
+	document.register_image_input.p_banner_keyword_str.value = banner_keyword_str;
 }
 
 /*
@@ -2840,6 +2953,10 @@ window.onload = function()
 		<dl class="reg_category reg_clear">
 			<dt>カテゴリー</dt>
 			<dd><ul><?php  disp_category($category_id,$category_name);?></ul></dd>
+		</dl>
+		<dl class="reg_banner_keyword reg_clear">
+			<dt>バナーキーワード</dt>
+			<dd><ul><?php  disp_banner_keyword($banner_keyword_id,$banner_keyword_name);?></ul></dd>
 		</dl>
 		<dl class="take_picture reg_clear">
 			<dt>撮影時期</dt>
@@ -3118,6 +3235,7 @@ deleted by wangtongchao 2011-11-26 end-->
 		<input type="hidden" id="p_dfrom" name="p_dfrom" value="" />
 		<input type="hidden" id="p_dto" name="p_dto" value="" />
 		<input type="hidden" id="p_keyword_str" name="p_keyword_str" value="" />
+		<input type="hidden" id="p_banner_keyword_str" name="p_banner_keyword_str" value="" />
 	</div>
 </div>
 </div>

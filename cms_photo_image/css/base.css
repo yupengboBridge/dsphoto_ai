@@ -390,7 +390,7 @@ dl#detail_search dd dl#publishing_limit{
 	height:auto;
 	line-height:25px;
 	margin-bottom:10px;
-	}
+}
 
 dl#detail_search dd dl#publishing_limit dt{
 	display:block;
@@ -401,11 +401,37 @@ dl#detail_search dd dl#publishing_limit dt{
 	font-weight:bold;
 	font-size:12px;
 	line-height:25px;
-	}
+}
+
 dl#detail_search dd dl#publishing_limit dd ul li{
 	font-size:12px;
 	line-height:25px;
-	}
+}
+
+	
+dl#detail_search dd dl#banner_keyword_limit{
+	border-bottom:solid 1px #cccccc;
+	width:860px;
+	height:auto;
+	line-height:25px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+dl#detail_search dd dl#banner_keyword_limit dt{
+	display:block;
+	float:left;
+	width:128px;
+	height:auto;
+	color:#224272;
+	font-weight:bold;
+	font-size:12px;
+	line-height:25px;
+}
+dl#detail_search dd dl#banner_keyword_limit dd ul li{
+	font-size:12px;
+	line-height:25px;
+}
+
 
 
 dl#detail_search dd ul#category_ttl {
@@ -2507,6 +2533,65 @@ dl.reg_category dd ul.reg_list_child li {
 	float:left;
 	padding-right:15px;
 }
+
+/*バナーキーワード*/
+dl.reg_banner_keyword {
+	width:860px;
+	padding:15px 0 15px 0;
+	border-top:#dddddd solid 1px;
+	clear:both;
+}
+
+dl.reg_banner_keyword dt {
+	float:left;
+	width:205px;
+	font-size:12px;
+	padding-left:25px;
+	background:url(../parts/icon_sikaku.gif) no-repeat 10px 3px;
+	color:#224272;
+}
+
+dl.reg_banner_keyword dd {
+	float:left;
+	width:630px;
+	font-size:10px;
+}
+
+* html dl.reg_banner_keyword dd {
+	float:right;
+	width:600px;
+	font-size:10px;
+}
+
+dl.reg_banner_keyword dd ul{
+	font-size:10px;
+}
+dl.reg_banner_keyword dd ul li.reg_list {
+	width:630px;
+	clear:both;
+	padding:7px 0 7px 0;
+}
+dl.reg_banner_keyword dd ul li.reg_list_none {
+	border-bottom:none;
+}
+dl.reg_banner_keyword dd ul li.reg_list em {
+	float:left;
+	display:block;
+	width:100px;
+	font-style:normal;
+	color:#224272;
+}
+dl.reg_banner_keyword dd ul li.reg_list ul.reg_list_child {
+	float:left;
+	width:530px;
+}
+dl.reg_banner_keyword dd ul.reg_list_child li {
+	float:left;
+	padding-right:15px;
+}
+
+
+
 dl.take_picture {
 	width:860px;
 	padding:15px 0 15px 0;

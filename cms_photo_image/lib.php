@@ -2701,6 +2701,7 @@ class PhotoImageData
 	var $register_date;								// 登録日
 	var $state;										// 状態
 	var $keyword_str;								// キーワード
+	var $banner_keyword_str;						// バナーキーワード
 	var $registration_classifications;				// 登録分類
 	var $image1;									// バイナリを変換したイメージ（アップロード）
 	var $image2;									// バイナリを変換したイメージ（サムネイル1）
@@ -2804,6 +2805,7 @@ class PhotoImageData
 		$this->register_date = "0000-00-00";		// 登録日
 		$this->state = 0;							// 状態
 		$this->keyword_str = "";					// キーワード
+		$this->banner_keyword_str = "";				// バナーキーワード
 		$this->registration_classifications = new RegistrationClassifications();
 													// 登録分類
 		$this->renpoji_number="";
@@ -3070,6 +3072,44 @@ class PhotoImageDB extends PhotoImageData
 		}
 	}
 
+	/*
+	 * 関数名：get_banner_keyword_str
+	 * 関数説明：バナーキーワードをスペース区切り文字列で取得する
+	 */
+	function get_banner_keyword_str($db_link, $p_photo_id)
+	{
+		if (!is_numeric($p_photo_id))
+		{
+			$this->message = "画像ID(引数：p_photo_id)に数値以外が設定されています。";
+			throw new Exception($this->message);
+		}
+
+		$sql = "SELECT keyword_name FROM banner_keyword WHERE photo_id = ?";
+
+		$stmt = $db_link->prepare($sql);
+		$stmt->bindParam(1, $p_photo_id);
+		$result = $stmt->execute();
+		if ($result == true)
+		{
+			$this->banner_keyword_str = "";
+
+			while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
+			{
+				if (strlen($this->banner_keyword_str) != 0)
+				{
+					$this->banner_keyword_str .= " ";
+				}
+				$this->banner_keyword_str .= $row['keyword_name'];
+			}
+		}
+		else
+		{
+			$err = $stmt->errorInfo();
+			$this->message = "バナーキーワードの読み込みに失敗しました。（条件設定エラー）";
+			throw new Exception($this->message);
+		}
+	}
+
 	function delete_keyword($db_link, $p_photo_id)
 	{
 		if (!is_numeric($p_photo_id))
@@ -3091,6 +3131,34 @@ class PhotoImageDB extends PhotoImageData
 		else
 		{
 			$this->message = "キーワードの削除に失敗しました。（条件設定エラー）";
+			throw new Exception($this->message);
+		}
+	}
+
+	/*
+	 * 関数名：delete_banner_keyword
+	 * 関数説明：バナーキーワードを削除する
+	 */
+	function delete_banner_keyword($db_link, $p_photo_id)
+	{
+		if (!is_numeric($p_photo_id))
+		{
+			$this->message = "画像ID(引数：p_photo_id)に数値以外が設定されています。";
+			throw new Exception($this->message);
+		}
+
+		$sql = "DELETE FROM banner_keyword WHERE photo_id=" . $p_photo_id;
+
+		$stmt = $db_link->prepare($sql);
+		$result = $stmt->execute();
+		if ($result == true)
+		{
+			$icount = $stmt->rowCount();
+			return $icount;
+		}
+		else
+		{
+			$this->message = "バナーキーワードの削除に失敗しました。（条件設定エラー）";
 			throw new Exception($this->message);
 		}
 	}
@@ -3585,6 +3653,10 @@ class PhotoImageDB extends PhotoImageData
 				// キーワードを別テーブルに登録します。
 				$this->delete_keyword($db_link, $this->photo_id);
 				$this->insert_keyword($db_link, $this->photo_id, $this->keyword_str);
+
+				// バナーキーワードを別テーブルに登録します。
+				$this->delete_banner_keyword($db_link, $this->photo_id);
+				$this->insert_banner_keyword($db_link, $this->photo_id, $this->banner_keyword_str);
 
 				// 分類を別テーブルに登録します。
 				// ※すでにphoto_id以外はすべてデータセット済みです
@@ -4688,6 +4760,50 @@ class PhotoImageDB extends PhotoImageData
 	}
 
 	/*
+	 * 関数名：insert_banner_keyword
+	 * 関数説明：バナーキーワードをテーブルに登録する（1語1レコード）
+	 */
+	function insert_banner_keyword($db_link, $pid, $bk_str)
+	{
+		if (empty($pid)) return;
+
+		// 空文字は何もしない
+		if (empty($bk_str)) return;
+
+		// スペース区切りを配列に
+		$words = explode(" ", $bk_str);
+		if (!is_array($words) || count($words) == 0) return;
+
+		$sql = "INSERT INTO banner_keyword (photo_id, keyword_name) VALUES (?,?)";
+		$stmt = $db_link->prepare($sql);
+
+		foreach ($words as $w)
+		{
+			$kw = trim($w);
+			if ($kw === "") continue;
+
+			// 明示的に型を指定して数値解釈を避ける
+			$stmt->bindValue(1, (int)$pid, PDO::PARAM_INT);
+			$stmt->bindValue(2, $kw, PDO::PARAM_STR);
+			$result = $stmt->execute();
+			if ($result == true)
+			{
+				$icount = $stmt->rowCount();
+				if ($icount != 1)
+				{
+					$this->message = "バナーキーワードをDBに登録できませんでした。（処理数!=1）";
+					throw new Exception($this->message);
+				}
+			}
+			else
+			{
+				$this->message = "バナーキーワードをDBに登録できませんでした。（条件設定エラー）";
+				throw new Exception($this->message);
+			}
+		}
+	}
+
+	/*
 	 * 関数名：get_photo_mno
 	 * 関数説明：画像IDより画像管理番号を取得する
 	 * パラメタ：
@@ -5217,6 +5333,9 @@ class PhotoImageDB extends PhotoImageData
 					// キーワードを別テーブルに登録します。
 					$this->insert_keyword($db_link, $pid, $this->keyword_str);
 
+					// バナーキーワードを別テーブルに登録します。
+					$this->insert_banner_keyword($db_link, $pid, $this->banner_keyword_str);
+
 					// 分類を別テーブルに登録します。
 					// ※すでにphoto_id以外はすべてデータセット済みです
 					$this->registration_classifications->insert_data($db_link, $pid);
@@ -5278,6 +5397,8 @@ class PhotoImageDB extends PhotoImageData
 			} else {
 				// キーワードを削除する
 				$del_ok = $this->delete_keyword($db_link, $p_photo_id);
+				// バナーキーワードを削除する
+				$this->delete_banner_keyword($db_link, $p_photo_id);
 				//if ($del_ok)//yupengbo comment 2011/11/18
 				//{//yupengbo comment 2011/11/18
 				// 分類を削除する
@@ -6272,6 +6393,7 @@ class ImageSearch
 	var $sp_monopoly_use;								// 独占使用
 	var $sp_login_id;                                   // 当前登录用户
 	var $sp_nopermission_reason;						// no permit reason add by jinxin 2012/02/07
+	var $sp_banner_keyword;								// バナーキーワード（LIKE 句用）
 
 	var $images;										// イメージのインスタンス保存用（配列）
 	var $imagescount;									// 	イメージ総数
@@ -6330,6 +6452,7 @@ class ImageSearch
 		$sp_place_id = "";									// 地名
 		$sp_monopoly_use = "";								// 独占使用
 		$this->sp_login_id = "";                            // 当前登录用户
+		$this->sp_banner_keyword = "";						// バナーキーワード
 
 		$this->images = array();							// イメージのインスタンス保存用
 		$this->imagescount = 0;								// イメージ総数
@@ -6788,6 +6911,12 @@ class ImageSearch
 		}
 
 		$sql .= " AND keyword.publishing_situation_id = 2 ";
+
+		// バナーキーワードの絞り込み（指定されている場合、交差条件）
+		if (!empty($this->sp_banner_keyword))
+		{
+			$sql .= " AND keyword.photo_id IN (SELECT photo_id FROM banner_keyword WHERE keyword_name COLLATE utf8_bin LIKE ".$this->sp_banner_keyword.")";
+		}
 
 		if(empty($p_tmp_kikan))
 		{
@@ -7357,6 +7486,21 @@ class ImageSearch
 			// $optset = true;
 			$sql .= " AND ( customer_section COLLATE utf8_bin LIKE '%".$this->sp_customer_info."%'";
 			$sql .= " OR customer_name COLLATE utf8_bin LIKE '%".$this->sp_customer_info."%')";
+			$optset = true;
+		}
+
+		// バナーキーワード（banner_keyword テーブルの条件）
+		if (!empty($this->sp_banner_keyword))
+		{
+			if ($optset == false)
+			{
+				$sql .= " WHERE ";
+			}
+			else
+			{
+				$sql .= " AND ";
+			}
+			$sql .= "photoimg.photo_id IN (SELECT photo_id FROM banner_keyword WHERE keyword_name COLLATE utf8_bin LIKE ".$this->sp_banner_keyword.")";
 			$optset = true;
 		}
 
