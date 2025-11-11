@@ -127,7 +127,7 @@ function insertPhotoImage($par_csv_content){
 		// 掲載期間（To）
 		$dto = $par_csv_content[3];
 		$insert_data_ary['p_dto'] = $dto;
-		//CSVファイルに使用期限が「0000/0/00 0:00」の場合、使用期限を３年で取り込む
+		//CSVファイルに使用期限が「0000/0/00 0:00」の場合、使用期限を5年で取り込む
 		if($dto == "0000/0/00 0:00"){
 			$now = date('Y-m-d H:i:s',time());
 			$insert_data_ary['p_dto'] = date("Y-m-d H:i:s",strtotime("+5years",strtotime($now)));
@@ -469,10 +469,10 @@ function updatePhotoImage($par_csv_content){
 				$update_data_ary['reg_pub_period'] = "shitei";
 			}
 		}else{
-			//CSVファイルに使用期限が「0000/0/00 0:00」の場合、使用期限を３年で取り込む
+			//CSVファイルに使用期限が「0000/0/00 0:00」の場合、使用期限を5年で取り込む
 			if($dto == "0000/0/00 0:00"){
 				$now = date('Y-m-d H:i:s',time());
-				$update_data_ary['p_dto'] = date("Y-m-d H:i:s",strtotime("+3years",strtotime($now)));
+				$update_data_ary['p_dto'] = date("Y-m-d H:i:s",strtotime("+5years",strtotime($now)));
 				$update_data_ary['is_extension'] = 1;
 				$update_data_ary['reg_pub_period'] = "shitei";
 			}else{

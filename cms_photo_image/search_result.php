@@ -840,6 +840,8 @@ function disp_img()
 		}
 		$renpoji = isset($ph_img_all->renpoji_number) ? $ph_img_all->renpoji_number : null;
 		if ($renpoji === null || trim((string)$renpoji) === '') {
+			$tmp_height = 140 / 4 * 3;
+			$tmp_width = "";
 			if (!empty($tmpclsname))
 			{
 				$tmp_height = 140 / 4 * 3;
