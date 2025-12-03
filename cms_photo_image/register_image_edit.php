@@ -1593,7 +1593,7 @@ function disp_kikan()
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"ichinen\" onclick='change_kikan(this);'/>1年間 </label>\r\n";
 			//added by wangtongchao 2011-12-02 begin
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"ninen\" onclick='change_kikan(this);'/>2年間 </label>\r\n";
-			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"sannen\" onclick='change_kikan(this);'/>3年間 </label>\r\n";
+			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"gonen\" onclick='change_kikan(this);'/>5年間 </label>\r\n";
 			//added by wangtongchao 2011-12-02 end
 			break;
 		// 三か月
@@ -1604,7 +1604,7 @@ function disp_kikan()
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"ichinen\" onclick='change_kikan(this);'/>1年間 </label>\r\n";
 			//added by wangtongchao 2011-12-02 begin
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"ninen\" onclick='change_kikan(this);'/>2年間 </label>\r\n";
-			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"sannen\" onclick='change_kikan(this);'/>3年間 </label>\r\n";
+			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"gonen\" onclick='change_kikan(this);'/>5年間 </label>\r\n";
 			//added by wangtongchao 2011-12-02 end
 			break;
 		// 六か月
@@ -1615,7 +1615,7 @@ function disp_kikan()
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"ichinen\" onclick='change_kikan(this);'/>1年間 </label>\r\n";
 			//added by wangtongchao 2011-12-02 begin
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"ninen\" onclick='change_kikan(this);'/>2年間 </label>\r\n";
-			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"sannen\" onclick='change_kikan(this);'/>3年間 </label>\r\n";
+			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"gonen\" onclick='change_kikan(this);'/>5年間 </label>\r\n";
 			//added by wangtongchao 2011-12-02 end
 			break;
 		// 一年間
@@ -1626,7 +1626,7 @@ function disp_kikan()
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"ichinen\" checked=\"checked\" onclick='change_kikan(this);'/>1年間 </label>\r\n";
 			//added by wangtongchao 2011-12-02 begin
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"ninen\" onclick='change_kikan(this);'/>2年間 </label>\r\n";
-			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"sannen\" onclick='change_kikan(this);'/>3年間 </label>\r\n";
+			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"gonen\" onclick='change_kikan(this);'/>5年間 </label>\r\n";
 			//added by wangtongchao 2011-12-02 end
 			break;
 			//added by wangtongchao 2011-12-02 begin
@@ -1637,18 +1637,18 @@ function disp_kikan()
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"hantoshi\" onclick='change_kikan(this);'/>6ヵ月 </label>\r\n";
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"ichinen\" onclick='change_kikan(this);'/>1年間 </label>\r\n";
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"ninen\" checked=\"checked\" onclick='change_kikan(this);'/>2年間 </label>\r\n";
-			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"sannen\" onclick='change_kikan(this);'/>3年間 </label>\r\n";
+			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"gonen\" onclick='change_kikan(this);'/>5年間 </label>\r\n";
 			//added by wangtongchao 2011-12-02 end
 			break;
 			//added by wangtongchao 2011-12-02 begin
 			// 三年間
-		case 'sannen':
+		case 'gonen':
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"mukigen\" onclick='change_kikan(this);'/>無期限</label>\r\n";
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"sankagetu\" onclick='change_kikan(this);'/>3ヵ月 </label>\r\n";
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"hantoshi\" onclick='change_kikan(this);'/>6ヵ月 </label>\r\n";
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"ichinen\" onclick='change_kikan(this);'/>1年間 </label>\r\n";
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"ninen\" onclick='change_kikan(this);'/>2年間 </label>\r\n";
-			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"sannen\" checked=\"checked\" onclick='change_kikan(this);'/>3年間 </label>\r\n";
+			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"gonen\" checked=\"checked\" onclick='change_kikan(this);'/>5年間 </label>\r\n";
 			//added by wangtongchao 2011-12-02 end
 			break;
 		// 日付指定
@@ -1659,7 +1659,7 @@ function disp_kikan()
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"ichinen\" onclick='change_kikan(this);'/>1年間 </label>\r\n";
 			//added by wangtongchao 2011-12-02 begin
 			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"ninen\" onclick='change_kikan(this);'/>2年間 </label>\r\n";
-			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"sannen\" onclick='change_kikan(this);'/>3年間 </label>\r\n";
+			print "		<label><input name=\"reg_pub_period\" type=\"radio\" value=\"gonen\" onclick='change_kikan(this);'/>5年間 </label>\r\n";
 			//added by wangtongchao 2011-12-02 end
 			break;
 	}
@@ -2337,10 +2337,10 @@ function change_kikan(th)
 	{
 		year += 2;
 	}
-	// 掲載期間の「三年間」を選択した場合
-	else if (th.value == 'sannen')
+	// 掲載期間の「五年間」を選択した場合
+	else if (th.value == 'gonen')
 	{
-		year += 3;
+		year += 5;
 	}
 	//added by wangtongchao 2011-12-01 end
 	if (year < 1900)
@@ -3091,7 +3091,7 @@ function check_reg_photo_mno()
 				if (p_mno.value == null || p_mno.value == "")
 				{
 					alert('画像管理番号を入力してください。\r\n');
-					p_mno.focus();
+					//p_mno.focus();
 					return false;
 				//yupengbo add 2011/12/16 start
 				} else {
@@ -3099,7 +3099,7 @@ function check_reg_photo_mno()
 					if(!patrn.exec(p_mno.value))
 					{
 						alert("画像管理番号を確認してください。");
-						TimeID=setTimeout("setFocus('reg_photo_mno')",100);
+						//TimeID=setTimeout("setFocus('reg_photo_mno')",100);
 						return false;
 					}
 				}

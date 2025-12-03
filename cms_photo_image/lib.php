@@ -6733,7 +6733,6 @@ class ImageSearch
 	#liucongxu2
 	function select_image_keyword($db_link,$sp_str,$sp_str_content,$p_tmp_kikan,$media_type)
 	{
-
 		// echo '第1个值';
 		// var_dump($db_link);
 		// echo '第2个值';
@@ -6931,6 +6930,21 @@ class ImageSearch
 			}
 			$sql .= ")";
 		} else {
+			if((int)$p_tmp_kikan == 2)
+			{
+				$sql .= " AND keyword.photo_id IN(SELECT photo_id FROM photoimg WHERE photoimg.publishing_situation_id = 2";
+				if(empty($media_type) || $media_type=='photo'){
+					$sql .= " AND (photoimg.renpoji_number is null or photoimg.renpoji_number='')";
+				}else{
+					if($media_type=="video")
+					{
+						$sql .= " AND (photoimg.renpoji_number is not null and photoimg.renpoji_number <>'')";
+					}
+				}
+				$sql .= " AND (photoimg.dto!='0000-00-00' and DATEDIFF( photoimg.dto, NOW() )<60 and DATEDIFF( photoimg.dto, NOW() ) is not null)";
+				$sql .= ")";
+			}
+
 			if((int)$p_tmp_kikan == 3)
 			{
 				$sql .= " AND keyword.photo_id IN(SELECT photo_id FROM photoimg WHERE photoimg.publishing_situation_id = 2";
@@ -7725,6 +7739,11 @@ class ImageSearch
 		//$sql .= " photoimg.publishing_situation_id = 2 OR photoimg.publishing_situation_id = 1";
 		if(!empty($p_tmp_kikan))
 		{
+			if((int)$p_tmp_kikan == 2)
+			{
+				$sql .= " AND (photoimg.dto!='0000-00-00' and DATEDIFF( photoimg.dto, NOW() )<60 and DATEDIFF( photoimg.dto, NOW() ) is not null)";
+			}
+
 			if((int)$p_tmp_kikan == 3)
 			{
 				$sql .= " AND DATEDIFF( photoimg.dto, NOW() ) >90";

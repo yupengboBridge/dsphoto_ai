@@ -736,9 +736,9 @@ function disp_kikan()
 		case 'ninen':
 			print "		<label>2年間 </label>\r\n";
 			break;
-			// 「3年間」を選択した場合
-		case 'sannen':
-			print "		<label>3年間 </label>\r\n";
+			// 「5年間」を選択した場合
+		case 'gonen':
+			print "		<label>5年間 </label>\r\n";
 			break;
 		//added by wangtongchao 2011-12-02 end
 		default:

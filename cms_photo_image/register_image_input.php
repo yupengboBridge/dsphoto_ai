@@ -1662,10 +1662,10 @@ function change_kikan(th)
 	{
 		year += 2;
 	}
-	// 掲載期間の「三年間」を選択した場合
-	else if (th.value == 'sannen')
+	// 掲載期間の「五年間」を選択した場合
+	else if (th.value == 'gonen')
 	{
-		year += 3;
+		year += 5;
 	}
 	//added by wangtongchao 2011-12-01 end
 	if (year < 1900)
@@ -3008,10 +3008,10 @@ window.onload = function()
 						<label><input name="reg_pub_period" id="reg_pub_period4" type="radio" value="ninen" onclick='change_kikan(this);'/>2年間 </label>
 					<?php  } ?>
 							
-					<?php  if(array_get_value($_SESSION,'kikan' ,"") == "sannen"){ ?>
-						<label><input name="reg_pub_period" id="reg_pub_period5" type="radio" checked="checked" value="sannen" onclick='change_kikan(this);'/>3年間 </label>
+					<?php  if(array_get_value($_SESSION,'kikan' ,"") == "gonen"){ ?>
+						<label><input name="reg_pub_period" id="reg_pub_period5" type="radio" checked="checked" value="gonen" onclick='change_kikan(this);'/>5年間 </label>
 					<?php  }else{ ?>
-						<label><input name="reg_pub_period" id="reg_pub_period5" type="radio" value="sannen" onclick='change_kikan(this);'/>3年間 </label>
+						<label><input name="reg_pub_period" id="reg_pub_period5" type="radio" value="gonen" onclick='change_kikan(this);'/>5年間 </label>
 					<?php  } ?>
 					<!--added by wangtongchao 2011-12-01 end-->
 				<?php  }else{ ?>
@@ -3021,7 +3021,7 @@ window.onload = function()
 					<label><input name="reg_pub_period" id="reg_pub_period3" type="radio" value="ichinen" onclick='change_kikan(this);'/>1年間 </label>
 					<!--added by wangtongchao 2011-12-01 begin-->
 					<label><input name="reg_pub_period" id="reg_pub_period4" type="radio" value="ninen" onclick='change_kikan(this);'/>2年間 </label>
-					<label><input name="reg_pub_period" id="reg_pub_period5" type="radio" value="sannen" onclick='change_kikan(this);'/>3年間 </label>
+					<label><input name="reg_pub_period" id="reg_pub_period5" type="radio" value="gonen" onclick='change_kikan(this);'/>5年間 </label>
 					<!--added by wangtongchao 2011-12-01 end-->
 				<?php  } ?>
 				</dd>

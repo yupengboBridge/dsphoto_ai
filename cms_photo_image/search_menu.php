@@ -493,26 +493,37 @@ function changedetail_search()
 		radobj[1].checked = false;
 		radobj[2].checked = false;
 		radobj[3].checked = false;
+		radobj[4].checked = false;
 	} else if (radobj[1].checked == true) {
 		radobj[0].checked = false;
 		radobj[1].checked = true;
 		radobj[2].checked = false;
 		radobj[3].checked = false;
+		radobj[4].checked = false;
 	} else if (radobj[2].checked == true) {
 		radobj[0].checked = false;
 		radobj[1].checked = false;
 		radobj[2].checked = true;
 		radobj[3].checked = false;
+		radobj[4].checked = false;
 	} else if (radobj[3].checked == true) {
 		radobj[0].checked = false;
 		radobj[1].checked = false;
 		radobj[2].checked = false;
 		radobj[3].checked = true;
+		radobj[4].checked = false;
+	} else if (radobj[4].checked == true) {
+		radobj[0].checked = false;
+		radobj[1].checked = false;
+		radobj[2].checked = false;
+		radobj[3].checked = false;
+		radobj[4].checked = true;
 	} else {
 		radobj[0].checked = true;
 		radobj[1].checked = false;
 		radobj[2].checked = false;
 		radobj[3].checked = false;
+		radobj[4].checked = false;
 	}
 
 	var obj1 = window.parent.frames[1].document.getElementsByName("category_include");
@@ -1584,10 +1595,18 @@ function go_search()
 	} else if (trim(syousai_content).length > 0 && trim(search_value).length <= 0) {
 		if (selobj)
 		{
-			url = url + "?selIndex="+selobj.selectedIndex;
+			if (url.indexOf("?") === -1) {
+				url = url + "?selIndex="+selobj.selectedIndex;
+			}else{
+				url = url + "&selIndex="+selobj.selectedIndex;
+			}
 			url = url + "&syousai_content=" + encodeURIComponent(syousai_content);
 		} else {
-			url = url + "?syousai_content=" + encodeURIComponent(syousai_content);
+			if (url.indexOf("?") === -1) {
+				url = url + "?syousai_content=" + encodeURIComponent(syousai_content);
+			}else{
+				url = url + "&syousai_content=" + encodeURIComponent(syousai_content);
+			}
 		}
 		setCookie("syousai_content_ck",encodeURIComponent(syousai_content));
 	} else {
@@ -1600,27 +1619,31 @@ function go_search()
 		//「3ヵ月未満を除外」
 		if(objs[1].checked)
 		{
-			if (trim(syousai_content).length <= 0 && trim(search_value).length <= 0)
-			{
+			if (url.indexOf("?") === -1) {
 				url = url + "?p_kikan=3";
 			} else {
 				url = url + "&p_kikan=3";
 			}
 		//「6ヵ月未満を除外」
 		} else if (objs[2].checked) {
-			if (trim(syousai_content).length <= 0 && trim(search_value).length <= 0)
-			{
+			if (url.indexOf("?") === -1) {
 				url = url + "?p_kikan=6";
 			} else {
 				url = url + "&p_kikan=6";
 			}
 		//「期限のないもの」
 		} else if (objs[3].checked) {
-			if (trim(syousai_content).length <= 0 && trim(search_value).length <= 0)
-			{
+			if (url.indexOf("?") === -1) {
 				url = url + "?p_kikan=9";
 			} else {
 				url = url + "&p_kikan=9";
+			}
+		//「2ヵ月以内に削除（60日以内）」
+		} else if (objs[4].checked) {
+			if (url.indexOf("?") === -1) {
+				url = url + "?p_kikan=2";
+			} else {
+				url = url + "&p_kikan=2";
 			}
 		}
 	}
@@ -2389,7 +2412,7 @@ window.onload = init;
 							<li><input name="publishing_include" type="radio" value="3" />3ヵ月未満を除外</li>
 							<li><input name="publishing_include" type="radio" value="6" />6ヵ月未満を除外</li>
 							<li><input name="publishing_include" type="radio" value="9" />期限のないもの</li>
-							<li><input name="publishing_include" type="radio" value="9" />2ヵ月以内に削除（本日より60日以内）</li>
+							<li><input name="publishing_include" type="radio" value="2" />2ヵ月以内に削除（本日より60日以内）</li>
 						</ul>
 						</dd>
 					</dl>

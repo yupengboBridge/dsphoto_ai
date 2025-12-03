@@ -507,6 +507,9 @@ function disp_kikan2($p_k,$p_dfrom,$p_dto)
 		case 'sannen':
 			print "		<label>3年間 </label>\r\n";
 			break;
+		case 'gonen':
+			print "		<label>5年間 </label>\r\n";
+			break;
 		//added by wangtongchao 2011-12-02 end
 		case 'shitei':
 			print "					<dd> 期間指定</dd>\r\n";
