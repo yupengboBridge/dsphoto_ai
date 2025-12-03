@@ -669,7 +669,7 @@ function deleteImage(id,flg)
 		if (idstr_chk != null && idstr_chk != "" && typeof(idstr_chk) != "undefined")
 		{
 			unChecked('img_chk','arubamu_chk');
-			id_chk_ary = idstr_chk.explode(",");
+			id_chk_ary = idstr_chk.split(",");
 			ed_len = id_chk_ary.length;
 		} else {
 			var msg = "イメージを選択してください。";
@@ -684,7 +684,7 @@ function deleteImage(id,flg)
 	var idstr = getCookie(ck_id);
 	// カンマ区切りの文字列を配列にします。
 	var id_a = new Array();
-	id_a = idstr.explode(",");
+	id_a = idstr.split(",");
 
 	if (flg == 1)
 	{
