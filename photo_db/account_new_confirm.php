@@ -243,8 +243,8 @@ function set_insertdata()
 						{
 							echo "<td><label>無期限</label>&nbsp;</td>";
 						} elseif ($user_kikan == "sitei") {
-							$s_date_ary = split("-",$start_date);
-							$e_date_ary = split("-",$end_date);
+							$s_date_ary = explode("-",$start_date);
+							$e_date_ary = explode("-",$end_date);
 							
 							echo "<td><label>期間指定&nbsp;&nbsp;&nbsp;&nbsp;</label>".$s_date_ary[0]." 年 ".$s_date_ary[1]." 月 ".$s_date_ary[2]." 日 ～ ".$e_date_ary[0]." 年 ".$e_date_ary[1]." 月 ".$e_date_ary[2]." 日 </td>";
 						}

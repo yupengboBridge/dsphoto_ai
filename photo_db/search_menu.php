@@ -596,7 +596,7 @@ function check_search_condition(s_value)
 				var id_a = new Array();
 				var tmp_1 = s_value.replace(/　/g," ");
 
-				id_a = tmp_1.explode(" ");
+				id_a = tmp_1.split(" ");
 				var ed = id_a.length * 2;
 				if (cnt == 0 || cnt != ed)
 				{

@@ -1,8 +1,10 @@
 <?php
 require_once('./config.php');
 require_once('./lib.php');
+
 // セッション管理をスタートします。
 session_start();
+
 //xu add it on 2010-11-30 start
 if(empty($_SESSION['login_id'])&&isset($_COOKIE['login_id'])&&$_COOKIE['login_id']!="")
 {
@@ -77,6 +79,4 @@ function init()
 }
 $db_link = null;
 exit(0);
-
-
 ?>

@@ -58,7 +58,7 @@ class Extension
 	}
 
 	public function setExtensionImgs(){
-		$sql = "SELECT photo_id,bud_photo_no,dto FROM photoimg WHERE is_extension = 1 AND DATEDIFF(dto, NOW()) <= :check_days;";
+		$sql = "SELECT photo_id,bud_photo_no,dfrom,dto FROM photoimg WHERE is_extension = 1 AND DATEDIFF(dto, NOW()) <= :check_days;";
 		$stmt = $this->connect->prepare($sql);
         $stmt->bindValue(':check_days', $this->extensionConfig['check_days'], PDO::PARAM_INT);
         $stmt->execute();
@@ -69,7 +69,7 @@ class Extension
 	}
 
 	private function setExcetion($img){
-        $daysAfter = strtotime("+ {$this->extensionConfig['extension_days']}days",strtotime($img['dto']));
+        $daysAfter = strtotime("+ {$this->extensionConfig['extension_days']}days",strtotime($img['dfrom']));
         $dateAfterDays = date("Y-m-d", $daysAfter);
         $this->updateImgDto($img['photo_id'],$dateAfterDays);
         //LOG 日志

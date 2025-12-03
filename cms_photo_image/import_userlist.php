@@ -27,7 +27,7 @@ try
 	$p_action = array_get_value($_REQUEST, 'p_action',"");
 	
 	if ($p_action == "import")
-	{	
+	{
 		$db_link = db_connect();
 		upload();
 	}
@@ -162,7 +162,7 @@ function upload()
 	{
 		// アップロードするのCSVファイル名を取得する
 		$filename = $_FILES['user_csvfile']['name'];
-
+		
 		// ファイルパス
 		$f_path = "";
 		$f_path = $csvdir.$filename;

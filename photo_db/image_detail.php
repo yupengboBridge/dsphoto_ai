@@ -405,7 +405,10 @@ function funcChangePhotoPublish(){
         if(res == "200"){
             alert("成功に更新しました。");
             parent.bottom.location.href = parent.bottom.location.href;
-            document.getElementById("iframe_bottom").src = document.getElementById("iframe_bottom").src;
+            if(document.getElementById("iframe_bottom"))
+            {
+            	document.getElementById("iframe_bottom").src = document.getElementById("iframe_bottom").src;
+            }
         }else{
             alert("更新失敗しました。");
         }
