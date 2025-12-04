@@ -119,7 +119,7 @@ catch(Exception $e)
 <!--CSSリンク　ここまで-->
 <!--javascript ここから -->
 <script src="./js/common.js?v=20250816" type="text/javascript" charset="utf-8"></script>
-<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript">
 <?php
 if (!empty($GLOBALS["s_user_id"]))

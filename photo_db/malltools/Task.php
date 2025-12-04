@@ -247,7 +247,7 @@ class Task
 	                            $renpoji_number = $line[18];
 	                            $ext = strtolower(pathinfo($line[1], PATHINFO_EXTENSION));
 	                            // $extが画像拡張子（jpg, jpeg, png, gif, bmp, tiff, webpなど）の場合、かつ$renpoji_numberが存在する時、$line[18]を空白にする
-	                            $image_extensions = ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'tiff', 'webp'];
+	                            $image_extensions = ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'tiff', 'webp', 'eps', 'ai', 'psd', 'tif', 'svg'];
 	                            if (in_array($ext, $image_extensions) && !empty($renpoji_number)) {
 	                                $line[18] = "";
 	                            }
@@ -255,6 +255,7 @@ class Task
                             if($line[0] != 'D'){
                                 $validate_flag = self::fileValidate($line);
                                 if($validate_flag === false){
+                                    print($line[1]."除外\n");
                                     $this->rows++;
                                     continue;
                                 }
@@ -264,6 +265,7 @@ class Task
                                 $this->rows++;
                                 continue;
                             }
+                            print($line[1]);
                             if ($line[0]=='U'){
                                 $mall_no = funcGetMallNo($line[1]);
                                 $photo = CommonPhotoImage::getPhotoByMallNo($this->connect,$mall_no);
@@ -403,8 +405,7 @@ class Task
             }else{
                 $ret_flag = CommonPhotoImage::checkAdditionalConstraints1($this->connect,$photo['bud_photo_no'],$data[11]);
                 if($ret_flag){
-                    $ext = pathinfo($data[1], PATHINFO_EXTENSION);
-                    if("EPS" != strtoupper($ext) || empty($data[18])){
+                    if(empty($data[18])){
                         $this->image = new Img();
                         
                         $this->image->cmykIccPath = $this->cmykIccPath;
@@ -453,49 +454,47 @@ class Task
                 return true;
             }
 
-            if($file_check === true){
-                if(@is_file($this->image_path.$line[1])==false) {
-                    $ret_error_msg = "MALL番号:".$line[1].":::画像ファイルが存在しません";
-                    CommonUtil::writeUploadPhotoImageLog("画像ファイルが存在しません：".print_r($line,true),$root_path);
-                    throw new Exception($ret_error_msg);
-                    return false;
-                }
-                if(@file_exists($this->image_path.$line[1])==false) {
-                    $ret_error_msg = "MALL番号:".$line[1].":::画像ファイルが存在しません";
-                    CommonUtil::writeUploadPhotoImageLog("画像ファイルが存在しません：".print_r($line,true),$root_path);
-                    throw new Exception($ret_error_msg);
-                    return false;
-                }
-                if(@filesize($this->image_path.$line[1]) == 0 || @filesize($this->image_path.$line[1])==false){
-                    $ret_error_msg = "MALL番号:".$line[1].":::画像ファイルのサイズが０なので崩れる可能性があります。";
-                    CommonUtil::writeUploadPhotoImageLog("画像ファイルのサイズが０なので崩れる可能性があります。".print_r($line,true),$root_path);
-                    throw new Exception($ret_error_msg);
-                    return false;
-                }
-            }
-
             $ext = pathinfo($line[1], PATHINFO_EXTENSION);
             if(
                 "AI" == strtoupper($ext) 
                 || "TIFF" == strtoupper($ext) 
                 || "TIF" == strtoupper($ext) 
                 || "PSD" == strtoupper($ext)
+                || "EPS" == strtoupper($ext)
+                || "BMP" == strtoupper($ext)
+                || "SVG" == strtoupper($ext)
             )
             {
                 return false;
                 //エラーがなく除外する
             }else{
-                if("EPS" == strtoupper($ext)){
-                    return true;
-                }else{
-                    if("JPG" != strtoupper($ext) && "PNG" != strtoupper($ext) && "GIF" != strtoupper($ext)){
-                        $ret_error_msg = "MALL番号:".$line[1].":::画像ファイルの拡張子が認識できない。「jpg,png,gif」だけ認識できます。";
-                        CommonUtil::writeUploadPhotoImageLog("画像ファイルの拡張子が認識できない。「jpg,png,gif」だけ認識できます。".print_r($line,true),$root_path);
+                if($file_check === true){
+                    if(@is_file($this->image_path.$line[1])==false) {
+                        $ret_error_msg = "MALL番号:".$line[1].":::画像ファイルが存在しません";
+                        CommonUtil::writeUploadPhotoImageLog("画像ファイルが存在しません：".print_r($line,true),$root_path);
+                        throw new Exception($ret_error_msg);
+                        return false;
+                    }
+                    if(@file_exists($this->image_path.$line[1])==false) {
+                        $ret_error_msg = "MALL番号:".$line[1].":::画像ファイルが存在しません";
+                        CommonUtil::writeUploadPhotoImageLog("画像ファイルが存在しません：".print_r($line,true),$root_path);
+                        throw new Exception($ret_error_msg);
+                        return false;
+                    }
+                    if(@filesize($this->image_path.$line[1]) == 0 || @filesize($this->image_path.$line[1])==false){
+                        $ret_error_msg = "MALL番号:".$line[1].":::画像ファイルのサイズが０なので崩れる可能性があります。";
+                        CommonUtil::writeUploadPhotoImageLog("画像ファイルのサイズが０なので崩れる可能性があります。".print_r($line,true),$root_path);
                         throw new Exception($ret_error_msg);
                         return false;
                     }
                 }
 
+                if("JPG" != strtoupper($ext) && "PNG" != strtoupper($ext) && "GIF" != strtoupper($ext)){
+                    $ret_error_msg = "MALL番号:".$line[1].":::画像ファイルの拡張子が認識できない。「jpg,png,gif」だけ認識できます。";
+                    CommonUtil::writeUploadPhotoImageLog("画像ファイルの拡張子が認識できない。「jpg,png,gif」だけ認識できます。".print_r($line,true),$root_path);
+                    throw new Exception($ret_error_msg);
+                    return false;
+                }
             }
             return true;
 
