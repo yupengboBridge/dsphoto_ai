@@ -221,6 +221,24 @@ function insertPhotoImage($par_csv_content){
 		} else {
 			$keywords_str = $par_csv_content[1];
 		}
+		
+		//写真入手元内容
+		if(!empty($par_csv_content[9]) && strlen($par_csv_content[9]) > 0){
+			if (!empty($keywords_str)) {
+				$keywords_str .= " " . $par_csv_content[9];
+			} else {
+				$keywords_str = $par_csv_content[9];
+			}
+		}
+
+		//お客様部署とお客様名(担当部署)
+		if(!empty($par_csv_content[12]) && strlen($par_csv_content[12]) > 0){
+			if (!empty($keywords_str)) {
+				$keywords_str .= " " . $par_csv_content[12];
+			} else {
+				$keywords_str = $par_csv_content[12];
+			}
+		}
 
 		if(!empty($insert_data_ary['renpoji_number']))
 		{
@@ -556,6 +574,24 @@ function updatePhotoImage($par_csv_content){
 			$keywords_str .= " " . $par_csv_content[1];
 		} else {
 			$keywords_str = $par_csv_content[1];
+		}
+
+		//写真入手元内容
+		if(!empty($par_csv_content[9]) && strlen($par_csv_content[9]) > 0){
+			if (!empty($keywords_str)) {
+				$keywords_str .= " " . $par_csv_content[9];
+			} else {
+				$keywords_str = $par_csv_content[9];
+			}
+		}
+
+		//お客様部署とお客様名(担当部署)
+		if(!empty($par_csv_content[12]) && strlen($par_csv_content[12]) > 0){
+			if (!empty($keywords_str)) {
+				$keywords_str .= " " . $par_csv_content[12];
+			} else {
+				$keywords_str = $par_csv_content[12];
+			}
 		}
 
 		if(!empty($update_data_ary['renpoji_number']))

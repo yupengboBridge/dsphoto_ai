@@ -165,7 +165,7 @@ function dispSelectValue()
 function ShowPagesList()
 {
 	global $index,$search_value,$syousai_content,$c_array,$pager_links,$imagecount,$p_kikan1;
-	global $media_type;
+	global $media_type, $banner_keyword;
 
 	//ページングの処理---------------------------------------------------Start
 	$submit_url = "search_result.php?pageID=%d&ppage=".$GLOBALS["page_images_cnt"];
@@ -1168,6 +1168,13 @@ if (!empty($GLOBALS["p_kikan1"]))
 } else {
     print "var p_kikan = '';";
 }
+
+if (!empty($GLOBALS["banner_keyword"]))
+{
+    print "var banner_keyword = '".$GLOBALS["banner_keyword"]."';\r\n";
+} else {
+    print "var banner_keyword = '';";
+}
 ?>
 <!--
 var ua = navigator.userAgent.toLowerCase();
@@ -1302,6 +1309,12 @@ function select_change(obj)
 		else url1 = url1 + "?p_kikan=" + encodeURIComponent(p_kikan);
     }
     
+	if (banner_keyword.length > 0)
+	{
+		if (url1.length > 0) url1 = url1 + "&banner_keyword=" + encodeURIComponent(banner_keyword);
+		else url1 = url1 + "?banner_keyword=" + encodeURIComponent(banner_keyword);
+	}
+
 	if (url1.length > 0) url = url + url1;
 
 	//setCookie("classname","");
